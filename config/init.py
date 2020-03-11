@@ -29,12 +29,6 @@ from matplotlib import font_manager as fm, rcParams
 from IPython.display import HTML
 from IPython.display import display, Markdown, Latex
 
-locale.setlocale(locale.LC_ALL, 'en_US')
-font = {'family' : 'Times New Roman',
-        'size'   : 14}
-
-matplotlib.rc('font', **font)
-
 ###############################################################
 #
 #    Project global paths
