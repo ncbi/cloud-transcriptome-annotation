@@ -1,0 +1,7 @@
+jupyter-server.log
+tmp/
+bin/bioconda
+bin/jupyter
+.ipynb_checkpoints
+fasta/
+*~

@@ -1,0 +1,44 @@
+name: bioconda
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biopython=1.74
+  - blast=2.9.0  
+  - bzip2=1.0.8
+  - cwl_runner=1.0
+  - cwltool=1.0.20190228155703   
+  - entrez-direct=13.3
+  - font-ttf-dejavu-sans-mono=2.37
+  - font-ttf-inconsolata=2.001
+  - font-ttf-source-code-pro=2.030
+  - font-ttf-ubuntu=0.83
+  - fontconfig=2.13.1
+  - fonts-conda-forge=1  
+  - google-api-core=1.16.0
+  - google-auth=1.11.2
+  - google-cloud-core=1.3.0
+  - google-cloud-storage=1.23.0
+  - google-resumable-media=0.5.0
+  - googleapis-common-protos=1.51.0
+  - imagemagick=7.0.9_27
+  - jupyter=1.0.0
+  - matplotlib=3.1.1
+  - mscorefonts=0.0.1  
+  - ncbi-ngs-sdk=2.10.4
+  - networkx=2.3
+  - nodejs=12.3.0
+  - numpy=1.18.1
+  - pandas=0.25.0
+  - parallel=20200122
+  - python=3.7.6
+  - scipy=1.3.0
+  - seaborn=0.9.0
+  - statsmodels=0.11.1
+  - sra-tools=2.10.0
+  - transdecoder=5.5.0
+  - unzip=6.0
+  - wand=0.5.6
+  - xmltodict=0.12.0
+  
