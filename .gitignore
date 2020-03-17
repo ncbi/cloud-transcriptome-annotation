@@ -5,3 +5,6 @@ bin/jupyter
 .ipynb_checkpoints
 fasta/
 *~
+config/aws/aws-tags.json
+config/aws/aws-tags-s3.json
+config/aws/igw.json
