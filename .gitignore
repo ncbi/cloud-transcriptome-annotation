@@ -7,4 +7,6 @@ fasta/
 *~
 config/aws/aws-tags.json
 config/aws/aws-tags-s3.json
-config/aws/igw.json
+config/aws/job-definition.json
+config/aws/s3-role.json
+config/aws/transannot-job-definition.json
