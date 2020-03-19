@@ -1,3 +1,0 @@
-#!/bin/bash
-echo ECS_CLUSTER=arn:aws:ecs:us-east-1:250813660784:cluster/cbb-research-dl-unmanaged_Batch_ad56ff41-45e2-36e9-855f-7f87e2251d68 >> /etc/ecs/ecs.config
-

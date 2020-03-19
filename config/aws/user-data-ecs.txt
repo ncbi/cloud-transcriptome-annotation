@@ -1,0 +1,11 @@
+#!/bin/bash
+yum update -y
+amazon-linux-extras disable docker
+amazon-linux-extras install -y ecs
+echo 'start=2048, type=83' | sfdisk /dev/nvme1n1
+mkfs.xfs /dev/nvme1n1p1
+mkdir /data
+mount -t xfs /dev/nvme1n1p1 /data
+chmod 777 /data
+usermod -a -G docker ec2-user
+
