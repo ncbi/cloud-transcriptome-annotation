@@ -2,10 +2,14 @@
 yum update -y
 amazon-linux-extras disable docker
 amazon-linux-extras install -y ecs
-echo 'start=2048, type=83' | sfdisk /dev/nvme1n1
-mkfs.xfs /dev/nvme1n1p1
+echo 'start=2048, type=fd' | sfdisk /dev/nvme1n1
+echo 'start=2048, type=fd' | sfdisk /dev/nvme2n1
+yes | mdadm -C /dev/md0 -l raid0 -n 2 /dev/nvme1n1 /dev/nvme2n1
+mkfs.xfs /dev/md0
 mkdir /data
-mount -t xfs /dev/nvme1n1p1 /data
+mount -t xfs /dev/md0 /data
 chmod 777 /data
 usermod -a -G docker ec2-user
-
+systemctl enable --now --no-block ecs.service
+curl -o /data/aws-pipeline.sh https://cbb-research-dl-blastdb.s3.amazonaws.com/aws-pipeline.sh
+chmod a+x /data/aws-pipeline.sh
