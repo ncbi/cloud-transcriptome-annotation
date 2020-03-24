@@ -4,6 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
+  - awscli=1.18.21
   - biopython=1.74
   - blast=2.9.0  
   - bzip2=1.0.8
