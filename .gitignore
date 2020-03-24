@@ -1,10 +1,12 @@
 bin/bioconda/
 bin/jupyter/
-config/aws/aws-tags-s3.json
-config/aws/aws-tags.json
 config/aws/s3-role.json
-config/aws/transannot-job-definition.json
 jupyter-server.log
 .ipynb_checkpoints
 fasta/
 config/aws/user-data.txt
+*_blastn.tsv
+*_rpstblastn.tsv
+*_transdecoder_blastp.tsv
+*_transdecoder.fa
+*_transdecoder_rpsblast.tsv
