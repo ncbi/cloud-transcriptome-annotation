@@ -1,2 +1,0 @@
- class: DockerRequirement
- dockerPull: quay.io/biocontainers/samtools:1.9--h91753b0_8
