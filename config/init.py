@@ -64,6 +64,27 @@ DATASET = 'PRJNA320545'
 #
 ###############################################################
 
+def hide_code_str():
+    """
+    Print an HTML code to hide python code in Jupyter notebooks
+    :return: String
+    """
+    return '''
+    <script>
+        code_show=true;
+        function code_toggle() {
+            if (code_show){
+                $('div.input').hide();
+            } else {
+                $('div.input').show();
+            }
+            code_show = !code_show
+        }
+        $( document ).ready(code_toggle);
+    </script>
+    The raw code for this IPython notebook is by default hidden for easier reading.
+    To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.
+    '''
 
 def getFileName():
     id = str(uuid.uuid4())
@@ -106,3 +127,8 @@ def parse_gcp_json(logs, f):
         cwl = getActionTime(logs['metadata']['events'], 6)
         return [f, elapsed, blastdb, cwl]
     return []
+
+def timeInSeconds(s):
+    fields = s.split('m')
+    return (int(fields[0]) * 60 + float(fields[1].split('s')[0]))/60 
+
