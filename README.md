@@ -38,7 +38,7 @@ Three times and cost were analyzed and shown in the next plots. First, total bil
 Download and execute the Miniconda installer. Us all default instructions. 
 
 ```bash
-$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 $ sh ./Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
