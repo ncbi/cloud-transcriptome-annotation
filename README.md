@@ -1,20 +1,18 @@
-# Jupyter Transcript-Annotation data analysis pipeline
+# Cloud comparison for Transcript-Annotation data analysis pipeline
 
 ## Basic requirements
 
-1. Python 3.7.x
-2. virtualenv 16.5.0
-3. ImageMagick 7.0.x
+1. Miniconda Python 3.7.x
 
 Full list of requirements *requirements/python.txt*
 
 ## Installation
 
+### Installing Miniconda
+
 ```bash
-cd cloud-transcriptome-annotation
-virtualenv -p `which python3` venv
-source venv/bin/activate
-pip install -r requirements/python.txt
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+$ sh ./Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 ## Starting Jupyter Notebook
