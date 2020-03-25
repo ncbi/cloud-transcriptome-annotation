@@ -49,15 +49,15 @@ $ wget https://raw.githubusercontent.com/r78v10a07/cloud-transcriptome-annotatio
 $ conda env create -f environment.yml
 ```
 
-## Starting Jupyter Notebook
+## Cloning the repo and starting the Jupyter Notebook server
 
 ```bash
-jupyter notebook
+$ conda activate bioconda
+$ git clone https://github.com/r78v10a07/cloud-transcriptome-annotation
+$ jupyter notebook
 ```
 
-### Start using the notebooks
-
-Use notebook by number in the folder `notebooks`
+Notebooks are located in the folder `notebooks`
 
 ### References
 
