@@ -2,23 +2,23 @@
 
 ## Introduction
 
-The annotation of transcripts with functional and biological processes is an important step in developing an understanding of the biological complexity of an organism. Annotation is a complex process that requires the integration of multiple biological databases and several software tools.
-
-A review of published manuscripts since 2012 [1-9] reveals that many developed pipelines have a common core component which is the NCBI BLAST tool [10]. This tool is used to align the assembled transcriptomes against annotated databases of nucleotides or proteins. These alignments are the first step, after an assembly, to identifying close and/or distant homologous genes, proteins, and functional domains that could be cross-referenced with other public databases, such as Gene Ontology [11], to generate a new annotation.
+The annotation of mRNA transcripts with functional and biological processes is an important step in developing an understanding of the biological complexity of an organism. Annotation is a complex process that requires the integration of multiple biological databases with several software tools.
+ 
+A review of published manuscripts since 2012 [1-9] reveals that many pipelines have a common core component which is the NCBI BLAST sequence comparison tool [10]. BLAST is used to align an assembled transcriptome against annotated databases of nucleotides or proteins. After an assembly, these alignments are the first step to identifying close and/or distant homologous genes, proteins, and functional domains that could be cross-referenced with other public databases, such as Gene Ontology [11], to generate new annotations on an unkown set of sequeneces.
 
 Our study is based on a workflow for [transcriptome annotation](https://github.com/ncbi/cwl-ngs-workflows-cbb/blob/master/workflows/Annotation/transcriptome_annotation.cwl). 
 
 <img src="./doc/transcriptome_annotation.cwl.png" width="600" height="400"/>
 
-This workflow is comprised of five steps that include the most important steps required for the transcriptome annotation. First, TransDecoder [12] is used to generate all open reading frames (ORFs) from the transcripts. Then, BLASTP and RPS-BLAST are used to generate a list of homologous proteins and conserved domains. BLASTP uses the BLAST nr database, and RPS-BLAST uses the NCBI Conserved Domain Database (CDD)[13]. In parallel, BLASTN and RPST-BLASTN are executed, using the BLAST nt database and the NCBI CDD database, respectively. These steps generate a list of homologous genes and conserved domains. The workflow uses as input a FASTA file, named query, with multiple transcripts to process. The variation in the query size, i.e., number of transcripts in the file, is also studied.
-
-We used the transcriptome assembled from a public BioProject with the ID [PRJNA320545](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA320545) for the organism Opuntia streptacantha. The transcriptome includes 474,563 transcripts. From this pool of transcripts, three types of queries (FASTA files) were randomly generated, with 2,000, 6,000, and 10,000 transcripts in each. For each query size, 20 different files were generated and processed independently.
+This workflow is comprised of five steps that include the key steps required for the transcriptome annotation. First, TransDecoder [12] is used to generate all open reading frames (ORFs) from the transcripts. Then, BLASTP and RPS-BLAST are used to generate a list of homologous proteins and conserved domains. BLASTP uses the BLAST non-redundant database (nr), and RPS-BLAST uses the NCBI Conserved Domain Database (CDD)[13]. In parallel, BLASTN and RPST-BLASTN are executed, using the BLAST nucleotide database (nt) and the NCBI CDD database, respectively. These steps generate a list of homologous genes and conserved domains. The workflow uses as input a FASTA file (query), with multiple transcripts to process. We also analyzed variations in the query size (i.e. the number of transcripts (sequences) in the file).
+ 
+We used the transcriptome assembled from a public BioProject (ID [PRJNA320545](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA320545)) from the organism, Opuntia streptacantha, the prickly pear. The transcriptome includes 474,563 transcripts. From this pool of transcripts, three types of query files (FASTA files) were randomly generated, with 2,000, 6,000, and 10,000 transcripts in each. For each query size, 20 different files were generated and processed independently.
 
 ## Cloud platforms
 
-We tested GCP and AWS cloud providers using similar machine types between them. First and second generation machines were tested with 16, 32 and 64 CPUs. GCP first generation machines are labbeled with **N1** and second generation with **N2**. AWS first generation are labbeled with **M5D** and second generation with **M5DN**. 
-
-Three times and cost were analyzed and shown in the next plots. First, total billed time and cost all tested configurations. Then, the time and cost for instance creation, setup and release and finally, times and cost for the transfer of the Blast databases, currently 342 GB that includes (nt, nr and CDD).
+We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) and on the Amazon Web Servises (AWS) using similar machine types. First and second generation machines were tested with 16, 32 and 64 CPUs. First generation GCP machines are labbeled N1 and second generation N2. First generatrion AWS machines are labeled M5D and second generation M5DN.
+ 
+Times and cost were analyzed and shown in the plots. First, total billed time and cost with all tested configurations. Then, the time and cost for instance creation, setup and release. Finally, times and cost for the transfer of the BLAST databases, currently 342 GB (including nt, nr and CDD) were calculated.
 
 ## Notebooks
 
