@@ -37,6 +37,7 @@ from IPython.display import display, Markdown, Latex
 
 WORKDIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 CONFIG = os.path.join(WORKDIR,'config')
+DOC = os.path.join(WORKDIR,'doc')
 DATA = os.path.join(WORKDIR,'data')
 BIN = os.path.join(WORKDIR,'bin')
 RESULTS = os.path.join(WORKDIR,'results')
@@ -75,15 +76,16 @@ def hide_code_str():
         function code_toggle() {
             if (code_show){
                 $('div.input').hide();
+                $('#hide_show_buttom').html("Show Code");
             } else {
                 $('div.input').show();
+                $('#hide_show_buttom').html("Hide Code");
             }
             code_show = !code_show
         }
         $( document ).ready(code_toggle);
     </script>
-    The raw code for this IPython notebook is by default hidden for easier reading.
-    To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.
+    <button id="hide_show_buttom" onclick="code_toggle()" style="float: right;"></button>
     '''
 
 def getFileName():
