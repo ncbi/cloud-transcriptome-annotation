@@ -20,6 +20,16 @@ We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) an
  
 Times and cost were analyzed and shown in the plots. First, total billed time and cost with all tested configurations. Then, the time and cost for instance creation, setup and release. Finally, times and cost for the transfer of the BLAST databases, currently 342 GB (including nt, nr and CDD) were calculated.
 
+## Results
+
+The figures show total billed time, creation, setup and release time and the time for transfering the blast databases for each query size.
+
+<img src="./doc/2000.png"/>
+
+<img src="./doc/6000.png"/>
+
+<img src="./doc/10000.png"/>
+
 ## Notebooks
 
  1. [00 - Project Report](./notebooks/00%20-%20Project%20Report.ipynb) This notebook shows the final figures generated from the resulting files of both cloud providers.
