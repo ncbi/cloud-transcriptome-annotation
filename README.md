@@ -55,7 +55,7 @@ $ sh ./Miniconda3-latest-MacOSX-x86_64.sh
 ### Instalation of Conda environment
 
 ```bash
-$ wget https://raw.githubusercontent.com/r78v10a07/cloud-transcriptome-annotation/master/environment.yml
+$ wget https://raw.githubusercontent.com/ncbi/cloud-transcriptome-annotation/master/environment.yml
 $ conda env create -f environment.yml
 ```
 
@@ -63,7 +63,7 @@ $ conda env create -f environment.yml
 
 ```bash
 $ conda activate bioconda
-$ git clone https://github.com/r78v10a07/cloud-transcriptome-annotation
+$ git clone https://github.com/ncbi/cloud-transcriptome-annotation
 $ jupyter notebook
 ```
 
