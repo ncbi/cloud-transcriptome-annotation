@@ -10,6 +10,3 @@ mkdir /data
 mount -t xfs /dev/md0 /data
 chmod 777 /data
 usermod -a -G docker ec2-user
-systemctl enable --now --no-block ecs.service
-curl -o /data/aws-pipeline.sh https://cbb-research-dl-blastdb.s3.amazonaws.com/aws-pipeline.sh
-chmod a+x /data/aws-pipeline.sh

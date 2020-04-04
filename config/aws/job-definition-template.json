@@ -1,0 +1,32 @@
+{
+    "jobDefinitionName": "",
+    "type": "container",
+    "parameters": {},
+    "containerProperties": {
+        "image": "gcr.io/cbb-research-dl/transannot",
+        "vcpus": 0,
+        "memory": 0,
+        "command": [
+            "/usr/envs/transannot/bin/aws-pipeline.sh"
+        ],
+        "jobRoleArn": "",
+        "volumes": [
+            {
+                "host": {
+                    "sourcePath": "/data"
+                },
+                "name": "data"
+            }
+        ],
+        "environment": [],
+        "mountPoints": [
+            {
+                "containerPath": "/data",
+                "sourceVolume": "data"
+            }
+        ],        
+        "privileged": true,
+        "ulimits": [],
+        "user": "root"
+    }
+}
