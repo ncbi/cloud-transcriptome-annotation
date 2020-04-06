@@ -2,6 +2,7 @@ import os
 import re
 import json
 import pandas
+import time
 import math
 import pickle
 import zipfile
@@ -134,3 +135,44 @@ def timeInSeconds(s):
     fields = s.split('m')
     return (int(fields[0]) * 60 + float(fields[1].split('s')[0]))/60 
 
+def aws_log_times(events):
+    blast = 0
+    cwl = 0
+    for ev in events:
+        if ev['message'] == 'Copying BlastDB':
+            s = ev['timestamp']
+        if ev['message'] == 'Copying sample fasta':
+            blast = (ev['timestamp'] - s)/(1000*60)
+        if ev['message'] == 'Running CWL workflow':
+            s = ev['timestamp']
+        if ev['message'] == 'Copying results to the S3':
+            cwl = (ev['timestamp'] - s)/(1000*60)
+    return blast, cwl
+
+def aws_log_completed(events):
+    for ev in events:
+        if ev['message'].startswith('Error'):
+            return False
+    return True
+
+def create_comp_env_dict(name, CPUs, machine_type, AMI, subnet_id, sg_id, batchRoleArn, tags = None, key=None):
+    if os.path.exists(os.path.join(CONFIG, "aws", "compute-env-template.json")):
+        comp_env_templatefile = os.path.join(CONFIG, "aws", "compute-env-template.json")
+        with open(comp_env_templatefile) as fin:
+            comp_env = json.loads(fin.read())
+            comp_env['computeEnvironmentName'] = name
+            comp_env['computeResources']['imageId'] = AMI
+            comp_env['computeResources']['maxvCpus'] = CPUs * 40
+            comp_env['computeResources']['instanceTypes'].append(machine_type)
+            comp_env['computeResources']['subnets'].append(subnet_id)
+            comp_env['computeResources']['securityGroupIds'].append(sg_id)
+            if key:
+                comp_env['computeResources']['ec2KeyPair'] = key
+            if tags:
+                ts = {}
+                for t in tags:
+                    ts[t['Key']] = t['Value']
+                comp_env['computeResources']['tags']  = ts
+            comp_env['serviceRole'] = batchRoleArn
+            with open(os.path.join(CONFIG, "aws", 'compute-env-{}.json'.format(name)), 'w') as fout:
+                fout.write(json.dumps(comp_env, indent=4))
