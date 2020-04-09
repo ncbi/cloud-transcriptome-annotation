@@ -48,7 +48,7 @@ The next figure shows total running time for all tested configuration and query 
  1. [00 - Project Report](./notebooks/00%20-%20Project%20Report.ipynb) This notebook shows the final figures generated from the resulting files of both cloud providers.
  2. [01 - Data Partitioning](./notebooks/01%20-%20Data%20Partitioning.ipynb) This notebook is used to generate 20 FASTA file from the Nopal transcriptome to be tested on each cloud provider.
  3. [02 - Google cloud Platform](./notebooks/02%20-%20Google%20cloud%20Platform.ipynb) This is the notebook used to process the 20 FASTA files on GCP.
- 4. [02 - AWS](./notebooks/02%20-%20AWS.ipynb)  This is the notebook used to process the 20 FASTA files on AWS.
+ 4. [02 - AWS](./notebooks/02%20-%20AWS-Batch.ipynb)  This is the notebook used to process the 20 FASTA files on AWS.
 
 ## Basic requirements
 
