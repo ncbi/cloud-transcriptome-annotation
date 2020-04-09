@@ -1,0 +1,13 @@
+name: transannot
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - awscli
+  - blast
+  - transdecoder
+  - cwl_runner
+  - cwltool
+  - nodejs
+  - parallel
