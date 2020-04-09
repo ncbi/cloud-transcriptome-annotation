@@ -33,6 +33,25 @@ We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) an
 | GCP | n2-standard-32 | 32 | 128 | 24 x 375 NVMe SSD | 32 | 1.572 |
 | GCP | n2-standard-64 | 64 | 256 | 24 x 375 NVMe SSD | 32 | 2.816 |
 
+### Docker image
+
+The docker image used to run all jobs is freely available on the GCP Container Registry. The bioinformatics tools used are installed with Conda/Bioconda during image creation. The conda environment file used is [conda-trans-annot.yaml](./config/gcp/docker/conda-trans-annot.yaml)
+
+#### Pull the image
+
+```
+docker pull gcr.io/cbb-research-dl/transannot
+```
+
+#### Build the image
+
+The Dockerfile used to create this image is available on the `config/gcp/docker` folder.
+
+```
+cd config/gcp/docker
+docker build -t transannot .
+```
+
 ## Results
  
 Times and cost are shown in the next figure. First, in the top of the figure, total running time and cost per configuration for the 20 sample files processed is shown. Each sample file can be identified with a color. They keep their relative position on each configuration demonstrating that there is not outliers due to specific problems with the instances. Second, in the bottom of the figure three plots are shown. In these cases, the cost on each configuration is expressed in percent of the total cost. The plot in the left shows the time for instance creation, setup and release. The plot in the middle show the time to transfer the BLAST databases, currently 342 GB (including nt, nr and CDD) to the instance local disk. Finally, the plot in the right shows the time to execute the CWL workflow analysis.
