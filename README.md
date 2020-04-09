@@ -35,7 +35,7 @@ We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) an
 
 ### Docker image
 
-The docker image used to run all jobs is freely available on the GCP Container Registry. The bioinformatics tools used are installed with Conda/Bioconda during image creation. The conda environment file used is [conda-trans-annot.yaml](./config/gcp/docker/conda-trans-annot.yaml)
+The docker image used on the instances to process the sample files is freely available on the GCP Container Registry. The bioinformatics tools used are installed with Conda/Bioconda during image creation. The conda environment file used is [conda-trans-annot.yaml](./config/gcp/docker/conda-trans-annot.yaml)
 
 #### Pull the image
 
@@ -51,6 +51,10 @@ The Dockerfile used to create this image is available on the `config/gcp/docker`
 cd config/gcp/docker
 docker build -t transannot .
 ```
+
+### AWS custom AMI
+
+A custom [Amazon Machine Image](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html), which is public available with ID: **ami-0dac0383cac1dc96e** in the **us-east-1** zone, was used by the ECs for launching on-demand instances. This AMI creates an array with the local sdd NVME disks in the instance using the linux utility *mdadm*. The resulted array is formated with XFS filesystem and mounted in a folder named */data*.  
 
 ## Results
  
