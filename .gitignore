@@ -10,6 +10,7 @@ fasta/
 *_transdecoder.fa
 *_transdecoder_rpsblast.tsv
 Untitled.ipynb
+*plot.ipynb
 compute-env-m5d_16xlarge_managed2.json
 compute-env-m5d_16xlarge_managed.json
 compute-env-m5d_4xlarge_managed.json

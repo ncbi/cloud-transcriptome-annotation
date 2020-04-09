@@ -24,6 +24,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import matplotlib.lines as lines
+import matplotlib.cm as cm
+from matplotlib.gridspec import GridSpec
 
 from matplotlib import font_manager as fm, rcParams
 
