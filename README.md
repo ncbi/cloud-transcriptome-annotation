@@ -14,21 +14,34 @@ This workflow is comprised of five steps that include the key steps required for
  
 We used the transcriptome assembled from a public BioProject (ID [PRJNA320545](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA320545)) from the organism, Opuntia streptacantha, the prickly pear. The transcriptome includes 474,563 transcripts. From this pool of transcripts, three types of query files (FASTA files) were randomly generated, with 2,000, 6,000, and 10,000 transcripts in each. For each query size, 20 different files were generated and processed independently.
 
-## Cloud platforms
+### Cloud platforms
 
-We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) and on the Amazon Web Servises (AWS) using similar machine types. First and second generation machines were tested with 16, 32 and 64 CPUs. First generation GCP machines are labbeled N1 and second generation N2. First generatrion AWS machines are labeled M5D and second generation M5DN.
- 
-Times and cost were analyzed and shown in the plots. First, total billed time and cost with all tested configurations. Then, the time and cost for instance creation, setup and release. Finally, times and cost for the transfer of the BLAST databases, currently 342 GB (including nt, nr and CDD) were calculated.
+We tested our pipeline on two cloud providers, the Google Cloud Platorm (GCP) and on the Amazon Web Servises (AWS) using similar machine types. First (labbeled N1), second (labbeled N2) generation machines from GCP and second generation (M5D and M5DN) instances from AWS were tested with 16, 32 and 64 CPUs.
+
+| Provider | Instance Size | vCPU | Memory (GiB) | Instance Storage (GiB) | Network Bandwidth (Gbps) |  $/Hour |
+|---------|---------|----------|----------|-------------|---------------|-----------|
+| AWS | m5d.4xlarge | 16 | 64 | 2 x 300 NVMe SSD | Up to 10 | 0.904 |
+| AWS | m5d.8xlarge | 32 | 128 | 2 x 600 NVMe SSD | 10 | 1.808 |
+| AWS | m5d.16xlarge | 64 | 256 | 4 x 600 NVMe SSD | 20 | 3.616 |
+| AWS | m5dn.4xlarge | 16 | 64 | 2 x 300 NVMe SSD | Up to 25 | 1.088 |
+| AWS | m5dn.8xlarge | 32 | 128 | 2 x 600 NVMe SSD | 25 | 2.176 |
+| AWS | m5dn.16xlarge | 64 | 256 | 4 x 600 NVMe SSD | 75 | 4.352 |
+| GCP | n1-standard-16 | 16 | 60 | 24 x 375 NVMe SSD | 32 | 0.861 |
+| GCP | n1-standard-32 | 32 | 120 | 24 x 375 NVMe SSD | 32 | 1.393 |
+| GCP | n1-standard-64 | 64 | 240 | 24 x 375 NVMe SSD | 32 | 2.475 |
+| GCP | n2-standard-16 | 16 | 64 | 24 x 375 NVMe SSD | 32 | 0.951 |
+| GCP | n2-standard-32 | 32 | 128 | 24 x 375 NVMe SSD | 32 | 1.572 |
+| GCP | n2-standard-64 | 64 | 256 | 24 x 375 NVMe SSD | 32 | 2.816 |
 
 ## Results
-
-The figures show total billed time, creation, setup and release time and the time for transfering the blast databases for each query size.
-
-<img src="./doc/2000.png"/>
-
-<img src="./doc/6000.png"/>
+ 
+Times and cost are shown in the next figure. First, in the top of the figure, total running time and cost per configuration for the 20 sample files processed is shown. Each sample file can be identified with a color. They keep their relative position on each configuration demonstrating that there is not outliers due to specific problems with the instances. Second, in the bottom of the figure three plots are shown. In these cases, the cost on each configuration is expressed in percent of the total cost. The plot in the left shows the time for instance creation, setup and release. The plot in the middle show the time to transfer the BLAST databases, currently 342 GB (including nt, nr and CDD) to the instance local disk. Finally, the plot in the right shows the time to execute the CWL workflow analysis.
 
 <img src="./doc/10000.png"/>
+
+The next figure shows total running time for all tested configuration and query sizes.
+
+<img src="./doc/all.png"/>
 
 ## Notebooks
 
