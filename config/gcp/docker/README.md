@@ -5,11 +5,11 @@ The docker image used in this project is free available in GCP Container Registr
 ## Pull the image
 
 ```
-docker pull gcr.io/cbb-research-dl/transannot
+docker pull gcr.io/cbb-research-dl/transannot-cloud-cmp
 ```
 
 ## Build the image
 
 ```
-docker build -t transannot .
+docker build -t gcr.io/cbb-research-dl/transannot-cloud-cmp .
 ```

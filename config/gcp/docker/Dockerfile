@@ -8,7 +8,6 @@ LABEL software="transcriptome-annotation"
 LABEL software.version="0.0.1"
 LABEL description=""
 LABEL tags="transcriptome"
-LABEL website="https://github.com/ncbi/pm4ngs"
 
 # Maintainer
 MAINTAINER Roberto Vera Alvarez <veraalva@ncbi.nlm.nih.gov>

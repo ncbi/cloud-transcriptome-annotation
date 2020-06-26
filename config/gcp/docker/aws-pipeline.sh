@@ -53,7 +53,7 @@ echo "Copying sample fasta"
 time aws s3 cp s3://${INBUCKET}/${SAMPLE}.fa /data/
 
 echo "Running CWL workflow"
-time cwltool --no-container --on-error continue --tmpdir-prefix /data/ --tmp-outdir-prefix /data/ --outdir /data/${SAMPLE}_${MACHINE_TYPE} https://raw.githubusercontent.com/ncbi/cwl-ngs-workflows-cbb/develop/workflows/Annotation/transcriptome_annotation.cwl --blast_db_dir /data --threads ${CPUs} --evalue 1e-5 --blast_nt_db nt --blast_nr_db nr --blast_cdd_db split-cdd --fasta /data/${SAMPLE}.fa
+time cwltool --no-container --on-error continue --tmpdir-prefix /data/ --tmp-outdir-prefix /data/ --outdir /data/${SAMPLE}_${MACHINE_TYPE} https://raw.githubusercontent.com/ncbi/cloud-transcriptome-annotation/master/bin/cwl-ngs-workflows-cbb/workflows/Annotation/transcriptome_annotation.cwl --blast_db_dir /data --threads ${CPUs} --evalue 1e-5 --blast_nt_db nt --blast_nr_db nr --blast_cdd_db split-cdd --fasta /data/${SAMPLE}.fa
 
 echo "Copying results to the S3"
 time aws s3 cp --recursive /data/${SAMPLE}_${MACHINE_TYPE} s3://${OUTBUCKET}/${SAMPLE}_${MACHINE_TYPE}/

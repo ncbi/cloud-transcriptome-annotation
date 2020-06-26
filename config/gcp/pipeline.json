@@ -60,9 +60,9 @@
       "commands": [
         "/bin/bash",
         "-c",
-        "cwltool --no-container --on-error continue --tmpdir-prefix /data/ --tmp-outdir-prefix /data/ --outdir /data/${SAMPLE}_${N}_${CPUs} https://raw.githubusercontent.com/ncbi/cwl-ngs-workflows-cbb/develop/workflows/Annotation/transcriptome_annotation.cwl --blast_db_dir /data --threads ${CPUs} --evalue 1e-5 --blast_nt_db nt --blast_nr_db nr --blast_cdd_db split-cdd --fasta /data/${SAMPLE}.fa >> /data/pipeline.log 2>&1"
+        "cwltool --no-container --on-error continue --tmpdir-prefix /data/ --tmp-outdir-prefix /data/ --outdir /data/${SAMPLE}_${N}_${CPUs} https://raw.githubusercontent.com/ncbi/cloud-transcriptome-annotation/master/bin/cwl-ngs-workflows-cbb/workflows/Annotation/transcriptome_annotation.cwl --blast_db_dir /data --threads ${CPUs} --evalue 1e-5 --blast_nt_db nt --blast_nr_db nr --blast_cdd_db split-cdd --fasta /data/${SAMPLE}.fa >> /data/pipeline.log 2>&1"
       ],
-      "imageUri": "gcr.io/cbb-research-dl/transannot",
+      "imageUri": "gcr.io/cbb-research-dl/transannot-cloud-cmp",
       "mounts": [
         {
           "disk": "gcloud-shared",
