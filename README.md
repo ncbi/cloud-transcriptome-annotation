@@ -6,7 +6,7 @@ The annotation of mRNA transcripts with functional and biological processes is a
  
 A review of published manuscripts since 2012 [1-9] reveals that many pipelines have a common core component which is the NCBI BLAST sequence comparison tool [10]. BLAST is used to align an assembled transcriptome against annotated databases of nucleotides or proteins. After an assembly, these alignments are the first step to identifying close and/or distant homologous genes, proteins, and functional domains that could be cross-referenced with other public databases, such as Gene Ontology [11], to generate new annotations on an unkown set of sequeneces.
 
-Our study is based on a workflow for [transcriptome annotation](./workflows/Annotation/transcriptome_annotation.cwl). 
+Our study is based on a workflow for [transcriptome annotation](./bin/cwl-ngs-workflows-cbb/workflows/Annotation/transcriptome_annotation.cwl). 
 
 <img src="./doc/transcriptome_annotation.cwl.png" width="600" height="400"/>
 
