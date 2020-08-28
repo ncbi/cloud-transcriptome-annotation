@@ -4,7 +4,7 @@
 
 The annotation of mRNA transcripts with functional and biological processes is an important step in developing an understanding of the biological complexity of an organism. Annotation is a complex process that requires the integration of multiple biological databases with several software tools.
  
-A review of published manuscripts since 2012 [1-9] reveals that many pipelines have a common core component which is the NCBI BLAST sequence comparison tool [10]. BLAST is used to align an assembled transcriptome against annotated databases of nucleotides or proteins. After an assembly, these alignments are the first step to identifying close and/or distant homologous genes, proteins, and functional domains that could be cross-referenced with other public databases, such as Gene Ontology [11], to generate new annotations on an unkown set of sequeneces.
+A review of published manuscripts since 2012 [1-9] reveals that many pipelines have a common core component which is the NCBI BLAST sequence comparison tool [10]. BLAST is used to align an assembled transcriptome against annotated databases of nucleotides or proteins. After an assembly, these alignments are the first step to identifying close and/or distant homologous genes, proteins, and functional domains that could be cross-referenced with other public databases, such as Gene Ontology [11], to generate new annotations on an unknown set of sequences.
 
 Our study is based on a workflow for [transcriptome annotation](./bin/cwl-ngs-workflows-cbb/workflows/Annotation/transcriptome_annotation.cwl). 
 
