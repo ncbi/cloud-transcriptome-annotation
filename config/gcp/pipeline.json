@@ -116,7 +116,7 @@
         }
       ],
       "machineType": "n1-standard-64",
-      "preemptible": false,
+      "preemptible": true,
       "serviceAccount": {
         "email": "default",
         "scopes": [

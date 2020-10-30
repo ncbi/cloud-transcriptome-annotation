@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "include/yaml.h",
+      "path_type": "hardlink",
+      "sha256": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954",
+      "size_in_bytes": 54439
+    },
+    {
+      "_path": "lib/libyaml-0.so.2",
+      "path_type": "softlink",
+      "sha256": "6dfd4a5cc093e5a78da0247544a55a20352693ea504e7ea7cc90d665bc0d893a",
+      "size_in_bytes": 125072
+    },
+    {
+      "_path": "lib/libyaml-0.so.2.0.9",
+      "path_type": "hardlink",
+      "sha256": "6dfd4a5cc093e5a78da0247544a55a20352693ea504e7ea7cc90d665bc0d893a",
+      "size_in_bytes": 125072
+    },
+    {
+      "_path": "lib/libyaml.a",
+      "path_type": "hardlink",
+      "sha256": "8e5f5e9241eb0cbf696a7183c23a959fe1bd5c5b84f4d1798f9a090d5e2999db",
+      "size_in_bytes": 175528
+    },
+    {
+      "_path": "lib/libyaml.so",
+      "path_type": "softlink",
+      "sha256": "6dfd4a5cc093e5a78da0247544a55a20352693ea504e7ea7cc90d665bc0d893a",
+      "size_in_bytes": 125072
+    },
+    {
+      "_path": "lib/pkgconfig/yaml-0.1.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/yaml_1591094909402/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "c45c10261954fffc4e6a2a38a3512bfa8b5d891dde19938dd7636c63f84a0eb7",
+      "size_in_bytes": 463
+    }
+  ],
+  "paths_version": 1
+}

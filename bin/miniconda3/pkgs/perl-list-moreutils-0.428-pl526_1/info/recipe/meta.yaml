@@ -1,0 +1,39 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Jul 15 20:37:32 2018
+# ------------------------------------------------
+
+package:
+    name: perl-list-moreutils
+    version: '0.428'
+source:
+    sha256: 713e0945d5f16e62d81d5f3da2b6a7b14a4ce439f6d3a7de74df1fd166476cc2
+    url: https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.428.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-exporter-tiny 1.000000 pl526_0
+        - perl-extutils-makemaker 7.34 pl526_0
+        - perl-list-moreutils-xs 0.428 pl526_0
+        - perl-storable 3.11 pl526_0
+        - perl-test-leaktrace 0.16 pl526_1
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+        - perl-exporter-tiny
+        - perl-list-moreutils-xs
+test:
+    imports:
+        - List::MoreUtils
+        - List::MoreUtils::PP
+about:
+    home: https://metacpan.org/release/List-MoreUtils
+    license: apache_2_0
+    summary: Provide the stuff missing in List::Util
+extra:
+    copy_test_source_files: true
+    final: true

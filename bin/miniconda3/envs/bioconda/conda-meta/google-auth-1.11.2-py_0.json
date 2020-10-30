@@ -1,0 +1,523 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cachetools >=2.0.0,<5.0",
+    "pyasn1-modules >=0.2.1",
+    "python",
+    "rsa >=3.1.4,<4.1",
+    "setuptools >=40.3.0",
+    "six >=1.9.0"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/google-auth-1.11.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/google/auth/__init__.py",
+    "lib/python3.7/site-packages/google/auth/_cloud_sdk.py",
+    "lib/python3.7/site-packages/google/auth/_default.py",
+    "lib/python3.7/site-packages/google/auth/_helpers.py",
+    "lib/python3.7/site-packages/google/auth/_oauth2client.py",
+    "lib/python3.7/site-packages/google/auth/_service_account_info.py",
+    "lib/python3.7/site-packages/google/auth/app_engine.py",
+    "lib/python3.7/site-packages/google/auth/compute_engine/__init__.py",
+    "lib/python3.7/site-packages/google/auth/compute_engine/_metadata.py",
+    "lib/python3.7/site-packages/google/auth/compute_engine/credentials.py",
+    "lib/python3.7/site-packages/google/auth/credentials.py",
+    "lib/python3.7/site-packages/google/auth/crypt/__init__.py",
+    "lib/python3.7/site-packages/google/auth/crypt/_cryptography_rsa.py",
+    "lib/python3.7/site-packages/google/auth/crypt/_helpers.py",
+    "lib/python3.7/site-packages/google/auth/crypt/_python_rsa.py",
+    "lib/python3.7/site-packages/google/auth/crypt/base.py",
+    "lib/python3.7/site-packages/google/auth/crypt/rsa.py",
+    "lib/python3.7/site-packages/google/auth/environment_vars.py",
+    "lib/python3.7/site-packages/google/auth/exceptions.py",
+    "lib/python3.7/site-packages/google/auth/iam.py",
+    "lib/python3.7/site-packages/google/auth/impersonated_credentials.py",
+    "lib/python3.7/site-packages/google/auth/jwt.py",
+    "lib/python3.7/site-packages/google/auth/transport/__init__.py",
+    "lib/python3.7/site-packages/google/auth/transport/_http_client.py",
+    "lib/python3.7/site-packages/google/auth/transport/grpc.py",
+    "lib/python3.7/site-packages/google/auth/transport/requests.py",
+    "lib/python3.7/site-packages/google/auth/transport/urllib3.py",
+    "lib/python3.7/site-packages/google/oauth2/__init__.py",
+    "lib/python3.7/site-packages/google/oauth2/_client.py",
+    "lib/python3.7/site-packages/google/oauth2/credentials.py",
+    "lib/python3.7/site-packages/google/oauth2/id_token.py",
+    "lib/python3.7/site-packages/google/oauth2/service_account.py",
+    "lib/python3.7/site-packages/google_auth-1.11.2-py2.7-nspkg.pth",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/LICENSE",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/namespace_packages.txt",
+    "lib/python3.7/site-packages/google_auth-1.11.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/google/auth/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/_cloud_sdk.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/_default.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/_helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/_oauth2client.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/_service_account_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/app_engine.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/_metadata.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/credentials.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/credentials.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_cryptography_rsa.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_python_rsa.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/base.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/crypt/__pycache__/rsa.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/environment_vars.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/iam.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/impersonated_credentials.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/__pycache__/jwt.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/transport/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/transport/__pycache__/_http_client.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/transport/__pycache__/grpc.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/transport/__pycache__/requests.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/auth/transport/__pycache__/urllib3.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/oauth2/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/oauth2/__pycache__/_client.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/oauth2/__pycache__/credentials.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/oauth2/__pycache__/id_token.cpython-37.pyc",
+    "lib/python3.7/site-packages/google/oauth2/__pycache__/service_account.cpython-37.pyc"
+  ],
+  "fn": "google-auth-1.11.2-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/google-auth-1.11.2-py_0",
+    "type": 1
+  },
+  "md5": "effd22d802777067669da1038657d380",
+  "name": "google-auth",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/google-auth-1.11.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/auth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "375ea64b4a64d5abae4eb3dc6978d3953ca19e89d19f2cd462601ce432f3f398",
+        "sha256_in_prefix": "375ea64b4a64d5abae4eb3dc6978d3953ca19e89d19f2cd462601ce432f3f398",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "site-packages/google/auth/_cloud_sdk.py",
+        "path_type": "hardlink",
+        "sha256": "1ac87cc1e7516896080f938f3f996735e56c46106d76f836735fc279edde5019",
+        "sha256_in_prefix": "1ac87cc1e7516896080f938f3f996735e56c46106d76f836735fc279edde5019",
+        "size_in_bytes": 3919
+      },
+      {
+        "_path": "site-packages/google/auth/_default.py",
+        "path_type": "hardlink",
+        "sha256": "c676f69c1fb73c9dd9feb747679f9364449529d1ff1755691cc2a407f6af1c1d",
+        "sha256_in_prefix": "c676f69c1fb73c9dd9feb747679f9364449529d1ff1755691cc2a407f6af1c1d",
+        "size_in_bytes": 12073
+      },
+      {
+        "_path": "site-packages/google/auth/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "b8a2e50ab78f76a3e3530e4468d1e89f75cbe4d551fc2d0ec82c5397b8801f49",
+        "sha256_in_prefix": "b8a2e50ab78f76a3e3530e4468d1e89f75cbe4d551fc2d0ec82c5397b8801f49",
+        "size_in_bytes": 6654
+      },
+      {
+        "_path": "site-packages/google/auth/_oauth2client.py",
+        "path_type": "hardlink",
+        "sha256": "36e4d67f031e94ea7710acd73eeefd3f5aa45556f7d5e78048d66f045221beae",
+        "sha256_in_prefix": "36e4d67f031e94ea7710acd73eeefd3f5aa45556f7d5e78048d66f045221beae",
+        "size_in_bytes": 5847
+      },
+      {
+        "_path": "site-packages/google/auth/_service_account_info.py",
+        "path_type": "hardlink",
+        "sha256": "600608414cbc61f3cddffcddd2527f6a4dd14b19e814246092a9e8453088b355",
+        "sha256_in_prefix": "600608414cbc61f3cddffcddd2527f6a4dd14b19e814246092a9e8453088b355",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "site-packages/google/auth/app_engine.py",
+        "path_type": "hardlink",
+        "sha256": "cfd32d576892cc3bfc132d924fdb431fd35c103f1bfad945549c6a1ac2c53254",
+        "sha256_in_prefix": "cfd32d576892cc3bfc132d924fdb431fd35c103f1bfad945549c6a1ac2c53254",
+        "size_in_bytes": 4985
+      },
+      {
+        "_path": "site-packages/google/auth/compute_engine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6efe4128e6f9e5a8b87c68a2d4018923f487ac5436cb899d734ebe892d48055f",
+        "sha256_in_prefix": "6efe4128e6f9e5a8b87c68a2d4018923f487ac5436cb899d734ebe892d48055f",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "site-packages/google/auth/compute_engine/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "21c9edd12e8eb1686035c50e9b4330b53c127dde7ba3098d1adb29e9be144d90",
+        "sha256_in_prefix": "21c9edd12e8eb1686035c50e9b4330b53c127dde7ba3098d1adb29e9be144d90",
+        "size_in_bytes": 8372
+      },
+      {
+        "_path": "site-packages/google/auth/compute_engine/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "6cec93393d9c14172ffebb8e37a597bcf916056a40e52fc4394bf53631c071bc",
+        "sha256_in_prefix": "6cec93393d9c14172ffebb8e37a597bcf916056a40e52fc4394bf53631c071bc",
+        "size_in_bytes": 9123
+      },
+      {
+        "_path": "site-packages/google/auth/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "6ef48482f5cef3e3acf4954114c9b5bc286c7ea62fb3c04954dcf1fda805466c",
+        "sha256_in_prefix": "6ef48482f5cef3e3acf4954114c9b5bc286c7ea62fb3c04954dcf1fda805466c",
+        "size_in_bytes": 11604
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bdb8e343703cce2e4e2c7cebd47650d8741b5fe572cdb0464d88d8ce084bf6f6",
+        "sha256_in_prefix": "bdb8e343703cce2e4e2c7cebd47650d8741b5fe572cdb0464d88d8ce084bf6f6",
+        "size_in_bytes": 2425
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/_cryptography_rsa.py",
+        "path_type": "hardlink",
+        "sha256": "4f17a48542f90842d2c4b9186bab9bb9b910ab577fd4746913a80651a956db3b",
+        "sha256_in_prefix": "4f17a48542f90842d2c4b9186bab9bb9b910ab577fd4746913a80651a956db3b",
+        "size_in_bytes": 4988
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/_python_rsa.py",
+        "path_type": "hardlink",
+        "sha256": "f190852b7fac2373c327deee49466f2dcf36dc57212d5729edf7006c06d34a07",
+        "sha256_in_prefix": "f190852b7fac2373c327deee49466f2dcf36dc57212d5729edf7006c06d34a07",
+        "size_in_bytes": 5940
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/base.py",
+        "path_type": "hardlink",
+        "sha256": "23b876a7f0d8f9d862559b2ff359ef041ea4e84941728e17c6d7f0e644edadaf",
+        "sha256_in_prefix": "23b876a7f0d8f9d862559b2ff359ef041ea4e84941728e17c6d7f0e644edadaf",
+        "size_in_bytes": 4203
+      },
+      {
+        "_path": "site-packages/google/auth/crypt/rsa.py",
+        "path_type": "hardlink",
+        "sha256": "80214c2f2eda9a57d5689565252130009184749f02f72269d715bda4fb349a6a",
+        "sha256_in_prefix": "80214c2f2eda9a57d5689565252130009184749f02f72269d715bda4fb349a6a",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "site-packages/google/auth/environment_vars.py",
+        "path_type": "hardlink",
+        "sha256": "02c031d48071c048cc886a450dbe0964486f00d0063d8993277e6d2d5e688ee8",
+        "sha256_in_prefix": "02c031d48071c048cc886a450dbe0964486f00d0063d8993277e6d2d5e688ee8",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "site-packages/google/auth/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "db70aa3771957af20e25157d3ba79bfa0d2ed8471e2e565b018d13163cfad5b4",
+        "sha256_in_prefix": "db70aa3771957af20e25157d3ba79bfa0d2ed8471e2e565b018d13163cfad5b4",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "site-packages/google/auth/iam.py",
+        "path_type": "hardlink",
+        "sha256": "244b998d40853649ca42f4d1b6d6217fcb0c728ed4c5afe2bd2a3abe7924266e",
+        "sha256_in_prefix": "244b998d40853649ca42f4d1b6d6217fcb0c728ed4c5afe2bd2a3abe7924266e",
+        "size_in_bytes": 3611
+      },
+      {
+        "_path": "site-packages/google/auth/impersonated_credentials.py",
+        "path_type": "hardlink",
+        "sha256": "eae00a04cbf72927881bf0666e15c86cd5fe12f1768edcfec8ead920c1ce86f6",
+        "sha256_in_prefix": "eae00a04cbf72927881bf0666e15c86cd5fe12f1768edcfec8ead920c1ce86f6",
+        "size_in_bytes": 12068
+      },
+      {
+        "_path": "site-packages/google/auth/jwt.py",
+        "path_type": "hardlink",
+        "sha256": "858872a086ce4d201a218da8dc8cc95022e6c4d74178eb80ee9761a6281e9753",
+        "sha256_in_prefix": "858872a086ce4d201a218da8dc8cc95022e6c4d74178eb80ee9761a6281e9753",
+        "size_in_bytes": 26817
+      },
+      {
+        "_path": "site-packages/google/auth/transport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "783f08b9af128dce53045cc1aab08fe2cffd3c2f48a2e5a221176a0e5cf60173",
+        "sha256_in_prefix": "783f08b9af128dce53045cc1aab08fe2cffd3c2f48a2e5a221176a0e5cf60173",
+        "size_in_bytes": 3438
+      },
+      {
+        "_path": "site-packages/google/auth/transport/_http_client.py",
+        "path_type": "hardlink",
+        "sha256": "cb2f9c618afcecd59b32746422b4b4c17bedc959026bc1b5cf3db7badaae6cf4",
+        "sha256_in_prefix": "cb2f9c618afcecd59b32746422b4b4c17bedc959026bc1b5cf3db7badaae6cf4",
+        "size_in_bytes": 3739
+      },
+      {
+        "_path": "site-packages/google/auth/transport/grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b295602cf5ade56eb3552beaec6e02ac9f5404471a4ef94d0db6d36049f6d516",
+        "sha256_in_prefix": "b295602cf5ade56eb3552beaec6e02ac9f5404471a4ef94d0db6d36049f6d516",
+        "size_in_bytes": 5387
+      },
+      {
+        "_path": "site-packages/google/auth/transport/requests.py",
+        "path_type": "hardlink",
+        "sha256": "fb36461328a56f1a102670046b7bdc442290db180884402fd5c921307bf544bd",
+        "sha256_in_prefix": "fb36461328a56f1a102670046b7bdc442290db180884402fd5c921307bf544bd",
+        "size_in_bytes": 13134
+      },
+      {
+        "_path": "site-packages/google/auth/transport/urllib3.py",
+        "path_type": "hardlink",
+        "sha256": "96b5063287a54622162bd45d26c13a383ccf8c50bd852a670a15cd6b32af6a6f",
+        "sha256_in_prefix": "96b5063287a54622162bd45d26c13a383ccf8c50bd852a670a15cd6b32af6a6f",
+        "size_in_bytes": 9428
+      },
+      {
+        "_path": "site-packages/google/oauth2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "883c93a71ba1f3ae2b2dfe18c8836078ee303092d0e7711430f2698b0d460375",
+        "sha256_in_prefix": "883c93a71ba1f3ae2b2dfe18c8836078ee303092d0e7711430f2698b0d460375",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/google/oauth2/_client.py",
+        "path_type": "hardlink",
+        "sha256": "058002f798c0a051fc755399abeca4067f83a2f57af084ecd30806b10996aebc",
+        "sha256_in_prefix": "058002f798c0a051fc755399abeca4067f83a2f57af084ecd30806b10996aebc",
+        "size_in_bytes": 8774
+      },
+      {
+        "_path": "site-packages/google/oauth2/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "d582e10966b6d58ddaeb84dd0a39e034f234d1ae9a48bdf81173c48c616415f5",
+        "sha256_in_prefix": "d582e10966b6d58ddaeb84dd0a39e034f234d1ae9a48bdf81173c48c616415f5",
+        "size_in_bytes": 11092
+      },
+      {
+        "_path": "site-packages/google/oauth2/id_token.py",
+        "path_type": "hardlink",
+        "sha256": "b669a9e1bdc89d8ed9c2a0986ab26459768449099d52cf9f0d28ad922a26b767",
+        "sha256_in_prefix": "b669a9e1bdc89d8ed9c2a0986ab26459768449099d52cf9f0d28ad922a26b767",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "site-packages/google/oauth2/service_account.py",
+        "path_type": "hardlink",
+        "sha256": "bc4efaf448f83fa00be95693aa9a0427b46a6d5f264ca637caec5f2ef6bdbf51",
+        "sha256_in_prefix": "bc4efaf448f83fa00be95693aa9a0427b46a6d5f264ca637caec5f2ef6bdbf51",
+        "size_in_bytes": 20668
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2-py2.7-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+        "sha256_in_prefix": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "936188738e6c8e3f295378c3b02e336f7215de22cd98d62fc4dbe62ff4aad4e3",
+        "sha256_in_prefix": "936188738e6c8e3f295378c3b02e336f7215de22cd98d62fc4dbe62ff4aad4e3",
+        "size_in_bytes": 3072
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fc6c242bd550f3f9638451cc6d34f97c1fb009c3b7d185855e5432e8ce670bbd",
+        "sha256_in_prefix": "fc6c242bd550f3f9638451cc6d34f97c1fb009c3b7d185855e5432e8ce670bbd",
+        "size_in_bytes": 4590
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/google_auth-1.11.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/_cloud_sdk.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/_default.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/_helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/_oauth2client.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/_service_account_info.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/app_engine.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/_metadata.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/compute_engine/__pycache__/credentials.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/credentials.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_cryptography_rsa.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/_python_rsa.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/base.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/crypt/__pycache__/rsa.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/environment_vars.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/iam.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/impersonated_credentials.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/__pycache__/jwt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/transport/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/transport/__pycache__/_http_client.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/transport/__pycache__/grpc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/transport/__pycache__/requests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/auth/transport/__pycache__/urllib3.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/oauth2/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/oauth2/__pycache__/_client.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/oauth2/__pycache__/credentials.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/oauth2/__pycache__/id_token.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/google/oauth2/__pycache__/service_account.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "google-auth=1.11.2",
+  "sha256": "5d8471519ca4bcd63aeaa28f759c88bde89ab381304c8af05abedc2a4b73e7bb",
+  "size": 48547,
+  "subdir": "noarch",
+  "timestamp": 1581707560560,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-auth-1.11.2-py_0.tar.bz2",
+  "version": "1.11.2"
+}

@@ -1,0 +1,60 @@
+{% set name = "schema-salad" %}
+{% set version = "4.5.20191229160203" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: fce45d4f4575c0783c18694fdaf5fde5193768829c2d211baa75fa0fa22a6933
+
+build:
+  number: 0
+  entry_points:
+    - schema-salad-tool=schema_salad.main:main
+    - schema-salad-doc=schema_salad.makedoc:main
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+
+  run:
+    - python
+    - cachecontrol >=0.11.7,<0.12
+    - lockfile >=0.9
+    - mistune >=0.8.1,<0.9
+    - rdflib >=4.2.2,<4.3.0
+    - rdflib-jsonld >=0.3.0,<0.5.0
+    - requests >=1.0
+    - ruamel.yaml >=0.12.4,<0.16
+    - setuptools
+    - six >=1.8.0
+    - typing >=3.7.4  # [py<35]
+    - typing_extensions
+    - future
+
+test:
+  imports:
+    - schema_salad
+    - schema_salad.tests
+  commands:
+    - schema-salad-tool --help
+    - schema-salad-doc --help
+
+about:
+  home: https://github.com/common-workflow-language/schema_salad
+  license: Apache Software
+  license_family: APACHE
+  license_file: LICENSE.txt
+  summary: Schema Annotations for Linked Avro Data (SALAD)
+  dev_url: https://github.com/common-workflow-language/schema_salad
+
+extra:
+  recipe-maintainers:
+    - croth1
+    - chapmanb
+    - pvanheus

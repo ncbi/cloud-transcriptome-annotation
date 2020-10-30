@@ -1,0 +1,71 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Aug 29 19:19:03 2020
+# ------------------------------------------------
+
+package:
+    name: jupyter_console
+    version: 6.2.0
+source:
+    sha256: 7f6194f4f4692d292da3f501c7f343ccd5e36c6a1becf7b7515e23e66d6bf1e9
+    url: https://pypi.io/packages/source/j/jupyter_console/jupyter_console-6.2.0.tar.gz
+build:
+    entry_points:
+        - jupyter-console = jupyter_console.app:main
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/jupyter_console_1598728807792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py38h32f6830_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+        - libstdcxx-ng 9.3.0 hdf63c60_16
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.8.5 h1103e12_7_cpython
+        - python_abi 3.8 1_cp38
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py38h32f6830_0
+        - sqlite 3.33.0 h4cf870e_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - ipykernel
+        - ipython
+        - jupyter_client
+        - prompt_toolkit >=2.0.0,<3.1.0,!=3.0.0,!=3.0.1
+        - pygments
+        - python >=3.6
+test:
+    commands:
+        - jupyter-console -h
+    imports:
+        - jupyter_console
+about:
+    home: http://jupyter.org
+    license: BSD-3-Clause
+    license_file: COPYING.md
+    summary: Jupyter terminal console
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - SylvainCorlay
+        - blink1073
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson
+        - takluyver

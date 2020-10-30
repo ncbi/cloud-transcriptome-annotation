@@ -1,0 +1,69 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Oct  9 14:53:57 2020
+# ------------------------------------------------
+
+package:
+    name: chardet
+    version: 3.0.4
+source:
+    sha256: 84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
+    url: https://pypi.io/packages/source/c/chardet/chardet-3.0.4.tar.gz
+build:
+    entry_points:
+        - chardetect = chardet.cli.chardetect:main
+    number: '1008'
+    script: /home/conda/feedstock_root/build_artifacts/chardet_1602255309768/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . -vvv
+    string: py37he5f6b98_1008
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37he5f6b98_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.3 py_0
+        - python 3.7.8 h6f2ec95_1_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py37he5f6b98_2
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    commands:
+        - chardetect --help
+    imports:
+        - chardet
+about:
+    description: 'chardet is a character encoding auto-detector in Python.
+
+        '
+    dev_url: https://github.com/chardet/chardet
+    doc_source_url: https://github.com/chardet/chardet/blob/master/docs/index.rst
+    doc_url: http://chardet.readthedocs.org/
+    home: https://github.com/chardet/chardet
+    license: LGPL-2.1-only
+    license_family: GPL
+    license_file: LICENSE
+    summary: Universal character encoding detector
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dan-blanchard
+        - jschueller
+        - nehaljwani
+        - sigmavirus24

@@ -1,0 +1,77 @@
+{% set name = "gdk-pixbuf" %}
+{% set version = "2.38.2" %}
+{% set sha256 = "73fa651ec0d89d73dd3070b129ce2203a66171dfc0bd2caa3570a9c93d2d0781" %}
+
+package:
+    name: {{ name|lower }}
+    version: {{ version }}
+
+source:
+    sha256: {{ sha256 }}
+    url: http://ftp.gnome.org/pub/gnome/sources/{{ name }}/{{ '.'.join(version.split('.')[:2]) }}/{{ name }}-{{ version }}.tar.xz
+    patches:
+      - 0001-changed-perl-script-to-use-env.patch
+      - meson-rpaths-common.patch
+      - meson-rpaths-non-macos.patch  # [not osx]
+
+build:
+  number: 4
+  skip: true  # [win and vc<14]
+  run_exports:
+    # https://abi-laboratory.pro/?view=timeline&l=gdk-pixbuf
+    - {{ pin_subpackage('gdk-pixbuf', max_pin='x') }}
+
+requirements:
+  build:
+    - pkg-config
+    - {{ compiler('c') }}
+    # See https://github.com/conda-forge/atk-feedstock/pull/14#issuecomment-610061908
+    - meson 0.53.2
+    - ninja
+  host:
+    - gettext  # [osx]
+    - glib
+    - gobject-introspection
+    - make  # [not win]
+    - jpeg
+    - libtiff
+    - libpng
+    - zlib
+  run:
+    - gettext  # [osx]
+    - glib
+    - gobject-introspection
+    - jpeg
+    - libtiff
+    - libpng
+    - zlib
+
+test:
+  requires:
+    - pkg-config
+  commands:
+    - gdk-pixbuf-csource --version
+    - gdk-pixbuf-query-loaders
+    - gdk-pixbuf-pixdata --help
+
+    # verify that libs get installed and can be located through pkg-config
+    {% set pc = "gdk-pixbuf-2.0" %}
+    {% set lib = "gdk_pixbuf-2.0" %}
+    - test -f $PREFIX/lib/lib{{ lib }}${SHLIB_EXT}  # [unix]
+    - test -f `pkg-config --variable=libdir --dont-define-prefix {{ pc }}`/lib{{ lib }}${SHLIB_EXT}  # [unix]
+    - if not exist %PREFIX%\\Library\\bin\\{{ lib }}-0.dll exit 1  # [win]
+    - for /f "usebackq tokens=*" %%a in (`pkg-config --variable=exec_prefix --dont-define-prefix {{ pc }}`) do if not exist "%%a/bin/{{ lib }}-0.dll" exit 1  # [win]
+    - if not exist %PREFIX%\\Library\\lib\\gdk_pixbuf-2.0.lib exit 1  # [win]
+    - for /f "usebackq tokens=*" %%a in (`pkg-config --variable=libdir --dont-define-prefix {{ pc }}`) do if not exist "%%a/{{ lib }}.lib" exit 1  # [win]
+
+about:
+  home: https://developer.gnome.org/gdk-pixbuf/
+  license: LGPL-2.1-or-later
+  license_family: LGPL
+  license_file: COPYING
+  summary: "GdkPixbuf is a library for image loading and manipulation."
+
+extra:
+  recipe-maintainers:
+    - notestaff
+    - pkgw

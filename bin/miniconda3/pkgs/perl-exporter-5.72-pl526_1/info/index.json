@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "license": "perl_5",
+  "name": "perl-exporter",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1531071130904,
+  "version": "5.72"
+}

@@ -1,0 +1,9 @@
+lib/site_perl/5.26.2/Net/HTTP.pm
+lib/site_perl/5.26.2/Net/HTTP/Methods.pm
+lib/site_perl/5.26.2/Net/HTTP/NB.pm
+lib/site_perl/5.26.2/Net/HTTPS.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Net/HTTP/.packlist
+man/man3/Net::HTTP.3
+man/man3/Net::HTTP::Methods.3
+man/man3/Net::HTTP::NB.3
+man/man3/Net::HTTPS.3

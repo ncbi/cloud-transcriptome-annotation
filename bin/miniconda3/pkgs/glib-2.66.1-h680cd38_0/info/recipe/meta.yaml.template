@@ -1,0 +1,95 @@
+{% set version = "2.66.1" %}
+{% set major_minor = ".".join(version.split(".")[:2]) %}
+{% set posix = 'm2-' if win else '' %}
+{% set native = 'm2w64-' if win else '' %}
+
+package:
+  name: glib
+  version: {{ version }}
+
+source:
+  url: http://ftp.gnome.org/pub/GNOME/sources/glib/{{ major_minor }}/glib-{{ version }}.tar.xz
+  sha256: a269ffe69fbcc3a21ff1acb1b6146b2a5723499d6e2de33ae16ccb6d2438ef60
+  patches:
+    # Related to this patch https://bugzilla.gnome.org/show_bug.cgi?id=673135
+    # However, it was rejected by upstream. Homebrew decided to keep their own
+    # copy ( https://raw.githubusercontent.com/Homebrew/patches/59e4d32/glib/hardcoded-paths.diff ).
+    # We are essentially using that copy, but with some tweaks. Info at the link below.
+    #
+    # https://github.com/Homebrew/legacy-homebrew/blob/21ce7a56cb3fc40fe93d731cc654c69268796772/Library/Formula/glib.rb#L33-L39
+    #
+    - hardcoded-paths.patch
+
+    # skip some problematic tests
+    - skip-gio-tests-meson.build.patch
+    - skip-gio-tests-resources.c.patch
+    - skip-glib-tests-fileutils.c.patch
+
+    #- 0001-Attempt-to-mask-out-qemu-failing-tests.patch               # [ppc64le or aarch64]
+    # Windows:
+    - 0001-Manually-link-with-libiconv-whenever-we-use-libintl.patch  # [win]
+    - 0002-Increase-some-test-timeouts.patch                          # [win]
+
+build:
+  number: 0
+  skip: true  # [win and py < 30]
+  run_exports:
+    - {{ pin_subpackage('glib') }}
+
+# Note that Python is in fact a runtime dependency because this package
+# provides a couple of developer support tools that are Python scripts.
+
+requirements:
+  build:
+    - {{ posix }}patch  # [win]
+    - meson
+    - ninja
+    - {{ native }}pkg-config
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - python >=2.7
+  host:
+    - libffi
+    - gettext
+    - zlib
+    - pcre
+    - libiconv
+  run:
+    - python >=2.7
+    - libffi
+    - gettext
+    - zlib
+    - pcre
+    - libiconv
+  run_constrained:
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx]
+
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libglib-2.0{{ SHLIB_EXT }}  # [not win]
+    - test ! -f ${PREFIX}/lib/libgobject-2.0.la  # [not win]
+    # Check that binaries can run -- instigated by Meson Linux rpath issue
+    - gapplication help  # [linux]
+    - gdbus help
+    - gio version
+    - gio-querymodules .
+    - glib-compile-resources --help
+    - glib-compile-schemas --help
+    - gobject-query --help
+    - gresource help
+    - gtester --help  # [not win]
+
+about:
+  home: https://developer.gnome.org/glib/
+  license: LGPL-2.1-or-later
+  license_file: COPYING
+  summary: Provides core application building blocks for libraries and applications written in C.
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - jakirkham
+    - scopatz
+    - ocefpaf
+    - pkgw
+    - isuruf

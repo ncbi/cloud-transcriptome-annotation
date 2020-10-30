@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "pl526ha1d75be_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "expat >=2.2.5,<2.3.0a0",
+    "libgcc-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "features": "",
+  "fn": "perl-xml-parser-2.44_01-pl526ha1d75be_1002.tar.bz2",
+  "license": "Perl 5",
+  "license_family": "OTHER",
+  "md5": "820106e548cef13737a8f434a2e26224",
+  "name": "perl-xml-parser",
+  "platform": "linux",
+  "sha256": "104ea8db108549d0c743fa03229c1636bf243585ab24044268229703edd0bf52",
+  "size": 168945,
+  "subdir": "linux-64",
+  "timestamp": 1561130500942,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/perl-xml-parser-2.44_01-pl526ha1d75be_1002.tar.bz2",
+  "version": "2.44_01"
+}

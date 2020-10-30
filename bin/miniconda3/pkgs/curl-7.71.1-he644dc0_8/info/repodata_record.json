@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "he644dc0_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.17.1,<1.18.0a0",
+    "libcurl 7.71.1 hcdd3856_8",
+    "libgcc-ng >=7.5.0",
+    "libssh2 >=1.9.0,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "curl-7.71.1-he644dc0_8.tar.bz2",
+  "license": "curl",
+  "license_family": "MIT",
+  "md5": "7fadfa44182e1cc0dbbe0c169c0b15cc",
+  "name": "curl",
+  "platform": "linux",
+  "sha256": "11c818304bc481cef8b17f716e7d3b6063b7baedb6de6aa408c06c66ef99c971",
+  "size": 142318,
+  "subdir": "linux-64",
+  "timestamp": 1601416398312,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/curl-7.71.1-he644dc0_8.tar.bz2",
+  "version": "7.71.1"
+}

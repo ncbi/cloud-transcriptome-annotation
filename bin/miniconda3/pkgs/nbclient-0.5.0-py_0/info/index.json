@@ -1,0 +1,21 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "async_generator",
+    "jupyter_client >=6.1.5",
+    "nbformat >=5.0",
+    "nest-asyncio",
+    "python >=3.6",
+    "traitlets >=4.2"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "nbclient",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1598558767235,
+  "version": "0.5.0"
+}

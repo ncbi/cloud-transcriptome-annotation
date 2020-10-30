@@ -1,0 +1,8 @@
+{
+  "libtiff": "4.1.0",
+  "jpeg": "9",
+  "giflib": "5.2",
+  "c_compiler": "gcc",
+  "libpng": "1.6",
+  "c_compiler_version": "7"
+}

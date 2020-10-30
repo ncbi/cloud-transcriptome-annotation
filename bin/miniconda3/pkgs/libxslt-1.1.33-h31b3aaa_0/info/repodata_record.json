@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h31b3aaa_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "icu >=64.2,<65.0a0",
+    "libgcc-ng >=7.3.0",
+    "libxml2 >=2.9.9,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "libxslt-1.1.33-h31b3aaa_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "5118dae8fef84d2b6b2bbd242a0b26d1",
+  "name": "libxslt",
+  "platform": "linux",
+  "sha256": "794c7fe6250d202cc87b6288ce0d5be50a538207d37d5354b65f1a40040b02e8",
+  "size": 569394,
+  "subdir": "linux-64",
+  "timestamp": 1567441295819,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libxslt-1.1.33-h31b3aaa_0.tar.bz2",
+  "version": "1.1.33"
+}

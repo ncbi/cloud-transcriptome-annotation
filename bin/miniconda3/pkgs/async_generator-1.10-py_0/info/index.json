@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >2.7"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "async_generator",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1533114627495,
+  "version": "1.10"
+}

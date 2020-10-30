@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37h8f50634_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "tornado",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602489044222,
+  "version": "6.0.4"
+}

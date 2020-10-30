@@ -1,0 +1,25 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "features": "",
+  "fn": "cycler-0.10.0-py_2.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "f6d7c7e6d8f42cbbec7e07a8d879f91c",
+  "name": "cycler",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "beb7a9bc3a667af6ff3b865e97080dc8c3544816034ce908327957ede4c5c951",
+  "size": 9602,
+  "subdir": "noarch",
+  "timestamp": 1571840563027,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cycler-0.10.0-py_2.tar.bz2",
+  "version": "0.10.0"
+}

@@ -1,0 +1,102 @@
+{
+  "build": "h516909a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gettext >=0.19.8.1,<1.0a0",
+    "libgcc-ng >=7.3.0",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxt 1.1.*",
+    "xorg-xextproto",
+    "xorg-xproto"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/xorg-libxpm-3.5.13-h516909a_0",
+  "features": "",
+  "files": [
+    "bin/cxpm",
+    "bin/sxpm",
+    "include/X11/xpm.h",
+    "lib/libXpm.so",
+    "lib/libXpm.so.4",
+    "lib/libXpm.so.4.11.0",
+    "lib/pkgconfig/xpm.pc"
+  ],
+  "fn": "xorg-libxpm-3.5.13-h516909a_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/xorg-libxpm-3.5.13-h516909a_0",
+    "type": 1
+  },
+  "md5": "f719c82e2849a86fd591c946e462496c",
+  "name": "xorg-libxpm",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/xorg-libxpm-3.5.13-h516909a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cxpm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxpm_1576249242205/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "247dedb5d53c86e578148279e5c5dcfcbf0e47a44de3ce8f0c35501bcc6d2d53",
+        "sha256_in_prefix": "e79699d6e80795b55bc0f51d27fe33595348760b0f37c00fd78604c70bd1e077",
+        "size_in_bytes": 39024
+      },
+      {
+        "_path": "bin/sxpm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxpm_1576249242205/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "52209499d5d5b2a4a7742418bcf3a2baff299640d2d19dca08072b2ba0a38454",
+        "sha256_in_prefix": "0530644d14679137d4d8afbc6cf267799fda6641a792a3262ef80d46d9a39f95",
+        "size_in_bytes": 34704
+      },
+      {
+        "_path": "include/X11/xpm.h",
+        "path_type": "hardlink",
+        "sha256": "f609a4b24419efcdbbd7c620b5b32cade2c5d538555ebe2699ecc19f51896c96",
+        "sha256_in_prefix": "f609a4b24419efcdbbd7c620b5b32cade2c5d538555ebe2699ecc19f51896c96",
+        "size_in_bytes": 16213
+      },
+      {
+        "_path": "lib/libXpm.so",
+        "path_type": "softlink",
+        "sha256": "f64625f4a415183a94398f3ee420f5f6c9d7c072012fb4b3295420e9febc9908",
+        "size_in_bytes": 93520
+      },
+      {
+        "_path": "lib/libXpm.so.4",
+        "path_type": "softlink",
+        "sha256": "f64625f4a415183a94398f3ee420f5f6c9d7c072012fb4b3295420e9febc9908",
+        "size_in_bytes": 93520
+      },
+      {
+        "_path": "lib/libXpm.so.4.11.0",
+        "path_type": "hardlink",
+        "sha256": "f64625f4a415183a94398f3ee420f5f6c9d7c072012fb4b3295420e9febc9908",
+        "sha256_in_prefix": "f64625f4a415183a94398f3ee420f5f6c9d7c072012fb4b3295420e9febc9908",
+        "size_in_bytes": 93520
+      },
+      {
+        "_path": "lib/pkgconfig/xpm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "3b9366f34cb9bc272a7d1757afdd175370b2d004507b9567e87b8de92dd0bff7",
+        "sha256_in_prefix": "25de13bd282c2cc6dc1d1047e49c6d3c643d1620469bb47f74690677cdd3f7b3",
+        "size_in_bytes": 258
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0eb0ea085894d1fbeda116caeb3dfb47bc47bf800a210365290267c605431190",
+  "size": 64823,
+  "subdir": "linux-64",
+  "timestamp": 1576249347041,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxpm-3.5.13-h516909a_0.tar.bz2",
+  "version": "3.5.13"
+}

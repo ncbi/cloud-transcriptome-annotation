@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "ipython_genutils",
+    "jsonschema >=2.4,!=2.5.0",
+    "jupyter_core",
+    "python >=3.5",
+    "traitlets >=4.1"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "nbformat",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602732971985,
+  "version": "5.0.8"
+}

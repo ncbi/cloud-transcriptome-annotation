@@ -1,0 +1,3075 @@
+{
+  "paths": [
+    {
+      "_path": "bin/git",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9b89d240e8d7667024709cfa566e8a9f4f46dfe20fe669a2a91700ade9acf426",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "bin/git-cvsserver",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "7570508c78c4b63bafebf11736ea8fbc1b5a97db2eb36859e9715af729fa8e11",
+      "size_in_bytes": 162787
+    },
+    {
+      "_path": "bin/git-receive-pack",
+      "path_type": "softlink",
+      "sha256": "9b89d240e8d7667024709cfa566e8a9f4f46dfe20fe669a2a91700ade9acf426",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "bin/git-shell",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "aa718adc36e6bf80a270bf000bee4a1d2f40c60d3ea2c30b37f59f17a1c2465f",
+      "size_in_bytes": 1218928
+    },
+    {
+      "_path": "bin/git-upload-archive",
+      "path_type": "softlink",
+      "sha256": "9b89d240e8d7667024709cfa566e8a9f4f46dfe20fe669a2a91700ade9acf426",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "bin/git-upload-pack",
+      "path_type": "softlink",
+      "sha256": "9b89d240e8d7667024709cfa566e8a9f4f46dfe20fe669a2a91700ade9acf426",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "bin/gitk",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b93841cd985c8a2970f3ec0c773f889cfdba197bd53e70abcc0db34a668f988f",
+      "size_in_bytes": 351711
+    },
+    {
+      "_path": "etc/gitconfig",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "a61c7c5fbca8b1617b28b49cdc3c1a702b56d531120ee42a0ba6d3d43db05c11",
+      "size_in_bytes": 147
+    },
+    {
+      "_path": "libexec/git-core/git",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-add",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-add--interactive",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "0b91c9409d52aaf5ef72265fde00037150ac657c299af88e243d27c83e7f36b3",
+      "size_in_bytes": 46135
+    },
+    {
+      "_path": "libexec/git-core/git-am",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-annotate",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-apply",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-archimport",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "62cea853afa87e1cd4eb7223d90736cdd1e2d14b3b071233336329a27763adcb",
+      "size_in_bytes": 37057
+    },
+    {
+      "_path": "libexec/git-core/git-archive",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-bisect",
+      "path_type": "hardlink",
+      "sha256": "da23cfd61e3774f067747a5ecdc995186f5c7f51c13f04b597d0b6b384c02931",
+      "size_in_bytes": 8290
+    },
+    {
+      "_path": "libexec/git-core/git-bisect--helper",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-blame",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-branch",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-bundle",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-cat-file",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-check-attr",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-check-ignore",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-check-mailmap",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-check-ref-format",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-checkout",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-checkout-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-cherry",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-cherry-pick",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-citool",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "7b5230a6a72061b32c5d32a177a02b19abbf3fec2597b33366ce47b928bb94fc",
+      "size_in_bytes": 102107
+    },
+    {
+      "_path": "libexec/git-core/git-clean",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-clone",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-column",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-commit",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-commit-graph",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-commit-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-config",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-count-objects",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-credential",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-credential-cache",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "b2abe4549ef27fd79c34290bf201e28d89dfb9ee66fef162fcb7496cbebbf31d",
+      "size_in_bytes": 1218800
+    },
+    {
+      "_path": "libexec/git-core/git-credential-cache--daemon",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "8e55940d5a2daae17c8cd35f3322905cca4c024057fef29395ad728b1cb7a4ee",
+      "size_in_bytes": 1218864
+    },
+    {
+      "_path": "libexec/git-core/git-credential-store",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "7e9741493cef742fb19c6d0a8ab3aca548359414c792cf38de6ce7e135342988",
+      "size_in_bytes": 1218800
+    },
+    {
+      "_path": "libexec/git-core/git-cvsexportcommit",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "18e6756eab9d1a53d340f9c895b53da772d6652d7e1f5c1eaf25c9195013cd49",
+      "size_in_bytes": 13008
+    },
+    {
+      "_path": "libexec/git-core/git-cvsimport",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "93da7c3fc32af56111225289c51266b80d2eb813078d6cdbeb5d0209d059cae3",
+      "size_in_bytes": 32179
+    },
+    {
+      "_path": "libexec/git-core/git-cvsserver",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "7570508c78c4b63bafebf11736ea8fbc1b5a97db2eb36859e9715af729fa8e11",
+      "size_in_bytes": 162787
+    },
+    {
+      "_path": "libexec/git-core/git-daemon",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "40366de5167d704592621a65db135ab250edcee55ea6b5bbfa9907878728080c",
+      "size_in_bytes": 1239344
+    },
+    {
+      "_path": "libexec/git-core/git-describe",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-diff",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-diff-files",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-diff-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-diff-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-difftool",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-difftool--helper",
+      "path_type": "hardlink",
+      "sha256": "040b00301f3d732e825d2c1498e6d1afe14bd322477f322da929a58f6ee65e8c",
+      "size_in_bytes": 2236
+    },
+    {
+      "_path": "libexec/git-core/git-env--helper",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-fast-export",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-fast-import",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "1bd79a030a3ba2ed7f4615ce87d1110579ac7f05bcfe7ae4fb55850cd276dd4e",
+      "size_in_bytes": 1264528
+    },
+    {
+      "_path": "libexec/git-core/git-fetch",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-fetch-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-filter-branch",
+      "path_type": "hardlink",
+      "sha256": "ef9d15f8e51754a8c1887c0e53a61631171e86625fa9793712e930ad9ef74e59",
+      "size_in_bytes": 15801
+    },
+    {
+      "_path": "libexec/git-core/git-fmt-merge-msg",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-for-each-ref",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-format-patch",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-fsck",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-fsck-objects",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-gc",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-get-tar-commit-id",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-grep",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-gui",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "7b5230a6a72061b32c5d32a177a02b19abbf3fec2597b33366ce47b928bb94fc",
+      "size_in_bytes": 102107
+    },
+    {
+      "_path": "libexec/git-core/git-gui--askpass",
+      "path_type": "hardlink",
+      "sha256": "d88166881d3e46e5c88be58f058f3417837b5eaa06534db2c5e9468b42cbb966",
+      "size_in_bytes": 1372
+    },
+    {
+      "_path": "libexec/git-core/git-hash-object",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-help",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-http-backend",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "1bcd5bfe1b51be1a7f430508187afa3186468607a8d01c6be06154b7c04e8ae6",
+      "size_in_bytes": 1235504
+    },
+    {
+      "_path": "libexec/git-core/git-http-fetch",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "97f38611b3caad4e0d27bc319bfabfe43c45498f2416a13a7c0f5d1289caed6d",
+      "size_in_bytes": 1276776
+    },
+    {
+      "_path": "libexec/git-core/git-http-push",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9e752fe60d406aeef0c676a836ad40aa62433c88249fcbf6b98ffda75e47ac04",
+      "size_in_bytes": 1297256
+    },
+    {
+      "_path": "libexec/git-core/git-imap-send",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "d8c4a09c1692dc2fecce01def3ac7f9179e6763dc5d5592721b813b0d4513d8a",
+      "size_in_bytes": 1252520
+    },
+    {
+      "_path": "libexec/git-core/git-index-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-init",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-init-db",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-instaweb",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "5d92a89393d42d894347c76d3c11b34e2ab9da1e637da2058eb639d4470b4de2",
+      "size_in_bytes": 22474
+    },
+    {
+      "_path": "libexec/git-core/git-interpret-trailers",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-legacy-stash",
+      "path_type": "hardlink",
+      "sha256": "a842416b4d22fe9982ea2ce1b13111b5b1fd9211d9b3f2197bef2786eecc3d40",
+      "size_in_bytes": 16350
+    },
+    {
+      "_path": "libexec/git-core/git-log",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-ls-files",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-ls-remote",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-ls-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-mailinfo",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-mailsplit",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-base",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-file",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-octopus",
+      "path_type": "hardlink",
+      "sha256": "c5d08a8c4e5afc8b48d965c309d3b98930592da304cf04ac265c8b24ea3d6891",
+      "size_in_bytes": 2477
+    },
+    {
+      "_path": "libexec/git-core/git-merge-one-file",
+      "path_type": "hardlink",
+      "sha256": "496bd3daaca988726b23252e8032f8e3cc38913dbe2a0d9f1bafd7b7276ae717",
+      "size_in_bytes": 3695
+    },
+    {
+      "_path": "libexec/git-core/git-merge-ours",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-recursive",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-resolve",
+      "path_type": "hardlink",
+      "sha256": "c10ebe981e23461cc8ee48cc60632093638fc1dfce448b0519ff952d9c9d1655",
+      "size_in_bytes": 944
+    },
+    {
+      "_path": "libexec/git-core/git-merge-subtree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-merge-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-mergetool",
+      "path_type": "hardlink",
+      "sha256": "948d37c33ca19ebe87f002bae884fd3ddf1d25139e760c8a34018bb7f04fa09c",
+      "size_in_bytes": 10297
+    },
+    {
+      "_path": "libexec/git-core/git-mergetool--lib",
+      "path_type": "hardlink",
+      "sha256": "9a12d35909bd7fc7183dba0e044abb29098289b878f305344b3ba278733712f1",
+      "size_in_bytes": 9201
+    },
+    {
+      "_path": "libexec/git-core/git-mktag",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-mktree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-multi-pack-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-mv",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-name-rev",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-notes",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-p4",
+      "path_type": "hardlink",
+      "sha256": "df450ee0ddc9bb558bddef1b175e6abfa6e7313854a0cca59800b9b49dd7eede",
+      "size_in_bytes": 157541
+    },
+    {
+      "_path": "libexec/git-core/git-pack-objects",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-pack-redundant",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-pack-refs",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-parse-remote",
+      "path_type": "hardlink",
+      "sha256": "240a1b71e71d1120d23e46556dda388df1ab2c9ec62c5e70dc0d13d58459b3ea",
+      "size_in_bytes": 2650
+    },
+    {
+      "_path": "libexec/git-core/git-patch-id",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-prune",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-prune-packed",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-pull",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-push",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-quiltimport",
+      "path_type": "hardlink",
+      "sha256": "0af8839f6d89cb9b7c2973b6f95cfb3839e05d82fa4ecbf1f0af495a0e715a64",
+      "size_in_bytes": 3693
+    },
+    {
+      "_path": "libexec/git-core/git-range-diff",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-read-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-rebase",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-rebase--preserve-merges",
+      "path_type": "hardlink",
+      "sha256": "9bcb4d74c438f9ed9100a02c78fc16127ce25fce674632d228fd7fddbad016a5",
+      "size_in_bytes": 29600
+    },
+    {
+      "_path": "libexec/git-core/git-receive-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-reflog",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-remote",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-remote-ext",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-remote-fd",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-remote-ftp",
+      "path_type": "softlink",
+      "sha256": "cec0419f012e73c68e44315fcb8d2aaedcd2dbe6565a7fb802e095723cf121a7",
+      "size_in_bytes": 1289096
+    },
+    {
+      "_path": "libexec/git-core/git-remote-ftps",
+      "path_type": "softlink",
+      "sha256": "cec0419f012e73c68e44315fcb8d2aaedcd2dbe6565a7fb802e095723cf121a7",
+      "size_in_bytes": 1289096
+    },
+    {
+      "_path": "libexec/git-core/git-remote-http",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "cec0419f012e73c68e44315fcb8d2aaedcd2dbe6565a7fb802e095723cf121a7",
+      "size_in_bytes": 1289096
+    },
+    {
+      "_path": "libexec/git-core/git-remote-https",
+      "path_type": "softlink",
+      "sha256": "cec0419f012e73c68e44315fcb8d2aaedcd2dbe6565a7fb802e095723cf121a7",
+      "size_in_bytes": 1289096
+    },
+    {
+      "_path": "libexec/git-core/git-remote-testsvn",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "bd0501fbcb1342e89dd2e7fd17cd41dae22fa1b70311f5b9733d58b13ffc839a",
+      "size_in_bytes": 1239464
+    },
+    {
+      "_path": "libexec/git-core/git-repack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-replace",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-request-pull",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "c07a6c69414e8119f594f77acb5f95c73249780b27c4ead6db4c177dd4b7ff4e",
+      "size_in_bytes": 4158
+    },
+    {
+      "_path": "libexec/git-core/git-rerere",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-reset",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-restore",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-rev-list",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-rev-parse",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-revert",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-rm",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-send-email",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "5ae386be2b73cb60e9b9dd01586f6093e4436e37d2687d707231f30b650396f1",
+      "size_in_bytes": 58324
+    },
+    {
+      "_path": "libexec/git-core/git-send-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-sh-i18n",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "a31545c95426c754097f540295b949a9fb5a5f8a388b38a8f7afc504fa55dde3",
+      "size_in_bytes": 2476
+    },
+    {
+      "_path": "libexec/git-core/git-sh-i18n--envsubst",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "fba87fff67de9fc54e8b76f7961e67111d84ec48e70eab6bfca37a050326e6b1",
+      "size_in_bytes": 1218800
+    },
+    {
+      "_path": "libexec/git-core/git-sh-setup",
+      "path_type": "hardlink",
+      "sha256": "ccfbf10a8ef5f1a1112b8897477f34b855219542bc6a1c5bddd17064567e1bf7",
+      "size_in_bytes": 9306
+    },
+    {
+      "_path": "libexec/git-core/git-shell",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/git_1568225956791/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "24b9a5c9c4e7ee7b241349b993697940ee7caeae8bbddd4900b46e1e71a345fb",
+      "size_in_bytes": 1218928
+    },
+    {
+      "_path": "libexec/git-core/git-shortlog",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-show",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-show-branch",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-show-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-show-ref",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-stage",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-stash",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-status",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-stripspace",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-submodule",
+      "path_type": "hardlink",
+      "sha256": "ebeb3fb68e706490bcc06592f71dc96856000d6691b6670cf22b6b51aa11e57a",
+      "size_in_bytes": 24948
+    },
+    {
+      "_path": "libexec/git-core/git-submodule--helper",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-svn",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "bb62c8d9f02a4cf5876df524fd98d8a54cee9194443de575eb1118f0107ea8dc",
+      "size_in_bytes": 64527
+    },
+    {
+      "_path": "libexec/git-core/git-switch",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-symbolic-ref",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-tag",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-unpack-file",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-unpack-objects",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-update-index",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-update-ref",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-update-server-info",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-upload-archive",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-upload-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-var",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-verify-commit",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-verify-pack",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-verify-tag",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-web--browse",
+      "path_type": "hardlink",
+      "sha256": "5c0d1d91dadfba3fe353add1f07be76016a7c6a3b2260ff9dfec5491fcd9e5e6",
+      "size_in_bytes": 4401
+    },
+    {
+      "_path": "libexec/git-core/git-whatchanged",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-worktree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/git-write-tree",
+      "path_type": "softlink",
+      "sha256": "9d19e8f140845ed8a1cee90ef0b84eb0ee494f683489114d0b529a0dc498b8c5",
+      "size_in_bytes": 2948328
+    },
+    {
+      "_path": "libexec/git-core/mergetools/araxis",
+      "path_type": "hardlink",
+      "sha256": "b9dc1a2e74297b01cd0c633ab3078e81ea511219aa9469d33ca8e879c73deb93",
+      "size_in_bytes": 358
+    },
+    {
+      "_path": "libexec/git-core/mergetools/bc",
+      "path_type": "hardlink",
+      "sha256": "0c0001bc0011fd68fa2a00da325f7865e4595d57a4562dc13eb9471eadba964b",
+      "size_in_bytes": 367
+    },
+    {
+      "_path": "libexec/git-core/mergetools/bc3",
+      "path_type": "hardlink",
+      "sha256": "974b2f45753b21b29c75eadef1ce68b2e6c1723d657ec1396f6fcbb8695185b4",
+      "size_in_bytes": 24
+    },
+    {
+      "_path": "libexec/git-core/mergetools/codecompare",
+      "path_type": "hardlink",
+      "sha256": "d94edc6ab6a67d83b047ce59cf1f247c035e42227c22ed73ee3da07e233861de",
+      "size_in_bytes": 353
+    },
+    {
+      "_path": "libexec/git-core/mergetools/deltawalker",
+      "path_type": "hardlink",
+      "sha256": "8f40843888c5a8b3bfde5c9ba21b84960b238e024d8fc19d2c85f0c0569649ff",
+      "size_in_bytes": 663
+    },
+    {
+      "_path": "libexec/git-core/mergetools/diffmerge",
+      "path_type": "hardlink",
+      "sha256": "10861fe8fccca80d308006073a6d6041fd8f6a09cd585bc3ca2a6d2ab97f7641",
+      "size_in_bytes": 309
+    },
+    {
+      "_path": "libexec/git-core/mergetools/diffuse",
+      "path_type": "hardlink",
+      "sha256": "925726924714707dea067a5a7aa1e340726b1a9010bf55957f1ddeb64764c1c3",
+      "size_in_bytes": 248
+    },
+    {
+      "_path": "libexec/git-core/mergetools/ecmerge",
+      "path_type": "hardlink",
+      "sha256": "c8a6fc2b0cc1f416507afe531236ee1cc62603372557038657ff355b75d9bf98",
+      "size_in_bytes": 306
+    },
+    {
+      "_path": "libexec/git-core/mergetools/emerge",
+      "path_type": "hardlink",
+      "sha256": "a7fcd2195e13c4161276f15c5535e07069868cff82d9b6312fbc93ef1b93e389",
+      "size_in_bytes": 438
+    },
+    {
+      "_path": "libexec/git-core/mergetools/examdiff",
+      "path_type": "hardlink",
+      "sha256": "b5a74f894848e4b50499bf5fe46c80842dba9a545c03b4914be0812585c751ec",
+      "size_in_bytes": 336
+    },
+    {
+      "_path": "libexec/git-core/mergetools/guiffy",
+      "path_type": "hardlink",
+      "sha256": "c8e90c3e429495f7a624e80f5150d6e0844656592b39b5d86abf96cf6e0e8c20",
+      "size_in_bytes": 263
+    },
+    {
+      "_path": "libexec/git-core/mergetools/gvimdiff",
+      "path_type": "hardlink",
+      "sha256": "bc1d96063154a0e5a7f55f5f3579d275c124e84ba33eb50db2f5802e259b479f",
+      "size_in_bytes": 29
+    },
+    {
+      "_path": "libexec/git-core/mergetools/gvimdiff2",
+      "path_type": "hardlink",
+      "sha256": "bc1d96063154a0e5a7f55f5f3579d275c124e84ba33eb50db2f5802e259b479f",
+      "size_in_bytes": 29
+    },
+    {
+      "_path": "libexec/git-core/mergetools/gvimdiff3",
+      "path_type": "hardlink",
+      "sha256": "bc1d96063154a0e5a7f55f5f3579d275c124e84ba33eb50db2f5802e259b479f",
+      "size_in_bytes": 29
+    },
+    {
+      "_path": "libexec/git-core/mergetools/kdiff3",
+      "path_type": "hardlink",
+      "sha256": "74a8c5e73adbc121ea49e1a41e0e068f31a70c89906535a6047e094c5fe7a61f",
+      "size_in_bytes": 522
+    },
+    {
+      "_path": "libexec/git-core/mergetools/kompare",
+      "path_type": "hardlink",
+      "sha256": "f3fabd053fbe205aa226989942346dd16b0e148435600069a3b91c118eabfa57",
+      "size_in_bytes": 117
+    },
+    {
+      "_path": "libexec/git-core/mergetools/meld",
+      "path_type": "hardlink",
+      "sha256": "1a06d130ad6d1e5664c4e8d6fc4485564ca7d619ad710ba61e91ce77a733db29",
+      "size_in_bytes": 843
+    },
+    {
+      "_path": "libexec/git-core/mergetools/opendiff",
+      "path_type": "hardlink",
+      "sha256": "bbb99da526757bd5cff6af0bbd3cc4516dc2164663b14116d45d77afae1a6352",
+      "size_in_bytes": 267
+    },
+    {
+      "_path": "libexec/git-core/mergetools/p4merge",
+      "path_type": "hardlink",
+      "sha256": "42339978652a687b084d7f4de2860756ed7d37e69aba9aa29dcfd8f4d7f22a56",
+      "size_in_bytes": 617
+    },
+    {
+      "_path": "libexec/git-core/mergetools/smerge",
+      "path_type": "hardlink",
+      "sha256": "2abb59692fdbb53262047c7d1aa4630570e54f50ab6ad83fa4081193c732ba4d",
+      "size_in_bytes": 264
+    },
+    {
+      "_path": "libexec/git-core/mergetools/tkdiff",
+      "path_type": "hardlink",
+      "sha256": "500cc21528e2f7b5038f31637ca7369813544c9f9334fd172bdc51c0c09409cd",
+      "size_in_bytes": 258
+    },
+    {
+      "_path": "libexec/git-core/mergetools/tortoisemerge",
+      "path_type": "hardlink",
+      "sha256": "673198cae064ed57aa85a6d7ba7e75807f79aac9dcfe3102e12f055df71883df",
+      "size_in_bytes": 602
+    },
+    {
+      "_path": "libexec/git-core/mergetools/vimdiff",
+      "path_type": "hardlink",
+      "sha256": "fedccfa4a140d162f19238e3b82aa02255f41a779d8913dc0a0ea45dda12bd87",
+      "size_in_bytes": 890
+    },
+    {
+      "_path": "libexec/git-core/mergetools/vimdiff2",
+      "path_type": "hardlink",
+      "sha256": "bc1d96063154a0e5a7f55f5f3579d275c124e84ba33eb50db2f5802e259b479f",
+      "size_in_bytes": 29
+    },
+    {
+      "_path": "libexec/git-core/mergetools/vimdiff3",
+      "path_type": "hardlink",
+      "sha256": "bc1d96063154a0e5a7f55f5f3579d275c124e84ba33eb50db2f5802e259b479f",
+      "size_in_bytes": 29
+    },
+    {
+      "_path": "libexec/git-core/mergetools/winmerge",
+      "path_type": "hardlink",
+      "sha256": "1b3502d779f4fb1d435a24a5f354dc6960d3e94a1e634b7258ce7a3c0873efce",
+      "size_in_bytes": 361
+    },
+    {
+      "_path": "libexec/git-core/mergetools/xxdiff",
+      "path_type": "hardlink",
+      "sha256": "d58d3e1eec80affb9875dc00156a3bd15e917c703454d2456f34249db232ea4d",
+      "size_in_bytes": 584
+    },
+    {
+      "_path": "man/man1/git-add.1",
+      "path_type": "hardlink",
+      "sha256": "e8ef94cd8cd8b34a248be3dd6afbf5e965cd4441dd4703fd78be2374e7b12e6d",
+      "size_in_bytes": 17544
+    },
+    {
+      "_path": "man/man1/git-am.1",
+      "path_type": "hardlink",
+      "sha256": "793fbcb65af0b7286dd0cf38d1bbe5f22a8b6444b65e47475921ad4b80337a68",
+      "size_in_bytes": 10230
+    },
+    {
+      "_path": "man/man1/git-annotate.1",
+      "path_type": "hardlink",
+      "sha256": "6ff8bb7d72542a7600e346c57aba37461a2ca587ee26f65667e96f62895db6ed",
+      "size_in_bytes": 8877
+    },
+    {
+      "_path": "man/man1/git-apply.1",
+      "path_type": "hardlink",
+      "sha256": "5a7bdc1e49df9c2f60acf25bcb3158fe610b265d5becc88755b9b2a25d0b650a",
+      "size_in_bytes": 13327
+    },
+    {
+      "_path": "man/man1/git-archimport.1",
+      "path_type": "hardlink",
+      "sha256": "ef5fd1d8765b8787c48c63a48b01dfc0f839c19b276fde2cb5024012a6dd18c2",
+      "size_in_bytes": 5422
+    },
+    {
+      "_path": "man/man1/git-archive.1",
+      "path_type": "hardlink",
+      "sha256": "025d06e4ca0fbf20f5ebb38465896d0e025b35fe061d767b920a2eac174b0695",
+      "size_in_bytes": 8256
+    },
+    {
+      "_path": "man/man1/git-bisect.1",
+      "path_type": "hardlink",
+      "sha256": "303b4dc2c5e189d9d873437ceecee0886c6f2c38a00863ddbdb9255971a689aa",
+      "size_in_bytes": 19589
+    },
+    {
+      "_path": "man/man1/git-blame.1",
+      "path_type": "hardlink",
+      "sha256": "675fd40f5201e3ebe25796038f368cb6fcb17c9075d319e664ffc575150627cc",
+      "size_in_bytes": 20687
+    },
+    {
+      "_path": "man/man1/git-branch.1",
+      "path_type": "hardlink",
+      "sha256": "7d01ca0d11650db070f9a285f33a002e76237ee05846c399f215381ca7fbc0c9",
+      "size_in_bytes": 17026
+    },
+    {
+      "_path": "man/man1/git-bundle.1",
+      "path_type": "hardlink",
+      "sha256": "d674eb512ee876d90656c503f3f0be39b55291e5ca0f6db0582653d56ac37e6c",
+      "size_in_bytes": 8771
+    },
+    {
+      "_path": "man/man1/git-cat-file.1",
+      "path_type": "hardlink",
+      "sha256": "4e2c57f884a7e55fd4feebb46f92d0251a2cbba68c6c64abe4c5177709c4e83b",
+      "size_in_bytes": 12841
+    },
+    {
+      "_path": "man/man1/git-check-attr.1",
+      "path_type": "hardlink",
+      "sha256": "9982c08ed34904c8f63408d2b5f54eed29e014105e6b5a29ac901bee61e0f03e",
+      "size_in_bytes": 5196
+    },
+    {
+      "_path": "man/man1/git-check-ignore.1",
+      "path_type": "hardlink",
+      "sha256": "c673e55eed091c7a52b10f644af4d1f234a1af5165ea3423d9c55412b052ea3a",
+      "size_in_bytes": 5396
+    },
+    {
+      "_path": "man/man1/git-check-mailmap.1",
+      "path_type": "hardlink",
+      "sha256": "3477298f70de4d33ce71d3b68a4183872b3ad8174defec8ece9975eef95cbb7e",
+      "size_in_bytes": 5010
+    },
+    {
+      "_path": "man/man1/git-check-ref-format.1",
+      "path_type": "hardlink",
+      "sha256": "a6a372ce945098b1ffb4b0a0f3915d150b77c7b2766e19e286bb28bb186fe5af",
+      "size_in_bytes": 7991
+    },
+    {
+      "_path": "man/man1/git-checkout-index.1",
+      "path_type": "hardlink",
+      "sha256": "722ad832f5cef1b5e0cd1b55a7abda1f8608b51be98364ed2c77d8cfdf3f85b7",
+      "size_in_bytes": 7398
+    },
+    {
+      "_path": "man/man1/git-checkout.1",
+      "path_type": "hardlink",
+      "sha256": "65948a833bb884e0482ea21ef833a3861f487e11876bf2969328f76cdf7c2def",
+      "size_in_bytes": 24429
+    },
+    {
+      "_path": "man/man1/git-cherry-pick.1",
+      "path_type": "hardlink",
+      "sha256": "832aa86cc1859c009353107305d330b49c825a3d6f5c35063149e909e9eba85f",
+      "size_in_bytes": 11461
+    },
+    {
+      "_path": "man/man1/git-cherry.1",
+      "path_type": "hardlink",
+      "sha256": "4792fa26c1a0fb564b3dc9c8b36633bbd9184397f47d9cbd3ce2a57d2e78fbeb",
+      "size_in_bytes": 5250
+    },
+    {
+      "_path": "man/man1/git-citool.1",
+      "path_type": "hardlink",
+      "sha256": "1708cd2b278948fcb002898b2022337d1f762c998cb7bc541b9a0b436761f03f",
+      "size_in_bytes": 1781
+    },
+    {
+      "_path": "man/man1/git-clean.1",
+      "path_type": "hardlink",
+      "sha256": "f4a30257a7afaf3ed02caf3bdd06ae6ad6f643c49f5db605b39c01f746f7e639",
+      "size_in_bytes": 5715
+    },
+    {
+      "_path": "man/man1/git-clone.1",
+      "path_type": "hardlink",
+      "sha256": "4ff59323b41e92f0c5194778e02b6bcd4d54e0ec93b4cc5eace4e00057352be1",
+      "size_in_bytes": 19609
+    },
+    {
+      "_path": "man/man1/git-column.1",
+      "path_type": "hardlink",
+      "sha256": "9f3f46a1b7b0c9d0dc51c623f9f7ee7513f56da63da0657744b349fcf87f597a",
+      "size_in_bytes": 3627
+    },
+    {
+      "_path": "man/man1/git-commit-graph.1",
+      "path_type": "hardlink",
+      "sha256": "9a0bc283ff12d232a0a14c140b68e432b27dd55cc61ea2dc0f7cdf253728dcfa",
+      "size_in_bytes": 5869
+    },
+    {
+      "_path": "man/man1/git-commit-tree.1",
+      "path_type": "hardlink",
+      "sha256": "d06a029460af06da7d9ad1b5b2888ba688001a517d2f7d2a8c0e6180282d4841",
+      "size_in_bytes": 9524
+    },
+    {
+      "_path": "man/man1/git-commit.1",
+      "path_type": "hardlink",
+      "sha256": "a6a803c73b554f62926a1b7f51403175e7aff8e6e53a1defcedcede3bba2c3a7",
+      "size_in_bytes": 25104
+    },
+    {
+      "_path": "man/man1/git-config.1",
+      "path_type": "hardlink",
+      "sha256": "eacf5f3f32a46da84f5638a8abbd7a26657417b403ba766b01183f22822abc1c",
+      "size_in_bytes": 239731
+    },
+    {
+      "_path": "man/man1/git-count-objects.1",
+      "path_type": "hardlink",
+      "sha256": "95be3c8a48350cba005f2c46a9a5bb8db1fc29f7c3181ba9c6298eda4e275566",
+      "size_in_bytes": 2631
+    },
+    {
+      "_path": "man/man1/git-credential-cache--daemon.1",
+      "path_type": "hardlink",
+      "sha256": "d70c1110006683637dd96c651dbce156340a2754d16b713bbf2b4072141a7b9b",
+      "size_in_bytes": 2225
+    },
+    {
+      "_path": "man/man1/git-credential-cache.1",
+      "path_type": "hardlink",
+      "sha256": "f1b007e9bfb5fa9f4062798a23f1f8f6de561a53b206afbacc5f4cc31a746e82",
+      "size_in_bytes": 3482
+    },
+    {
+      "_path": "man/man1/git-credential-store.1",
+      "path_type": "hardlink",
+      "sha256": "5e749a68f1853beca1d6b14a2acf5443bcfb817b90836775ab5fbf25309b9b2f",
+      "size_in_bytes": 4901
+    },
+    {
+      "_path": "man/man1/git-credential.1",
+      "path_type": "hardlink",
+      "sha256": "fc4864217df2f18a7c5158c5d64ca42ed9f78f7beba66a12dac8d1221a303fef",
+      "size_in_bytes": 7764
+    },
+    {
+      "_path": "man/man1/git-cvsexportcommit.1",
+      "path_type": "hardlink",
+      "sha256": "3901a62de11bbea53938b9801dcb7ed6040501de75dd4f46be7416004975597d",
+      "size_in_bytes": 4798
+    },
+    {
+      "_path": "man/man1/git-cvsimport.1",
+      "path_type": "hardlink",
+      "sha256": "23c5ca1acef8a70ce64d3b38f17b7df28592245ce639f7afa75434456834c053",
+      "size_in_bytes": 10386
+    },
+    {
+      "_path": "man/man1/git-cvsserver.1",
+      "path_type": "hardlink",
+      "sha256": "7e8f6e9e2a47bb53b27a0b5ed4c3cadfba5e12df92589177638430e71cc28087",
+      "size_in_bytes": 19104
+    },
+    {
+      "_path": "man/man1/git-daemon.1",
+      "path_type": "hardlink",
+      "sha256": "fccbaea5d5f1f3692fd0ec65f02caa571d655400b0bd625f7641310a7430e684",
+      "size_in_bytes": 14899
+    },
+    {
+      "_path": "man/man1/git-describe.1",
+      "path_type": "hardlink",
+      "sha256": "cf869dca7a720f6d70952ec691ec18f1f24d741b56a4d75f143ef17717700878",
+      "size_in_bytes": 9957
+    },
+    {
+      "_path": "man/man1/git-diff-files.1",
+      "path_type": "hardlink",
+      "sha256": "eb0e593bd6a8860f0835ef3a93bd26977bf31b70a7f8cb22c7e4ac94c331e3d0",
+      "size_in_bytes": 49052
+    },
+    {
+      "_path": "man/man1/git-diff-index.1",
+      "path_type": "hardlink",
+      "sha256": "8774a15307ac969400605d62e12a92b740026409fa2d25a262fb5ebde0e37b20",
+      "size_in_bytes": 53144
+    },
+    {
+      "_path": "man/man1/git-diff-tree.1",
+      "path_type": "hardlink",
+      "sha256": "80a595b0ced0a5ca86e11cb3e6a02f677f52b47508d49618cdec96060085c83d",
+      "size_in_bytes": 71453
+    },
+    {
+      "_path": "man/man1/git-diff.1",
+      "path_type": "hardlink",
+      "sha256": "724b552798e3c54355f2aaf22705dcf8cc9ca0e22b25f835f7f56eb92d0cea6e",
+      "size_in_bytes": 54894
+    },
+    {
+      "_path": "man/man1/git-difftool.1",
+      "path_type": "hardlink",
+      "sha256": "93903baeaafca3f37c18cc2174d1ea8221ba4dfd4d00a73304f5885d5d906d2a",
+      "size_in_bytes": 6617
+    },
+    {
+      "_path": "man/man1/git-fast-export.1",
+      "path_type": "hardlink",
+      "sha256": "32a710b41889caf8312a9ebb67b1d3746e195a3718a07137bc056e1c62987679",
+      "size_in_bytes": 10890
+    },
+    {
+      "_path": "man/man1/git-fast-import.1",
+      "path_type": "hardlink",
+      "sha256": "cad391b7d11ce837ff187ab1e5240649e1da02185726d195ab6b8086b756a2cc",
+      "size_in_bytes": 66470
+    },
+    {
+      "_path": "man/man1/git-fetch-pack.1",
+      "path_type": "hardlink",
+      "sha256": "d40210421c58efdaf8e5db040a43f67f16a0c772ce783d180988ade8e23ada5b",
+      "size_in_bytes": 5713
+    },
+    {
+      "_path": "man/man1/git-fetch.1",
+      "path_type": "hardlink",
+      "sha256": "3eb25a547658a1dcb82b5096aad4b3bf77643c18db66fa876f599415e962f20e",
+      "size_in_bytes": 35464
+    },
+    {
+      "_path": "man/man1/git-filter-branch.1",
+      "path_type": "hardlink",
+      "sha256": "b449cf6ed7391d0042ca2454b32b88a1a57cfdf04744786e4472c7b09f6eb2ee",
+      "size_in_bytes": 22037
+    },
+    {
+      "_path": "man/man1/git-fmt-merge-msg.1",
+      "path_type": "hardlink",
+      "sha256": "ba3f687966c705eaff28af51273d57b5ac6a281ef80172ca2d3df3d329c2edba",
+      "size_in_bytes": 3505
+    },
+    {
+      "_path": "man/man1/git-for-each-ref.1",
+      "path_type": "hardlink",
+      "sha256": "a6152b812475b32a2925365a0c2f2cbc8ea881dbc923a417e8b3f813628d414a",
+      "size_in_bytes": 16521
+    },
+    {
+      "_path": "man/man1/git-format-patch.1",
+      "path_type": "hardlink",
+      "sha256": "05589ae802280c316fb495e132f0d5f5fe50686f0a39aefe137e02a0e46e8fc7",
+      "size_in_bytes": 46747
+    },
+    {
+      "_path": "man/man1/git-fsck-objects.1",
+      "path_type": "hardlink",
+      "sha256": "3a8ea773655ea82abe11a3ab536cbbe170ad7444c3fff5ad0bf87aa4157ffa54",
+      "size_in_bytes": 1574
+    },
+    {
+      "_path": "man/man1/git-fsck.1",
+      "path_type": "hardlink",
+      "sha256": "d085b17cd89884245a4613c06d39e021c74e7f9e77fb384c63f8df76b8755684",
+      "size_in_bytes": 11172
+    },
+    {
+      "_path": "man/man1/git-gc.1",
+      "path_type": "hardlink",
+      "sha256": "ddbdf0931b78041d6898dbcd0caf3b6e1d3723709d4c0808e1673c25026058d6",
+      "size_in_bytes": 13680
+    },
+    {
+      "_path": "man/man1/git-get-tar-commit-id.1",
+      "path_type": "hardlink",
+      "sha256": "0e55ddf07e90ebc1426e9b6807d2db1ed71724d6dc2ed585a7862fed2ef3c6c4",
+      "size_in_bytes": 1998
+    },
+    {
+      "_path": "man/man1/git-grep.1",
+      "path_type": "hardlink",
+      "sha256": "1b925465b3c8c2dff554cbf79c7d61bd5b66687930c8108fa2a55ff1f451a122",
+      "size_in_bytes": 12374
+    },
+    {
+      "_path": "man/man1/git-gui.1",
+      "path_type": "hardlink",
+      "sha256": "6d602637120c23d249cd734e780c9460236b0728329f0fef74bdeacbab8b62c0",
+      "size_in_bytes": 5197
+    },
+    {
+      "_path": "man/man1/git-hash-object.1",
+      "path_type": "hardlink",
+      "sha256": "e6fc6f206dd16b0d9fcc6a5ecd7635a66db1bbeda99d0d9cf813768906261a38",
+      "size_in_bytes": 3404
+    },
+    {
+      "_path": "man/man1/git-help.1",
+      "path_type": "hardlink",
+      "sha256": "d63b98a8db26872a91f32ab8b86de095e9b2e79224ec5c7004e5ab99a6c9901b",
+      "size_in_bytes": 8638
+    },
+    {
+      "_path": "man/man1/git-http-backend.1",
+      "path_type": "hardlink",
+      "sha256": "d644c7d13b2b78ce2eb27c4dd96cb523412354f9850a3bd60a8bee71b65ed0cd",
+      "size_in_bytes": 11731
+    },
+    {
+      "_path": "man/man1/git-http-fetch.1",
+      "path_type": "hardlink",
+      "sha256": "c8a21e1e3503d3cc73a01db3df02eaaf50684d7b24e2f4a56481fe2bab707476",
+      "size_in_bytes": 2540
+    },
+    {
+      "_path": "man/man1/git-http-push.1",
+      "path_type": "hardlink",
+      "sha256": "6893b7574653d3b80ee6dee93645948b12d1b50534ff76df71401ddb772efae5",
+      "size_in_bytes": 4871
+    },
+    {
+      "_path": "man/man1/git-imap-send.1",
+      "path_type": "hardlink",
+      "sha256": "099baae1aeb0658067954fd33cfe31f0d7c87edce9a588e018b6c3d3feff6982",
+      "size_in_bytes": 6623
+    },
+    {
+      "_path": "man/man1/git-index-pack.1",
+      "path_type": "hardlink",
+      "sha256": "a5fdfcb56bb8f8cf68ad1f1c52f8c955a15206105e1aafaa5a79f793ddde3bb4",
+      "size_in_bytes": 5138
+    },
+    {
+      "_path": "man/man1/git-init-db.1",
+      "path_type": "hardlink",
+      "sha256": "739b0f8bfdeb170da374e58350bd1c7aeacdc3e0a5238173bf4774d5a7c1def1",
+      "size_in_bytes": 1639
+    },
+    {
+      "_path": "man/man1/git-init.1",
+      "path_type": "hardlink",
+      "sha256": "038b0e332c394a51028390aee1172e7705c92f5c65c5341b4513df55cbcd0fa1",
+      "size_in_bytes": 6991
+    },
+    {
+      "_path": "man/man1/git-instaweb.1",
+      "path_type": "hardlink",
+      "sha256": "35628b5248e299abf54bb9864372820d9c604a4899d234dd8ed1e19ba8f3d908",
+      "size_in_bytes": 3609
+    },
+    {
+      "_path": "man/man1/git-interpret-trailers.1",
+      "path_type": "hardlink",
+      "sha256": "bf5c478f694c7b23c58e4cba373b155df32970f48c0fe3866add305f7c04f001",
+      "size_in_bytes": 16564
+    },
+    {
+      "_path": "man/man1/git-log.1",
+      "path_type": "hardlink",
+      "sha256": "b956cd765745c6df1e2ee3e6f2a17dfcc37282e0b7cae773bd3ae2679c42416b",
+      "size_in_bytes": 103002
+    },
+    {
+      "_path": "man/man1/git-ls-files.1",
+      "path_type": "hardlink",
+      "sha256": "b9ef316808055fe7fb04f1432cfc4ec046f9d0d2d4a1a9884d645fdaad175b1a",
+      "size_in_bytes": 10005
+    },
+    {
+      "_path": "man/man1/git-ls-remote.1",
+      "path_type": "hardlink",
+      "sha256": "0ed358cebd7bac61e5452ae13c8487f2a80e5a16caf344b9ea72cfc7336c0a8e",
+      "size_in_bytes": 5477
+    },
+    {
+      "_path": "man/man1/git-ls-tree.1",
+      "path_type": "hardlink",
+      "sha256": "b9da6762518cf874136fffec641e2d614030686e30af68fb6cffb6016d1de625",
+      "size_in_bytes": 4954
+    },
+    {
+      "_path": "man/man1/git-mailinfo.1",
+      "path_type": "hardlink",
+      "sha256": "1fbfde000e38a6aa8ed7c8142bce132c156f19a916c13bfd94191f6dee3ef415",
+      "size_in_bytes": 4902
+    },
+    {
+      "_path": "man/man1/git-mailsplit.1",
+      "path_type": "hardlink",
+      "sha256": "104330cd5f6c3e767871db96ac80692c89071c7faab81c07846a695a77cffd23",
+      "size_in_bytes": 2827
+    },
+    {
+      "_path": "man/man1/git-merge-base.1",
+      "path_type": "hardlink",
+      "sha256": "b4f0157d6f4027aa1ea429cfe4a245161d7b6e76a9285c2bc4813abe69dd5f5f",
+      "size_in_bytes": 10247
+    },
+    {
+      "_path": "man/man1/git-merge-file.1",
+      "path_type": "hardlink",
+      "sha256": "667b95a41e44a53ac17b24b60c6d3b5cedf12664be4d0c69ea89485bd472cc8c",
+      "size_in_bytes": 4490
+    },
+    {
+      "_path": "man/man1/git-merge-index.1",
+      "path_type": "hardlink",
+      "sha256": "abf3ebc94bcf625b8ba01fc8d8103c9c3e54671ae35fd738c5ae5c49fc513197",
+      "size_in_bytes": 3970
+    },
+    {
+      "_path": "man/man1/git-merge-one-file.1",
+      "path_type": "hardlink",
+      "sha256": "f355ba6d2cdc32201d083d963441d4c1d25c3877f3ccf44c9bac183aa9e243a6",
+      "size_in_bytes": 1621
+    },
+    {
+      "_path": "man/man1/git-merge-tree.1",
+      "path_type": "hardlink",
+      "sha256": "e51839a3717fb942c25fc018085000ad3d44e3a9080ebb9d1885d2e42e1ecef8",
+      "size_in_bytes": 1987
+    },
+    {
+      "_path": "man/man1/git-merge.1",
+      "path_type": "hardlink",
+      "sha256": "2ffa62f619be96eda8c1f867eb513e89dc7c6518d6df82849263d4940f159421",
+      "size_in_bytes": 36326
+    },
+    {
+      "_path": "man/man1/git-mergetool--lib.1",
+      "path_type": "hardlink",
+      "sha256": "8977444b9b9dfc684feffab32422688a9892fabaa38f250e98c6d7c008893897",
+      "size_in_bytes": 2676
+    },
+    {
+      "_path": "man/man1/git-mergetool.1",
+      "path_type": "hardlink",
+      "sha256": "1983f0179593849a1f9e1b4e2dd4d03d9e3c6f480c52ee9fad199f6dd74a344f",
+      "size_in_bytes": 5728
+    },
+    {
+      "_path": "man/man1/git-mktag.1",
+      "path_type": "hardlink",
+      "sha256": "48b4b351c45daefb2f1f4adad616cbeb0f9db6a3207096624a53aad54be495a8",
+      "size_in_bytes": 2121
+    },
+    {
+      "_path": "man/man1/git-mktree.1",
+      "path_type": "hardlink",
+      "sha256": "fed9546ee126b63cd6185749d182800fc7a9f424a7af4e48a2b5f0547e0635f0",
+      "size_in_bytes": 2367
+    },
+    {
+      "_path": "man/man1/git-multi-pack-index.1",
+      "path_type": "hardlink",
+      "sha256": "04c355a02d660d1c15c274552f842c51ba9b17b4da95130b54f6023850c54459",
+      "size_in_bytes": 4295
+    },
+    {
+      "_path": "man/man1/git-mv.1",
+      "path_type": "hardlink",
+      "sha256": "ef3ffd0b4ba2c6b49ff7e1d3554b35d8221f4fd57e8c43dca0d7863c55673ac3",
+      "size_in_bytes": 3457
+    },
+    {
+      "_path": "man/man1/git-name-rev.1",
+      "path_type": "hardlink",
+      "sha256": "17ac1389c816cd84ea264108a779dcef18d3ab3a274df5f1fdb29db6e247c516",
+      "size_in_bytes": 4021
+    },
+    {
+      "_path": "man/man1/git-notes.1",
+      "path_type": "hardlink",
+      "sha256": "9f75334897a3692a4de39a5a0cd3e498083682a13cd8bdff639282e63e7c8cd9",
+      "size_in_bytes": 16898
+    },
+    {
+      "_path": "man/man1/git-p4.1",
+      "path_type": "hardlink",
+      "sha256": "7a622052a163e69d72beac2b8f17bd2ee7d10f6f7d0bdac847690e800832d663",
+      "size_in_bytes": 29330
+    },
+    {
+      "_path": "man/man1/git-pack-objects.1",
+      "path_type": "hardlink",
+      "sha256": "9eea9bb971a8764b876d74a009427e799a2e8469605d58f05c48d79dbf9f49dc",
+      "size_in_bytes": 18969
+    },
+    {
+      "_path": "man/man1/git-pack-redundant.1",
+      "path_type": "hardlink",
+      "sha256": "745640166dd6bd39591fa8f0613ea5917e29c4caa0542c1024a15854ca4ec50a",
+      "size_in_bytes": 2472
+    },
+    {
+      "_path": "man/man1/git-pack-refs.1",
+      "path_type": "hardlink",
+      "sha256": "0444f8d5ebf38ab76291c420bb53e0de7f024789763342bd4a504533c30c7822",
+      "size_in_bytes": 3428
+    },
+    {
+      "_path": "man/man1/git-parse-remote.1",
+      "path_type": "hardlink",
+      "sha256": "6a19d95e1b6dd2cabab55184ea49053c7b1be69951d43dabd186e9a93375a6bb",
+      "size_in_bytes": 1697
+    },
+    {
+      "_path": "man/man1/git-patch-id.1",
+      "path_type": "hardlink",
+      "sha256": "890db0dbb79795dd2acfd1a1bc7c91bfa9760335431ce889049ee9f1a201cc8e",
+      "size_in_bytes": 3694
+    },
+    {
+      "_path": "man/man1/git-prune-packed.1",
+      "path_type": "hardlink",
+      "sha256": "c69c4eb705959cbef48114687405b1fcc805f98e5c20c508d9794d54096e4eea",
+      "size_in_bytes": 2194
+    },
+    {
+      "_path": "man/man1/git-prune.1",
+      "path_type": "hardlink",
+      "sha256": "24179a4b156c0feee4dffef8f1a530569618e8e57c13f85d2f4e69d709e4f890",
+      "size_in_bytes": 3440
+    },
+    {
+      "_path": "man/man1/git-pull.1",
+      "path_type": "hardlink",
+      "sha256": "c39330d1f2ddfa8485eb6965a57de531f29d612f2ba7277a2fc1d7f75602741f",
+      "size_in_bytes": 41503
+    },
+    {
+      "_path": "man/man1/git-push.1",
+      "path_type": "hardlink",
+      "sha256": "8e3dcf53f90e5b1541bdf75e32683ab505d8d56146ae5be579360e411e78c2c1",
+      "size_in_bytes": 39511
+    },
+    {
+      "_path": "man/man1/git-quiltimport.1",
+      "path_type": "hardlink",
+      "sha256": "cb3d8e43732ac4488ee79711caf278cf36f4307bee38abefddf688f146c27430",
+      "size_in_bytes": 3040
+    },
+    {
+      "_path": "man/man1/git-range-diff.1",
+      "path_type": "hardlink",
+      "sha256": "091a04016b6ebbc50a60aecf09490f13f9837e1fd414acd9fecb38ee20dfb44a",
+      "size_in_bytes": 11653
+    },
+    {
+      "_path": "man/man1/git-read-tree.1",
+      "path_type": "hardlink",
+      "sha256": "7c9c9d2f63e7451b1cc46dc4940ba3225f955b095693504ade31be1b0571b94a",
+      "size_in_bytes": 20539
+    },
+    {
+      "_path": "man/man1/git-rebase.1",
+      "path_type": "hardlink",
+      "sha256": "0f948bfb8be222400a9791eca5686036c0548d16e23f979eca3a6d55a5ef0eaa",
+      "size_in_bytes": 53125
+    },
+    {
+      "_path": "man/man1/git-receive-pack.1",
+      "path_type": "hardlink",
+      "sha256": "6d953d6b2d75745ff7958c638d232defce63d609a385f911ec7a7c60dbd4c235",
+      "size_in_bytes": 11539
+    },
+    {
+      "_path": "man/man1/git-reflog.1",
+      "path_type": "hardlink",
+      "sha256": "54ce89ffcda69a1a8e78745c9e711aa87a6648b1c1606be1a6d0c167ff892c71",
+      "size_in_bytes": 6279
+    },
+    {
+      "_path": "man/man1/git-remote-ext.1",
+      "path_type": "hardlink",
+      "sha256": "38288a8b9a0ed365c8642ef1d2836b24e18b1c1c317581565984542b8020eeb1",
+      "size_in_bytes": 5410
+    },
+    {
+      "_path": "man/man1/git-remote-fd.1",
+      "path_type": "hardlink",
+      "sha256": "d5a958870772582198ae93ee70917ee4544222085f8dcbe21a1da7d5fe115c6f",
+      "size_in_bytes": 2912
+    },
+    {
+      "_path": "man/man1/git-remote.1",
+      "path_type": "hardlink",
+      "sha256": "8c4329b01024d407f975b828c364f5683ef82c6159132387713433fb26be26fd",
+      "size_in_bytes": 10626
+    },
+    {
+      "_path": "man/man1/git-repack.1",
+      "path_type": "hardlink",
+      "sha256": "ea1f8808852e10cc84422ee51c66349e68255569ec126377f9ac7276c4e44902",
+      "size_in_bytes": 8698
+    },
+    {
+      "_path": "man/man1/git-replace.1",
+      "path_type": "hardlink",
+      "sha256": "657011ec809c5456b56d23c51ec3336666ea8a36e0a18de4aa9bf61871cd793f",
+      "size_in_bytes": 6851
+    },
+    {
+      "_path": "man/man1/git-request-pull.1",
+      "path_type": "hardlink",
+      "sha256": "b338b0b78820eec955afe7b717b7d0f9209a094d497a47f88ed6716de641fa35",
+      "size_in_bytes": 3586
+    },
+    {
+      "_path": "man/man1/git-rerere.1",
+      "path_type": "hardlink",
+      "sha256": "1c72b079a4657f1a9c51ebe4b0e1249d465f197826097a1a457caf9f1ce407b0",
+      "size_in_bytes": 10004
+    },
+    {
+      "_path": "man/man1/git-reset.1",
+      "path_type": "hardlink",
+      "sha256": "38260cea8f21ebb5b1a51ab86e3d9c3c1fed9c79211a6f47774047b10d683b0d",
+      "size_in_bytes": 22064
+    },
+    {
+      "_path": "man/man1/git-restore.1",
+      "path_type": "hardlink",
+      "sha256": "740c13447bcc6ceb0ee7ad3ba89cb6570614c7dccd26c63a089bfd3701692674",
+      "size_in_bytes": 7353
+    },
+    {
+      "_path": "man/man1/git-rev-list.1",
+      "path_type": "hardlink",
+      "sha256": "fe7260a3702c1c3ebf6a3f81bc828f7d3788bf185829b6dc45b686f024d8aa31",
+      "size_in_bytes": 62800
+    },
+    {
+      "_path": "man/man1/git-rev-parse.1",
+      "path_type": "hardlink",
+      "sha256": "9e67b53020af1589029b59e8ee2d8fad492233e37f7a5f5bcdc98b05638fd4a9",
+      "size_in_bytes": 34675
+    },
+    {
+      "_path": "man/man1/git-revert.1",
+      "path_type": "hardlink",
+      "sha256": "a680863e6fa96dbacb7c09a5a198ced0921442022ffdcc2393a6d3c2b7a6e25f",
+      "size_in_bytes": 6702
+    },
+    {
+      "_path": "man/man1/git-rm.1",
+      "path_type": "hardlink",
+      "sha256": "05a87fe4033b304435b491db2d3c144e253d6633167c0a7c7f6163c24a2c900b",
+      "size_in_bytes": 8112
+    },
+    {
+      "_path": "man/man1/git-send-email.1",
+      "path_type": "hardlink",
+      "sha256": "c757c82cd199307cdf2ee6baafcc4d4e61176bd9e85b49615dc20e20c9bd98b9",
+      "size_in_bytes": 24992
+    },
+    {
+      "_path": "man/man1/git-send-pack.1",
+      "path_type": "hardlink",
+      "sha256": "867bae8dab05346b3b47d21fbf08d1d5f57298710c732cd8d9f6033687f14673",
+      "size_in_bytes": 7177
+    },
+    {
+      "_path": "man/man1/git-sh-i18n--envsubst.1",
+      "path_type": "hardlink",
+      "sha256": "62240710c0e5210604dc94f217a0beb6737852512be853b86e41d064f7eb06a3",
+      "size_in_bytes": 2220
+    },
+    {
+      "_path": "man/man1/git-sh-i18n.1",
+      "path_type": "hardlink",
+      "sha256": "8db9837a30add29f64e4b2b8fc413c49f1274414e21ee4efaaa9bffc35bf8f79",
+      "size_in_bytes": 2438
+    },
+    {
+      "_path": "man/man1/git-sh-setup.1",
+      "path_type": "hardlink",
+      "sha256": "134d3808ecd01b2b6efae2ad1e0112572aadbe154225660129933661ff229537",
+      "size_in_bytes": 4423
+    },
+    {
+      "_path": "man/man1/git-shell.1",
+      "path_type": "hardlink",
+      "sha256": "ae05c9201e5094f596e35d6f1c6b4a20ac28b10738572388f88255e03fa4ef24",
+      "size_in_bytes": 4481
+    },
+    {
+      "_path": "man/man1/git-shortlog.1",
+      "path_type": "hardlink",
+      "sha256": "23869bf023b964635037917d9b8027cf2e8a9b29e7cc234e544d6d2ed071b6fc",
+      "size_in_bytes": 7029
+    },
+    {
+      "_path": "man/man1/git-show-branch.1",
+      "path_type": "hardlink",
+      "sha256": "2715e50ed4fbf9b7a086a7324c1a88b30e323a99ee5cfa8aa3658da6330c16be",
+      "size_in_bytes": 8284
+    },
+    {
+      "_path": "man/man1/git-show-index.1",
+      "path_type": "hardlink",
+      "sha256": "efa50f9f6bbf9d8f77435c42bd25324d361c6e0b850807706842dcab8877b3be",
+      "size_in_bytes": 2521
+    },
+    {
+      "_path": "man/man1/git-show-ref.1",
+      "path_type": "hardlink",
+      "sha256": "0f8035f551f42214011adde6825e1fcd777b2e9ac1781bd73b55fdd58ab68839",
+      "size_in_bytes": 7151
+    },
+    {
+      "_path": "man/man1/git-show.1",
+      "path_type": "hardlink",
+      "sha256": "52385d1e5c55e09f67ec7e23a727b01ed8a1aad7151375648e3156834f1391f4",
+      "size_in_bytes": 62597
+    },
+    {
+      "_path": "man/man1/git-stage.1",
+      "path_type": "hardlink",
+      "sha256": "ac2dc534b733d5cf5be671c0b55a93f67b2c1b46d520de1f8f5f0f4702ddde43",
+      "size_in_bytes": 1515
+    },
+    {
+      "_path": "man/man1/git-stash.1",
+      "path_type": "hardlink",
+      "sha256": "f12466513b017ec2a95dad2da85195f11f1e99ec8e573cb30aa732f0e2b71495",
+      "size_in_bytes": 13393
+    },
+    {
+      "_path": "man/man1/git-status.1",
+      "path_type": "hardlink",
+      "sha256": "e2a9281e55d7e92249353087261454e7e76c68e8e50c23fcc33726775edc65b3",
+      "size_in_bytes": 20862
+    },
+    {
+      "_path": "man/man1/git-stripspace.1",
+      "path_type": "hardlink",
+      "sha256": "1f251774f5793e95246cac805cb30848479a5c09f64187811e923f74406b355a",
+      "size_in_bytes": 3677
+    },
+    {
+      "_path": "man/man1/git-submodule.1",
+      "path_type": "hardlink",
+      "sha256": "d976a630adc8fed7c2c2dc8f52f4c53c8654ca66693a5788d0a90b5f3d095a1c",
+      "size_in_bytes": 22297
+    },
+    {
+      "_path": "man/man1/git-svn.1",
+      "path_type": "hardlink",
+      "sha256": "787a901917df3c33306e5939ec9be39a4f2a9a497d16d2e895d91fd8bf5c09c8",
+      "size_in_bytes": 51338
+    },
+    {
+      "_path": "man/man1/git-switch.1",
+      "path_type": "hardlink",
+      "sha256": "96dd235cd9818332014ed4ecb0e69c60caed8460687d7d64ace90c2e4df7a074",
+      "size_in_bytes": 10785
+    },
+    {
+      "_path": "man/man1/git-symbolic-ref.1",
+      "path_type": "hardlink",
+      "sha256": "c838836cf381c077c9114d47c8ccf14e43a6089613560b99924c5c9895eb0ea2",
+      "size_in_bytes": 3369
+    },
+    {
+      "_path": "man/man1/git-tag.1",
+      "path_type": "hardlink",
+      "sha256": "2173e89b4ab6df13282cf7ea696ce8775b6604ae8c4e1acf0c4bbcee6ec9c271",
+      "size_in_bytes": 16620
+    },
+    {
+      "_path": "man/man1/git-unpack-file.1",
+      "path_type": "hardlink",
+      "sha256": "14de2bcdc519164a5b6f9a3228e8b728ffa8481f4996b5fa44a1e881d2821bb7",
+      "size_in_bytes": 1666
+    },
+    {
+      "_path": "man/man1/git-unpack-objects.1",
+      "path_type": "hardlink",
+      "sha256": "4b1626b1942a4e19fa5f596bc4a4e08d3e3feaf006b552da9942d5d4b06eea43",
+      "size_in_bytes": 2520
+    },
+    {
+      "_path": "man/man1/git-update-index.1",
+      "path_type": "hardlink",
+      "sha256": "0329f89dc0a4160b514853d512cc7577430b5cb2a735bb499f37881f7e31076b",
+      "size_in_bytes": 24300
+    },
+    {
+      "_path": "man/man1/git-update-ref.1",
+      "path_type": "hardlink",
+      "sha256": "62318e2ce4abe950cd0a3feec00eb21d3aca4811d1a0745389f8562c4da08a03",
+      "size_in_bytes": 7294
+    },
+    {
+      "_path": "man/man1/git-update-server-info.1",
+      "path_type": "hardlink",
+      "sha256": "79b3ba2095f43a955e677d5973523c7011f26051dbc840aef8439855b76dfc3d",
+      "size_in_bytes": 2091
+    },
+    {
+      "_path": "man/man1/git-upload-archive.1",
+      "path_type": "hardlink",
+      "sha256": "24c84b1f6427337d9032e0f8218e780a8d0a231fb79e41f3c80a748b5619842c",
+      "size_in_bytes": 3637
+    },
+    {
+      "_path": "man/man1/git-upload-pack.1",
+      "path_type": "hardlink",
+      "sha256": "55ab945629593f8889fc7db3eeba03c69738ad15ebba02886fc8ba48d9ef9683",
+      "size_in_bytes": 2685
+    },
+    {
+      "_path": "man/man1/git-var.1",
+      "path_type": "hardlink",
+      "sha256": "d48394f338601d35aafec30feccd91f16a98d7e571c4256b4a734ce0785a3df2",
+      "size_in_bytes": 2934
+    },
+    {
+      "_path": "man/man1/git-verify-commit.1",
+      "path_type": "hardlink",
+      "sha256": "0872e8e0c952b9a9bda57a741e295b0b18fb651da48738c4bf720569c35bb24f",
+      "size_in_bytes": 1819
+    },
+    {
+      "_path": "man/man1/git-verify-pack.1",
+      "path_type": "hardlink",
+      "sha256": "9e8f83b0e38f75a76869d4c6dd2a6d221222e37ef56c96b564b3c5ca3de5208b",
+      "size_in_bytes": 2506
+    },
+    {
+      "_path": "man/man1/git-verify-tag.1",
+      "path_type": "hardlink",
+      "sha256": "7aa11564baebe207e34262f9b4dd16d7035219c11091f9332e881fb0aa0a330b",
+      "size_in_bytes": 1807
+    },
+    {
+      "_path": "man/man1/git-web--browse.1",
+      "path_type": "hardlink",
+      "sha256": "b9f8617c0f1c5bf710a00f43fecbc3668ab1db57d5339580c62482edc188a12f",
+      "size_in_bytes": 6149
+    },
+    {
+      "_path": "man/man1/git-whatchanged.1",
+      "path_type": "hardlink",
+      "sha256": "86a052b3e67bd6340e01f0ea2c7b77a65202288ae9444112c9218759fb8fcb6a",
+      "size_in_bytes": 2379
+    },
+    {
+      "_path": "man/man1/git-worktree.1",
+      "path_type": "hardlink",
+      "sha256": "a4730eb4deab9b94060ca934dc9e07bb068d38d343f7c84d8ea64bf3534d2be1",
+      "size_in_bytes": 17637
+    },
+    {
+      "_path": "man/man1/git-write-tree.1",
+      "path_type": "hardlink",
+      "sha256": "06688cbffc7dfa5ea6433ea7116bafce9d421547fffafccf6481ed20b49ded9a",
+      "size_in_bytes": 2313
+    },
+    {
+      "_path": "man/man1/git.1",
+      "path_type": "hardlink",
+      "sha256": "5a1ff6b34a7f8e851d84f9c03de3f0f002fd0e22019e5170450bf87caf900dde",
+      "size_in_bytes": 50663
+    },
+    {
+      "_path": "man/man1/gitk.1",
+      "path_type": "hardlink",
+      "sha256": "0c63a8eb7bf23fe732bbd26c2b72fdce8f36e1c1a430a202fd6a21f9e5ce037a",
+      "size_in_bytes": 9071
+    },
+    {
+      "_path": "man/man1/gitweb.1",
+      "path_type": "hardlink",
+      "sha256": "094da7a79a31b57dfc7be0c562e131be2fb96eb8c3e22f8087d4a5d6706b705b",
+      "size_in_bytes": 29530
+    },
+    {
+      "_path": "man/man5/gitattributes.5",
+      "path_type": "hardlink",
+      "sha256": "7851a474114e241ddc89ed05bf2e77640afd94602f8e64ae2e2ebac23a321410",
+      "size_in_bytes": 55313
+    },
+    {
+      "_path": "man/man5/githooks.5",
+      "path_type": "hardlink",
+      "sha256": "fbac167c126b7ac772522e67578b717cc16250176bcf2dc8976a62f35e8ed611",
+      "size_in_bytes": 22466
+    },
+    {
+      "_path": "man/man5/gitignore.5",
+      "path_type": "hardlink",
+      "sha256": "37a3d0b234e486abf477508aa3eeadb7be26d3053fa52fff9c810149886ba247",
+      "size_in_bytes": 11781
+    },
+    {
+      "_path": "man/man5/gitmodules.5",
+      "path_type": "hardlink",
+      "sha256": "691851745e4fe98ed153b9ba34850a972a62e9eb2227135ca13156d8106b4c3f",
+      "size_in_bytes": 6027
+    },
+    {
+      "_path": "man/man5/gitrepository-layout.5",
+      "path_type": "hardlink",
+      "sha256": "18adabb33291e79cf03c9cfc32ea1c0f62576970a5b30e0247bf138489330e1b",
+      "size_in_bytes": 18893
+    },
+    {
+      "_path": "man/man5/gitweb.conf.5",
+      "path_type": "hardlink",
+      "sha256": "352d44cc5765ed4a0c12388a60e540809a3003c206aa3eaaa7d26e0e3b5a9ac2",
+      "size_in_bytes": 43685
+    },
+    {
+      "_path": "man/man7/gitcli.7",
+      "path_type": "hardlink",
+      "sha256": "11df12b3c57d18d0281c3a049e54686782ec604968601c654fffc8ff90520505",
+      "size_in_bytes": 11276
+    },
+    {
+      "_path": "man/man7/gitcore-tutorial.7",
+      "path_type": "hardlink",
+      "sha256": "44bceaacd3f35846ec7662660b21a318c5a85ebab1ee6345f8a253f44f9ff978",
+      "size_in_bytes": 72178
+    },
+    {
+      "_path": "man/man7/gitcredentials.7",
+      "path_type": "hardlink",
+      "sha256": "285714ecac8016399a6063d7d05e21a3f343e163ff5dfd0b6a97a44f5b3ee941",
+      "size_in_bytes": 8712
+    },
+    {
+      "_path": "man/man7/gitcvs-migration.7",
+      "path_type": "hardlink",
+      "sha256": "b96f8ae3987c9ee5a6a0eb8247c5146cad029df983fa0fcf559c16c6a9b7b1da",
+      "size_in_bytes": 9169
+    },
+    {
+      "_path": "man/man7/gitdiffcore.7",
+      "path_type": "hardlink",
+      "sha256": "f77c977a16ea75f5e2bf2211dff51cf56b6cf87e11b44a49c483c2dab9eb7d6a",
+      "size_in_bytes": 13668
+    },
+    {
+      "_path": "man/man7/giteveryday.7",
+      "path_type": "hardlink",
+      "sha256": "57ce3806cd78882c1f582ceca8d1c1e0abcf6141b74f22745d96ac9c4ce87184",
+      "size_in_bytes": 19681
+    },
+    {
+      "_path": "man/man7/gitglossary.7",
+      "path_type": "hardlink",
+      "sha256": "f834611dc85c35bf82fdb9cda2a94bee4906bc839f3dc8e5d064cef2a287749f",
+      "size_in_bytes": 27917
+    },
+    {
+      "_path": "man/man7/gitnamespaces.7",
+      "path_type": "hardlink",
+      "sha256": "1ff873326b7de76e97bdaa485b85da19a51dc1b6621dd63fd5079d1cefff41ce",
+      "size_in_bytes": 5654
+    },
+    {
+      "_path": "man/man7/gitremote-helpers.7",
+      "path_type": "hardlink",
+      "sha256": "a52f933a87dfc6cb96a5d5f6aaebac92d0a5ad12610ef7dd71cf2d9620411890",
+      "size_in_bytes": 22949
+    },
+    {
+      "_path": "man/man7/gitrevisions.7",
+      "path_type": "hardlink",
+      "sha256": "e7ad3a8cd752f96e286cc82dde4a438df91f185a61d3abd1abd86d779917e405",
+      "size_in_bytes": 19145
+    },
+    {
+      "_path": "man/man7/gitsubmodules.7",
+      "path_type": "hardlink",
+      "sha256": "87c8ef0dbe64fa139705e5a175051ebbfdc87c9d2c306d0905ce32dea3e23a00",
+      "size_in_bytes": 13373
+    },
+    {
+      "_path": "man/man7/gittutorial-2.7",
+      "path_type": "hardlink",
+      "sha256": "193690a269f8d829e37154f3300a311da8e2113605e9e88dc11565865f583630",
+      "size_in_bytes": 16179
+    },
+    {
+      "_path": "man/man7/gittutorial.7",
+      "path_type": "hardlink",
+      "sha256": "e38bec3043d7c5ff4d7b0bde88cf354925bc49c5d40dac5a1eccb866b7ccb2da",
+      "size_in_bytes": 23521
+    },
+    {
+      "_path": "man/man7/gitworkflows.7",
+      "path_type": "hardlink",
+      "sha256": "860e01a8cd058d1e83549da8bea7661853c25393d10ac6b39a56611a6bc497aa",
+      "size_in_bytes": 19411
+    },
+    {
+      "_path": "share/bash-completion/completions/git",
+      "path_type": "hardlink",
+      "sha256": "c5ae20282e52103f3775cba158df5b380b853cdffa024b7f7495069682d2b4ee",
+      "size_in_bytes": 66875
+    },
+    {
+      "_path": "share/git-core/templates/description",
+      "path_type": "hardlink",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "size_in_bytes": 73
+    },
+    {
+      "_path": "share/git-core/templates/hooks/applypatch-msg.sample",
+      "path_type": "hardlink",
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "size_in_bytes": 478
+    },
+    {
+      "_path": "share/git-core/templates/hooks/commit-msg.sample",
+      "path_type": "hardlink",
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "size_in_bytes": 896
+    },
+    {
+      "_path": "share/git-core/templates/hooks/fsmonitor-watchman.sample",
+      "path_type": "hardlink",
+      "sha256": "7f9cacf1f7c8f791abfaa76171b951a55a9a2a11f1390b43cbc83995b4a91b33",
+      "size_in_bytes": 3327
+    },
+    {
+      "_path": "share/git-core/templates/hooks/post-update.sample",
+      "path_type": "hardlink",
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "size_in_bytes": 189
+    },
+    {
+      "_path": "share/git-core/templates/hooks/pre-applypatch.sample",
+      "path_type": "hardlink",
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "size_in_bytes": 424
+    },
+    {
+      "_path": "share/git-core/templates/hooks/pre-commit.sample",
+      "path_type": "hardlink",
+      "sha256": "d6d114e507a3295ff3a2e214611c2f5c0d13eaf0ed53f595ba02e4cc714fca18",
+      "size_in_bytes": 1638
+    },
+    {
+      "_path": "share/git-core/templates/hooks/pre-push.sample",
+      "path_type": "hardlink",
+      "sha256": "4b1119e1e13a212571976f4aee77847cdbd40978546d6273a557e238981a40d1",
+      "size_in_bytes": 1348
+    },
+    {
+      "_path": "share/git-core/templates/hooks/pre-rebase.sample",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "4517911d08bd3699664d82c1cd559cdd19ad75321c1ce0dbe21088588ebe8833",
+      "size_in_bytes": 4926
+    },
+    {
+      "_path": "share/git-core/templates/hooks/pre-receive.sample",
+      "path_type": "hardlink",
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "size_in_bytes": 544
+    },
+    {
+      "_path": "share/git-core/templates/hooks/prepare-commit-msg.sample",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "df495b84ec3fd357c3c18ccee74e9c0f7df09cfe827da1224833d66cd274b455",
+      "size_in_bytes": 1576
+    },
+    {
+      "_path": "share/git-core/templates/hooks/update.sample",
+      "path_type": "hardlink",
+      "sha256": "751c037320024ec2ee2757f3ffae0b10ad2c946367684e7059d4dc97eac7e431",
+      "size_in_bytes": 3610
+    },
+    {
+      "_path": "share/git-core/templates/info/exclude",
+      "path_type": "hardlink",
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "size_in_bytes": 240
+    },
+    {
+      "_path": "share/git-gui/lib/about.tcl",
+      "path_type": "hardlink",
+      "sha256": "0b40fa5da979cc3683c39650e29e8505d9139dc5a3813ca320333c90643db3f3",
+      "size_in_bytes": 1929
+    },
+    {
+      "_path": "share/git-gui/lib/blame.tcl",
+      "path_type": "hardlink",
+      "sha256": "1a1adac96d8b75cd58a4a91d8ad651afb84552ea74d361747559b89e397e8db5",
+      "size_in_bytes": 35350
+    },
+    {
+      "_path": "share/git-gui/lib/branch.tcl",
+      "path_type": "hardlink",
+      "sha256": "c6159c8f388caa1e61bdf87bc4f2e85e6c273e76a56efc7a8da1961e4bca9198",
+      "size_in_bytes": 839
+    },
+    {
+      "_path": "share/git-gui/lib/branch_checkout.tcl",
+      "path_type": "hardlink",
+      "sha256": "0753e4c6c291ec663848ae0657192770e3076a33e126ccbc619c45f4cbde0bdb",
+      "size_in_bytes": 2248
+    },
+    {
+      "_path": "share/git-gui/lib/branch_create.tcl",
+      "path_type": "hardlink",
+      "sha256": "b632268b4677a158814afbe09ec39658d3645e9a91529fe094149e595fee999f",
+      "size_in_bytes": 5432
+    },
+    {
+      "_path": "share/git-gui/lib/branch_delete.tcl",
+      "path_type": "hardlink",
+      "sha256": "80b003c45bee01d3b639fd543b1035022e6909c5ab69ff36829b267058514f1d",
+      "size_in_bytes": 3355
+    },
+    {
+      "_path": "share/git-gui/lib/branch_rename.tcl",
+      "path_type": "hardlink",
+      "sha256": "e08ccee3b4e5d7afb651c09d8b4e59ce7c68beae817d4ed3b821b1ea844595e1",
+      "size_in_bytes": 3211
+    },
+    {
+      "_path": "share/git-gui/lib/browser.tcl",
+      "path_type": "hardlink",
+      "sha256": "4e59a04df93085a0d019d2c70fba3535684fd4d1f0e374c99a284c1d7387717b",
+      "size_in_bytes": 12387
+    },
+    {
+      "_path": "share/git-gui/lib/checkout_op.tcl",
+      "path_type": "hardlink",
+      "sha256": "cbbbe6375b383c1af56d28762862b0181ea7bb55b82779eef17e9e135147e6a4",
+      "size_in_bytes": 14803
+    },
+    {
+      "_path": "share/git-gui/lib/choose_font.tcl",
+      "path_type": "hardlink",
+      "sha256": "6ca8843fa4dfe245065ec9156bdec29e9f6ac23b00f1063de422bec4e6e6bff6",
+      "size_in_bytes": 4203
+    },
+    {
+      "_path": "share/git-gui/lib/choose_repository.tcl",
+      "path_type": "hardlink",
+      "sha256": "da430cebd12a68712f49cea434b2fa556bc2f4d61659b4740aceec1303e815e9",
+      "size_in_bytes": 26214
+    },
+    {
+      "_path": "share/git-gui/lib/choose_rev.tcl",
+      "path_type": "hardlink",
+      "sha256": "dea67cdaa836c3d24689bad71c9db9926d5a48e5e7840c400b0c049730e99cf0",
+      "size_in_bytes": 15303
+    },
+    {
+      "_path": "share/git-gui/lib/class.tcl",
+      "path_type": "hardlink",
+      "sha256": "384112e8b4fde8c46bd3f5dc7918cf045f40daa8ebdfd98ee26f15a1ccbc87b2",
+      "size_in_bytes": 4552
+    },
+    {
+      "_path": "share/git-gui/lib/commit.tcl",
+      "path_type": "hardlink",
+      "sha256": "93938fd0e71e0d508d033785ae572b2572ed1fc70645202ac23731af05db2b03",
+      "size_in_bytes": 13076
+    },
+    {
+      "_path": "share/git-gui/lib/console.tcl",
+      "path_type": "hardlink",
+      "sha256": "1d6691a9df955fb5ceb38b6163e507a9674f708aa9076d9e709d99f4cf5270b1",
+      "size_in_bytes": 4798
+    },
+    {
+      "_path": "share/git-gui/lib/database.tcl",
+      "path_type": "hardlink",
+      "sha256": "896b5a38b02026adc86ae5d1ab0139d47e0c21808eba0a5468cc174152461729",
+      "size_in_bytes": 3072
+    },
+    {
+      "_path": "share/git-gui/lib/date.tcl",
+      "path_type": "hardlink",
+      "sha256": "5e020989e3e52d2939287be1c0707099266a93c99500c3d0b7217e41d79cdb28",
+      "size_in_bytes": 1057
+    },
+    {
+      "_path": "share/git-gui/lib/diff.tcl",
+      "path_type": "hardlink",
+      "sha256": "632cc0bb94da86279249e1086dc9c064d7c958e170ee4ae5fb9f4c920a440e3f",
+      "size_in_bytes": 21741
+    },
+    {
+      "_path": "share/git-gui/lib/encoding.tcl",
+      "path_type": "hardlink",
+      "sha256": "d98572168acb84d4b3a9721624cdb3924a2fc3ebd8fccef2716e032d77797ce0",
+      "size_in_bytes": 16762
+    },
+    {
+      "_path": "share/git-gui/lib/error.tcl",
+      "path_type": "hardlink",
+      "sha256": "48daab6c3869382e1d3e6c24a0323d586833a8e16041156dcf2fa33bd9362b0f",
+      "size_in_bytes": 2525
+    },
+    {
+      "_path": "share/git-gui/lib/git-gui.ico",
+      "path_type": "hardlink",
+      "sha256": "56b4034e739254648f5388d0d1feab5c0a9d91677341ccff727c97eb9e3eec0e",
+      "size_in_bytes": 3638
+    },
+    {
+      "_path": "share/git-gui/lib/index.tcl",
+      "path_type": "hardlink",
+      "sha256": "b4e5c2d62bc418d7af1dfff7a5f55cf683747a7d12b723ae2d038ba010f738b9",
+      "size_in_bytes": 10363
+    },
+    {
+      "_path": "share/git-gui/lib/line.tcl",
+      "path_type": "hardlink",
+      "sha256": "6c92d9c7a603e68480ae2170f870dc26d498684577be40f51bcd56acd8141a12",
+      "size_in_bytes": 1347
+    },
+    {
+      "_path": "share/git-gui/lib/logo.tcl",
+      "path_type": "hardlink",
+      "sha256": "ad77f676cc5ee8e13b9bcb639235cc6f332f7659e0b4cf15daec53b7c0201d4e",
+      "size_in_bytes": 2290
+    },
+    {
+      "_path": "share/git-gui/lib/merge.tcl",
+      "path_type": "hardlink",
+      "sha256": "cb5b6f4416e046eca821c6a26345e85616eec26bf88acacdde217c3c1699c983",
+      "size_in_bytes": 6417
+    },
+    {
+      "_path": "share/git-gui/lib/mergetool.tcl",
+      "path_type": "hardlink",
+      "sha256": "2824c3ed9fb38032fca732a42a43af9627d768ce30ae783c4895ce83cbf0cdd4",
+      "size_in_bytes": 10605
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/bg.msg",
+      "path_type": "hardlink",
+      "sha256": "c3818961b1b580126373547730834eda03a4ce9cf352d69913398f810ccd9936",
+      "size_in_bytes": 135792
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/de.msg",
+      "path_type": "hardlink",
+      "sha256": "1c0314168d628acfd43603757f5060b4665c5231e07abe38fbe54b86f65e7b56",
+      "size_in_bytes": 51294
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/el.msg",
+      "path_type": "hardlink",
+      "sha256": "816993eb19be75fbb7b9345079c47bc16f9ea8f3ae0b67ddea19597b6b6306be",
+      "size_in_bytes": 96387
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/fr.msg",
+      "path_type": "hardlink",
+      "sha256": "a82239a56edf25932544bc8c9685cb0e31f4f41d1ef067b0782b37d804fdb968",
+      "size_in_bytes": 50697
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/hu.msg",
+      "path_type": "hardlink",
+      "sha256": "d1f13e10ea7318b789a23dd2d1cece474aabc3feb108c08cae920fb30ec29ff4",
+      "size_in_bytes": 53761
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/it.msg",
+      "path_type": "hardlink",
+      "sha256": "836c68abc0663d609e74d4cac245407dc848d7a7537b6fec17bc41e3711a839a",
+      "size_in_bytes": 48197
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/ja.msg",
+      "path_type": "hardlink",
+      "sha256": "f6bf87e40e1105d07c894e3cad8d3a58a38b84058241a233b9cb23164114f704",
+      "size_in_bytes": 76806
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/nb.msg",
+      "path_type": "hardlink",
+      "sha256": "b6a0d63e73ff43cd3537e532ead2a922af6a370e397ccc91d51347f5321c6b1f",
+      "size_in_bytes": 38788
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/pt_br.msg",
+      "path_type": "hardlink",
+      "sha256": "720247085d7ca898f3d551da9205b9180cb28cb9fa930789ed277da84c6b6036",
+      "size_in_bytes": 50714
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/pt_pt.msg",
+      "path_type": "hardlink",
+      "sha256": "c4f726fbcef6cbc43d83ab2a6ab641fd446e9de0dad40df6c30b8bc800705e8d",
+      "size_in_bytes": 54308
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/ru.msg",
+      "path_type": "hardlink",
+      "sha256": "9309b76eb6a48148f05ef83ba8e7e7bb0fe2d709fb9f0b245d9d141065fae26a",
+      "size_in_bytes": 116998
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/sv.msg",
+      "path_type": "hardlink",
+      "sha256": "22a40c5608a1c921664200d47c50bdf714d675de5ec7e76718dc6c7eb57d91d8",
+      "size_in_bytes": 51731
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/vi.msg",
+      "path_type": "hardlink",
+      "sha256": "1203642c6ad009519b975cda8efc534a7466138ca274a261524c5bc53d685ba0",
+      "size_in_bytes": 66277
+    },
+    {
+      "_path": "share/git-gui/lib/msgs/zh_cn.msg",
+      "path_type": "hardlink",
+      "sha256": "f05ff77faaa0cfe85953fdfa3320b8cd291a3e327e38c04fca5e81e3bb323336",
+      "size_in_bytes": 40795
+    },
+    {
+      "_path": "share/git-gui/lib/option.tcl",
+      "path_type": "hardlink",
+      "sha256": "d82708b0052435e5165ca44da2933489f9590710bc8c2281cb72d6af1140864c",
+      "size_in_bytes": 10702
+    },
+    {
+      "_path": "share/git-gui/lib/remote.tcl",
+      "path_type": "hardlink",
+      "sha256": "36d482d2967bd40c4e51a4777e7d6f111964433de17360b01851edcfeb1567c5",
+      "size_in_bytes": 7311
+    },
+    {
+      "_path": "share/git-gui/lib/remote_add.tcl",
+      "path_type": "hardlink",
+      "sha256": "7ba9210402ce31ed65bb716863ef549d179ef8a0e546536aa6fafd8bebc363f1",
+      "size_in_bytes": 4591
+    },
+    {
+      "_path": "share/git-gui/lib/remote_branch_delete.tcl",
+      "path_type": "hardlink",
+      "sha256": "e22c547ddfc934064603c0b300d4ced9bd1d214ab8571f48bcd1662dc6b28dba",
+      "size_in_bytes": 8508
+    },
+    {
+      "_path": "share/git-gui/lib/search.tcl",
+      "path_type": "hardlink",
+      "sha256": "762afd6c3c7044dba66e34d914e2a321e72fd1daa68651112d15db8ac0fd9b0b",
+      "size_in_bytes": 6719
+    },
+    {
+      "_path": "share/git-gui/lib/shortcut.tcl",
+      "path_type": "hardlink",
+      "sha256": "dec52582a5f7523516f0acdf97c641519159dbf8b5bd7eb1ea6b31a63b9614e5",
+      "size_in_bytes": 3584
+    },
+    {
+      "_path": "share/git-gui/lib/spellcheck.tcl",
+      "path_type": "hardlink",
+      "sha256": "5835c951c1fa85d5927b0d74c71625f3be7335f5880ff13f778784b5a04cd493",
+      "size_in_bytes": 9628
+    },
+    {
+      "_path": "share/git-gui/lib/sshkey.tcl",
+      "path_type": "hardlink",
+      "sha256": "5bd117879d5f2fc261f9375afe64ea76561031c462439c85985a8a16e946faaa",
+      "size_in_bytes": 3465
+    },
+    {
+      "_path": "share/git-gui/lib/status_bar.tcl",
+      "path_type": "hardlink",
+      "sha256": "2b1ad32417e8ecac7148e70dc0ec30ea114973b2378637173622de375deb49f9",
+      "size_in_bytes": 2589
+    },
+    {
+      "_path": "share/git-gui/lib/tclIndex",
+      "path_type": "hardlink",
+      "sha256": "8af89e474e827f1dd7afd4f3418a0d03adb1a1ef66345bf840848d80b4b831d7",
+      "size_in_bytes": 14601
+    },
+    {
+      "_path": "share/git-gui/lib/themed.tcl",
+      "path_type": "hardlink",
+      "sha256": "52afedb9a57f9c43b3b0043702a4db59c7ad2cb48743fddee5e94ae5506ee7a7",
+      "size_in_bytes": 10073
+    },
+    {
+      "_path": "share/git-gui/lib/tools.tcl",
+      "path_type": "hardlink",
+      "sha256": "12cac5b41595f5064405582560ed38722062d12779dd9b4a8266c4c10323eec1",
+      "size_in_bytes": 3983
+    },
+    {
+      "_path": "share/git-gui/lib/tools_dlg.tcl",
+      "path_type": "hardlink",
+      "sha256": "44077d61ef48478f6649d079360fa18a962c941b7aeb261edcd3f88b677d0d0e",
+      "size_in_bytes": 10042
+    },
+    {
+      "_path": "share/git-gui/lib/transport.tcl",
+      "path_type": "hardlink",
+      "sha256": "fbf05cbc611feb41c12de430e9b4d331ff353f1d9fdbd1b2eb874eb17b9f74a1",
+      "size_in_bytes": 5844
+    },
+    {
+      "_path": "share/git-gui/lib/win32.tcl",
+      "path_type": "hardlink",
+      "sha256": "9f92b6f4284a3973c64f5be11322c613939bf3213e39a4dbfdb9b2f2d7c9bb8c",
+      "size_in_bytes": 596
+    },
+    {
+      "_path": "share/git-gui/lib/win32_shortcut.js",
+      "path_type": "hardlink",
+      "sha256": "05d41a2b7ca9d6db5913cc6bb8daedef3f36831f216c0d5fc36126898439c92c",
+      "size_in_bytes": 888
+    },
+    {
+      "_path": "share/gitk/lib/msgs/bg.msg",
+      "path_type": "hardlink",
+      "sha256": "76482cc2f08c9e4ea19cd68f25a7c0ef9c876af7b34e38eccfb4dbae508d3e0d",
+      "size_in_bytes": 59274
+    },
+    {
+      "_path": "share/gitk/lib/msgs/ca.msg",
+      "path_type": "hardlink",
+      "sha256": "c0195c836b4ed76fb053269dfca618ea01f1810cf669b963b62e8c4dddc00b86",
+      "size_in_bytes": 25900
+    },
+    {
+      "_path": "share/gitk/lib/msgs/de.msg",
+      "path_type": "hardlink",
+      "sha256": "2606ae32a629bfb93fd78b889668d4939285640411ccdf869adc27d39c77bd58",
+      "size_in_bytes": 25723
+    },
+    {
+      "_path": "share/gitk/lib/msgs/es.msg",
+      "path_type": "hardlink",
+      "sha256": "e0f04ec941c5c941f1ba6d6791f3b118336848bc5446674d136b914e170323b8",
+      "size_in_bytes": 14641
+    },
+    {
+      "_path": "share/gitk/lib/msgs/fr.msg",
+      "path_type": "hardlink",
+      "sha256": "9401922a2dbd192e73a57b5402073e5cfaa82497d9a5be3d87eb14596c5d8483",
+      "size_in_bytes": 26427
+    },
+    {
+      "_path": "share/gitk/lib/msgs/hu.msg",
+      "path_type": "hardlink",
+      "sha256": "858ecb8f424696fa86720158ebf452d7082f7282d53f14f10eeede7dc90deb21",
+      "size_in_bytes": 24172
+    },
+    {
+      "_path": "share/gitk/lib/msgs/it.msg",
+      "path_type": "hardlink",
+      "sha256": "0bae355490d8e00c93bfe439698e4ceb9442e39df5e0a6fe0d65ee8e16edf207",
+      "size_in_bytes": 21542
+    },
+    {
+      "_path": "share/gitk/lib/msgs/ja.msg",
+      "path_type": "hardlink",
+      "sha256": "b5bf235b75c2c641ead1af79bcce4b55a5f19f1ea16dc794e6afcdf451dffe61",
+      "size_in_bytes": 35310
+    },
+    {
+      "_path": "share/gitk/lib/msgs/pt_br.msg",
+      "path_type": "hardlink",
+      "sha256": "483c84cf0b4498f8e605c99ef0bb93279d662393cb11d6ad526f2c60c67e84b3",
+      "size_in_bytes": 22998
+    },
+    {
+      "_path": "share/gitk/lib/msgs/pt_pt.msg",
+      "path_type": "hardlink",
+      "sha256": "96c5b5c1d23651fbb454fe8323ddc9e9e2445726a22cc390579579fd142d209b",
+      "size_in_bytes": 26129
+    },
+    {
+      "_path": "share/gitk/lib/msgs/ru.msg",
+      "path_type": "hardlink",
+      "sha256": "474ff8d077125e2cf52d5e9250fffd9c4e531b763063020977d31429d6751b8c",
+      "size_in_bytes": 59393
+    },
+    {
+      "_path": "share/gitk/lib/msgs/sv.msg",
+      "path_type": "hardlink",
+      "sha256": "bb4771e036ed0bfa57dc46d09e71937a272a29c767272d570d5b5accb97dcaf9",
+      "size_in_bytes": 25130
+    },
+    {
+      "_path": "share/gitk/lib/msgs/vi.msg",
+      "path_type": "hardlink",
+      "sha256": "e88b3ff3ebc076cdb5dfd47bf10a160890d056c8921165e498389fa3d69d6287",
+      "size_in_bytes": 32262
+    },
+    {
+      "_path": "share/gitweb/gitweb.cgi",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "35f0032ec1c06ccc389898f966c57c477857117640fde32f84e5208103ea26ee",
+      "size_in_bytes": 252936
+    },
+    {
+      "_path": "share/gitweb/static/git-favicon.png",
+      "path_type": "hardlink",
+      "sha256": "1804b48a915671fb8566d9723d96e4550aa7b7e75c3ee3c564eee2653a9d24a3",
+      "size_in_bytes": 115
+    },
+    {
+      "_path": "share/gitweb/static/git-logo.png",
+      "path_type": "hardlink",
+      "sha256": "ecc07dc6faa45d6368fa2867483636e6b2579f1eeac1a9fb174bd9388d982714",
+      "size_in_bytes": 207
+    },
+    {
+      "_path": "share/gitweb/static/gitweb.css",
+      "path_type": "hardlink",
+      "sha256": "ddb2d81636dc03d3ad36ce5263f74e869899a3d6c58d6e4b996a6e938d51fb50",
+      "size_in_bytes": 10637
+    },
+    {
+      "_path": "share/gitweb/static/gitweb.js",
+      "path_type": "hardlink",
+      "sha256": "174295b69a1aca79c1574ff5d37de8ed337cd8b5cb12f5a51dcb5093b783383a",
+      "size_in_bytes": 48814
+    },
+    {
+      "_path": "share/locale/bg/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "bdad6d49aa8e71ca208aa81636db6d78ee9243871ed5fa3f8b1a713b87c57d9e",
+      "size_in_bytes": 751783
+    },
+    {
+      "_path": "share/locale/ca/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "4108129b83d4fddd9b8d9503ed66d82e067988c6d86e0652a3ece1e1afa4f581",
+      "size_in_bytes": 433368
+    },
+    {
+      "_path": "share/locale/de/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "eb92bde4ae6e47b482cc0643653b324253ea6297b3e372204b236ca921e5bb28",
+      "size_in_bytes": 558675
+    },
+    {
+      "_path": "share/locale/el/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "9b8242c64bc54d71e4b43105145bfba7af29495e933947b5532b93663aa8d217",
+      "size_in_bytes": 179913
+    },
+    {
+      "_path": "share/locale/es/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "e263d7cba1a267c553bf6215a57baf84e3e35fbaded9773400ffd6acfaeedd77",
+      "size_in_bytes": 535282
+    },
+    {
+      "_path": "share/locale/fr/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "fd4ae2ff97de29c0cd7233c714180cba20651857f0da300e7093571c9653c1fd",
+      "size_in_bytes": 557680
+    },
+    {
+      "_path": "share/locale/is/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "c0028503e568a60f1da478b0568703d81729e0568f26e1c33aa9a6a18d9a3275",
+      "size_in_bytes": 1940
+    },
+    {
+      "_path": "share/locale/it/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "c84a13291732ec8872a1067897da6ccda29afc336c95260172ce5bb5e9c69966",
+      "size_in_bytes": 555869
+    },
+    {
+      "_path": "share/locale/ko/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "f02a7b68f04817d1277e3c8969d449a377f3658cb4366d6e94517d814fac3067",
+      "size_in_bytes": 450710
+    },
+    {
+      "_path": "share/locale/pt_PT/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "1fc871ea5d52568be9c4b785b49c4d30fc56fefe27276bb54cf5b0ca3b50c510",
+      "size_in_bytes": 373119
+    },
+    {
+      "_path": "share/locale/ru/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "6b4bacac45232d6d1a9888f2f16333776a8fa4856c00c92d1f077d74d5750bd3",
+      "size_in_bytes": 550441
+    },
+    {
+      "_path": "share/locale/sv/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "2c595e3fa6838e680e427d503093489aef252bc529d63064bb82de6a7e7f2983",
+      "size_in_bytes": 527788
+    },
+    {
+      "_path": "share/locale/vi/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "0882ca67080dc4035745eec32564c3ba4236e8d7a951c30724019076ad6ae529",
+      "size_in_bytes": 602386
+    },
+    {
+      "_path": "share/locale/zh_CN/LC_MESSAGES/git.mo",
+      "path_type": "hardlink",
+      "sha256": "8b048561d07926b71d6797e41b6dedc3e8eece9c88f16c81e7de8ed192842132",
+      "size_in_bytes": 499581
+    },
+    {
+      "_path": "share/perl5/FromCPAN/Error.pm",
+      "path_type": "hardlink",
+      "sha256": "48ed520d9628e437b5686b4ea1b4810a06281d00e10706149c21851b27b4ddf1",
+      "size_in_bytes": 24871
+    },
+    {
+      "_path": "share/perl5/FromCPAN/Mail/Address.pm",
+      "path_type": "hardlink",
+      "sha256": "f65a3f10f2ae55ca2cb7908678c6f1eb9077b41ecbe65dbb67eec3f743ecdc1a",
+      "size_in_bytes": 6990
+    },
+    {
+      "_path": "share/perl5/Git.pm",
+      "path_type": "hardlink",
+      "sha256": "3e6fdb2d6d88a4c810b5e9722328fe4de300b611d40aa264a700ee73fd24530d",
+      "size_in_bytes": 46887
+    },
+    {
+      "_path": "share/perl5/Git/I18N.pm",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "d0d644a468dbdf1db7b1b03763e9230c261b27e68fc2740a40901e116104e488",
+      "size_in_bytes": 2505
+    },
+    {
+      "_path": "share/perl5/Git/IndexInfo.pm",
+      "path_type": "hardlink",
+      "sha256": "3b40401b0c7f0b63bed5e6f7e20a2264138d22fbc36a5b6a59ac97fa697c4345",
+      "size_in_bytes": 644
+    },
+    {
+      "_path": "share/perl5/Git/LoadCPAN.pm",
+      "path_type": "hardlink",
+      "sha256": "e49a2eb9ed2b833fc4d9fb561fc72c101bfd6dbf0fe823ebf20c0ba36e9512b5",
+      "size_in_bytes": 3382
+    },
+    {
+      "_path": "share/perl5/Git/LoadCPAN/Error.pm",
+      "path_type": "hardlink",
+      "sha256": "7bac18387ac0f8bd1aaa767472e995f67d5b98be2466553dead63e0c6a3904b9",
+      "size_in_bytes": 128
+    },
+    {
+      "_path": "share/perl5/Git/LoadCPAN/Mail/Address.pm",
+      "path_type": "hardlink",
+      "sha256": "9a6392aaa263efb2c3f5a3c1aaa95718b89ae11a1375247b0ff2cfb251154802",
+      "size_in_bytes": 144
+    },
+    {
+      "_path": "share/perl5/Git/Packet.pm",
+      "path_type": "hardlink",
+      "sha256": "dbb8885651ad8700eeeecd6389c785c5c88bec9ea278cb11c73cf530f1781d1d",
+      "size_in_bytes": 4129
+    },
+    {
+      "_path": "share/perl5/Git/SVN.pm",
+      "path_type": "hardlink",
+      "sha256": "92147eabfa1baec428a29c5e8e88c7467e66b8efb9a2a02c9344daedf7f8fb59",
+      "size_in_bytes": 71826
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Editor.pm",
+      "path_type": "hardlink",
+      "sha256": "fcd8bc78c56aba57da9f99e26ae3a8bc1796ef3d29adba728110d29db9cc795f",
+      "size_in_bytes": 16945
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Fetcher.pm",
+      "path_type": "hardlink",
+      "sha256": "e6f528f029d83e137b861ae7bd569ae6f275f24a4189aeebda31052f03dbe4f6",
+      "size_in_bytes": 18575
+    },
+    {
+      "_path": "share/perl5/Git/SVN/GlobSpec.pm",
+      "path_type": "hardlink",
+      "sha256": "bdf44e781ae1294d4b114f9082d7d769063e2dd9be87f5841e88bfe619bbf3bc",
+      "size_in_bytes": 1798
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Log.pm",
+      "path_type": "hardlink",
+      "sha256": "235f06ce8997c9557e491f6ce0eeeafda0655e82329812fa745fefe17910f3c2",
+      "size_in_bytes": 9564
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Memoize/YAML.pm",
+      "path_type": "hardlink",
+      "sha256": "f053d296d6f59816d012c36584163b22a85265fe2eff5891959e252774165323",
+      "size_in_bytes": 1748
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Migration.pm",
+      "path_type": "hardlink",
+      "sha256": "cf81ad2c75044bea208b0d4d9c0c2bb857e4f9bb2d6141c0c8fea3849ad5e8d1",
+      "size_in_bytes": 8145
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Prompt.pm",
+      "path_type": "hardlink",
+      "sha256": "78c346dde023f0f32eedffd01a63d89a718c5ffc0c15442542eb4753c2095f9b",
+      "size_in_bytes": 5319
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Ra.pm",
+      "path_type": "hardlink",
+      "sha256": "ad2842b714b4410e52e1f6fb3fa1b617187b6e536da84263bcb2be18e91b7d32",
+      "size_in_bytes": 19358
+    },
+    {
+      "_path": "share/perl5/Git/SVN/Utils.pm",
+      "path_type": "hardlink",
+      "sha256": "64d24726920d98796d4c7afa83a94def1c0945a9fdc1f278b1ddb0b8d8e059e1",
+      "size_in_bytes": 4586
+    }
+  ],
+  "paths_version": 1
+}

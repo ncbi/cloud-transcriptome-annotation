@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "he28a2e2_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "ncurses >=6.2,<6.3.0a0"
+  ],
+  "license": "GPL-3.0",
+  "name": "readline",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1594831927133,
+  "version": "8.0"
+}

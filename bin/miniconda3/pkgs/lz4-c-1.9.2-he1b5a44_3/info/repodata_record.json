@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "he1b5a44_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0"
+  ],
+  "features": "",
+  "fn": "lz4-c-1.9.2-he1b5a44_3.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "b2e54aad8640e7a877d2280d3ebfe85b",
+  "name": "lz4-c",
+  "platform": "linux",
+  "sha256": "0e0a7e89b217cd0b4e04c7e67d610681c5dbc714e84ee1ffb2049c28338c712d",
+  "size": 208059,
+  "subdir": "linux-64",
+  "timestamp": 1597865257187,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lz4-c-1.9.2-he1b5a44_3.tar.bz2",
+  "version": "1.9.2"
+}

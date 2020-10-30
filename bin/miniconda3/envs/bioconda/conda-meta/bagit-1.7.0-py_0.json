@@ -1,0 +1,109 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/bagit-1.7.0-py_0",
+  "features": "",
+  "files": [
+    "locale/en/LC_MESSAGES/bagit-python.mo",
+    "bin/bagit.py",
+    "lib/python3.7/site-packages/bagit-1.7.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/bagit-1.7.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/bagit-1.7.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/bagit-1.7.0-py2.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/bagit-1.7.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/bagit.py",
+    "lib/python3.7/site-packages/__pycache__/bagit.cpython-37.pyc"
+  ],
+  "fn": "bagit-1.7.0-py_0.tar.bz2",
+  "license": "Public-Domain",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/bagit-1.7.0-py_0",
+    "type": 1
+  },
+  "md5": "31d83fc6c652f827068d077c56fa1858",
+  "name": "bagit",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/bagit-1.7.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "locale/en/LC_MESSAGES/bagit-python.mo",
+        "path_type": "hardlink",
+        "sha256": "b0b808b1fd90d5ee9be334ce1e07da0b9ce564b1a9e264df6116fc3e451ca369",
+        "sha256_in_prefix": "b0b808b1fd90d5ee9be334ce1e07da0b9ce564b1a9e264df6116fc3e451ca369",
+        "size_in_bytes": 2849
+      },
+      {
+        "_path": "python-scripts/bagit.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "3374a2833478dc36d558da074339fc6b36c34c47a23f8351a055b6c3a3c36009",
+        "sha256_in_prefix": "4a33a37fdbfe7c431cb853378c24f05d4727ac3fc8ae92a8e4fb96137e71cce1",
+        "size_in_bytes": 54780
+      },
+      {
+        "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "3962f62057b130d21ce86f2c9509eed338978f11e77f7be534017b0b4a119239",
+        "sha256_in_prefix": "3962f62057b130d21ce86f2c9509eed338978f11e77f7be534017b0b4a119239",
+        "size_in_bytes": 10288
+      },
+      {
+        "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d086491bf63555e0a1ab66b65351dbf92a346623cbfe852e98e89847f533d19c",
+        "sha256_in_prefix": "d086491bf63555e0a1ab66b65351dbf92a346623cbfe852e98e89847f533d19c",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "1d2c631b9cf1b040b29b018eed1631831f1bdbbe8cd5d4c6c0cea9a2a6b324cf",
+        "sha256_in_prefix": "1d2c631b9cf1b040b29b018eed1631831f1bdbbe8cd5d4c6c0cea9a2a6b324cf",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7f6f3c8a9a5eec4452cc44ec11fb736b5757abad59e331525c381a4c5e9d8e91",
+        "sha256_in_prefix": "7f6f3c8a9a5eec4452cc44ec11fb736b5757abad59e331525c381a4c5e9d8e91",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/bagit.py",
+        "path_type": "hardlink",
+        "sha256": "32fa0550c04feec4b8023213e6147d92d17b6ca7c7aaf41d6eca837d72a7ff34",
+        "sha256_in_prefix": "32fa0550c04feec4b8023213e6147d92d17b6ca7c7aaf41d6eca837d72a7ff34",
+        "size_in_bytes": 54756
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/bagit.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "37b26f52490efd0debf3c4285fd016631dcd6683b04d7a6ef8780deb7449d25f",
+  "size": 23179,
+  "subdir": "noarch",
+  "timestamp": 1530235138435,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bagit-1.7.0-py_0.tar.bz2",
+  "version": "1.7.0"
+}

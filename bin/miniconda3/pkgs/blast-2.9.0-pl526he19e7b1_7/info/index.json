@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "pl526he19e7b1_7",
+  "build_number": 7,
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "curl >=7.71.1,<8.0a0",
+    "entrez-direct",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "pcre >=8.44,<9.0a0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-archive-tar",
+    "perl-json",
+    "perl-list-moreutils",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "Public Domain",
+  "name": "blast",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1594422833741,
+  "version": "2.9.0"
+}

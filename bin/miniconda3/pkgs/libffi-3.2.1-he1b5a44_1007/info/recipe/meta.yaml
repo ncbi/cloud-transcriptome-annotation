@@ -1,0 +1,75 @@
+# This file created by conda-build 3.19.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Mar 18 19:19:36 2020
+# ------------------------------------------------
+
+package:
+    name: libffi
+    version: 3.2.1
+source:
+    patches:
+        - configure_includedir_option.patch
+    sha256: 96d08dee6f262beea1a18ac9a3801f64018dc4521895e9198d029d6850febe23
+    url: https://github.com/libffi/libffi/archive/v3.2.1.tar.gz
+build:
+    number: '1007'
+    run_exports:
+        - libffi >=3.2.1,<4.0a0
+    string: he1b5a44_1007
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - autoconf 2.69 pl526h14c3975_9
+        - automake 1.16.1 pl526_1003
+        - binutils_impl_linux-64 2.34 h53a641e_0
+        - binutils_linux-64 2.34 hc952b39_18
+        - gcc_impl_linux-64 7.3.0 hd420e75_5
+        - gcc_linux-64 7.3.0 h553295d_18
+        - gxx_impl_linux-64 7.3.0 hdf63c60_5
+        - gxx_linux-64 7.3.0 h553295d_18
+        - ld_impl_linux-64 2.34 h53a641e_0
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - libtool 2.4.6 h14c3975_1002
+        - m4 1.4.18 h14c3975_1001
+        - make 4.3 h516909a_0
+        - patch 2.7.6 h14c3975_1001
+        - perl 5.26.2 h516909a_1006
+        - texinfo 6.7 pl526h46ee950_0
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+test:
+    commands:
+        - test -e $PREFIX/lib/libffi${SHLIB_EXT}
+        - test -e $PREFIX/lib/libffi.a
+        - test -e $PREFIX/include/ffi.h
+        - test -e $PREFIX/include/ffitarget.h
+about:
+    description: 'The libffi library provides a portable, high level programming interface
+
+        to various calling conventions. This allows a programmer to call any
+
+        function specified by a call interface description at run-time.
+
+        '
+    dev_url: https://github.com/libffi/libffi
+    doc_url: https://sourceware.org/libffi/
+    home: https://sourceware.org/libffi/
+    license: Custom
+    license_file: LICENSE
+    summary: A Portable Foreign Function Interface Library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - scopatz
+        - stefan-balke

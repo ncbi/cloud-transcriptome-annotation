@@ -1,0 +1,35 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Wed Aug 15 21:01:52 2018
+# ------------------------------------------------
+
+package:
+    name: perl-encode-locale
+    version: '1.05'
+source:
+    sha256: 176fa02771f542a4efb1dbc2a4c928e8f4391bf4078473bd6040d8f11adb0ec1
+    url: https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz
+build:
+    number: '6'
+    string: pl526_6
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-encode 2.88 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_1
+        - perl-parent 0.236 pl526_1
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-encode
+test:
+    imports:
+        - Encode::Locale
+about:
+    home: http://metacpan.org/pod/Encode::Locale
+    license: perl_5
+    summary: Determine the locale encoding
+extra:
+    copy_test_source_files: true
+    final: true

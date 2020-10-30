@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37hac76be4_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libsodium >=1.0.18,<1.0.19.0a0",
+    "libstdcxx-ng >=7.5.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "zeromq >=4.3.2,<4.4.0a0"
+  ],
+  "features": "",
+  "fn": "pyzmq-19.0.2-py37hac76be4_2.tar.bz2",
+  "license": "BSD-3-clause",
+  "md5": "eaa952aff4f3b98c4e4dc5a7c2fd5226",
+  "name": "pyzmq",
+  "platform": "linux",
+  "sha256": "87aeb2434aeba22f75aaf62bfc71d9175b1a32a3c72c94cec075b041914fa0c3",
+  "size": 482382,
+  "subdir": "linux-64",
+  "timestamp": 1602428743020,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-19.0.2-py37hac76be4_2.tar.bz2",
+  "version": "19.0.2"
+}

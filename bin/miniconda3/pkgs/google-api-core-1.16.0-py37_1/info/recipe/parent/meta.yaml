@@ -1,0 +1,326 @@
+{% set name = "google-api-core" %}
+{% set version = "1.16.0" %}
+{% set sha256 = "92e962a087f1c4b8d1c5c88ade1c1dfd550047dcffb320c57ef6a534a20403e2" %}
+
+package:
+  name: {{ name|lower }}-split
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 1
+  skip: True  # [win and vc<14]
+
+requirements:
+  host:
+    - python
+    - pip >=18.1
+    - setuptools >=34.0.0
+
+outputs:
+  - name: {{ name }}
+    build:
+      script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --verbose"
+      skip: True  # [win and vc<14]
+    requirements:
+      host:
+        - python
+        - pip >=18.1
+        - setuptools >=34.0.0
+      run:
+        - python
+        - futures >=3.2.0  # [py27]
+        - google-auth >=0.4.0,<2.0.0dev
+        - googleapis-common-protos >=1.6.0,<2.0dev
+        - protobuf >=3.4.0
+        - pytz
+        - requests >=2.18.0,<3.0.0dev
+        - setuptools >=34.0.0
+        - six >=1.10.0
+    test:
+      imports:
+        - concurrent.futures
+        - google.auth
+        - google.auth.credentials
+        - google.auth.transport.requests
+        - google.longrunning
+        - google.longrunning.operations_pb2
+        - google.protobuf
+        - google.rpc
+        - platform
+        - pytz
+        - requests
+        - setuptools
+        - six
+        - six.moves
+        - six.moves.urllib.parse
+        - google.api_core
+        - google.api_core.exceptions
+        - google.api_core.future
+        - google.api_core.future.base
+        - google.api_core.future.polling
+        - google.api_core.general_helpers
+        - google.api_core.page_iterator
+        - google.api_core.protobuf_helpers
+        - google.api_core.retry
+        - google.api_core.timeout
+
+  - name: {{ name }}-grpc
+    build:
+      skip: True  # [win and vc<14]
+    requirements:
+      host:
+        - python
+        - grpcio >=1.8.2
+      run:
+        - {{ pin_subpackage(name, min_pin='x.x', max_pin='x.x') }}
+        - grpcio >=1.8.2
+    test:
+      imports:
+        - concurrent.futures
+        - google.api_core
+        - google.api_core.exceptions
+        - google.api_core.future
+        - google.api_core.future.base
+        - google.api_core.future.polling
+        - google.api_core.gapic_v1
+        - google.api_core.gapic_v1.client_info
+        - google.api_core.gapic_v1.config
+        - google.api_core.gapic_v1.method
+        - google.api_core.gapic_v1.routing_header
+        - google.api_core.general_helpers
+        - google.api_core.grpc_helpers
+        - google.api_core.operations_v1
+        - google.api_core.operations_v1.operations_client
+        - google.api_core.page_iterator
+        - google.api_core.protobuf_helpers
+        - google.api_core.retry
+        - google.api_core.timeout
+        - google.auth
+        - google.auth.credentials
+        - google.auth.transport.grpc
+        - google.auth.transport.requests
+        - google.longrunning
+        - google.longrunning.operations_pb2
+        - google.protobuf
+        - google.rpc
+        - grpc
+        - platform
+        - pytz
+        - six
+        - six.moves
+        - six.moves.urllib.parse
+    about:
+      home: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+      license: Apache 2.0
+      license_family: APACHE
+      summary: 'Core Library for Google Client Libraries with grpc'
+      description: |
+        Core Library for Google Client Libraries with grpc
+        -------------------------
+
+        {{ name }}-grpc installs {{ name }} and the grpc extra requirements.
+
+        This library is not meant to stand-alone. Instead it defines
+        common helpers used by all Google API clients. For more information, see the
+        [documentation](https://googleapis.dev/python/google-api-core/latest/index.html).
+
+        Supported Python Versions
+        -------------------------
+        Python >= 3.5
+
+        Deprecated Python Versions
+        --------------------------
+        Python == 2.7
+        - Python 2.7 support will be removed on January 1, 2020.
+        - protobuf does not support Visual C++ 2008, windows py27 package not available
+
+      doc_url: https://googleapis.dev/python/google-api-core/latest/index.html
+      dev_url: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+
+  - name: {{ name }}-grpcio-gcp
+    build:
+      skip: True  # [win and vc<14]
+    requirements:
+      host:
+        - python
+        - grpcio-gcp >=0.2.2
+      run:
+        - {{ pin_subpackage(name, min_pin='x.x', max_pin='x.x') }}
+        - grpcio-gcp
+    test:
+      imports:
+        - concurrent.futures
+        - google.api_core
+        - google.api_core.exceptions
+        - google.api_core.future
+        - google.api_core.future.base
+        - google.api_core.future.polling
+        - google.api_core.gapic_v1
+        - google.api_core.gapic_v1.client_info
+        - google.api_core.gapic_v1.config
+        - google.api_core.gapic_v1.method
+        - google.api_core.gapic_v1.routing_header
+        - google.api_core.general_helpers
+        - google.api_core.grpc_helpers
+        - google.api_core.operations_v1
+        - google.api_core.operations_v1.operations_client
+        - google.api_core.page_iterator
+        - google.api_core.protobuf_helpers
+        - google.api_core.retry
+        - google.api_core.timeout
+        - google.auth
+        - google.auth.credentials
+        - google.auth.transport.grpc
+        - google.auth.transport.requests
+        - google.longrunning
+        - google.longrunning.operations_pb2
+        - google.protobuf
+        - google.rpc
+        - grpc
+        - grpc_gcp
+        - platform
+        - pytz
+        - six
+        - six.moves
+        - six.moves.urllib.parse
+    about:
+      home: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+      license: Apache 2.0
+      license_family: APACHE
+      summary: 'Core Library for Google Client Libraries with grpcio-gcp'
+      description: |
+        Core Library for Google Client Libraries with grpcio-gcp
+        -------------------------
+
+        {{ name }}-grpcio-gcp installs {{ name }} and the grpcio-gcp extra requirements.
+        This package includes the grpc extra requirements.
+
+        This library is not meant to stand-alone. Instead it defines
+        common helpers used by all Google API clients. For more information, see the
+        [documentation](https://googleapis.dev/python/google-api-core/latest/index.html).
+
+        Supported Python Versions
+        -------------------------
+        Python >= 3.5
+
+        Deprecated Python Versions
+        --------------------------
+        Python == 2.7
+        - Python 2.7 support will be removed on January 1, 2020.
+        - protobuf does not support Visual C++ 2008, windows py27 package not available
+
+      doc_url: https://googleapis.dev/python/google-api-core/latest/index.html
+      dev_url: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+
+  - name: {{ name }}-grpcgcp
+    build:
+      skip: True  # [win and vc<14]
+    requirements:
+      host:
+        - python
+      run:
+        - {{ pin_subpackage(name + '-grpcio-gcp', min_pin='x.x', max_pin='x.x') }}
+    test:
+      imports:
+        - concurrent.futures
+        - google.api_core
+        - google.api_core.exceptions
+        - google.api_core.future
+        - google.api_core.future.base
+        - google.api_core.future.polling
+        - google.api_core.gapic_v1
+        - google.api_core.gapic_v1.client_info
+        - google.api_core.gapic_v1.config
+        - google.api_core.gapic_v1.method
+        - google.api_core.gapic_v1.routing_header
+        - google.api_core.general_helpers
+        - google.api_core.grpc_helpers
+        - google.api_core.operations_v1
+        - google.api_core.operations_v1.operations_client
+        - google.api_core.page_iterator
+        - google.api_core.protobuf_helpers
+        - google.api_core.retry
+        - google.api_core.timeout
+        - google.auth
+        - google.auth.credentials
+        - google.auth.transport.grpc
+        - google.auth.transport.requests
+        - google.longrunning
+        - google.longrunning.operations_pb2
+        - google.protobuf
+        - google.rpc
+        - grpc
+        - grpc_gcp
+        - platform
+        - pytz
+        - six
+        - six.moves
+        - six.moves.urllib.parse
+    about:
+      home: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+      license: Apache 2.0
+      license_family: APACHE
+      summary: 'Core Library for Google Client Libraries with grpcio-gcp'
+      description: |
+        Core Library for Google Client Libraries with grpcgcp
+        -------------------------
+
+        {{ name }}-grpcgcp is an alias for {{ name }}-grpcio-gcp which installs {{ name }}
+        and the grpcio-gcp extra requirements. This package includes the grpc extra requirements.
+
+        This library is not meant to stand-alone. Instead it defines
+        common helpers used by all Google API clients. For more information, see the
+        [documentation](https://googleapis.dev/python/google-api-core/latest/index.html).
+
+        Supported Python Versions
+        -------------------------
+        Python >= 3.5
+
+        Deprecated Python Versions
+        --------------------------
+        Python == 2.7
+        - Python 2.7 support will be removed on January 1, 2020.
+        - protobuf does not support Visual C++ 2008, windows py27 package not available
+
+      doc_url: https://googleapis.dev/python/google-api-core/latest/index.html
+      dev_url: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+
+about:
+  home: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+  license: Apache 2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: 'Core Library for Google Client Libraries'
+  description: |
+    Core Library for Google Client Libraries
+    -------------------------
+
+    This package does not include the grpc, grpcio-gcp or grpcgcp extra requirements.
+
+    This library is not meant to stand-alone. Instead it defines
+    common helpers used by all Google API clients. For more information, see the
+    [documentation](https://googleapis.dev/python/google-api-core/latest/index.html).
+
+    Supported Python Versions
+    -------------------------
+    Python >= 3.5
+
+    Deprecated Python Versions
+    --------------------------
+    Python == 2.7
+    - Python 2.7 support will be removed on January 1, 2020.
+    - protobuf does not support Visual C++ 2008, windows py27 package not available
+
+  doc_url: https://googleapis.dev/python/google-api-core/latest/index.html
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+
+extra:
+  recipe-maintainers:
+    - BrentDorsey
+    - leahecole
+    - parthea
+    - tswast

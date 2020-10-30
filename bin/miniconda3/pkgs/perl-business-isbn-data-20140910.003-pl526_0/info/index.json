@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_0",
+  "build_number": 0,
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-carp"
+  ],
+  "license": "perl_5",
+  "name": "perl-business-isbn-data",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1535080313468,
+  "version": "20140910.003"
+}

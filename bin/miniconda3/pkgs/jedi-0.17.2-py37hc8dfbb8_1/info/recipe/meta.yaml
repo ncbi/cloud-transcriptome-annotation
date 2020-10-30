@@ -1,0 +1,80 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Oct 11 05:46:11 2020
+# ------------------------------------------------
+
+package:
+    name: jedi
+    version: 0.17.2
+source:
+    sha256: 86ed7d9b750603e4ba582ea8edc678657fb4007894a12bcf6f4bb97892f31d20
+    url: https://pypi.io/packages/source/j/jedi/jedi-0.17.2.tar.gz
+build:
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/jedi_1602395235501/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps -vv
+    string: py37hc8dfbb8_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37he5f6b98_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.3 py_0
+        - python 3.7.8 h6f2ec95_1_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py37he5f6b98_2
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - parso >=0.7.0,<0.8.0
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    imports:
+        - jedi
+        - jedi.api
+        - jedi.common
+        - jedi.inference
+        - jedi.inference.compiled
+        - jedi.inference.compiled.subprocess
+        - jedi.inference.gradual
+        - jedi.inference.value
+        - jedi.plugins
+about:
+    description: 'Jedi is a static analysis tool for Python that can be used in IDEs/editors.
+
+        Its historic focus is autocompletion, but does static analysis for now as
+
+        well. Jedi is fast and is very well tested. It understands Python on a
+
+        deeper level than all other static analysis frameworks for Python.
+
+        '
+    dev_url: https://github.com/davidhalter/jedi/
+    doc_source_url: https://github.com/davidhalter/jedi/blob/master/docs/index.rst
+    doc_url: http://jedi.readthedocs.io/en/latest/
+    home: https://github.com/davidhalter/jedi/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: An autocompletion tool for Python that can be used for text editors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - goanpeca
+        - nehaljwani
+        - ocefpaf

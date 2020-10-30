@@ -1,0 +1,48 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Wed Mar 13 22:22:16 2019
+# ------------------------------------------------
+
+package:
+    name: perl-xml-sax-expat
+    version: '0.51'
+source:
+    sha256: 4c016213d0ce7db2c494e30086b59917b302db8c292dcd21f39deebd9780c83f
+    url: https://cpan.metacpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz
+build:
+    number: '3'
+    string: pl526_3
+requirements:
+    host:
+        - expat 2.2.5 hf484d3e_1002
+        - libgcc-ng 7.3.0 hdf63c60_0
+        - libstdcxx-ng 7.3.0 hdf63c60_0
+        - perl 5.26.2 h14c3975_1002
+        - perl-app-cpanminus 1.7044 pl526_1
+        - perl-carp 1.38 pl526_2
+        - perl-constant 1.33 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_3
+        - perl-file-path 2.15 pl526_0
+        - perl-file-temp 0.2304 pl526_2
+        - perl-parent 0.236 pl526_1
+        - perl-xml-namespacesupport 1.12 pl526_0
+        - perl-xml-parser 2.44_01 pl526h3a4f0e9_1
+        - perl-xml-sax 1.00 pl526_0
+        - perl-xml-sax-base 1.09 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-xml-namespacesupport
+        - perl-xml-parser
+        - perl-xml-sax
+        - perl-xml-sax-base
+test:
+    imports:
+        - XML::SAX::Expat
+about:
+    home: http://metacpan.org/pod/XML-SAX-Expat
+    license: perl_5
+    summary: SAX Driver for Expat
+extra:
+    copy_test_source_files: true
+    final: true

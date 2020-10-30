@@ -1,0 +1,22 @@
+=head2 Sat Jul  7 00:12:44 2018: C<Module> L<IO::HTML|IO::HTML>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.001>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

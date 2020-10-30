@@ -1,0 +1,36 @@
+{% set version = "9.53.3" %}
+
+package:
+  name: ghostscript
+  version: {{ version }}
+
+source:
+  url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs{{ version | replace(".", "") }}/ghostscript-{{ version }}.tar.gz
+  sha256: 6eaf422f26a81854a230b80fd18aaef7e8d94d661485bd2e97e695b9dce7bf7f
+  patches:
+    - dynlink_runtime.patch
+
+build:
+  number: 1
+  skip: True  # [win and vc<14]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+
+test:
+  commands:
+    - gs --version
+
+about:
+  home: http://ghostscript.com/
+  license: AGPL-3.0-only
+  license_file: LICENSE
+  summary: An interpreter for the PostScript language and for PDF
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - leouieda

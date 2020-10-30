@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "features": "",
+  "fn": "perl-base-2.23-pl526_1.tar.bz2",
+  "license": "unknown",
+  "md5": "03db12873cdeb00d4e8d02bcbf583a04",
+  "name": "perl-base",
+  "platform": "linux",
+  "sha256": "357499f4a6c3713f8db3e046b7973db97c824dae9ce4c1af33ee4146ec1e6a94",
+  "size": 10033,
+  "subdir": "linux-64",
+  "timestamp": 1531087355870,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-base-2.23-pl526_1.tar.bz2",
+  "version": "2.23"
+}

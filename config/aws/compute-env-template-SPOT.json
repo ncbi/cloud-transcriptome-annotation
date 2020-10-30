@@ -1,0 +1,20 @@
+{
+  "computeEnvironmentName": "",
+  "type": "MANAGED",
+  "state": "ENABLED",
+  "computeResources": {
+    "type": "SPOT",
+    "minvCpus": 0,
+    "maxvCpus": 128,
+    "desiredvCpus": 0,
+    "instanceTypes": [],
+    "imageId": "ami-0dac0383cac1dc96e",
+    "subnets": [],
+    "securityGroupIds": [],
+    "ec2KeyPair": "",
+    "instanceRole": "ecsInstanceRole",
+    "spotIamFleetRole": "",
+    "tags": {}
+  },
+  "serviceRole": ""
+}

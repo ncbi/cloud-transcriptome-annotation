@@ -1,0 +1,71 @@
+{% set version = "2.3" %}
+
+package:
+  name: networkx
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/networkx/networkx-{{ version }}.zip
+  sha256: 8311ddef63cf5c5c5e7c1d0212dd141d9a1fe3f474915281b73597ed5f1d4e3d
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+
+  run:
+    - python >=3.5
+    - setuptools
+    - decorator >=4.3.0
+
+test:
+  imports:
+    - networkx
+    - networkx.algorithms
+    - networkx.algorithms.approximation
+    - networkx.algorithms.assortativity
+    - networkx.algorithms.bipartite
+    - networkx.algorithms.centrality
+    - networkx.algorithms.chordal
+    - networkx.algorithms.coloring
+    - networkx.algorithms.community
+    - networkx.algorithms.components
+    - networkx.algorithms.connectivity
+    - networkx.algorithms.flow
+    - networkx.algorithms.isomorphism
+    - networkx.algorithms.link_analysis
+    - networkx.algorithms.node_classification
+    - networkx.algorithms.operators
+    - networkx.algorithms.shortest_paths
+    - networkx.algorithms.traversal
+    - networkx.algorithms.tree
+    - networkx.classes
+    - networkx.drawing
+    - networkx.generators
+    - networkx.linalg
+    - networkx.readwrite
+    - networkx.readwrite.json_graph
+    - networkx.utils
+
+about:
+  home: https://networkx.github.io/
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  license_family: BSD
+  summary: Python package for creating and manipulating complex networks
+  description: |
+    NetworkX is a Python language software package for the creation,
+    manipulation, and study of the structure, dynamics, and functions of complex
+    networks.
+  doc_url: http://networkx.github.io/documentation.html
+  dev_url: https://github.com/networkx/networkx
+
+extra:
+  recipe-maintainers:
+    - synapticarbors
+    - ocefpaf

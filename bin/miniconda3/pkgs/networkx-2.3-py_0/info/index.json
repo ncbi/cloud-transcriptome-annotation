@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "decorator >=4.3.0",
+    "python >=3.5",
+    "setuptools"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "networkx",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1555071805064,
+  "version": "2.3"
+}

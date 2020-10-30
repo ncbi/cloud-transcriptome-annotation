@@ -1,0 +1,25 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyparsing >=2.0.2",
+    "python",
+    "six"
+  ],
+  "features": "",
+  "fn": "packaging-20.4-pyh9f0ad1d_0.tar.bz2",
+  "license": "Apache 2.0 or BSD 2-Clause",
+  "md5": "6d160f7346ac815500b5475d9a0f88a9",
+  "name": "packaging",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "e4920707c0ba18ffbcf19cff65e7dcc9c458a6bcbb9c408c67c53ab5db50cdc2",
+  "size": 33024,
+  "subdir": "noarch",
+  "timestamp": 1589925295109,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/packaging-20.4-pyh9f0ad1d_0.tar.bz2",
+  "version": "20.4"
+}

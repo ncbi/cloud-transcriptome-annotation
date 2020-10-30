@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-exporter-tiny",
+    "perl-list-moreutils-xs"
+  ],
+  "features": "",
+  "fn": "perl-list-moreutils-0.428-pl526_1.tar.bz2",
+  "license": "apache_2_0",
+  "md5": "699e3399479d2b1aa1f675b476406e0d",
+  "name": "perl-list-moreutils",
+  "platform": "linux",
+  "sha256": "d5aed70001220d91a32df7c89ea255cf18c1f822b7541671315b753ccd408f98",
+  "size": 28710,
+  "subdir": "linux-64",
+  "timestamp": 1531687589822,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-list-moreutils-0.428-pl526_1.tar.bz2",
+  "version": "0.428"
+}

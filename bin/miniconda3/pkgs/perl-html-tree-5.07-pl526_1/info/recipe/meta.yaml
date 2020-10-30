@@ -1,0 +1,76 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Wed Mar 13 22:22:16 2019
+# ------------------------------------------------
+
+package:
+    name: perl-html-tree
+    version: '5.07'
+source:
+    sha256: f0374db84731c204b86c1d5b90975fef0d30a86bd9def919343e554e31a9dbbf
+    url: https://cpan.metacpan.org/authors/id/K/KE/KENTNL/HTML-Tree-5.07.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    host:
+        - libgcc-ng 7.3.0 hdf63c60_0
+        - libstdcxx-ng 7.3.0 hdf63c60_0
+        - perl 5.26.2 h14c3975_1002
+        - perl-app-cpanminus 1.7044 pl526_1
+        - perl-base 2.23 pl526_1
+        - perl-carp 1.38 pl526_2
+        - perl-constant 1.33 pl526_1
+        - perl-cpan-meta 2.150010 pl526_0
+        - perl-cpan-meta-requirements 2.140 pl526_0
+        - perl-cpan-meta-yaml 0.018 pl526_0
+        - perl-data-dumper 2.173 pl526_0
+        - perl-encode 2.88 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-cbuilder 0.280230 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_3
+        - perl-extutils-manifest 1.71 pl526_0
+        - perl-extutils-parsexs 3.35 pl526_0
+        - perl-file-path 2.15 pl526_0
+        - perl-file-temp 0.2304 pl526_2
+        - perl-getopt-long 2.50 pl526_1
+        - perl-html-parser 3.72 pl526h2d50403_4
+        - perl-html-tagset 3.20 pl526_3
+        - perl-ipc-cmd 1.02 pl526_0
+        - perl-json-pp 4.00 pl526_0
+        - perl-locale-maketext-simple 0.21 pl526_1
+        - perl-module-build 0.4224 pl526_3
+        - perl-module-corelist 5.20181218 pl526_0
+        - perl-module-load 0.32 pl526_1
+        - perl-module-load-conditional 0.68 pl526_2
+        - perl-module-metadata 1.000033 pl526_0
+        - perl-params-check 0.38 pl526_1
+        - perl-parent 0.236 pl526_1
+        - perl-perl-ostype 1.010 pl526_1
+        - perl-scalar-list-utils 1.45 pl526h470a237_3
+        - perl-test-fatal 0.014 pl526_3
+        - perl-text-abbrev 1.02 pl526_0
+        - perl-text-parsewords 3.30 pl526_0
+        - perl-try-tiny 0.30 pl526_1
+        - perl-version 0.9924 pl526_0
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-carp
+        - perl-exporter
+        - perl-html-parser
+        - perl-html-tagset
+test:
+    imports:
+        - HTML::AsSubs
+        - HTML::Element
+        - HTML::Parse
+        - HTML::Tree
+        - HTML::TreeBuilder
+about:
+    home: http://metacpan.org/pod/HTML::Tree
+    license: perl_5
+    summary: Work with HTML in a DOM-like tree structure
+extra:
+    copy_test_source_files: true
+    final: true

@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3",
+    "setuptools",
+    "wheel"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pip",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1599572385989,
+  "version": "20.2.3"
+}

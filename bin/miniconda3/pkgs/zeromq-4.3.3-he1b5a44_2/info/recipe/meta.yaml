@@ -1,0 +1,67 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Oct  5 19:20:37 2020
+# ------------------------------------------------
+
+package:
+    name: zeromq
+    version: 4.3.3
+source:
+    fn: zeromq-4.3.3.tar.gz
+    patches:
+        - 001-windows-install.patch
+    sha256: 9d9285db37ae942ed0780c016da87060497877af45094ff9e1a1ca736e3875a2
+    url: https://github.com/zeromq/libzmq/releases/download/v4.3.3/zeromq-4.3.3.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - zeromq >=4.3.3,<4.4.0a0
+    string: he1b5a44_2
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - autoconf 2.69 pl526h14c3975_9
+        - automake 1.16.2 pl526_1
+        - binutils_impl_linux-64 2.35 h18a2f87_9
+        - binutils_linux-64 2.35 hc3fd857_29
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 he2a3fca_29
+        - gxx_impl_linux-64 7.5.0 h64c220c_13
+        - gxx_linux-64 7.5.0 h547f3ba_29
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - libtool 2.4.6 h516909a_1005
+        - m4 1.4.18 h516909a_1001
+        - make 4.3 h516909a_0
+        - perl 5.26.2 h516909a_1006
+        - pkg-config 0.29.2 h516909a_1006
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libsodium 1.0.18 h516909a_1
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+    run:
+        - libgcc-ng >=7.5.0
+        - libsodium >=1.0.18,<1.0.19.0a0
+        - libsodium >=1.0.18,<1.0.19.0a0
+        - libstdcxx-ng >=7.5.0
+about:
+    home: http://zeromq.org
+    license: LGPL-3.0-or-later
+    license_file: COPYING.LESSER
+    summary: A high-performance asynchronous messaging library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohanMabille
+        - SylvainCorlay
+        - jakirkham
+        - minrk

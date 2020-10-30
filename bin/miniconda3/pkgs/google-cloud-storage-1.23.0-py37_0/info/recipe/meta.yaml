@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Nov 14 15:56:38 2019
+# ------------------------------------------------
+
+package:
+    name: google-cloud-storage
+    version: 1.23.0
+source:
+    fn: google-cloud-storage-1.23.0.tar.gz
+    sha256: c66e876ae9547884fa42566a2ebfec51d280f488d7a058af9611ba90c78bed78
+    url: https://pypi.org/packages/source/g/google-cloud-storage/google-cloud-storage-1.23.0.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - bzip2 1.0.8 h516909a_1
+        - ca-certificates 2019.9.11 hecc5488_0
+        - certifi 2019.9.11 py37_0
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - pip 19.3.1 py37_0
+        - python 3.7.3 h33d41f4_1
+        - readline 8.0 hf8c457e_0
+        - setuptools 41.6.0 py37_1
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.9 hed695b0_1003
+        - wheel 0.33.6 py37_0
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - google-auth >=1.2.0,<2.0dev
+        - google-cloud-core >=1.0.3,< 2.0dev
+        - google-resumable-media >=0.5.0,<0.6dev
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - google
+        - google.cloud
+        - google.cloud.storage
+    requires:
+        - python >=3.7,<3.8.0a0
+about:
+    dev_url: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/storage
+    doc_url: https://googlecloudplatform.github.io/google-cloud-python/stable/google-cloud-api.html
+    home: https://github.com/GoogleCloudPlatform/google-cloud-python
+    license: Apache-2.0
+    license_family: APACHE
+    license_file: LICENSE
+    summary: Python Client for Google Cloud Storage
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - andreyz4k
+        - johanneskoester
+        - tswast

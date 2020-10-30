@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "ipykernel",
+    "ipython",
+    "jupyter_client",
+    "prompt_toolkit >=2.0.0,<3.1.0,!=3.0.0,!=3.0.1",
+    "pygments",
+    "python >=3.6"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "jupyter_console",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1598728925382,
+  "version": "6.2.0"
+}

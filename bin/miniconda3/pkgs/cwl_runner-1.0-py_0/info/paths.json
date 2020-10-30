@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "f346563b7379b5c943aa8fd0c57c36586c0696b71d590093e68438eb47b5fda8",
+      "size_in_bytes": 664
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "86ce9b66723af9aba5292e3c6c0148d014ba310c52b8abc03ebd8afc95478a9e",
+      "size_in_bytes": 658
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f89d1f8e46d11842479be0501a3cdd321679bc2b66d2336d37c1c4186025859c",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "b28179f936f4aeca9742d70a6f56efa2908482d509a3380f0aaf384b4443bd25",
+      "size_in_bytes": 50
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/cwl_runner-1.0.dist-info/zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,73 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Mon Aug 27 05:15:58 2018
+# ------------------------------------------------
+
+package:
+    name: perl-http-message
+    version: '6.18'
+source:
+    sha256: d060d170d388b694c58c14f4d13ed908a2807f0e581146cef45726641d809112
+    url: https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-base 2.23 pl526_1
+        - perl-business-isbn 3.004 pl526_0
+        - perl-business-isbn-data 20140910.003 pl526_0
+        - perl-carp 1.38 pl526_1
+        - perl-compress-raw-zlib 2.081 pl526h2d50403_0
+        - perl-constant 1.33 pl526_1
+        - perl-data-dumper 2.161 pl526_2
+        - perl-encode 2.88 pl526_1
+        - perl-encode-locale 1.05 pl526_6
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_2
+        - perl-http-date 6.02 pl526_2
+        - perl-io-html 1.001 pl526_2
+        - perl-lwp-mediatypes 6.02 pl526_2
+        - perl-mime-base64 3.15 pl526_1
+        - perl-parent 0.236 pl526_1
+        - perl-storable 3.11 pl526_0
+        - perl-time-local 1.28 pl526_0
+        - perl-try-tiny 0.24 pl526_3
+        - perl-uri 1.74 pl526_0
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-base
+        - perl-carp
+        - perl-compress-raw-zlib
+        - perl-encode
+        - perl-encode-locale
+        - perl-exporter
+        - perl-http-date
+        - perl-io-html
+        - perl-lwp-mediatypes
+        - perl-mime-base64
+        - perl-storable
+        - perl-uri
+test:
+    imports:
+        - HTTP::Config
+        - HTTP::Headers
+        - HTTP::Headers::Auth
+        - HTTP::Headers::ETag
+        - HTTP::Headers::Util
+        - HTTP::Message
+        - HTTP::Request
+        - HTTP::Request::Common
+        - HTTP::Response
+        - HTTP::Status
+about:
+    home: https://github.com/libwww-perl/HTTP-Message
+    license: perl_5
+    summary: HTTP style message (base class)
+extra:
+    copy_test_source_files: true
+    final: true

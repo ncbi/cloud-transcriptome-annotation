@@ -1,0 +1,59 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Jan 29 19:02:11 2020
+# ------------------------------------------------
+
+package:
+    name: expat
+    version: 2.2.9
+source:
+    sha256: f1063084dc4302a427dabcca499c8312b3a32a29b7d2506653ecc8f950a9a237
+    url: https://github.com/libexpat/libexpat/releases/download/R_2_2_9/expat-2.2.9.tar.bz2
+build:
+    number: '2'
+    run_exports:
+        - expat >=2.2.9,<3.0a0
+    string: he1b5a44_2
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.33.1 h53a641e_8
+        - binutils_linux-64 2.33.1 h9595d00_16
+        - gcc_impl_linux-64 7.3.0 hd420e75_4
+        - gcc_linux-64 7.3.0 h553295d_16
+        - gxx_impl_linux-64 7.3.0 hdf63c60_4
+        - gxx_linux-64 7.3.0 h553295d_16
+        - ld_impl_linux-64 2.33.1 h53a641e_8
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - make 4.2.1 h14c3975_2004
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+test:
+    commands:
+        - xmlwf -h
+about:
+    home: http://expat.sourceforge.net/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING
+    summary: Expat XML parser library in C
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kwilcox
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson
+        - scopatz

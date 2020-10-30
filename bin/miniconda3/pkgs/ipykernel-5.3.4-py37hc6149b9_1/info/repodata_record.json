@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc6149b9_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ipython >=5.0",
+    "jupyter_client",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "tornado >=4.2",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "ipykernel-5.3.4-py37hc6149b9_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "d5d67efec5a81ae86543d76bac7d20a5",
+  "name": "ipykernel",
+  "platform": "linux",
+  "sha256": "09cf7de269657b1323c8ce81ab5b6c4def02949597b00f942e4c5fc11c429ce7",
+  "size": 169860,
+  "subdir": "linux-64",
+  "timestamp": 1602682934024,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipykernel-5.3.4-py37hc6149b9_1.tar.bz2",
+  "version": "5.3.4"
+}

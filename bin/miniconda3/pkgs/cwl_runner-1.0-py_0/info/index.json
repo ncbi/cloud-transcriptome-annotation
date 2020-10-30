@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "cwltool",
+    "python"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "APACHE",
+  "name": "cwl_runner",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1549992791913,
+  "version": "1.0"
+}

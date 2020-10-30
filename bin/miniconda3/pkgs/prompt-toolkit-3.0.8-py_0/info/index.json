@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "constrains": [
+    "prompt_toolkit 3.0.8"
+  ],
+  "depends": [
+    "pygments",
+    "python >=3.6",
+    "wcwidth"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "prompt-toolkit",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602525098888,
+  "version": "3.0.8"
+}

@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "pl526h14c3975_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-carp"
+  ],
+  "features": "",
+  "fn": "perl-pathtools-3.75-pl526h14c3975_1.tar.bz2",
+  "license": "perl_5",
+  "md5": "4ac5eb7fe5450b7a28c9dc5423c7c293",
+  "name": "perl-pathtools",
+  "platform": "linux",
+  "sha256": "2bc811011a444c5fe9f66141bb73911dfb47ca5e9746589cc3076996d9685c78",
+  "size": 41822,
+  "subdir": "linux-64",
+  "timestamp": 1556736921053,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-pathtools-3.75-pl526h14c3975_1.tar.bz2",
+  "version": "3.75"
+}

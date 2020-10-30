@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-exporter",
+    "perl-parent"
+  ],
+  "license": "perl_5",
+  "name": "perl-encode",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1531071533326,
+  "version": "2.88"
+}

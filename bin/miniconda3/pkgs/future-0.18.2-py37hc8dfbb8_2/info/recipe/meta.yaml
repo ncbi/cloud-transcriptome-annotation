@@ -1,0 +1,74 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Oct 12 21:30:49 2020
+# ------------------------------------------------
+
+package:
+    name: future
+    version: 0.18.2
+source:
+    sha256: b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
+    url: https://pypi.io/packages/source/f/future/future-0.18.2.tar.gz
+build:
+    entry_points:
+        - futurize = libfuturize.main:main
+        - pasteurize = libpasteurize.main:main
+    number: '2'
+    script: /home/conda/feedstock_root/build_artifacts/future_1602538316704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37hc8dfbb8_2
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37he5f6b98_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_2
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.3 py_0
+        - python 3.7.8 h6f2ec95_1_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py37he5f6b98_2
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    commands:
+        - futurize -h
+        - pasteurize -h
+    imports:
+        - future
+about:
+    description: 'Python-future  is the missing compatibility layer between Python
+        2 and
+
+        Python 3. It allows you to use a single, clean Python 3.x-compatible
+
+        codebase to support both Python 2 and Python 3 with minimal overhead.
+
+        '
+    dev_url: https://github.com/PythonCharmers/python-future
+    doc_url: http://python-future.org
+    home: http://python-future.org
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Clean single-source support for Python 3 and 2
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mmysinger
+        - ocefpaf

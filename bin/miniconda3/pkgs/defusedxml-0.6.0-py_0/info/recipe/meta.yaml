@@ -1,0 +1,53 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Sep 30 00:58:36 2019
+# ------------------------------------------------
+
+package:
+    name: defusedxml
+    version: 0.6.0
+source:
+    sha256: f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5
+    url: https://pypi.io/packages/source/d/defusedxml/defusedxml-0.6.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/defusedxml_1569805201711/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.9.11 hecc5488_0
+        - certifi 2019.9.11 py27_0
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1c h516909a_0
+        - pip 19.2.3 py27_0
+        - python 2.7.15 h5a48372_1009
+        - readline 8.0 hf8c457e_0
+        - setuptools 41.2.0 py27_0
+        - sqlite 3.29.0 hcee41ef_1
+        - tk 8.6.9 hed695b0_1003
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python
+test:
+    imports:
+        - defusedxml
+about:
+    dev_url: https://bitbucket.org/tiran/defusedxml
+    doc_url: https://bitbucket.org/tiran/defusedxml
+    home: https://bitbucket.org/tiran/defusedxml
+    license: PSF 2.0
+    license_family: PSF
+    license_file: LICENSE
+    summary: XML bomb protection for Python stdlib modules
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

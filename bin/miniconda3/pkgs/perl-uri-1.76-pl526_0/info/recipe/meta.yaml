@@ -1,0 +1,55 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Thu Jan 10 21:52:27 2019
+# ------------------------------------------------
+
+package:
+    name: perl-uri
+    version: '1.76'
+source:
+    sha256: b2c98e1d50d6f572483ee538a6f4ccc8d9185f91f0073fd8af7390898254413e
+    url: https://cpan.metacpan.org/authors/id/O/OA/OALDERS/URI-1.76.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-app-cpanminus 1.7044 pl526_1
+        - perl-business-isbn 3.004 pl526_0
+        - perl-business-isbn-data 20140910.003 pl526_0
+        - perl-carp 1.38 pl526_1
+        - perl-constant 1.33 pl526_1
+        - perl-data-dumper 2.173 pl526_0
+        - perl-encode 2.88 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_3
+        - perl-file-path 2.15 pl526_0
+        - perl-file-temp 0.2304 pl526_2
+        - perl-mime-base64 3.15 pl526_1
+        - perl-parent 0.236 pl526_1
+        - perl-test 1.26 pl526_1
+        - perl-test-harness 3.42 pl526_0
+        - perl-test-needs 0.002005 pl526_0
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-business-isbn
+        - perl-carp
+        - perl-constant
+        - perl-data-dumper
+        - perl-encode
+        - perl-exporter
+        - perl-mime-base64
+        - perl-parent
+test:
+    imports:
+        - URI
+about:
+    home: https://github.com/libwww-perl/URI
+    license: perl_5
+    summary: Uniform Resource Identifiers (absolute and relative)
+extra:
+    copy_test_source_files: true
+    final: true

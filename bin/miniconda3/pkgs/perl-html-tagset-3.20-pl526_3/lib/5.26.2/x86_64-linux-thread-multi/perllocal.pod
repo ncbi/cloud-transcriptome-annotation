@@ -1,0 +1,22 @@
+=head2 Fri Aug 24 03:26:29 2018: C<Module> L<HTML::Tagset|HTML::Tagset>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

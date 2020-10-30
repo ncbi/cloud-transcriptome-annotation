@@ -1,0 +1,25 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3",
+    "zipp >=0.5"
+  ],
+  "features": "",
+  "fn": "importlib-metadata-2.0.0-py_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "9061524478034b761f355a42bd9a7e3d",
+  "name": "importlib-metadata",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "679abdac89fa30914ccf808f912d2aa25cc8ac614327de983566a16b48271a5d",
+  "size": 28390,
+  "subdir": "noarch",
+  "timestamp": 1602263387932,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-2.0.0-py_1.tar.bz2",
+  "version": "2.0.0"
+}

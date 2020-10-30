@@ -1,0 +1,53 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Jul 15 20:37:32 2018
+# ------------------------------------------------
+
+package:
+    name: perl-list-moreutils-xs
+    version: '0.428'
+source:
+    sha256: 9d9fe621429dfe7cf2eb1299c192699ddebf060953e5ebdc1b4e293c6d6dd62d
+    url: https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-app-cpanminus 1.7044 pl526_0
+        - perl-base 2.23 pl526_1
+        - perl-carp 1.38 pl526_1
+        - perl-constant 1.33 pl526_1
+        - perl-devel-symdump 2.18 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_0
+        - perl-file-path 2.12 pl526_1
+        - perl-file-temp 0.2304 pl526_2
+        - perl-ipc-cmd 1.02 pl526_0
+        - perl-list-util 1.38 pl526_1
+        - perl-locale-maketext-simple 0.21 pl526_1
+        - perl-module-corelist 5.20180120 pl526_1
+        - perl-module-load 0.32 pl526_1
+        - perl-module-load-conditional 0.68 pl526_2
+        - perl-module-metadata 1.000019 pl526_1
+        - perl-params-check 0.38 pl526_1
+        - perl-parent 0.236 pl526_1
+        - perl-storable 3.11 pl526_0
+        - perl-test-more 1.001002 pl526_1
+        - perl-version 0.9924 pl526_0
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+        - perl-xsloader
+test:
+    imports:
+        - List::MoreUtils::XS
+about:
+    home: https://metacpan.org/release/List-MoreUtils-XS
+    license: apache_2_0
+    summary: Provide the stuff missing in List::Util in XS
+extra:
+    copy_test_source_files: true
+    final: true

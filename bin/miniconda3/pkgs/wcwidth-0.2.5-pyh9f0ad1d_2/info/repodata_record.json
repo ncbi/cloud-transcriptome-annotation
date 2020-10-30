@@ -1,0 +1,25 @@
+{
+  "build": "pyh9f0ad1d_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "backports.functools_lru_cache",
+    "python"
+  ],
+  "features": "",
+  "fn": "wcwidth-0.2.5-pyh9f0ad1d_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "5266fcd697043c59621fda522b3d78ee",
+  "name": "wcwidth",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "be098694551ab1b9a1a4bcf28d61f3edd5a17325a33ca723e571298dd8645ca2",
+  "size": 34054,
+  "subdir": "noarch",
+  "timestamp": 1600965885083,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/wcwidth-0.2.5-pyh9f0ad1d_2.tar.bz2",
+  "version": "0.2.5"
+}

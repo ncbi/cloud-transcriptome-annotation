@@ -1,0 +1,90 @@
+# This file created by conda-build 3.20.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Sep  3 15:36:48 2020
+# ------------------------------------------------
+
+package:
+    name: qtconsole
+    version: 4.7.7
+source:
+    sha256: f236ead8711dba0702507dd8fad473c7216a86eefa6098eff8ec4b54f57d7804
+    url: https://pypi.io/packages/source/q/qtconsole/qtconsole-4.7.7.tar.gz
+build:
+    entry_points:
+        - jupyter-qtconsole = qtconsole.qtconsoleapp:main
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/qtconsole_1599147533948/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+        -m pip install . --no-deps -vv
+    string: pyh9f0ad1d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py36h9f0ad1d_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+        - libstdcxx-ng 9.3.0 hdf63c60_16
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.6.11 h4d41432_2_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py36h9f0ad1d_0
+        - sqlite 3.33.0 h4cf870e_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - ipykernel >=4.1
+        - ipython_genutils
+        - jupyter_client >=4.1
+        - jupyter_core
+        - pygments
+        - pyqt
+        - python
+        - qtpy
+        - traitlets
+test:
+    commands:
+        - DISPLAY=localhost:1.0 xvfb-run -a bash -c 'jupyter qtconsole --help'
+    imports:
+        - qtconsole
+        - qtconsole.tests
+about:
+    description: 'A rich Qt-based console for working with Jupyter kernels, supporting
+        rich
+
+        media output, session export, and more. The Qt console is a very
+
+        lightweight application that largely feels like a terminal, but provides
+
+        a number of enhancements only possible in a GUI, such as inline figures,
+
+        proper multiline editing with syntax highlighting, graphical calltips, and
+
+        more.
+
+        '
+    dev_url: https://github.com/jupyter/qtconsole
+    doc_source_url: https://github.com/jupyter/qtconsole/tree/master/docs
+    doc_url: https://qtconsole.readthedocs.org/en/stable/
+    home: http://jupyter.org
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: Jupyter Qt console
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - ccordoba12
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - takluyver

@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "botocore 1.15.21",
+    "colorama >=0.2.5,<0.4.4",
+    "docutils >=0.10,<0.16",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "pyyaml >=3.10,<5.4",
+    "rsa >=3.1.2,<=3.5.0",
+    "s3transfer >=0.3.0,<0.4.0"
+  ],
+  "features": "",
+  "fn": "awscli-1.18.21-py37hc8dfbb8_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "md5": "6f0e89e80abef764dfbf77a00fc43319",
+  "name": "awscli",
+  "platform": "linux",
+  "sha256": "7fb8bd995419c00e2762ce35d6b88238e7f54f69b25db352edd799c34c483122",
+  "size": 1631093,
+  "subdir": "linux-64",
+  "timestamp": 1584141727440,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/awscli-1.18.21-py37hc8dfbb8_0.tar.bz2",
+  "version": "1.18.21"
+}

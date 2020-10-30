@@ -1,0 +1,49 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/XML/SAX/Base.pm",
+      "path_type": "hardlink",
+      "sha256": "e67921a4fa4b6da0835254f422500a6134189311c968a9a109d0efb1df59041f",
+      "size_in_bytes": 122901
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/XML/SAX/BuildSAXBase.pl",
+      "path_type": "hardlink",
+      "sha256": "b3e7a5a054b2e1667a481ce758bac17cc0b0accc47085af3706d8f5ce85e441a",
+      "size_in_bytes": 28687
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/XML/SAX/Exception.pm",
+      "path_type": "hardlink",
+      "sha256": "879f703178761d9dbea2ba4f11201c75ad75531e724255471f0f4da60692dc51",
+      "size_in_bytes": 3033
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/XML/SAX/Base/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "d23f69181d5991448ddb9c6fb87b0d0301c19403bdfb98474838aeca474a355a",
+      "size_in_bytes": 754
+    },
+    {
+      "_path": "man/man3/XML::SAX::Base.3",
+      "path_type": "hardlink",
+      "sha256": "72957f86549708a6d36237591aad038fcc33ed528e87622d86adcd24de29f1b5",
+      "size_in_bytes": 11805
+    },
+    {
+      "_path": "man/man3/XML::SAX::BuildSAXBase.3",
+      "path_type": "hardlink",
+      "sha256": "3a4685c511855dda46be78218d642397fca72b415324172d21f22bcb32336cea",
+      "size_in_bytes": 11801
+    },
+    {
+      "_path": "man/man3/XML::SAX::Exception.3",
+      "path_type": "hardlink",
+      "sha256": "f6775cd6ea639dae97c8c1227f31f130202b680fd03c60d5f6e4dcf6324cd4f0",
+      "size_in_bytes": 3728
+    }
+  ],
+  "paths_version": 1
+}

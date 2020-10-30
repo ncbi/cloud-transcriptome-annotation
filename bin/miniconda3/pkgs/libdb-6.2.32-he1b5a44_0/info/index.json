@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "he1b5a44_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0"
+  ],
+  "license": "AGPL-3.0-only",
+  "name": "libdb",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1601211224035,
+  "version": "6.2.32"
+}

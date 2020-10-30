@@ -1,0 +1,40 @@
+{% set version = "281.0.0" %}
+
+package:
+  name: google-cloud-sdk
+  version: {{ version }}
+
+source:
+  url: https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-{{ version }}-linux-x86_64.tar.gz  # [linux]
+  sha256: 065ec26529a6d87c8dcf9cb472eae0110eecaf84c3b3c44c388a060c4cc6f103  # [linux]
+  url: https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-{{ version }}-darwin-x86_64.tar.gz  # [osx]
+  sha256: d9c4a987e64ab4f1ac2ce641be6ab2bd3113352f20b7043154c959da8640e441  # [osx]
+
+build:
+  number: 2
+  skip: True  # [win]
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+test:
+  commands:
+    - gcloud version
+    - gsutil help  # [py2k]
+    - gcloud components list
+
+about:
+  home: https://cloud.google.com/sdk/
+  license: Apache v2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Command-line interface for Google Cloud Platform products and services
+
+extra:
+  recipe-maintainers:
+    - chapmanb
+    - scopatz
+    - nehaljwani

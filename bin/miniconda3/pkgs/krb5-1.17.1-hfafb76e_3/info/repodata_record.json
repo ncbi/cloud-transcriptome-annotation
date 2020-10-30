@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "hfafb76e_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20191231,<3.2.0a0",
+    "libedit >=3.1.20191231,<4.0a0",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "openssl >=1.1.1g,<1.1.2a",
+    "tk >=8.6.10,<8.7.0a0"
+  ],
+  "features": "",
+  "fn": "krb5-1.17.1-hfafb76e_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b9c0993124fbf5f4ccf37fd00d6a3705",
+  "name": "krb5",
+  "platform": "linux",
+  "sha256": "8762d67d77de36ce8f1f6c53bf904dfa8221914513645525b0a04a8573f765cf",
+  "size": 1527760,
+  "subdir": "linux-64",
+  "timestamp": 1598893768795,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/krb5-1.17.1-hfafb76e_3.tar.bz2",
+  "version": "1.17.1"
+}

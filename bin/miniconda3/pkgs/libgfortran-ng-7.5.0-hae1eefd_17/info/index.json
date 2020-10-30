@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "hae1eefd_17",
+  "build_number": 17,
+  "depends": [
+    "libgfortran4 7.5.0.*"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "name": "libgfortran-ng",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1601682313399,
+  "version": "7.5.0"
+}

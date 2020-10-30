@@ -1,0 +1,7 @@
+lib/site_perl/5.26.2/HTTP/Cookies.pm
+lib/site_perl/5.26.2/HTTP/Cookies/Microsoft.pm
+lib/site_perl/5.26.2/HTTP/Cookies/Netscape.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/HTTP/Cookies/.packlist
+man/man3/HTTP::Cookies.3
+man/man3/HTTP::Cookies::Microsoft.3
+man/man3/HTTP::Cookies::Netscape.3

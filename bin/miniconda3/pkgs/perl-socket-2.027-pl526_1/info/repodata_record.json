@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "features": "",
+  "fn": "perl-socket-2.027-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "md5": "bbce777723970c529b99e0beaa09ec1c",
+  "name": "perl-socket",
+  "platform": "linux",
+  "sha256": "21e09aeb71ca7519d19429b5c95f3e52af309823c10991dc99607b2d4ebde61a",
+  "size": 31612,
+  "subdir": "linux-64",
+  "timestamp": 1531631306688,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-socket-2.027-pl526_1.tar.bz2",
+  "version": "2.027"
+}

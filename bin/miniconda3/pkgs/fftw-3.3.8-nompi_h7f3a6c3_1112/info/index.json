@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "nompi_h7f3a6c3_1112",
+  "build_number": 1112,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libgfortran-ng",
+    "libgfortran4 >=7.5.0"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "fftw",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602370312005,
+  "version": "3.3.8"
+}

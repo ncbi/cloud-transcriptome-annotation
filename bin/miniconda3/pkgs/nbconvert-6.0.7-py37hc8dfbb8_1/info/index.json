@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1",
+  "build_number": 1,
+  "constrains": [
+    "pyppeteer ==0.2.2"
+  ],
+  "depends": [
+    "bleach",
+    "defusedxml",
+    "entrypoints >=0.2.2",
+    "jinja2 >=2.4",
+    "jupyter_core",
+    "jupyterlab_pygments",
+    "mistune >=0.8.1",
+    "nbclient >=0.5.0,<0.6.0",
+    "nbformat >=4.4",
+    "pandoc >=1.12.1",
+    "pandocfilters >=1.4.1",
+    "pygments >=2.4.1",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "testpath",
+    "traitlets >=4.2"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "nbconvert",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602715500655,
+  "version": "6.0.7"
+}

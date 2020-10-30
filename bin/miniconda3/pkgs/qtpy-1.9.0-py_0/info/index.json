@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "name": "qtpy",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1563882078248,
+  "version": "1.9.0"
+}

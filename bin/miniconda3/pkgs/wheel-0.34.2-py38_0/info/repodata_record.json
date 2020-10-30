@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "wheel-0.34.2-py38_0.conda",
+  "legacy_bz2_md5": "5d29428f2d9ce9cc5f30d56b871a8fb1",
+  "legacy_bz2_size": 50342,
+  "license": "MIT",
+  "md5": "961d4e849c57cdfce99dd72774839765",
+  "name": "wheel",
+  "sha256": "41cc7d360771258c07b0bf642a62f63b04e5e5db9efde38746c40bbb4446eb00",
+  "size": 51874,
+  "subdir": "linux-64",
+  "timestamp": 1580834172764,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.34.2-py38_0.conda",
+  "version": "0.34.2"
+}

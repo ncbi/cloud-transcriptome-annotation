@@ -1,0 +1,32 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Jul  8 15:42:46 2018
+# ------------------------------------------------
+
+package:
+    name: perl-exporter
+    version: '5.72'
+source:
+    sha256: cd13b7a0e91e8505a0ce4b25f40fab2c92bb28a99ef0d03da1001d95a32f0291
+    url: https://cpan.metacpan.org/authors/id/T/TO/TODDR/Exporter-5.72.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-extutils-makemaker 7.34 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+test:
+    commands:
+        - perl -e "use Exporter"
+        - perl -e "use Exporter::Heavy"
+about:
+    home: http://metacpan.org/pod/Exporter
+    license: perl_5
+    summary: Implements default import method for modules
+extra:
+    copy_test_source_files: true
+    final: true

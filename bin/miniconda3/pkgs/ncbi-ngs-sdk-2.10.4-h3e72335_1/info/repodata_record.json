@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h3e72335_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libiconv >=1.16,<1.17.0a0",
+    "libstdcxx-ng >=7.5.0",
+    "libxml2 >=2.9.10,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "ncbi-ngs-sdk-2.10.4-h3e72335_1.tar.bz2",
+  "license": "Public Domain",
+  "md5": "abfbe1085fa37ee03c94befd3db993a2",
+  "name": "ncbi-ngs-sdk",
+  "platform": "linux",
+  "sha256": "6cb6bfcc86e4606e1e928c9af202e9ec1124f7f19a9c0ffa4c375b099db6f34f",
+  "size": 142848,
+  "subdir": "linux-64",
+  "timestamp": 1598797804220,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/ncbi-ngs-sdk-2.10.4-h3e72335_1.tar.bz2",
+  "version": "2.10.4"
+}

@@ -1,0 +1,263 @@
+{
+  "paths": [
+    {
+      "_path": "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "5d4d1a2212524cbe94e1e05b125ca85017e12e1900c3bf74e7df96667926c5f4",
+      "size_in_bytes": 256
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser.pm",
+      "path_type": "hardlink",
+      "sha256": "f83322ebcbbc6ec7ca58a6498a5396cd6db97c06706c4bc687c04e438b3ec442",
+      "size_in_bytes": 27737
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/Japanese_Encodings.msg",
+      "path_type": "hardlink",
+      "sha256": "a0b4899693f8a40631003349a280f83343c05dba209b8de842cedfe54ec8a596",
+      "size_in_bytes": 4821
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/README",
+      "path_type": "hardlink",
+      "sha256": "79d0f941891e9cf4230fce36cc2b7b003df616eb94fa847fbabd4c457effcc90",
+      "size_in_bytes": 1950
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/big5.enc",
+      "path_type": "hardlink",
+      "sha256": "6081ca0556c54f71d68043d0cb6b2178956d4691892976ad05d2dbebb0df85a3",
+      "size_in_bytes": 40706
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/euc-kr.enc",
+      "path_type": "hardlink",
+      "sha256": "080ddf408b05e2ff0f8b44504b22793bb6e7a02da0bc36bdca3a447d4a7b2207",
+      "size_in_bytes": 45802
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/ibm866.enc",
+      "path_type": "hardlink",
+      "sha256": "1461558afb2a30de04606157368e141809d143862fce35817d0fdf28a7af6f9d",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-15.enc",
+      "path_type": "hardlink",
+      "sha256": "b2820d35d71ad164486309139babd4f805222302d23040dc1a432395d0142201",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-2.enc",
+      "path_type": "hardlink",
+      "sha256": "2f0c85e1deacddebf70ec4c3e099853f33863e882363646beea7d7c887fb8eb9",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-3.enc",
+      "path_type": "hardlink",
+      "sha256": "c18f5f54628dd6b7077dcafc497e45817fa6eb33bae94d65d8b3f5b77460c5f5",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-4.enc",
+      "path_type": "hardlink",
+      "sha256": "fbb01b63d589c16b4f679841f9e0d382c4b7eb8d4a10a8d786b24b2b9f8bd0a0",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-5.enc",
+      "path_type": "hardlink",
+      "sha256": "c5989f364c79f9900bf37d3d17fa1e599f334d93a86083ddb9f8d1db632ffda7",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-7.enc",
+      "path_type": "hardlink",
+      "sha256": "7d43441b3f84aec18663942c906496984995d85f9a75456276894b2356aa54ba",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-8.enc",
+      "path_type": "hardlink",
+      "sha256": "fafcc0dad8ba75b82d7133d6b4ba8380c884ff803b09429976bf2a465dc6be72",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/iso-8859-9.enc",
+      "path_type": "hardlink",
+      "sha256": "3524bc098c754dde4bf4c8e0045eacb177b5bce40298c9cab74f1cf2b4fa6c7c",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/koi8-r.enc",
+      "path_type": "hardlink",
+      "sha256": "a0eff945a352761a9befd92cbfba590af47afe5368e63cc6583e84d871b4d89d",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/windows-1250.enc",
+      "path_type": "hardlink",
+      "sha256": "981b11a7065b6824096e8f61eefbfe6ad4178895597ab4e906948187a688cd79",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/windows-1251.enc",
+      "path_type": "hardlink",
+      "sha256": "2161171cb8a62beac4a447d3e10ec9735501787e25de4f858bbae39a35d943cd",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/windows-1252.enc",
+      "path_type": "hardlink",
+      "sha256": "41c39988b3a52a984044351500a2759ead4bf94bf5260a82a2f46979861d0444",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/windows-1255.enc",
+      "path_type": "hardlink",
+      "sha256": "17fa2f4ff1ba6073cb8f71f6a443d9b1316c6f23c7896086378d539231bf53ef",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-euc-jp-jisx0221.enc",
+      "path_type": "hardlink",
+      "sha256": "dc866eac973dc39853dac99388802d0cdff670bb240d5a37567fedb4e0d68bb7",
+      "size_in_bytes": 37890
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-euc-jp-unicode.enc",
+      "path_type": "hardlink",
+      "sha256": "f9fb4f5862ae9fb2bf753af4d732cd14eb76ec2cbc1e2d0617974da0d005b9e9",
+      "size_in_bytes": 37890
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-sjis-cp932.enc",
+      "path_type": "hardlink",
+      "sha256": "365744505f471ac683a5823ff9623b90301497b6950c95009cd2a284bf78ab78",
+      "size_in_bytes": 20368
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-sjis-jdk117.enc",
+      "path_type": "hardlink",
+      "sha256": "47c2e43b1a66c3627ab988c93748539642b3614b104447133ccf1ae9b69389f5",
+      "size_in_bytes": 18202
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-sjis-jisx0221.enc",
+      "path_type": "hardlink",
+      "sha256": "15d0cac4debd65399a4ad4080cd5f4fa28ba4ab33c8785613530824caad5fcfd",
+      "size_in_bytes": 18202
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Encodings/x-sjis-unicode.enc",
+      "path_type": "hardlink",
+      "sha256": "02fd462bd17f7b67759fc6496f1c64a835095ad128a950ed65d78b071ff2d09b",
+      "size_in_bytes": 18202
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Expat.pm",
+      "path_type": "hardlink",
+      "sha256": "4ff709a7eb9899e4f8740520e6a1389233238d408a5e60a1b4f37282c81c42fd",
+      "size_in_bytes": 35223
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/LWPExternEnt.pl",
+      "path_type": "hardlink",
+      "sha256": "16ddc05c3ce2d598a6880eaf9ec52da861d335a4acab5c82bda46193ced5151d",
+      "size_in_bytes": 1582
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Style/Debug.pm",
+      "path_type": "hardlink",
+      "sha256": "1bb5df5360f33a3cfbfc3a2ebcaba1fa73eae2b2118e054a0e340b24000c50a8",
+      "size_in_bytes": 1028
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Style/Objects.pm",
+      "path_type": "hardlink",
+      "sha256": "2529d05f3714c6e1452fbda88b2fc1cdd552d47710bf4be7bf5c60f3a0e4a522",
+      "size_in_bytes": 1866
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Style/Stream.pm",
+      "path_type": "hardlink",
+      "sha256": "520cc89e0c98bde55884aebf6af464cf925d8425ed4c5fb6df1f528a5d11cce0",
+      "size_in_bytes": 3629
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Style/Subs.pm",
+      "path_type": "hardlink",
+      "sha256": "14e25ee457d9a936afb7a12b08bd96f085d45f819d279c78d19718e5f3ce5cb7",
+      "size_in_bytes": 1151
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/XML/Parser/Style/Tree.pm",
+      "path_type": "hardlink",
+      "sha256": "905c81e6d70e815a5be7d802de9dea563b1995eabb8f8b1d4fec4778aede48e4",
+      "size_in_bytes": 2282
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/XML/Parser/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b7a9caa41f2bbe5c5f20552a9873b46360f57a33ef659b9d1b45bd0d8b323e27",
+      "size_in_bytes": 6458
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/XML/Parser/Expat/Expat.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/perl-xml-parser_1561130448536/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "159fb52147c6fffc7efac01d255986c1a8612945f5274645f34eb0f04d2fd38b",
+      "size_in_bytes": 98320
+    },
+    {
+      "_path": "man/man3/XML::Parser.3",
+      "path_type": "hardlink",
+      "sha256": "3e9d0a1c0b5a2ca89dcaa8e0d279f0e854abf5a2292e877928db56d180a3a028",
+      "size_in_bytes": 24402
+    },
+    {
+      "_path": "man/man3/XML::Parser::Expat.3",
+      "path_type": "hardlink",
+      "sha256": "d6630e619cccf766db30ffdfc1fba085c52f6f6cab587740d246c9fd4de8ead9",
+      "size_in_bytes": 24905
+    },
+    {
+      "_path": "man/man3/XML::Parser::Style::Debug.3",
+      "path_type": "hardlink",
+      "sha256": "c5179cb02914b0895b0f4d133968b83826c6429d32dbbd6a91e57aedfe68a277",
+      "size_in_bytes": 2514
+    },
+    {
+      "_path": "man/man3/XML::Parser::Style::Objects.3",
+      "path_type": "hardlink",
+      "sha256": "7895ae9e9ef9f40c10e91ce17f4658b2d450935b6490a98ad4b41ab883333f36",
+      "size_in_bytes": 2994
+    },
+    {
+      "_path": "man/man3/XML::Parser::Style::Stream.3",
+      "path_type": "hardlink",
+      "sha256": "26fed5f2e041169d71d158309061c566b62c84b901c23fec4874df8560960a5e",
+      "size_in_bytes": 4031
+    },
+    {
+      "_path": "man/man3/XML::Parser::Style::Subs.3",
+      "path_type": "hardlink",
+      "sha256": "0f29c0393845e58620e70d7da890bee4930f474ab8a0c2d95cd951de84abbaae",
+      "size_in_bytes": 2969
+    },
+    {
+      "_path": "man/man3/XML::Parser::Style::Tree.3",
+      "path_type": "hardlink",
+      "sha256": "8af2b3e798ba5239cfed6d00e1a774493f2e9ca7034f815fdc541a7a47330c36",
+      "size_in_bytes": 3635
+    }
+  ],
+  "paths_version": 1
+}

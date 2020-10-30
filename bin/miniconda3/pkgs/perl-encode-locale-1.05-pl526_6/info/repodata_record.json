@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-encode"
+  ],
+  "features": "",
+  "fn": "perl-encode-locale-1.05-pl526_6.tar.bz2",
+  "license": "perl_5",
+  "md5": "8b76e07f2ee0eb2a4429e517f1ae0bbd",
+  "name": "perl-encode-locale",
+  "platform": "linux",
+  "sha256": "5494cbebd17821fbe8af400d00697e0b9bcb9e85acd866b836e2edfb40d4d004",
+  "size": 11178,
+  "subdir": "linux-64",
+  "timestamp": 1534367175421,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-encode-locale-1.05-pl526_6.tar.bz2",
+  "version": "1.05"
+}

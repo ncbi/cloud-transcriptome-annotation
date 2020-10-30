@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_2",
+  "build_number": 2,
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "license": "unknown",
+  "name": "perl-io-zlib",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1531785886896,
+  "version": "1.10"
+}

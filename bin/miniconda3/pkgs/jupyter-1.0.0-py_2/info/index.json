@@ -1,0 +1,22 @@
+{
+  "arch": null,
+  "build": "py_2",
+  "build_number": 2,
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python",
+    "qtconsole"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "jupyter",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1553590520295,
+  "version": "1.0.0"
+}

@@ -1,0 +1,11 @@
+prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.2.9
+Description: expat XML parser
+URL: http://www.libexpat.org
+Libs: -L${libdir} -lexpat
+Cflags: -I${includedir}

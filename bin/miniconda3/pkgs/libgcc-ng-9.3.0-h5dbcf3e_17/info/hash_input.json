@@ -1,0 +1,6 @@
+{
+  "libgomp_ver": "1.0.0",
+  "_libgcc_mutex": "0.1 conda_forge",
+  "target_platform": "linux-64",
+  "ctng_target_platform": "linux-64"
+}

@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+      "size_in_bytes": 1050
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "1602c17b0066d0b4d49c74d4cf9c309dcc8cabeb1f1bad17e131dbfd2ea2ed22",
+      "size_in_bytes": 2377
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "1abf2b967cc26594576565fefa67429ceaf2b4a3d3ac52c685813e0c86a3aaf1",
+      "size_in_bytes": 738
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "28038d5f7d8ee75754e7718473331b0f79ee0e8acc1326c4127189a001c32e31",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "site-packages/zipp-3.3.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/zipp.py",
+      "path_type": "hardlink",
+      "sha256": "41c6676c9a41f80ac6bc7ec4d6edeb475dbfc81857217165dda5952578dd6bf1",
+      "size_in_bytes": 8078
+    }
+  ],
+  "paths_version": 1
+}

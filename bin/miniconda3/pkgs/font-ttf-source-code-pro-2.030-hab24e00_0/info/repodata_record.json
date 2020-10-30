@@ -1,0 +1,22 @@
+{
+  "build": "hab24e00_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "font-ttf-source-code-pro-2.030-hab24e00_0.tar.bz2",
+  "license": "SIL Open Font Lic., Version 1.1",
+  "license_family": "Other",
+  "md5": "dfc1ee25079fd9314698d73ef38b557f",
+  "name": "font-ttf-source-code-pro",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "33f97e9860ba36fb9687867e9ee85994d543c1e57832c10ca7c88c3be808c9cb",
+  "size": 948879,
+  "subdir": "noarch",
+  "timestamp": 1566932344373,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.030-hab24e00_0.tar.bz2",
+  "version": "2.030"
+}

@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "h33a7fed_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.16.0,<1.17.0a0",
+    "gdk-pixbuf >=2.36.12,<3.0a0",
+    "glib >=2.58.3,<3.0a0",
+    "libgcc-ng >=7.5.0",
+    "libxml2 >=2.9.10,<2.10.0a0",
+    "pango >=1.42.4,<1.43.0a0"
+  ],
+  "features": "",
+  "fn": "librsvg-2.50.1-h33a7fed_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "md5": "a2a7b3e159dac1fc31b57337e161fbe1",
+  "name": "librsvg",
+  "platform": "linux",
+  "sha256": "e1587ed0bc85b02e70f49818a76343d07341d14daad7ce3e75c24318c1aa2b11",
+  "size": 17883665,
+  "subdir": "linux-64",
+  "timestamp": 1601990357231,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/librsvg-2.50.1-h33a7fed_0.tar.bz2",
+  "version": "2.50.1"
+}

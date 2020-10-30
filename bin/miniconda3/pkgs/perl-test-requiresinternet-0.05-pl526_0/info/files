@@ -1,0 +1,3 @@
+lib/site_perl/5.26.2/Test/RequiresInternet.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Test/RequiresInternet/.packlist
+man/man3/Test::RequiresInternet.3

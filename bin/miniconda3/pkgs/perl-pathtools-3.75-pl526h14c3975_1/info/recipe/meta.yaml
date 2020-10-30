@@ -1,0 +1,42 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /opt/recipe, last modified Wed May  1 18:45:26 2019
+# ------------------------------------------------
+
+package:
+    name: perl-pathtools
+    version: '3.75'
+source:
+    sha256: a558503aa6b1f8c727c0073339081a77888606aa701ada1ad62dd9d8c3f945a2
+    url: https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/PathTools-3.75.tar.gz
+build:
+    number: '1'
+    string: pl526h14c3975_1
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_6
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_6
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - perl 5.26.2 h516909a_1006
+        - perl-carp 1.38 pl526_2
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.36 pl526_0
+    run:
+        - libgcc-ng >=7.3.0
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-carp
+test:
+    imports:
+        - File::Spec::Functions
+about:
+    home: http://dev.perl.org/
+    license: perl_5
+    summary: Tools for working with directory and file names
+extra:
+    copy_test_source_files: true
+    final: true

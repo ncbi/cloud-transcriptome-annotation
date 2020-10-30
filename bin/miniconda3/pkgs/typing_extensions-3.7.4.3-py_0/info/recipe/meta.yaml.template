@@ -1,0 +1,69 @@
+{% set name = "typing_extensions" %}
+{% set version = "3.7.4.3" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c
+
+build:
+  number: 0
+
+outputs:
+  - name: {{ name }}
+    build:
+      script: python -m pip install --no-deps --ignore-installed .
+      noarch: python
+
+    requirements:
+      host:
+        - python >=3.5
+        - pip
+      run:
+        - python >=3.5
+
+    test:
+      imports:
+        - typing_extensions
+
+  - name: typing-extensions
+    build:
+      noarch: python
+    requirements:
+      run:
+        - {{ pin_subpackage(name, exact=True) }}
+    test:
+      imports:
+        - typing_extensions
+
+about:
+  home: https://github.com/python/typing/tree/master/typing_extensions
+  license: PSF-2.0
+  license_family: PSF
+  license_file: LICENSE
+  summary: Backported and Experimental Type Hints for Python
+  description: |
+    The typing module was added to the standard library in Python 3.5 on a
+    provisional basis and will no longer be provisional in Python 3.7. However,
+    this means users of Python 3.5 - 3.6 who are unable to upgrade will not be
+    able to take advantage of new types added to the typing module, such as
+    typing.Text or typing.Coroutine.
+
+    The typing_extensions module contains both backports of these changes
+    as well as experimental types that will eventually be added to the typing
+    module, such as Protocol.
+
+    Users of other Python versions should continue to install and use the
+    typing module from PyPi instead of using this one unless specifically
+    writing code that must be compatible with multiple Python versions or
+    requires experimental types.
+  doc_url: https://github.com/python/typing
+  dev_url: https://github.com/python/typing
+
+extra:
+  recipe-maintainers:
+    - djsutherland
+    - synapticarbors

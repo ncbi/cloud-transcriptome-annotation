@@ -1,0 +1,67 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Oct 12 17:48:56 2020
+# ------------------------------------------------
+
+package:
+    name: prompt-toolkit
+    version: 3.0.8
+source:
+    sha256: 25c95d2ac813909f813c93fde734b6e44406d1477a9faef7c915ff37d39c0a8c
+    url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-3.0.8.tar.gz
+build:
+    noarch: python
+    number: '0'
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py39h079e4ff_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_2
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.3 py_0
+        - python 3.9.0 h852b56e_3_cpython
+        - python_abi 3.9 1_cp39
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py39h079e4ff_2
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - tzdata 2020b h516909a_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1009
+    run:
+        - pygments
+        - python >=3.6
+        - wcwidth
+    run_constrained:
+        - prompt_toolkit 3.0.8
+about:
+    description: 'prompt_toolkit is a library for building powerful interactive command
+
+        lines and terminal applications in Python. It can be a pure Python
+
+        replacement for GNU readline, but it can be much more than that.
+
+        '
+    dev_url: https://github.com/jonathanslenders/python-prompt-toolkit
+    doc_url: http://python-prompt-toolkit.readthedocs.io
+    home: https://github.com/jonathanslenders/python-prompt-toolkit
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: Library for building powerful interactive command lines in Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - jakirkham
+        - ocefpaf
+        - scopatz

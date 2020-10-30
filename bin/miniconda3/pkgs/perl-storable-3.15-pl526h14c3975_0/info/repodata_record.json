@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "pl526h14c3975_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-xsloader"
+  ],
+  "features": "",
+  "fn": "perl-storable-3.15-pl526h14c3975_0.tar.bz2",
+  "license": "perl_5",
+  "md5": "ad27b25076f3d76c10085d900bdf3a48",
+  "name": "perl-storable",
+  "platform": "linux",
+  "sha256": "ab77cbce0a3a9c846c92e4b24530c77a2b6a674ec4e4054e2103bd342f93d2f8",
+  "size": 64216,
+  "subdir": "linux-64",
+  "timestamp": 1557135173047,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-storable-3.15-pl526h14c3975_0.tar.bz2",
+  "version": "3.15"
+}

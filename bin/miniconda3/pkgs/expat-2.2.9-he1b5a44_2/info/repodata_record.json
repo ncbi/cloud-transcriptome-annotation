@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "he1b5a44_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "expat-2.2.9-he1b5a44_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "285f5b5ca3209d492224935affd00aab",
+  "name": "expat",
+  "platform": "linux",
+  "sha256": "6fa79b725a995001c8bf4f232d377c66c6caf5259b34833a81934477443b8d5e",
+  "size": 195785,
+  "subdir": "linux-64",
+  "timestamp": 1580324682929,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/expat-2.2.9-he1b5a44_2.tar.bz2",
+  "version": "2.2.9"
+}

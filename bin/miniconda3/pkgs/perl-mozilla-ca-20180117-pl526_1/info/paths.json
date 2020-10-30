@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/Mozilla/CA.pm",
+      "path_type": "hardlink",
+      "sha256": "c3e6b5322dd157d03534476594f58bef8a9c63d341d7baf812c06d52780d4b62",
+      "size_in_bytes": 1524
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/Mozilla/CA/cacert.pem",
+      "path_type": "hardlink",
+      "sha256": "defe310a0184a12e4b1b3d147f1d77395dd7a09e3428373d019bef5d542ceba3",
+      "size_in_bytes": 223903
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/Mozilla/mk-ca-bundle.pl",
+      "path_type": "hardlink",
+      "sha256": "a285d9f5475e04c006f1f092e7e93ec97899bee4a5f35a143da1d0829a0ff551",
+      "size_in_bytes": 19111
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Mozilla/CA/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "ba2cb6a7ce6cb71ed5633ecadd68cc66e2397b0c20ed43a1a086a0169d0bf546",
+      "size_in_bytes": 466
+    },
+    {
+      "_path": "man/man3/Mozilla::CA.3",
+      "path_type": "hardlink",
+      "sha256": "83566fe0d448b7835e13f4adcb236771694e8426b489c9db3a651c532190fa01",
+      "size_in_bytes": 3481
+    }
+  ],
+  "paths_version": 1
+}

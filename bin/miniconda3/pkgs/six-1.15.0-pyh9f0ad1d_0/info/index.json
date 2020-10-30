@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "six",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1590081273678,
+  "version": "1.15.0"
+}

@@ -1,0 +1,6 @@
+{
+  "ctng_gcc": "7.5.0",
+  "target_platform": "linux-64",
+  "ctng_target_platform": "linux-64",
+  "libgfortran_soname": "4"
+}

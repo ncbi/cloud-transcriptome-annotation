@@ -1,0 +1,24 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "parso-0.7.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f66647d1ec805566d72ac26f62b19c01",
+  "name": "parso",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "9424a1e9728b31bf76609e3334ce959293f67151014c1cba7c5b7a6556200746",
+  "size": 71749,
+  "subdir": "noarch",
+  "timestamp": 1595549060970,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/parso-0.7.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.7.1"
+}

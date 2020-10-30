@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_2",
+  "build_number": 2,
+  "depends": [
+    "attrs >=17.4.0",
+    "importlib_metadata",
+    "pyrsistent >=0.14.0",
+    "python >=3.6",
+    "setuptools",
+    "six >=1.11.0"
+  ],
+  "license": "MIT",
+  "name": "jsonschema",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602552035741,
+  "version": "3.2.0"
+}

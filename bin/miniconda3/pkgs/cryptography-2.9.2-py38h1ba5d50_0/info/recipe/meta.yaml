@@ -1,0 +1,110 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/cryptography-2.9.2-python_3.8-on-linux_64, last modified Thu May  7 14:03:10 2020
+# ------------------------------------------------
+
+package:
+    name: cryptography
+    version: 2.9.2
+source:
+    sha256: a0c30272fb4ddda5f5ffc1089d7405b7a71b0b0f51993cb4e5dbb4590b2fc229
+    url: https://pypi.io/packages/source/c/cryptography/cryptography-2.9.2.tar.gz
+build:
+    number: '0'
+    script: /tmp/build/80754af9/cryptography_1588860901446/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+        -m pip install . -vv
+    string: py38h1ba5d50_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.33.1 he6710b0_7
+        - binutils_linux-64 2.33.1 h9595d00_15
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_15
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - cffi 1.14.0 py38h2e261b9_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py38_1
+        - pycparser 2.20 py_0
+        - python 3.8.2 hcf32534_0
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.1.3 py38_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - cffi
+        - idna
+        - libgcc-ng >=7.3.0
+        - openssl >=1.1.1g,<1.1.2a
+        - python >=3.8,<3.9.0a0
+        - six
+test:
+    commands:
+        - pytest
+    imports:
+        - cryptography
+        - cryptography.fernet
+        - cryptography.hazmat
+        - cryptography.hazmat.backends
+        - cryptography.hazmat.backends.openssl
+        - cryptography.hazmat.bindings
+        - cryptography.hazmat.bindings.openssl
+        - cryptography.hazmat.primitives
+        - cryptography.hazmat.primitives.asymmetric
+        - cryptography.hazmat.primitives.ciphers
+        - cryptography.hazmat.primitives.kdf
+        - cryptography.hazmat.primitives.twofactor
+        - cryptography.x509
+    requires:
+        - cryptography-vectors 2.9.2.*
+        - hypothesis
+        - iso8601
+        - pretend
+        - pytest
+        - pytz
+    source_files:
+        - tests
+about:
+    description: 'Cryptography is a package which provides cryptographic recipes and
+
+        primitives to Python developers. Our goal is for it to be your
+
+        "cryptographic standard library". It supports Python 2.6-2.7, Python 3.3+,
+
+        and PyPy 2.6+. Cryptography includes both high level recipes, and low level
+
+        interfaces to common cryptographic algorithms such as symmetric ciphers,
+
+        message digests and key derivation functions.
+
+        '
+    dev_url: https://github.com/pyca/cryptography
+    doc_source_url: https://github.com/pyca/cryptography/blob/master/docs/index.rst
+    doc_url: http://cryptography.readthedocs.io/
+    home: https://github.com/pyca/cryptography
+    license: Apache-2.0 AND BSD-3-Clause AND PSF-2.0
+    license_family: BSD
+    license_file: LICENSE
+    summary: Provides cryptographic recipes and primitives to Python developers
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - ocefpaf

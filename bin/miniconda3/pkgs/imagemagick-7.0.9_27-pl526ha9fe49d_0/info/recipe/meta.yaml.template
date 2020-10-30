@@ -1,0 +1,89 @@
+{% set version = "7.0.9-27" %}
+
+package:
+  name: imagemagick
+  version: {{ version|replace("-", "_") }}
+
+source:
+  url: https://github.com/ImageMagick/ImageMagick/archive/{{ version }}.tar.gz
+  sha256: aeea7768bf330d87efa80fa89f03c5acc2382eae32d1d871acb813e5b116395a
+
+build:
+  number: 0
+  skip: true  # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+
+  host:
+    - bzip2
+    - fftw
+    - fontconfig
+    - fonts-conda-forge
+    - freetype
+    - ghostscript
+    - giflib
+    - graphviz
+    - jbig
+    - jpeg
+    - libpng
+    - librsvg
+    - libtiff
+    - libwebp
+    - libxml2
+    - openjpeg
+    - pango
+    - perl
+    - pkg-config
+    - xorg-libx11
+    - xorg-libxext
+    - xorg-libxrender
+    - xorg-libxt
+    - xz
+    - zlib
+  run:
+    - bzip2
+    - fftw
+    - fontconfig
+    - freetype
+    - fonts-conda-forge
+    - ghostscript
+    - giflib
+    - graphviz
+    - jbig
+    - jpeg
+    - libpng
+    - librsvg
+    - libtiff
+    - libwebp
+    - libxml2
+    - openjpeg
+    - pango
+    - perl
+    - pkg-config
+    - xorg-libx11
+    - xorg-libxext
+    - xorg-libxrender
+    - xorg-libxt
+    - xz
+    - zlib
+
+test:
+  commands:
+    - convert -version
+    - Magick++-config --cflags
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+about:
+  home: http://www.imagemagick.org/
+  license: ImageMagick
+  license_file: LICENSE
+  summary: Software suite to create, edit, compose, or convert bitmap images.
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - halldc

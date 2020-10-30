@@ -1,0 +1,8 @@
+bin/sip
+include/python3.7m/sip.h
+lib/python3.7/site-packages/__pycache__/sipconfig.cpython-37.pyc
+lib/python3.7/site-packages/__pycache__/sipdistutils.cpython-37.pyc
+lib/python3.7/site-packages/sip.pyi
+lib/python3.7/site-packages/sip.so
+lib/python3.7/site-packages/sipconfig.py
+lib/python3.7/site-packages/sipdistutils.py

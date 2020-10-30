@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h516909a_2002",
+  "build_number": 2002,
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "name": "jbig",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1586543843104,
+  "version": "2.1"
+}

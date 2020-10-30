@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+      "size_in_bytes": 1050
+    },
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "f2eb6c7ef2460b0e9ef477301a29c14a6d3a8f787d9a73f63ab7e5eaf85d82cf",
+      "size_in_bytes": 2786
+    },
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f010d087b26be353bc18a01f8e775ac94925b8612cc9dd444e56d0712284cdac",
+      "size_in_bytes": 842
+    },
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/backports.functools_lru_cache-1.6.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/backports/functools_lru_cache.py",
+      "path_type": "hardlink",
+      "sha256": "55df26295b6c8a2086aef4a336062def3c928ae3d14a5e5c38742e276aac02ae",
+      "size_in_bytes": 7220
+    }
+  ],
+  "paths_version": 1
+}

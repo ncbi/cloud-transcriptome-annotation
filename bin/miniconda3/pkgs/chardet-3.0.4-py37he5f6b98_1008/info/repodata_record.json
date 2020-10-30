@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37he5f6b98_1008",
+  "build_number": 1008,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "chardet-3.0.4-py37he5f6b98_1008.tar.bz2",
+  "license": "LGPL-2.1-only",
+  "license_family": "GPL",
+  "md5": "2f4cf1309df625c3eb0314a170fb9593",
+  "name": "chardet",
+  "platform": "linux",
+  "sha256": "a882701058a457c350d129b24b2cd364788d6e57b4b98ffbaf00e3374e39cad3",
+  "size": 173948,
+  "subdir": "linux-64",
+  "timestamp": 1602255428760,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/chardet-3.0.4-py37he5f6b98_1008.tar.bz2",
+  "version": "3.0.4"
+}

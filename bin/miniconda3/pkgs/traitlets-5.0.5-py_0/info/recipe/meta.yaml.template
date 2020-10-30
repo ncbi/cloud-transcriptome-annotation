@@ -1,0 +1,50 @@
+{% set version = "5.0.5" %}
+
+package:
+  name: traitlets
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/t/traitlets/traitlets-{{ version }}.tar.gz
+  sha256: 178f4ce988f69189f7e523337a3e11d91c786ded9360174a3d9ca83e79bc5396
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3.7
+    - pip
+  run:
+    - python >=3.7
+    - ipython_genutils
+
+test:
+  imports:
+    - traitlets
+    - traitlets.config
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: http://traitlets.readthedocs.org/
+  license: BSD-3-Clause
+  license_file: COPYING.md
+  summary: Configuration system for Python applications
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pelson
+    - minrk
+    - SylvainCorlay
+    - ocefpaf
+    - Carreau
+    - takluyver
+    - rmorshea
+    - blink1073
+    - zsailer

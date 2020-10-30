@@ -1,0 +1,10 @@
+prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/graphviz
+
+Name: liblab_gamut
+Description: data library for default color labeling
+Version: 2.42.3
+Libs: -L${libdir} -llab_gamut
+Cflags: -I${includedir}

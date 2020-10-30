@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1",
+  "build_number": 1,
+  "depends": [
+    "argon2-cffi",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client >=5.3.4",
+    "jupyter_core >=4.6.1",
+    "nbconvert",
+    "nbformat",
+    "prometheus_client",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.3",
+    "tornado >=5.0",
+    "traitlets >=4.2.1"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "notebook",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602720242167,
+  "version": "6.1.4"
+}

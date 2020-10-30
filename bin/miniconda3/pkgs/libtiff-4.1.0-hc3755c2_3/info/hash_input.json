@@ -1,0 +1,10 @@
+{
+  "zlib": "1.2",
+  "cxx_compiler_version": "7",
+  "c_compiler_version": "7",
+  "zstd": "1.4.4",
+  "c_compiler": "gcc",
+  "xz": "5.2",
+  "jpeg": "9",
+  "cxx_compiler": "gxx"
+}

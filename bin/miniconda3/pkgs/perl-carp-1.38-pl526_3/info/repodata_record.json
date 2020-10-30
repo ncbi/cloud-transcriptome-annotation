@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-exporter",
+    "perl-extutils-makemaker"
+  ],
+  "features": "",
+  "fn": "perl-carp-1.38-pl526_3.tar.bz2",
+  "license": "perl_5",
+  "md5": "984c76663b1bd6e880683ce6fa58da4c",
+  "name": "perl-carp",
+  "platform": "linux",
+  "sha256": "72c31ae5a335f764385fdd1a4c6bf8e6abfcfbc31604a60b64539fbbee4a6a28",
+  "size": 15299,
+  "subdir": "linux-64",
+  "timestamp": 1556831911041,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-carp-1.38-pl526_3.tar.bz2",
+  "version": "1.38"
+}

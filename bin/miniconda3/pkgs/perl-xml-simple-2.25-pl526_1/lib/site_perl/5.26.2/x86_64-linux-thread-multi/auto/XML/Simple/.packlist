@@ -1,0 +1,4 @@
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/XML/Simple.pm relocate_as=../../../../XML/Simple.pm
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/XML/Simple/FAQ.pod relocate_as=../../../../XML/Simple/FAQ.pod
+/opt/anaconda1anaconda2anaconda3/man/man3/XML::Simple.3 relocate_as=../../../../../../../man/man3/XML::Simple.3
+/opt/anaconda1anaconda2anaconda3/man/man3/XML::Simple::FAQ.3 relocate_as=../../../../../../../man/man3/XML::Simple::FAQ.3

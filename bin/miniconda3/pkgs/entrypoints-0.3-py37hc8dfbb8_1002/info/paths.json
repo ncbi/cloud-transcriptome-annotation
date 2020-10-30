@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/entrypoints.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "23a5e6922bcd5418064d0deb05929d20d882a011456960b2d79e1b823693b3a6",
+      "size_in_bytes": 7337
+    },
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/entrypoints.cpython-39.pyc",
+      "path_type": "hardlink",
+      "sha256": "68da7b6a4a626294243339675d0d3d44c54da6cd97c9e1201f6f8f67760509cb",
+      "size_in_bytes": 7251
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "de5fcd7349cdf399b0707a2a024833c4704743650133c72d6f0ff7561a03a848",
+      "size_in_bytes": 1098
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "7f8f223153f613613b8a1ea11b66c8213b2a561d02a9df41687aff6156ce014c",
+      "size_in_bytes": 1347
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "0201065864170b3325de31faee125f0d1ec2e0ae225831e32bd2985861ae4ae1",
+      "size_in_bytes": 698
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "34baa6b31f99159ea00dabd8821da81f465237e2919a971d1172190e7632f4f8",
+      "size_in_bytes": 99
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints-0.3.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "dcc9e4e510cc95c4e8265d6608d94793cbddbb70f443db6b2a1d0e62a38542b4",
+      "size_in_bytes": 153
+    },
+    {
+      "_path": "lib/python3.7/site-packages/entrypoints.py",
+      "path_type": "hardlink",
+      "sha256": "68a5307fc9444bce2f15b1bf04a97bd233c20ffdd7d8277205e5e546503be1f0",
+      "size_in_bytes": 8262
+    }
+  ],
+  "paths_version": 1
+}

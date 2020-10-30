@@ -1,0 +1,32 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sat Jul  7 15:22:54 2018
+# ------------------------------------------------
+
+package:
+    name: perl-file-listing
+    version: '6.04'
+source:
+    md5: 83f636b477741f3a014585bb9cc079a6
+    url: http://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-http-date 6.02 pl526_2
+    run:
+        - perl >=5.26.2,<5.27.0a0
+        - perl-http-date
+test:
+    imports:
+        - File::Listing
+about:
+    home: http://metacpan.org/pod/File-Listing
+    license: perl_5
+    summary: parse directory listing
+extra:
+    copy_test_source_files: true
+    final: true

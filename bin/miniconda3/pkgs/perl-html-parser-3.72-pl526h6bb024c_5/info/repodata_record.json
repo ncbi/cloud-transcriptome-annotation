@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "pl526h6bb024c_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-html-tagset",
+    "perl-xsloader"
+  ],
+  "features": "",
+  "fn": "perl-html-parser-3.72-pl526h6bb024c_5.tar.bz2",
+  "license": "perl_5",
+  "md5": "9874aecaa5a6f19c55f32baa5cc7302e",
+  "name": "perl-html-parser",
+  "platform": "linux",
+  "sha256": "9bf25c8e0b4b20f902cd20c964c965d613d1c9945d2921d4566bb3a0e3dee2d5",
+  "size": 67481,
+  "subdir": "linux-64",
+  "timestamp": 1555516623155,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-html-parser-3.72-pl526h6bb024c_5.tar.bz2",
+  "version": "3.72"
+}

@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "six >=1.9",
+    "webencodings"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "html5lib",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1592930432911,
+  "version": "1.1"
+}

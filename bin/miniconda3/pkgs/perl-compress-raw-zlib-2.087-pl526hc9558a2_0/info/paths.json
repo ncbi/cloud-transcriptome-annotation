@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/Compress/Raw/Zlib.pm",
+      "path_type": "hardlink",
+      "sha256": "1311c2f54f7f38f9757aef50113faf7ca4b00cfe20de3476c78e33e175477713",
+      "size_in_bytes": 47456
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Compress/Raw/Zlib/.packlist",
+      "path_type": "hardlink",
+      "sha256": "9730dda115a1f17c72b3b70568df5bd57f3c6ea0c6938f82b5f19c402f2b487d",
+      "size_in_bytes": 1077
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Compress/Raw/Zlib/Zlib.so",
+      "path_type": "hardlink",
+      "sha256": "5421d838c24304f337830f96f51b8dcb1e1876eaf5c9db4ccd717094d19d4753",
+      "size_in_bytes": 142000
+    }
+  ],
+  "paths_version": 1
+}

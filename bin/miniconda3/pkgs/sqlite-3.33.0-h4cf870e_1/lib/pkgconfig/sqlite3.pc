@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/conda/feedstock_root/build_artifacts/sqlite_1602079834247/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.33.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -lm -ldl -lpthread 
+Cflags: -I${includedir}

@@ -1,0 +1,54 @@
+# This file created by conda-build 3.18.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Jun 21 15:18:39 2019
+# ------------------------------------------------
+
+package:
+    name: perl-xml-parser
+    version: '2.44_01'
+source:
+    fn: XML-Parser-2.44_01.tar.gz
+    sha256: 5310ea5c8c707f387589bba8934ab9112463a452f828adf2755792d968b9ac7e
+    url: https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44_01.tar.gz
+build:
+    number: '1002'
+    string: pl526ha1d75be_1002
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_7
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_7
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - expat 2.2.5 he1b5a44_1003
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - perl 5.26.2 h516909a_1006
+    run:
+        - expat >=2.2.5,<2.3.0a0
+        - expat >=2.2.5,<2.3.0a0
+        - libgcc-ng >=7.3.0
+        - perl >=5.26.2,<5.26.3.0a0
+test:
+    imports:
+        - XML::Parser
+        - XML::Parser::Expat
+        - XML::Parser::Style::Debug
+        - XML::Parser::Style::Objects
+        - XML::Parser::Style::Stream
+        - XML::Parser::Style::Subs
+        - XML::Parser::Style::Tree
+about:
+    home: https://metacpan.org/pod/XML::Parser
+    license: Perl 5
+    license_family: OTHER
+    license_file: LICENSE
+    summary: A perl module for parsing XML documents
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kynan
+        - scopatz

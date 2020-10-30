@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "pl526he1b5a44_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-compress-raw-bzip2 >=2.087",
+    "perl-compress-raw-zlib >=2.087",
+    "perl-scalar-list-utils"
+  ],
+  "license": "perl_5",
+  "name": "perl-io-compress",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1565469123864,
+  "version": "2.087"
+}

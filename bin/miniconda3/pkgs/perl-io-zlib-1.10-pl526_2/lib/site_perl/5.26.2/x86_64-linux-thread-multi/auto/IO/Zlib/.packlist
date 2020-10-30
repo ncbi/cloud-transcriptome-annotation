@@ -1,0 +1,2 @@
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Zlib.pm relocate_as=../../../../IO/Zlib.pm
+/opt/anaconda1anaconda2anaconda3/man/man3/IO::Zlib.3 relocate_as=../../../../../../../man/man3/IO::Zlib.3

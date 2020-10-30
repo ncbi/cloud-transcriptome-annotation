@@ -1,0 +1,4 @@
+{
+  "python": "3.7.* *_cpython",
+  "numpy": "1.16"
+}

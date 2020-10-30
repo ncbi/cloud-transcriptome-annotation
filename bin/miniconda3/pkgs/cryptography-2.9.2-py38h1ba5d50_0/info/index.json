@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py38h1ba5d50_0",
+  "build_number": 0,
+  "depends": [
+    "cffi",
+    "idna",
+    "libgcc-ng >=7.3.0",
+    "openssl >=1.1.1g,<1.1.2a",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
+  "license_family": "BSD",
+  "name": "cryptography",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1588861116459,
+  "version": "2.9.2"
+}

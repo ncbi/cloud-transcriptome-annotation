@@ -1,0 +1,51 @@
+{% set version = "5.0.8" %}
+
+package:
+  name: nbformat
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/nbformat/nbformat-{{ version }}.tar.gz
+  sha256: f545b22138865bfbcc6b1ffe89ed5a2b8e2dc5d4fe876f2ca60d8e6f702a30f8
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - jupyter-trust = nbformat.sign:TrustNotebookApp.launch_instance
+
+requirements:
+  host:
+    - python >=3.5
+    - pip
+  run:
+    - python >=3.5
+    - ipython_genutils
+    - traitlets >=4.1
+    - jsonschema >=2.4,!=2.5.0
+    - jupyter_core
+
+test:
+  commands:
+    - pip check
+    - jupyter-trust -h
+  requires:
+    - pip
+  imports:
+    - nbformat
+
+about:
+  home: http://jupyter.org
+  license: BSD-3-Clause
+  summary: The Jupyter Notebook format
+  license_file: COPYING.md
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - pelson
+    - takluyver
+    - ocefpaf
+    - mpacer

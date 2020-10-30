@@ -1,0 +1,40 @@
+{% set version = "1.0.0" %}
+
+package:
+  name: jupyter
+  version: {{ version }}
+
+build:
+  number: 2
+  noarch: python
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+    - notebook
+    - qtconsole
+    - jupyter_console
+    - nbconvert
+    - ipykernel
+    - ipywidgets
+
+test:
+  commands:
+    - jupyter --help
+    - jupyter nbextension list
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: 'Jupyter metapackage. Install all the Jupyter components in one go.'
+  dev_url: https://github.com/jupyter/jupyter
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - ocefpaf
+    - xylar

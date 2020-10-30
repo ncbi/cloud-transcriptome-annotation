@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "pl526hce37bd2_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "curl >=7.64.1,<8.0a0",
+    "expat >=2.2.5,<2.3.0a0",
+    "gettext >=0.19.8.1,<1.0a0",
+    "libgcc-ng >=7.3.0",
+    "libiconv >=1.15,<1.17.0a0",
+    "openssl >=1.1.1a,<1.1.2a",
+    "pcre >=8.41,<9.0a0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "tk >=8.6.9,<8.7.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "git-2.23.0-pl526hce37bd2_2.tar.bz2",
+  "license": "GPL v2 and LGPL 2.1",
+  "md5": "59ca0f83112e706a96f4b8791414daeb",
+  "name": "git",
+  "platform": "linux",
+  "sha256": "5b1fa9b84d01cc75ff192f5bc3c87171186403e2c5f06143cdfae0652af349e6",
+  "size": 13275062,
+  "subdir": "linux-64",
+  "timestamp": 1568226399559,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/git-2.23.0-pl526hce37bd2_2.tar.bz2",
+  "version": "2.23.0"
+}

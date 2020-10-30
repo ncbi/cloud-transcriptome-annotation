@@ -1,0 +1,24 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "attrs-20.2.0-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "72fe75fed07fe89d6ef02034bf1e94a5",
+  "name": "attrs",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "81966ca73a94cfd0f6343fea90149429751eb0583d81935929418f621fe4938d",
+  "size": 41474,
+  "subdir": "noarch",
+  "timestamp": 1599308627067,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/attrs-20.2.0-pyh9f0ad1d_0.tar.bz2",
+  "version": "20.2.0"
+}

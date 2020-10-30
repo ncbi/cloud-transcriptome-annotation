@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "name": "pytz",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1588067104320,
+  "version": "2020.1"
+}

@@ -1,0 +1,93 @@
+{% set version = "1.17.1" %}
+
+package:
+  name: krb5
+  version: {{ version }}
+
+source:
+  url: https://github.com/krb5/krb5/archive/krb5-{{ version }}-final.tar.gz
+  sha256: 8bdedbfb0bbb245217e23290437916d70b315514e6f7cc088b6e82d1310afe0b
+
+build:
+  number: 3
+  skip: True  # [win and vc<14]
+  run_exports:
+    # stable within minor revisions: https://abi-laboratory.pro/tracker/timeline/krb5/
+    - {{ pin_subpackage('krb5', max_pin='x.x') }}
+  missing_dso_whitelist:          # [osx]
+    - /usr/lib/libresolv.9.dylib  # [osx]
+
+requirements:
+  build:
+    - libtool  # [unix]
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - bison       # [not win]
+    - autoconf    # [not win]
+    - posix       # [win]
+    - perl        # [win]
+    - pkg-config  # [unix]
+    - make        # [unix]
+    - python 3.7  # [not win]
+    - python      # [win]
+    - openssl
+  host:
+    - libedit     # [unix]
+    - openssl
+    - tk
+  run:
+    - {{ pin_compatible('libedit') }}  # [unix]
+
+outputs:
+  - name: krb5
+    test:
+      requires:
+        # without this the solver goes into a strange corner and returns python 2.0
+        - python 3.7.*  # [not win]
+        - python        # [win]
+      commands:
+        - conda inspect linkages -p $PREFIX krb5  # [not win]
+        - conda inspect objects -p $PREFIX krb5  # [osx]
+        - python krb5_test.py
+
+  - name: krb5-static
+    build:
+      skip: true  # [win]
+    script: build_static.sh
+    requirements:
+      build:
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+        - bison       # [not win]
+        - autoconf    # [not win]
+        - posix       # [win]
+        - perl        # [win]
+        - pkg-config  # [unix]
+        - make        # [unix]
+        - python 3.7  # [not win]
+        - python      # [win]
+        - openssl
+      host:
+        - libedit     # [unix]
+        - openssl
+        - tk
+      run:
+        - {{ pin_subpackage('krb5', exact=True) }}
+        - {{ pin_compatible('libedit') }}  # [unix]
+    test:
+      commands:
+        - test -f ${PREFIX}/lib/libk5crypto.a  # [unix]
+
+about:
+  home: http://web.mit.edu/kerberos/
+  license: MIT
+  license_file: doc/notice.rst
+  summary: 'A network authentication protocol.'
+
+extra:
+  recipe-maintainers:
+    - pelson
+    - ocefpaf
+    - mingwandroid
+    - mariusvniekerk
+    - wolfv

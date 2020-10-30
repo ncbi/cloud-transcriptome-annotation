@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "5a3a9b15293d0f4c54d1fb51cf0f51a711f0cf582f80a0e7330478670c17f67b",
+      "size_in_bytes": 1085
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "50214155ac339e075e094583e4fdf72d3031e404a18ca990dbdab791c73af7a0",
+      "size_in_bytes": 4383
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "19eead2611883eda1ee75032915c289332191a9bacf9339404fb24880d24db54",
+      "size_in_bytes": 1824
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "54f502e94e1ede6d64138ed8721019e298b6357621d00e01d10d3ab9f2f2fd88",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "site-packages/cachetools-4.1.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6a2d851fbf131b0a017028157e8a9bce4e48402b670ee91d4ace332ae54fbc3b",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "site-packages/cachetools/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "eb9883e36dcb979b5a4eb0eaa92407da8c665011df2cfe3ca164dc3901864ba3",
+      "size_in_bytes": 375
+    },
+    {
+      "_path": "site-packages/cachetools/abc.py",
+      "path_type": "hardlink",
+      "sha256": "29d00e481569e636ff31461d6a8896a9b7d7b223bd7a90be2965445d70f64d77",
+      "size_in_bytes": 1076
+    },
+    {
+      "_path": "site-packages/cachetools/cache.py",
+      "path_type": "hardlink",
+      "sha256": "2503ecb698cff9381da4b7506eb18dde053c17dca4d4841d905b5a2b4fc2244a",
+      "size_in_bytes": 2272
+    },
+    {
+      "_path": "site-packages/cachetools/decorators.py",
+      "path_type": "hardlink",
+      "sha256": "67c5da58302796ae7441fdc556b2923dbc2bd797439064484cc707b15772d804",
+      "size_in_bytes": 2829
+    },
+    {
+      "_path": "site-packages/cachetools/func.py",
+      "path_type": "hardlink",
+      "sha256": "5d722594a4a77f3b7f67c35c00b793e60cfeb5cd6e53657dd79d366764054d84",
+      "size_in_bytes": 4009
+    },
+    {
+      "_path": "site-packages/cachetools/keys.py",
+      "path_type": "hardlink",
+      "sha256": "6cac05c14d79b3ebca58cd659cd75c2567f2431bbbbaa21c45124d83d8547c58",
+      "size_in_bytes": 1466
+    },
+    {
+      "_path": "site-packages/cachetools/lfu.py",
+      "path_type": "hardlink",
+      "sha256": "c409184e9c7cfbb1a0d483b0d3c515c67710cacf2d9fbb0f834f65afd22f4f24",
+      "size_in_bytes": 1065
+    },
+    {
+      "_path": "site-packages/cachetools/lru.py",
+      "path_type": "hardlink",
+      "sha256": "d1735363b573604755f7209d38cc2786405e428c7f37a56c715ccd166f95c11a",
+      "size_in_bytes": 1188
+    },
+    {
+      "_path": "site-packages/cachetools/rr.py",
+      "path_type": "hardlink",
+      "sha256": "ba8231aa3f71158700dac7cac2839061df0913ac333173eb1cb954b2eb1c20b0",
+      "size_in_bytes": 974
+    },
+    {
+      "_path": "site-packages/cachetools/ttl.py",
+      "path_type": "hardlink",
+      "sha256": "548d43722feca332c0f26d79fa5e4e7cd15f27519486e5a6dfd2128efc6b320e",
+      "size_in_bytes": 5830
+    }
+  ],
+  "paths_version": 1
+}

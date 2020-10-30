@@ -1,0 +1,59 @@
+{
+  "build": "he6710b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libffi-3.3-he6710b0_1",
+  "features": "",
+  "files": [
+    "include/ffi.h",
+    "include/ffitarget.h",
+    "lib/libffi.a",
+    "lib/libffi.so",
+    "lib/libffi.so.7",
+    "lib/libffi.so.7.1.0",
+    "lib/pkgconfig/libffi.pc",
+    "share/info/libffi.info",
+    "share/man/man3/ffi.3",
+    "share/man/man3/ffi_call.3",
+    "share/man/man3/ffi_prep_cif.3",
+    "share/man/man3/ffi_prep_cif_var.3"
+  ],
+  "fn": "libffi-3.3-he6710b0_1.conda",
+  "legacy_bz2_md5": "43bcdf2e6198aa64303aa6eb0af22ec7",
+  "legacy_bz2_size": 55007,
+  "license": "Custom",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libffi-3.3-he6710b0_1",
+    "type": 1
+  },
+  "md5": "d64f09bdde908ed6793d0f992041a0bf",
+  "name": "libffi",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libffi-3.3-he6710b0_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/libffi.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "189c5407784da1867aa504aa5dde3d737e88edc1102e12b84c91e36e3f4f391f",
+        "sha256_in_prefix": "86403527c4ee4681a92c9b4fbf8a6866fa9b86c92ebacbde18dea860a98a98bc",
+        "size_in_bytes": 308
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libffi==3.3=he6710b0_1",
+  "sha256": "56dbae0d2cc5d3a2b119f7f4c33d8076dee3e6b2ad9978bba6559f80a3eb3e56",
+  "size": 50906,
+  "subdir": "linux-64",
+  "timestamp": 1587588834166,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libffi-3.3-he6710b0_1.conda",
+  "version": "3.3"
+}

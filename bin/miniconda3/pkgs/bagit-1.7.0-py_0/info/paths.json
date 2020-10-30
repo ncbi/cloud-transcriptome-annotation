@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "locale/en/LC_MESSAGES/bagit-python.mo",
+      "path_type": "hardlink",
+      "sha256": "b0b808b1fd90d5ee9be334ce1e07da0b9ce564b1a9e264df6116fc3e451ca369",
+      "size_in_bytes": 2849
+    },
+    {
+      "_path": "python-scripts/bagit.py",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "3374a2833478dc36d558da074339fc6b36c34c47a23f8351a055b6c3a3c36009",
+      "size_in_bytes": 54780
+    },
+    {
+      "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "3962f62057b130d21ce86f2c9509eed338978f11e77f7be534017b0b4a119239",
+      "size_in_bytes": 10288
+    },
+    {
+      "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "d086491bf63555e0a1ab66b65351dbf92a346623cbfe852e98e89847f533d19c",
+      "size_in_bytes": 301
+    },
+    {
+      "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "1d2c631b9cf1b040b29b018eed1631831f1bdbbe8cd5d4c6c0cea9a2a6b324cf",
+      "size_in_bytes": 156
+    },
+    {
+      "_path": "site-packages/bagit-1.7.0-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7f6f3c8a9a5eec4452cc44ec11fb736b5757abad59e331525c381a4c5e9d8e91",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "site-packages/bagit.py",
+      "path_type": "hardlink",
+      "sha256": "32fa0550c04feec4b8023213e6147d92d17b6ca7c7aaf41d6eca837d72a7ff34",
+      "size_in_bytes": 54756
+    }
+  ],
+  "paths_version": 1
+}

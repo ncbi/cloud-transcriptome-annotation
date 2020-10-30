@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-io-compress",
+    "perl-io-zlib",
+    "perl-pathtools"
+  ],
+  "features": "",
+  "fn": "perl-archive-tar-2.32-pl526_0.tar.bz2",
+  "license": "perl_5",
+  "md5": "961b7fd4f58d59d7d4f9f3e48f679477",
+  "name": "perl-archive-tar",
+  "platform": "linux",
+  "sha256": "2506dad246f306e5262ccdae2c0e779f0c6425b90189d5d5afc9a6671fc1b350",
+  "size": 31485,
+  "subdir": "linux-64",
+  "timestamp": 1541970788614,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-archive-tar-2.32-pl526_0.tar.bz2",
+  "version": "2.32"
+}

@@ -1,0 +1,74 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 19 19:24:29 2020
+# ------------------------------------------------
+
+package:
+    name: lz4-c
+    version: 1.9.2
+source:
+    fn: lz4-1.9.2.tar.gz
+    patches:
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch
+    sha256: 658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc
+    url: https://github.com/lz4/lz4/archive/v1.9.2.tar.gz
+build:
+    number: '3'
+    run_exports:
+        - lz4-c >=1.9.2,<1.10.0a0
+    string: he1b5a44_3
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-64 2.34 h2122c62_9
+        - binutils_linux-64 2.34 h47ac705_27
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 hf34d7eb_27
+        - gxx_impl_linux-64 7.5.0 h64c220c_13
+        - gxx_linux-64 7.5.0 ha781d05_27
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - libstdcxx-ng 9.3.0 hdf63c60_15
+        - make 4.3 h516909a_0
+        - patch 2.7.6 h14c3975_1001
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h24d8f2e_15
+        - libgomp 9.3.0 h24d8f2e_15
+        - libstdcxx-ng 9.3.0 hdf63c60_15
+    run:
+        - libgcc-ng >=7.5.0
+        - libstdcxx-ng >=7.5.0
+about:
+    description: 'LZ4 is lossless compression algorithm, providing compression speed
+        at 400
+
+        MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,
+
+        with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression
+
+        derivative, called LZ4_HC, is available, trading customizable CPU time for
+
+        compression ratio. LZ4 library is provided as open source software using a
+
+        BSD license.
+
+        '
+    home: https://www.lz4.org
+    license: BSD-2-Clause
+    license_file: lib/LICENSE
+    summary: Extremely Fast Compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - rmax
+        - wesm
+        - xhochy

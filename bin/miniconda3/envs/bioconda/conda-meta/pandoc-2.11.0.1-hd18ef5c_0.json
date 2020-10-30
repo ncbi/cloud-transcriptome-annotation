@@ -1,0 +1,42 @@
+{
+  "build": "hd18ef5c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/pandoc-2.11.0.1-hd18ef5c_0",
+  "features": "",
+  "files": [
+    "bin/pandoc"
+  ],
+  "fn": "pandoc-2.11.0.1-hd18ef5c_0.tar.bz2",
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/pandoc-2.11.0.1-hd18ef5c_0",
+    "type": 1
+  },
+  "md5": "3dc76a4297cd1dfda423735d112cde45",
+  "name": "pandoc",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/pandoc-2.11.0.1-hd18ef5c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pandoc",
+        "path_type": "hardlink",
+        "sha256": "7d3d6905f48c1faf2ebb186b85b472f593d5224dff59fbac4ef0b045a600ecb7",
+        "sha256_in_prefix": "7d3d6905f48c1faf2ebb186b85b472f593d5224dff59fbac4ef0b045a600ecb7",
+        "size_in_bytes": 81551584
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "de1a0d3fc52d0458c8d4fd456d6fcafa355b0d754cf6ef8ff5987f49fe19ac96",
+  "size": 13087639,
+  "subdir": "linux-64",
+  "timestamp": 1602706703758,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.11.0.1-hd18ef5c_0.tar.bz2",
+  "version": "2.11.0.1"
+}

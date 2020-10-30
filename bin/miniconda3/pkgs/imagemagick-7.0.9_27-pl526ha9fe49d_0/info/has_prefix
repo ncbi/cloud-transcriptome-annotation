@@ -1,0 +1,16 @@
+/home/conda/feedstock_root/build_artifacts/imagemagick_1583059458490/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold binary lib/libMagickCore-7.Q16HDRI.so.7.0.0
+/opt/anaconda1anaconda2anaconda3 text bin/Magick++-config
+/opt/anaconda1anaconda2anaconda3 text bin/MagickCore-config
+/opt/anaconda1anaconda2anaconda3 text bin/MagickWand-config
+/opt/anaconda1anaconda2anaconda3 text etc/ImageMagick-7/type-ghostscript.xml
+/opt/anaconda1anaconda2anaconda3 text include/ImageMagick-7/MagickCore/magick-baseconfig.h
+/opt/anaconda1anaconda2anaconda3 text include/ImageMagick-7/MagickCore/version.h
+/opt/anaconda1anaconda2anaconda3 text lib/ImageMagick-7.0.9/config-Q16HDRI/configure.xml
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/ImageMagick.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/Magick++-7.Q16HDRI.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/Magick++.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/MagickCore-7.Q16HDRI.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/MagickCore.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/MagickWand-7.Q16HDRI.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/MagickWand.pc

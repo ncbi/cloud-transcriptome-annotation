@@ -1,0 +1,140 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Apr  3 22:06:26 2020
+# ------------------------------------------------
+
+package:
+    name: pango
+    version: 1.42.4
+source:
+    sha256: 1d2b74cd63e8bd41961f2f8d952355aa0f9be6002b52c8aa7699d9f5da597c9d
+    url: http://ftp.gnome.org/pub/GNOME/sources/pango/1.42/pango-1.42.4.tar.xz
+build:
+    detect_binary_files_with_prefix: true
+    number: '4'
+    string: h7062337_4
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.34 h53a641e_0
+        - binutils_linux-64 2.34 hc952b39_18
+        - ca-certificates 2019.11.28 hecc5488_0
+        - gcc_impl_linux-64 7.3.0 hd420e75_5
+        - gcc_linux-64 7.3.0 h553295d_18
+        - ld_impl_linux-64 2.34 h53a641e_0
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - make 4.3 h516909a_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1f h516909a_0
+        - perl 5.26.2 h516909a_1006
+        - pkg-config 0.29.2 h516909a_1006
+        - pthread-stubs 0.4 h14c3975_1001
+        - python 2.7.15 h5a48372_1011_cpython
+        - python_abi 2.7 1_cp27mu
+        - readline 8.0 hf8c457e_0
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - zlib 1.2.11 h516909a_1006
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - cairo 1.16.0 hcf35c78_1003
+        - fontconfig 2.13.1 h86ecdb6_1001
+        - freetype 2.9.1 he983fc9_1006
+        - fribidi 1.0.9 h516909a_0
+        - gettext 0.19.8.1 hc5be6a0_1002
+        - glib 2.58.3 py38h73cb85d_1003
+        - gobject-introspection 1.58.2 py38h03d966d_1004
+        - graphite2 1.3.13 he1b5a44_1001
+        - harfbuzz 2.4.0 h9f30f68_3
+        - icu 64.2 he1b5a44_1
+        - ld_impl_linux-64 2.34 h53a641e_0
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libiconv 1.15 h516909a_1006
+        - libpng 1.6.37 hed695b0_1
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - libuuid 2.32.1 h14c3975_1000
+        - libxcb 1.13 h14c3975_1002
+        - libxml2 2.9.10 hee79883_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1f h516909a_0
+        - pcre 8.44 he1b5a44_0
+        - pixman 0.38.0 h516909a_1003
+        - pthread-stubs 0.4 h14c3975_1001
+        - python 3.8.2 h8356626_5_cpython
+        - python_abi 3.8 1_cp38
+        - readline 8.0 hf8c457e_0
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - xorg-kbproto 1.0.7 h14c3975_1002
+        - xorg-libice 1.0.10 h516909a_0
+        - xorg-libsm 1.2.3 h84519dc_1000
+        - xorg-libx11 1.6.9 h516909a_0
+        - xorg-libxau 1.0.9 h14c3975_0
+        - xorg-libxdmcp 1.1.3 h516909a_0
+        - xorg-libxext 1.3.4 h516909a_0
+        - xorg-libxrender 0.9.10 h516909a_1002
+        - xorg-renderproto 0.11.1 h14c3975_1002
+        - xorg-xextproto 7.3.0 h14c3975_1002
+        - xorg-xproto 7.0.31 h14c3975_1007
+        - xz 5.2.4 h516909a_1002
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - cairo >=1.16.0,<1.17.0a0
+        - cairo >=1.16.0,<1.17.0a0
+        - fontconfig >=2.13.1,<3.0a0
+        - fontconfig >=2.13.1,<3.0a0
+        - freetype >=2.9.1,<3.0a0
+        - freetype >=2.9.1,<3.0a0
+        - fribidi >=1.0.9,<2.0a0
+        - glib >=2.58.3,<3.0a0
+        - harfbuzz >=2.4.0,<3.0a0
+        - libgcc-ng >=7.3.0
+        - libpng >=1.6.37,<1.7.0a0
+        - libpng >=1.6.37,<1.7.0a0
+test:
+    commands:
+        - pango-view --help
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+        - test -f $PREFIX/lib/libpango-1.0${SHLIB_EXT}
+        - test -f `pkg-config --variable=libdir --dont-define-prefix pango`/libpango-1.0${SHLIB_EXT}
+        - test -f $PREFIX/lib/libpangocairo-1.0${SHLIB_EXT}
+        - test -f `pkg-config --variable=libdir --dont-define-prefix pangocairo`/libpangocairo-1.0${SHLIB_EXT}
+        - test -f $PREFIX/lib/libpangoft2-1.0${SHLIB_EXT}
+        - test -f `pkg-config --variable=libdir --dont-define-prefix pangoft2`/libpangoft2-1.0${SHLIB_EXT}
+    requires:
+        - pkg-config
+about:
+    description: 'Pango is a library for laying out and rendering of text, with an
+        emphasis
+
+        on internationalization. Pango can be used anywhere that text layout is
+
+        needed, though most of the work on Pango so far has been done in the
+
+        context of the GTK+ widget toolkit. Pango forms the core of text and font
+
+        handling for GTK+-2.x.
+
+        '
+    dev_url: https://gitlab.gnome.org/GNOME/pango
+    doc_url: http://www.pango.org/
+    home: http://www.pango.org/
+    license: LGPL-2.1-or-later
+    license_file: COPYING
+    summary: Text layout and rendering engine.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - jakirkham
+        - ocefpaf
+        - pkgw

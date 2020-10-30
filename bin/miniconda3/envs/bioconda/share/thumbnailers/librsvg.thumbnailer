@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/bin/gdk-pixbuf-thumbnailer
+Exec=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;

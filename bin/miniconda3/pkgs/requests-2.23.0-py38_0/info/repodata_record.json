@@ -1,0 +1,27 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2017.4.17",
+    "chardet >=3.0.2,<4",
+    "idna >=2.5,<3",
+    "python >=3.8,<3.9.0a0",
+    "urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
+  ],
+  "features": "",
+  "fn": "requests-2.23.0-py38_0.conda",
+  "legacy_bz2_md5": "dab0ca3201a463e071e4e79bdca32113",
+  "legacy_bz2_size": 93191,
+  "license": "Apache-2.0",
+  "md5": "e9d2bb2832a5aa7e93edba4a53f5b094",
+  "name": "requests",
+  "sha256": "2594cbd4b8f5b843c694093791dfcdb9f19d2052d38c654424c531af08a41b77",
+  "size": 94967,
+  "subdir": "linux-64",
+  "timestamp": 1584021688433,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/requests-2.23.0-py38_0.conda",
+  "version": "2.23.0"
+}

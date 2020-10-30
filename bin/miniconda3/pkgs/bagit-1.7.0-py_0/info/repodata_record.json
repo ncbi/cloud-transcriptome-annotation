@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "bagit-1.7.0-py_0.tar.bz2",
+  "license": "Public-Domain",
+  "md5": "31d83fc6c652f827068d077c56fa1858",
+  "name": "bagit",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "37b26f52490efd0debf3c4285fd016631dcd6683b04d7a6ef8780deb7449d25f",
+  "size": 23179,
+  "subdir": "noarch",
+  "timestamp": 1530235138435,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bagit-1.7.0-py_0.tar.bz2",
+  "version": "1.7.0"
+}

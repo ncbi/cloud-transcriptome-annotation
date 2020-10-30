@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_2",
+  "build_number": 2,
+  "depends": [
+    "python"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "backports",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1534141868531,
+  "version": "1.0"
+}

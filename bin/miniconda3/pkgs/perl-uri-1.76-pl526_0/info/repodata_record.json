@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-business-isbn",
+    "perl-carp",
+    "perl-constant",
+    "perl-data-dumper",
+    "perl-encode",
+    "perl-exporter",
+    "perl-mime-base64",
+    "perl-parent"
+  ],
+  "features": "",
+  "fn": "perl-uri-1.76-pl526_0.tar.bz2",
+  "license": "perl_5",
+  "md5": "30afcde2552ea47cdb5420e5319f66ad",
+  "name": "perl-uri",
+  "platform": "linux",
+  "sha256": "4f56fa57abfcbdf31a223d2a644370c8fd26eaf38a157991ef7bdcc49bee72ef",
+  "size": 56409,
+  "subdir": "linux-64",
+  "timestamp": 1547157432267,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-uri-1.76-pl526_0.tar.bz2",
+  "version": "1.76"
+}

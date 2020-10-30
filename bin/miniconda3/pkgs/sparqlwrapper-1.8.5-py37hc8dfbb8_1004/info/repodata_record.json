@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1004",
+  "build_number": 1004,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "keepalive",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "sparqlwrapper-1.8.5-py37hc8dfbb8_1004.tar.bz2",
+  "license": "W3C",
+  "md5": "c6fc0a97a72cefaccfea445644335869",
+  "name": "sparqlwrapper",
+  "platform": "linux",
+  "sha256": "b25a7d6911825a6c2823b5a509dae2d547f353418ecc2c365cd0373545e84674",
+  "size": 40911,
+  "subdir": "linux-64",
+  "timestamp": 1602337040846,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sparqlwrapper-1.8.5-py37hc8dfbb8_1004.tar.bz2",
+  "version": "1.8.5"
+}

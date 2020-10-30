@@ -1,0 +1,99 @@
+--- pc-files/cairo-gobject.pc
++++ pc-files/cairo-gobject.pc
+@@ -0,0 +1,12 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-gobject
++Description: gobject functions for cairo
++Version: ${PKG_VERSION}
++
++Requires: cairo gobject-2.0 glib-2.0
++Libs: -L${libdir} -lcairo-gobject
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo.pc
++++ pc-files/cairo.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo
++Description: Multi-platform 2D graphics library
++Version: ${PKG_VERSION}
++
++Libs: -L${libdir} -lcairo
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo-pdf.pc
++++ pc-files/cairo-pdf.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-pdf
++Description: PDF surface backend for cairo graphics library
++Version: ${PKG_VERSION}
++
++Requires: cairo
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo-png.pc
++++ pc-files/cairo-png.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-png
++Description: PNG functions for cairo graphics library
++Version: ${PKG_VERSION}
++
++Requires: cairo libpng
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo-ps.pc
++++ pc-files/cairo-ps.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-ps
++Description: PostScript surface backend for cairo graphics library
++Version: ${PKG_VERSION}
++
++Requires: cairo
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo-svg.pc
++++ pc-files/cairo-svg.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-svg
++Description: SVG surface backend for cairo graphics library
++Version: ${PKG_VERSION}
++
++Requires: cairo
++Cflags: -I${includedir}/cairo
+--- pc-files/cairo-win32.pc
++++ pc-files/cairo-win32.pc
+@@ -0,0 +1,11 @@
++prefix=${LIBRARY_PREFIX}
++exec_prefix=${prefix}
++libdir=${prefix}/lib
++includedir=${prefix}/include
++
++Name: cairo-win32
++Description: Multi-platform 2D graphics library
++Version: ${PKG_VERSION}
++
++Libs: -L${libdir} -lcairo
++Cflags: -I${includedir}/cairo

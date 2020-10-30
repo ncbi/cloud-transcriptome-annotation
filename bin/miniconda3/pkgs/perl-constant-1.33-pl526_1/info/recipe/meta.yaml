@@ -1,0 +1,31 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Jul  8 15:42:46 2018
+# ------------------------------------------------
+
+package:
+    name: perl-constant
+    version: '1.33'
+source:
+    sha256: 79965d4130eb576670e27ca0ae6899ef0060c76da48b02b97682166882f1b504
+    url: https://cpan.metacpan.org/authors/id/R/RJ/RJBS/constant-1.33.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-extutils-makemaker 7.34 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+test:
+    commands:
+        - perl -e "use constant"
+about:
+    home: https://metacpan.org/module/constant
+    license: perl_5
+    summary: Perl pragma to declare constants
+extra:
+    copy_test_source_files: true
+    final: true

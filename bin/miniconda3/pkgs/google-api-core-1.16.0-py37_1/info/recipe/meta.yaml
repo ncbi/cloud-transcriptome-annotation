@@ -1,0 +1,121 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: google-api-core
+    version: 1.16.0
+source:
+    sha256: 92e962a087f1c4b8d1c5c88ade1c1dfd550047dcffb320c57ef6a534a20403e2
+    url: https://pypi.org/packages/source/g/google-api-core/google-api-core-1.16.0.tar.gz
+build:
+    number: 1
+    script: /home/conda/feedstock_root/build_artifacts/google-api-core-split_1579126942529/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps --ignore-installed --verbose
+    string: py37_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py37_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - pip 19.3.1 py37_0
+        - python 3.7.6 h357f687_2
+        - readline 8.0 hf8c457e_0
+        - setuptools 45.0.0 py37_1
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.33.6 py37_0
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - google-auth >=0.4.0,<2.0.0dev
+        - googleapis-common-protos >=1.6.0,<2.0dev
+        - protobuf >=3.4.0
+        - python >=3.7,<3.8.0a0
+        - pytz
+        - requests >=2.18.0,<3.0.0dev
+        - setuptools >=34.0.0
+        - six >=1.10.0
+test:
+    imports:
+        - concurrent.futures
+        - google.api_core
+        - google.api_core.exceptions
+        - google.api_core.future
+        - google.api_core.future.base
+        - google.api_core.future.polling
+        - google.api_core.general_helpers
+        - google.api_core.page_iterator
+        - google.api_core.protobuf_helpers
+        - google.api_core.retry
+        - google.api_core.timeout
+        - google.auth
+        - google.auth.credentials
+        - google.auth.transport.requests
+        - google.longrunning
+        - google.longrunning.operations_pb2
+        - google.protobuf
+        - google.rpc
+        - platform
+        - pytz
+        - requests
+        - setuptools
+        - six
+        - six.moves
+        - six.moves.urllib.parse
+about:
+    description: 'Core Library for Google Client Libraries
+
+        -------------------------
+
+
+        This package does not include the grpc, grpcio-gcp or grpcgcp extra requirements.
+
+
+        This library is not meant to stand-alone. Instead it defines
+
+        common helpers used by all Google API clients. For more information, see the
+
+        [documentation](https://googleapis.dev/python/google-api-core/latest/index.html).
+
+
+        Supported Python Versions
+
+        -------------------------
+
+        Python >= 3.5
+
+
+        Deprecated Python Versions
+
+        --------------------------
+
+        Python == 2.7
+
+        - Python 2.7 support will be removed on January 1, 2020.
+
+        - protobuf does not support Visual C++ 2008, windows py27 package not available
+
+        '
+    dev_url: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+    doc_url: https://googleapis.dev/python/google-api-core/latest/index.html
+    home: https://github.com/googleapis/google-cloud-python/tree/master/api_core
+    license: Apache 2.0
+    license_family: APACHE
+    license_file: LICENSE
+    summary: Core Library for Google Client Libraries
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - BrentDorsey
+        - leahecole
+        - parthea
+        - tswast

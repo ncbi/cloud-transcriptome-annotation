@@ -1,0 +1,60 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Apr 10 18:35:05 2020
+# ------------------------------------------------
+
+package:
+    name: jbig
+    version: '2.1'
+source:
+    -   sha256: de7106b6bfaf495d6865c7dd7ac6ca1381bd12e0d81405ea81e7f2167263d932
+        url: https://www.cl.cam.ac.uk/~mgk25/jbigkit/download/jbigkit-2.1.tar.gz
+    -   path: CMakeLists.txt
+build:
+    number: '2002'
+    string: h516909a_2002
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.34 h53a641e_0
+        - binutils_linux-64 2.34 hc952b39_18
+        - gcc_impl_linux-64 7.3.0 hd420e75_5
+        - gcc_linux-64 7.3.0 h553295d_18
+        - ld_impl_linux-64 2.34 h53a641e_0
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+    run:
+        - libgcc-ng >=7.3.0
+test:
+    commands:
+        - test -f $PREFIX/lib/libjbig.a
+about:
+    description: 'JBIG-KIT provides a portable library of compression and decompression
+
+        functions with a documented interface that you can include very easily
+
+        into your image or document processing software.
+
+        '
+    dev_url: https://www.cl.cam.ac.uk/~mgk25/git/jbigkit/
+    doc_url: https://www.cl.cam.ac.uk/~mgk25/jbigkit/
+    home: https://www.cl.cam.ac.uk/~mgk25/jbigkit
+    license: GPL-2.0
+    license_family: GPL
+    license_file: COPYING
+    summary: Implementation of the JBIG1 data compression standard
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - nehaljwani
+        - ocefpaf
+        - seanyen

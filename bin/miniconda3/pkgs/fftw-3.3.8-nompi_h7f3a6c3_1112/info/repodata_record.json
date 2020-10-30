@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "nompi_h7f3a6c3_1112",
+  "build_number": 1112,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libgfortran-ng",
+    "libgfortran4 >=7.5.0"
+  ],
+  "features": "",
+  "fn": "fftw-3.3.8-nompi_h7f3a6c3_1112.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL",
+  "md5": "f4608af1099bd070fd56d7f0cc87c714",
+  "name": "fftw",
+  "platform": "linux",
+  "sha256": "b2c30d2315da68e79e9eca1a399f63b219ca9bd0122183831926f42ee1116d9e",
+  "size": 6130541,
+  "subdir": "linux-64",
+  "timestamp": 1602370312005,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fftw-3.3.8-nompi_h7f3a6c3_1112.tar.bz2",
+  "version": "3.3.8"
+}

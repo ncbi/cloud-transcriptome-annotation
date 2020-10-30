@@ -1,0 +1,10 @@
+{
+  "harfbuzz": "2",
+  "cairo": "1.16",
+  "c_compiler_version": "7",
+  "fontconfig": "2.13",
+  "libpng": "1.6",
+  "freetype": "2.9.1",
+  "glib": "2.58",
+  "c_compiler": "gcc"
+}

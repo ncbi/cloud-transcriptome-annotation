@@ -1,0 +1,29 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cachetools >=2.0.0,<5.0",
+    "pyasn1-modules >=0.2.1",
+    "python",
+    "rsa >=3.1.4,<4.1",
+    "setuptools >=40.3.0",
+    "six >=1.9.0"
+  ],
+  "features": "",
+  "fn": "google-auth-1.11.2-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "effd22d802777067669da1038657d380",
+  "name": "google-auth",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5d8471519ca4bcd63aeaa28f759c88bde89ab381304c8af05abedc2a4b73e7bb",
+  "size": 48547,
+  "subdir": "noarch",
+  "timestamp": 1581707560560,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-auth-1.11.2-py_0.tar.bz2",
+  "version": "1.11.2"
+}

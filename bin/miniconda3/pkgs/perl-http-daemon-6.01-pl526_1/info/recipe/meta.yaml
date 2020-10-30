@@ -1,0 +1,39 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sat Jul  7 21:24:19 2018
+# ------------------------------------------------
+
+package:
+    name: perl-http-daemon
+    version: '6.01'
+source:
+    md5: ed0ae02d25d7f1e89456d4d69732adc2
+    url: http://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-encode-locale 1.05 pl526h470a237_5
+        - perl-http-date 6.02 pl526_2
+        - perl-http-message 6.11 pl526_1
+        - perl-io-html 1.001 pl526_2
+        - perl-lwp-mediatypes 6.02 pl526_2
+        - perl-uri 1.71 pl526_2
+    run:
+        - perl >=5.26.2,<5.27.0a0
+        - perl-http-date
+        - perl-http-message
+        - perl-lwp-mediatypes
+test:
+    imports:
+        - HTTP::Daemon
+about:
+    home: http://metacpan.org/pod/HTTP-Daemon
+    license: perl_5
+    summary: a simple http server class
+extra:
+    copy_test_source_files: true
+    final: true

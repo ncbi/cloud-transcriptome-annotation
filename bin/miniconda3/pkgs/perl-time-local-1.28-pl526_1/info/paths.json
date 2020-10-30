@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/Time/Local.pm",
+      "path_type": "hardlink",
+      "sha256": "c2db1e6ad7020c344d34d247b6d065f6558c1429ac8f631bb84ee30200c5a601",
+      "size_in_bytes": 14362
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Time/Local/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "330cf1e60e39f5d7ce891b71125853d2a40e48439453b974e7180bf12008b73b",
+      "size_in_bytes": 218
+    }
+  ],
+  "paths_version": 1
+}

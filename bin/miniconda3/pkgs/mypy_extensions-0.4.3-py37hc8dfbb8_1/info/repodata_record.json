@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "mypy_extensions-0.4.3-py37hc8dfbb8_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "3770dbc2429c6fb508ce72034a898cfd",
+  "name": "mypy_extensions",
+  "platform": "linux",
+  "sha256": "bb22f86d408f22864986923382b4caaa2ec93fc9792e4dca3675f7bc9156f51d",
+  "size": 9725,
+  "subdir": "linux-64",
+  "timestamp": 1584273794878,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mypy_extensions-0.4.3-py37hc8dfbb8_1.tar.bz2",
+  "version": "0.4.3"
+}

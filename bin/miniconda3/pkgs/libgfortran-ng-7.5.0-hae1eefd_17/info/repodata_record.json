@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "hae1eefd_17",
+  "build_number": 17,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran4 7.5.0.*"
+  ],
+  "features": "",
+  "fn": "libgfortran-ng-7.5.0-hae1eefd_17.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "md5": "f3eca18e6a8ea6b7e81f4f97ddc6995c",
+  "name": "libgfortran-ng",
+  "platform": "linux",
+  "sha256": "1021e855b4acbbfa1ad6ad2865a35887342bdce895832b2ac9571ccf2a2a92a2",
+  "size": 22095,
+  "subdir": "linux-64",
+  "timestamp": 1601682313399,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-7.5.0-hae1eefd_17.tar.bz2",
+  "version": "7.5.0"
+}

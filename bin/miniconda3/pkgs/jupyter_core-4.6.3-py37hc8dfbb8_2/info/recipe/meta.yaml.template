@@ -1,0 +1,65 @@
+{% set version = "4.6.3" %}
+
+package:
+  name: jupyter_core
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/j/jupyter_core/jupyter_core-{{ version }}.tar.gz
+  sha256: 394fd5dd787e7c8861741880bdf8a00ce39f95de5d18e579c74b882522219e7e
+
+build:
+  number: 2
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - jupyter = jupyter_core.command:main
+    - jupyter-migrate = jupyter_core.migrate:main
+    - jupyter-troubleshoot = jupyter_core.troubleshoot:main
+
+requirements:
+  build:
+    - pip
+    - python
+  run:
+    - python
+    - pywin32  # [win]
+    - traitlets
+
+{% set skip_all = "not test_not_on_path and not test_path_priority" %}
+{% set skip_win_py2k = " and not test_migrate_config" %}
+{% set skip = skip_all %}  # [not(win and py2k)]
+{% set skip = skip_all ~ skip_win_py2k %}  # [win and py2k]
+test:
+  requires:
+    # - ipykernel
+    - mock  # [py2k]
+    - nose
+    - pytest
+    - pip
+  commands:
+    - jupyter -h
+    - jupyter-migrate -h
+    - jupyter-troubleshoot --help
+    # - python -m pytest --pyargs jupyter_core -k "{{ skip }}"
+    - pip check
+  imports:
+    - jupyter_core
+
+about:
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: Core common functionality of Jupyter projects.
+  dev_url: https://github.com/jupyter/jupyter_core
+  doc_url: https://jupyter-core.readthedocs.io
+  doc_source_url: https://github.com/jupyter/jupyter_core/tree/master/docs
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pelson
+    - minrk
+    - ocefpaf
+    - bollwyvl
+    - Carreau

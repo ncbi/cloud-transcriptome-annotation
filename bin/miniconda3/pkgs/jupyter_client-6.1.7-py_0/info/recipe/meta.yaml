@@ -1,0 +1,89 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 26 23:55:04 2020
+# ------------------------------------------------
+
+package:
+    name: jupyter_client
+    version: 6.1.7
+source:
+    sha256: 49e390b36fe4b4226724704ea28d9fb903f1a3601b6882ce3105221cd09377a1
+    url: https://pypi.io/packages/source/j/jupyter_client/jupyter_client-6.1.7.tar.gz
+build:
+    entry_points:
+        - jupyter-kernel = jupyter_client.kernelapp:main
+        - jupyter-kernelspec = jupyter_client.kernelspecapp:KernelSpecApp.launch_instance
+        - jupyter-run = jupyter_client.runapp:main
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/jupyter_client_1598486169312/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py38h32f6830_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+        - libstdcxx-ng 9.3.0 hdf63c60_16
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.8.5 h1103e12_5_cpython
+        - python_abi 3.8 1_cp38
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py38h32f6830_0
+        - sqlite 3.33.0 h4cf870e_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1007
+    run:
+        - jupyter_core >=4.6.0
+        - python >=3.5
+        - python-dateutil >=2.1
+        - pyzmq >=13
+        - tornado >=4.1
+        - traitlets
+test:
+    commands:
+        - python -m pip check
+        - jupyter kernelspec list
+        - jupyter run -h
+        - pytest --pyargs jupyter_client --cov jupyter_client
+    imports:
+        - jupyter_client
+    requires:
+        - async_generator
+        - ipykernel
+        - ipython
+        - mock
+        - pip
+        - pytest
+        - pytest-asyncio
+        - pytest-cov
+        - pytest-timeout
+about:
+    dev_url: https://github.com/jupyter/jupyter_client
+    doc_source_url: https://github.com/jupyter/jupyter_client/tree/master/docs
+    doc_url: https://jupyter-client.readthedocs.io/en/stable/
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: jupyter_client contains the reference implementation of the Jupyter protocol.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - bollwyvl
+        - carreau
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

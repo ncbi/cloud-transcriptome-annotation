@@ -1,0 +1,55 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Jun  1 14:22:05 2020
+# ------------------------------------------------
+
+package:
+    name: jpeg
+    version: 9d
+source:
+    sha256: 99cb50e48a4556bc571dadd27931955ff458aae32f68c4d9c39d624693f69c32
+    url: http://www.ijg.org/files/jpegsrc.v9d.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - jpeg >=9d,<10a
+    string: h516909a_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.34 h53a641e_4
+        - binutils_linux-64 2.34 hc952b39_20
+        - gcc_impl_linux-64 7.5.0 hd420e75_6
+        - gcc_linux-64 7.5.0 h09487f9_20
+        - ld_impl_linux-64 2.34 h53a641e_4
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - make 4.3 h516909a_0
+        - sysroot_linux-64 2.12 h3a0023d_5
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+    run:
+        - libgcc-ng >=7.5.0
+test:
+    commands:
+        - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg
+    files:
+        - testorig.jpg
+about:
+    home: http://www.ijg.org/
+    license: IJG
+    license_file: /home/conda/recipe_root/LICENSE.txt
+    summary: read/write jpeg COM, EXIF, IPTC medata
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gillins
+        - jakirkham
+        - msarahan
+        - ocefpaf

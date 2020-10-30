@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-xsloader"
+  ],
+  "features": "",
+  "fn": "perl-mime-base64-3.15-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "md5": "6ebc750ac3e57ca1f02d3f580ff281b3",
+  "name": "perl-mime-base64",
+  "platform": "linux",
+  "sha256": "525c789bf3bc0865cc97579b0149a203c74643eea8b3c777127eaeb787d88654",
+  "size": 14853,
+  "subdir": "linux-64",
+  "timestamp": 1531068695779,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-mime-base64-3.15-pl526_1.tar.bz2",
+  "version": "3.15"
+}

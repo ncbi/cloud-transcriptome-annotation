@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "features": "",
+  "fn": "perl-digest-hmac-1.03-pl526_3.tar.bz2",
+  "license": "perl_5",
+  "md5": "8034b317d96bf32090e66ab8c6db9671",
+  "name": "perl-digest-hmac",
+  "platform": "linux",
+  "sha256": "625d26bfe0721d85dc4a94bf0204790af64f64d37ffa9b0748dc1cc0bd077e8f",
+  "size": 9321,
+  "subdir": "linux-64",
+  "timestamp": 1552132231628,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-digest-hmac-1.03-pl526_3.tar.bz2",
+  "version": "1.03"
+}

@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "pygments >=2.4.1,<3",
+    "python"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "jupyterlab_pygments",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1601376059747,
+  "version": "0.1.2"
+}

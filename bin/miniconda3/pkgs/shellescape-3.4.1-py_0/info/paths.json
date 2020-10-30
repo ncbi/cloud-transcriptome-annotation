@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/shellescape-3.4.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/shellescape-3.4.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "f272961c51c529ae037b8fec4a0ba73fd62a515526a917b8619095e45c5020bb",
+      "size_in_bytes": 3000
+    },
+    {
+      "_path": "site-packages/shellescape-3.4.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "89387ab8d2e5355476d7d0f15d25e9046f503d4c36a1521509a644e56803dd59",
+      "size_in_bytes": 726
+    },
+    {
+      "_path": "site-packages/shellescape-3.4.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/shellescape-3.4.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "d6747f33d8a42c8e69450deb7d1b988dd0c1f408cfdd5f46010213779a2183df",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "site-packages/shellescape/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "27d615548fccd63a3f652aab3ddeefdfbf4e87025d7e3eb91f2cab0d3206c005",
+      "size_in_bytes": 71
+    },
+    {
+      "_path": "site-packages/shellescape/main.py",
+      "path_type": "hardlink",
+      "sha256": "9727b6b3a3b5bcdc6c8a9dd74232f61a6efb3f8c81c562c48b2568af4f238153",
+      "size_in_bytes": 445
+    },
+    {
+      "_path": "site-packages/shellescape/settings.py",
+      "path_type": "hardlink",
+      "sha256": "98531f95c3d37a95d3f8ae22d4a1ef2dcbaa6fc97b93170f1e4ea018b5e3040b",
+      "size_in_bytes": 494
+    }
+  ],
+  "paths_version": 1
+}

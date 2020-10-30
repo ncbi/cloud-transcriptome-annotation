@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h516909a_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "features": "",
+  "fn": "c-ares-1.16.1-h516909a_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "8d0f54b0a09bb496dea3f8dae0c551e4",
+  "name": "c-ares",
+  "platform": "linux",
+  "sha256": "ba32287388b574ac3a95fab01e21f4c49c62597a2cb0e69341108c59211c1a8e",
+  "size": 109526,
+  "subdir": "linux-64",
+  "timestamp": 1598348615231,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.16.1-h516909a_3.tar.bz2",
+  "version": "1.16.1"
+}

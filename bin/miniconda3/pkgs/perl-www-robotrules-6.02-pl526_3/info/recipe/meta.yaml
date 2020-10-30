@@ -1,0 +1,43 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Fri Aug 24 03:03:38 2018
+# ------------------------------------------------
+
+package:
+    name: perl-www-robotrules
+    version: '6.02'
+source:
+    sha256: 46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e
+    url: https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+build:
+    number: '3'
+    string: pl526_3
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-business-isbn 3.004 pl526_0
+        - perl-business-isbn-data 20140910.003 pl526_0
+        - perl-carp 1.38 pl526_1
+        - perl-constant 1.33 pl526_1
+        - perl-data-dumper 2.161 pl526_2
+        - perl-encode 2.88 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_2
+        - perl-mime-base64 3.15 pl526_1
+        - perl-parent 0.236 pl526_1
+        - perl-uri 1.74 pl526_0
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-uri
+test:
+    imports:
+        - WWW::RobotRules
+about:
+    home: http://metacpan.org/pod/WWW::RobotRules
+    license: perl_5
+    summary: database of robots.txt-derived permissions
+extra:
+    copy_test_source_files: true
+    final: true

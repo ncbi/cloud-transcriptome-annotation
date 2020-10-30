@@ -1,0 +1,31 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Tue Jul 31 21:31:36 2018
+# ------------------------------------------------
+
+package:
+    name: perl-common-sense
+    version: '3.74'
+source:
+    sha256: 771f7d02abd1ded94d9e37d3f66e795c8d2026d04defbeb5b679ca058116bbf3
+    url: https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/common-sense-3.74.tar.gz
+build:
+    number: '2'
+    string: pl526_2
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-extutils-makemaker 7.34 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+test:
+    imports:
+        - common::sense
+about:
+    home: http://search.cpan.org/~mlehmann/common-sense-3.74/
+    license: perl_5
+    summary: Sane defaults for Perl programs
+extra:
+    copy_test_source_files: true
+    final: true

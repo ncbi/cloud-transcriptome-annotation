@@ -1,0 +1,26 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "decorator >=4.3.0",
+    "python >=3.5",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "networkx-2.3-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "1c816d18df2389a9e59e44c6f2bec757",
+  "name": "networkx",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "9ddfc3abad077a4fd3a36d09b1b27f7ab354443ac293dada82d10e5ffbb561fc",
+  "size": 1186311,
+  "subdir": "noarch",
+  "timestamp": 1555071805064,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/networkx-2.3-py_0.tar.bz2",
+  "version": "2.3"
+}

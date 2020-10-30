@@ -1,0 +1,9 @@
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/IO/Socket/SSL.pm relocate_as=../../../../../IO/Socket/SSL.pm
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/IO/Socket/SSL.pod relocate_as=../../../../../IO/Socket/SSL.pod
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/IO/Socket/SSL/Intercept.pm relocate_as=../../../../../IO/Socket/SSL/Intercept.pm
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/IO/Socket/SSL/PublicSuffix.pm relocate_as=../../../../../IO/Socket/SSL/PublicSuffix.pm
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/IO/Socket/SSL/Utils.pm relocate_as=../../../../../IO/Socket/SSL/Utils.pm
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/man/man3/IO::Socket::SSL.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL.3
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/man/man3/IO::Socket::SSL::Intercept.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::Intercept.3
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/man/man3/IO::Socket::SSL::PublicSuffix.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::PublicSuffix.3
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/man/man3/IO::Socket::SSL::Utils.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::Utils.3

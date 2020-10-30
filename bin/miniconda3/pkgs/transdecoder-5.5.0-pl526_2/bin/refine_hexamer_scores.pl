@@ -1,0 +1,1 @@
+../opt/transdecoder/util/refine_hexamer_scores.pl

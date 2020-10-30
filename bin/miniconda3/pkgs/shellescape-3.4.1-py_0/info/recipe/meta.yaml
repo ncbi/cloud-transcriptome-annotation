@@ -1,0 +1,53 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Dec 19 01:29:38 2018
+# ------------------------------------------------
+
+package:
+    name: shellescape
+    version: 3.4.1
+source:
+    sha256: e618b2bc13f2553315ca1669995dc10fcc2cae5f1e0fda49035ef02d56f0b358
+    url: https://pypi.io/packages/source/s/shellescape/shellescape-3.4.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: '/home/conda/feedstock_root/build_artifacts/shellescape_1545183104150/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . --no-deps --ignore-installed -vvv '
+    string: py_0
+requirements:
+    host:
+        - ca-certificates 2018.11.29 ha4d7672_0
+        - certifi 2018.11.29 py27_1000
+        - libffi 3.2.1 hfc679d8_5
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_2
+        - openssl 1.0.2p h470a237_1
+        - pip 18.1 py27_1000
+        - python 2.7.15 h33da82c_6
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.6.3 py27_0
+        - sqlite 3.26.0 hb1c47c0_0
+        - tk 8.6.9 ha92aebf_0
+        - wheel 0.32.3 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python
+test:
+    imports:
+        - shellescape
+about:
+    dev_url: https://github.com/chrissimpkins/shellescape
+    doc_url: https://github.com/chrissimpkins/shellescape/blob/master/docs/README.rst
+    home: https://github.com/chrissimpkins/shellescape
+    license: MIT
+    license_family: MIT
+    license_file: docs/LICENSE
+    summary: Shell escape a string to safely use it as a token in a shell command
+        (backport of Python shlex.quote for Python versions 2.x & < 3.3)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - croth1

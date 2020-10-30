@@ -1,0 +1,103 @@
+{
+  "paths": [
+    {
+      "_path": "python-scripts/jp.py",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/jmespath_1589369830981/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "356484d4cb582d340dd333efae4e6fe37772a40dfe9dade546876b1b591a0bfa",
+      "size_in_bytes": 1945
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "66b313cce80ed0623fc7db3f24863a0c80fd83eb341a46b57864158ae74faa56",
+      "size_in_bytes": 1084
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "586cee9ec5b1b38aa3e288d98e14ccef8af6e04fb9162fd868158a02808e45e3",
+      "size_in_bytes": 8023
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "c7169a715086561b8089db47920f115e1d477d1bf380a49b141aa2d0f83332a5",
+      "size_in_bytes": 1705
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "dc31000fb57cf06360d8f0d0614a5f0ef7a467119020f7eafbdc018191722d66",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "site-packages/jmespath-0.10.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "beecbfa19d5c92979236b022f092bcfb22063ba6ddb8edeabd6d9c08c4263c7f",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "site-packages/jmespath/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ddc833591d737d141a22cf37183df70752c3c3a033a824c4858ff6b3924c508f",
+      "size_in_bytes": 623
+    },
+    {
+      "_path": "site-packages/jmespath/ast.py",
+      "path_type": "hardlink",
+      "sha256": "4a21d133599d40f46dd76476aa442efc4cdb77e8219391cbcb51e5d631c0caff",
+      "size_in_bytes": 2130
+    },
+    {
+      "_path": "site-packages/jmespath/compat.py",
+      "path_type": "hardlink",
+      "sha256": "43f6be744386aca6bd3229ab85fa6eab9afef69a32073f590ef6f34a93c4d13c",
+      "size_in_bytes": 2117
+    },
+    {
+      "_path": "site-packages/jmespath/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "e47468b7806fdd209376f87994041d401b2a49d68a8ee4cf4b21a6934f334af0",
+      "size_in_bytes": 4128
+    },
+    {
+      "_path": "site-packages/jmespath/functions.py",
+      "path_type": "hardlink",
+      "sha256": "d59c2f08d5731d4d6115451e35b3fd2cefeffc6a893c0187fb1c45f7cbcd7a7f",
+      "size_in_bytes": 12766
+    },
+    {
+      "_path": "site-packages/jmespath/lexer.py",
+      "path_type": "hardlink",
+      "sha256": "2c4dfe74cef99f2f51311f265e65a528a453225cfc9e3bd6cfe33edb2e2de560",
+      "size_in_bytes": 8574
+    },
+    {
+      "_path": "site-packages/jmespath/parser.py",
+      "path_type": "hardlink",
+      "sha256": "5f02df7e9b42c397f73caa09608ec2fe96c05f930acf11440b09d5a83edf9370",
+      "size_in_bytes": 19082
+    },
+    {
+      "_path": "site-packages/jmespath/visitor.py",
+      "path_type": "hardlink",
+      "sha256": "8d21882c47ae635e9690c9317a5db2cad71b96354db4db4b5b8071d2a7d5e1c5",
+      "size_in_bytes": 10844
+    }
+  ],
+  "paths_version": 1
+}

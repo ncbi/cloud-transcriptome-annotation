@@ -1,0 +1,6 @@
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Digest/HMAC.pm relocate_as=../../../../Digest/HMAC.pm
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Digest/HMAC_MD5.pm relocate_as=../../../../Digest/HMAC_MD5.pm
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Digest/HMAC_SHA1.pm relocate_as=../../../../Digest/HMAC_SHA1.pm
+/opt/anaconda1anaconda2anaconda3/man/man3/Digest::HMAC.3 relocate_as=../../../../../../../man/man3/Digest::HMAC.3
+/opt/anaconda1anaconda2anaconda3/man/man3/Digest::HMAC_MD5.3 relocate_as=../../../../../../../man/man3/Digest::HMAC_MD5.3
+/opt/anaconda1anaconda2anaconda3/man/man3/Digest::HMAC_SHA1.3 relocate_as=../../../../../../../man/man3/Digest::HMAC_SHA1.3

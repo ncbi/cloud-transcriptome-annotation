@@ -1,0 +1,27 @@
+{
+  "paths": [
+    {
+      "_path": "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "34ee7193f500593fcb75642fea37562700df742355e8f3ae7b99e9f86dc0243c",
+      "size_in_bytes": 247
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/IO/Zlib.pm",
+      "path_type": "hardlink",
+      "sha256": "20db1cc744b3cee1244d943f93cb4cfb53c571551d0aaf0c140f5988110a510c",
+      "size_in_bytes": 15015
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/IO/Zlib/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "2d93a9b61dc8d86c3db195774a72c347860f85523113a396a90a1083892d2c3c",
+      "size_in_bytes": 206
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Nov  3 14:08:45 2019
+# ------------------------------------------------
+
+package:
+    name: python-dateutil
+    version: 2.8.1
+source:
+    sha256: 73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c
+    url: https://pypi.io/packages/source/p/python-dateutil/python-dateutil-2.8.1.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/python-dateutil_1572790209437/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps -vv
+    string: py_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2019.9.11 hecc5488_0
+        - certifi 2019.9.11 py27_0
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1c h516909a_0
+        - pip 19.3.1 py27_0
+        - python 2.7.15 h5a48372_1009
+        - readline 8.0 hf8c457e_0
+        - setuptools 41.6.0 py27_1
+        - setuptools_scm 3.3.3 py_0
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.9 hed695b0_1003
+        - wheel 0.33.6 py27_0
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python
+        - six
+test:
+    imports:
+        - dateutil
+        - dateutil.rrule
+about:
+    description: 'The dateutil module provides powerful extensions to the standard
+        datetime
+
+        module, available in Python.
+
+        '
+    dev_url: https://github.com/dateutil/dateutil/
+    doc_url: https://dateutil.readthedocs.org/en/latest/
+    home: https://dateutil.readthedocs.org/
+    license: BSD 3 Clause
+    license_file: LICENSE
+    summary: Extensions to the standard Python datetime module.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - pganssle

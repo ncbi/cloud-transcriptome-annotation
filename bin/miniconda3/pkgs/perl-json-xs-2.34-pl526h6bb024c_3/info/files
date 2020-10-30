@@ -1,0 +1,8 @@
+bin/json_xs
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/JSON/XS.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/JSON/XS/Boolean.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/JSON/XS/.packlist
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/JSON/XS/XS.so
+man/man1/json_xs.1
+man/man3/JSON::XS.3
+man/man3/JSON::XS::Boolean.3

@@ -1,0 +1,71 @@
+{% set name = "webp" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "3d47b48c40ed6476e8047b2ddb81d93835e0ca1b8d3e8c679afbb3004dd564b1" %}
+
+package:
+  name: lib{{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn:  lib{{ name }}-{{ version }}.tar.gz
+  url: http://storage.googleapis.com/downloads.webmproject.org/releases/{{name}}/lib{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 5
+  run_exports:
+    # https://abi-laboratory.pro/?view=timeline&l=libwebp
+    - {{ pin_subpackage('libwebp', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - make  # [unix]
+  host:
+    - jpeg  # [unix]
+    - libpng  # [unix]
+    - libtiff  # [unix]
+    - giflib  # [unix]
+  run:
+    - jpeg  # [unix]
+    - libpng  # [unix]
+    - libtiff  # [unix]
+    - giflib  # [unix]
+
+test:
+  commands:
+    - test -f $PREFIX/lib/libwebp.a  # [unix]
+    - test -f $PREFIX/lib/libwebp.dylib  # [osx]
+    - test -f $PREFIX/lib/libwebp.so  # [linux]
+    - test -f $PREFIX/bin/cwebp  # [unix]
+    - test -f $PREFIX/bin/dwebp  # [unix]
+    - test -f $PREFIX/include/webp/decode.h  # [unix]
+    - test -f $PREFIX/include/webp/encode.h  # [unix]
+    - test -f $PREFIX/include/webp/types.h  # [unix]
+    - if not exist %LIBRARY_LIB%\\libwebp.lib exit 1  # [win]
+    - if not exist %LIBRARY_LIB%\\libwebpdemux.lib exit 1  # [win]
+    - if not exist %LIBRARY_LIB%\\libwebpdecoder.lib exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\libwebp.dll exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\libwebpdemux.dll exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\libwebpdecoder.dll exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\cwebp.exe exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\dwebp.exe exit 1  # [win]
+    - if not exist %LIBRARY_INC%\\webp\\decode.h exit 1  # [win]
+    - if not exist %LIBRARY_INC%\\webp\\encode.h exit 1  # [win]
+    - if not exist %LIBRARY_INC%\\webp\\types.h exit 1  # [win]
+
+about:
+  home: https://developers.google.com/speed/webp/
+  license: Google
+  license_file: COPYING
+  summary: "WebP image library"
+  description: |
+    WebP is a method of lossy and lossless compression that can be used on a large variety of photographic,
+    translucent and graphical images found on the web. The degree of lossy compression is adjustable so a
+    user can choose the trade-off between file size and image quality.
+  doc_url: https://developers.google.com/speed/webp/docs/using
+  dev_url: https://chromium.googlesource.com/webm/libwebp
+
+extra:
+  recipe-maintainers:
+    - dschreij

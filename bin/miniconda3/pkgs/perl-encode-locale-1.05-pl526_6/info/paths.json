@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/Encode/Locale.pm",
+      "path_type": "hardlink",
+      "sha256": "1b5ded6313c0d57aeb8159171c34ca4c16607d260f590cf815471f5f69184fe3",
+      "size_in_bytes": 12353
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Encode/Locale/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "5b5843065d3d7553de1aabb92a788658deb8107862ba1b57eaf5c4430e0ce3b5",
+      "size_in_bytes": 230
+    },
+    {
+      "_path": "man/man3/Encode::Locale.3",
+      "path_type": "hardlink",
+      "sha256": "237557f6b6fd00e0ad7fe523903cbf2884c58ae48b6e1a75aa21931074d85a9c",
+      "size_in_bytes": 11046
+    }
+  ],
+  "paths_version": 1
+}

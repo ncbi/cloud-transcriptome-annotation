@@ -1,0 +1,29 @@
+{
+  "build": "pyh9f0ad1d_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.5.1",
+    "ipython >=4.0.0",
+    "nbformat >=4.2.0",
+    "python",
+    "traitlets >=4.3.1,<6.0.0",
+    "widgetsnbextension >=3.5.0,<3.6.0"
+  ],
+  "features": "",
+  "fn": "ipywidgets-7.5.1-pyh9f0ad1d_1.tar.bz2",
+  "license": "BSD-3-clause",
+  "license_family": "BSD",
+  "md5": "a7211644e1cf6a262c675635a78181f4",
+  "name": "ipywidgets",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "9fe63b1a5e45d9a0e60dfafff679360262c90f12adb96fed02e45f0a4abf8ca5",
+  "size": 103555,
+  "subdir": "noarch",
+  "timestamp": 1599554134764,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ipywidgets-7.5.1-pyh9f0ad1d_1.tar.bz2",
+  "version": "7.5.1"
+}

@@ -1,0 +1,5 @@
+lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/DB_File.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/.packlist
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/DB_File.so
+man/man3/DB_File.3

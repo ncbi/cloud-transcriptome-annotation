@@ -1,0 +1,68 @@
+# This file created by conda-build 3.20.3
+# ------------------------------------------------
+
+package:
+    name: libopenblas
+    version: 0.3.10
+source:
+    patches:
+        - patches/0001-Fix-gfortran-detection-for-ctng-based-cross-compiler.patch
+        - patches/0002-Unify-BUFFER_SIZE-settings-for-x86_64-again-to-fix-p.patch
+    sha256: 0484d275f87e9b8641ff2eecaa9df2830cbe276ac79ad80494822721de6e1693
+    url: https://github.com/xianyi/OpenBLAS/archive/v0.3.10.tar.gz
+build:
+    number: 5
+    run_exports:
+        - libopenblas >=0.3.10,<1.0a0
+    string: pthreads_hb3c22a3_5
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-64 2.35 h18a2f87_9
+        - binutils_linux-64 2.35 hc3fd857_29
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 he2a3fca_29
+        - gfortran_impl_linux-64 7.5.0 hfca37b7_17
+        - gfortran_linux-64 7.5.0 ha081f1e_29
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgfortran4 7.5.0 hae1eefd_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgfortran-ng 7.5.0 hae1eefd_17
+        - libgfortran4 7.5.0 hae1eefd_17
+        - libgomp 9.3.0 h5dbcf3e_17
+    run:
+        - libgcc-ng >=7.5.0
+        - libgfortran-ng
+        - libgfortran4 >=7.5.0
+    run_constrained:
+        - openblas >=0.3.10,<0.3.11.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libopenblasp-r0.3.10.so
+        - python -c "import ctypes; ctypes.cdll['${PREFIX}/lib/libopenblasp-r0.3.10.so']"
+about:
+    home: http://www.openblas.net/
+    license: BSD-3-Clause
+    license_file:
+        - LICENSE
+        - lapack-netlib/LICENSE
+    summary: An optimized BLAS library based on GotoBLAS2 1.13 BSD version
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - beckermr
+        - gillins
+        - groutr
+        - h-vetinari
+        - isuruf
+        - jakirkham

@@ -1,0 +1,8 @@
+lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod
+lib/site_perl/5.26.2/Digest/HMAC.pm
+lib/site_perl/5.26.2/Digest/HMAC_MD5.pm
+lib/site_perl/5.26.2/Digest/HMAC_SHA1.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Digest/HMAC/.packlist
+man/man3/Digest::HMAC.3
+man/man3/Digest::HMAC_MD5.3
+man/man3/Digest::HMAC_SHA1.3

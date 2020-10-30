@@ -1,0 +1,35 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sat May 11 05:25:00 2019
+# ------------------------------------------------
+
+package:
+    name: perl-json
+    version: '4.02'
+source:
+    sha256: 444a88755a89ffa2a5424ab4ed1d11dca61808ebef57e81243424619a9e8627c
+    url: https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.02.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - perl 5.26.2 h516909a_1006
+        - perl-common-sense 3.74 pl526_2
+        - perl-json-xs 2.34 pl526h6bb024c_3
+        - perl-types-serialiser 1.0 pl526_2
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-json-xs <3
+test:
+    imports:
+        - JSON
+about:
+    home: http://metacpan.org/pod/JSON
+    license: perl_5
+    summary: JSON (JavaScript Object Notation) encoder/decoder
+extra:
+    copy_test_source_files: true
+    final: true

@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py37hff6837a_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cffi !=1.11.3,>=1.8",
+    "libgcc-ng >=7.5.0",
+    "openssl >=1.1.1h,<1.1.2a",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "six >=1.4.1"
+  ],
+  "features": "",
+  "fn": "cryptography-3.1.1-py37hff6837a_1.tar.bz2",
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
+  "license_family": "BSD",
+  "md5": "e5e3a5b018bbdeeb46b759823bd71dae",
+  "name": "cryptography",
+  "platform": "linux",
+  "sha256": "d2db06f9ea8418a9eca2b57a4110b9eb249d2524c4e1e30c18414cfc2ed11e4d",
+  "size": 630853,
+  "subdir": "linux-64",
+  "timestamp": 1602614216308,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cryptography-3.1.1-py37hff6837a_1.tar.bz2",
+  "version": "3.1.1"
+}

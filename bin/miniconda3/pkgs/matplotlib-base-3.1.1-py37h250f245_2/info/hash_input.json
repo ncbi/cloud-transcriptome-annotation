@@ -1,0 +1,11 @@
+{
+  "cxx_compiler_version": "7",
+  "icu": "64.2",
+  "cxx_compiler": "gxx",
+  "c_compiler_version": "7",
+  "numpy": "1.14",
+  "freetype": "2.9.1",
+  "tk": "8.6",
+  "c_compiler": "gcc",
+  "libpng": "1.6"
+}

@@ -1,0 +1,143 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "95bd168276b9565fa89ad0f19fcaa04d369046e8c53c91758ec4cf5145ad31fa",
+      "size_in_bytes": 11439
+    },
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "f72097b8ee9cf9dff7dc3d34656d8acb43f482b92b01a501bd659116d254d9ba",
+      "size_in_bytes": 705
+    },
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "45404d76643b657a214f8f1e409b8cd99996d123520f79957b9ea8a7b2a7843c",
+      "size_in_bytes": 990
+    },
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/isodate-0.6.0-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "26076a687070d15c7be0a9b4c59d7eea7a4e5077bfe9c287481084c7aa6955ef",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "site-packages/isodate/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "8d1183a0968c89fdb5bf76d5ac883e9d315a4919db9c3797b4bfec5212b1ed9c",
+      "size_in_bytes": 4099
+    },
+    {
+      "_path": "site-packages/isodate/duration.py",
+      "path_type": "hardlink",
+      "sha256": "8da31eb18d6630d7439f50dbccab70ab45ab3efdc703e201251c2d0a41261901",
+      "size_in_bytes": 12442
+    },
+    {
+      "_path": "site-packages/isodate/isodates.py",
+      "path_type": "hardlink",
+      "sha256": "e68525e749267992cc0904b9e8ec2f66ccfeb84cb4d156e45eacd029836d38c8",
+      "size_in_bytes": 10620
+    },
+    {
+      "_path": "site-packages/isodate/isodatetime.py",
+      "path_type": "hardlink",
+      "sha256": "7079f64a812ac044e0f5eff3051b6337b791496283e8aa470dc5714a09d79a7c",
+      "size_in_bytes": 2955
+    },
+    {
+      "_path": "site-packages/isodate/isoduration.py",
+      "path_type": "hardlink",
+      "sha256": "531ccc2435b903975b153f12c62e2e487cac00e561f0e30f39a5c2ee6dd13141",
+      "size_in_bytes": 6705
+    },
+    {
+      "_path": "site-packages/isodate/isoerror.py",
+      "path_type": "hardlink",
+      "sha256": "0de0faaf2b27d2caaaa9d4c3ff75f9479987855e540fbe6bee0d8acb240f37d9",
+      "size_in_bytes": 1714
+    },
+    {
+      "_path": "site-packages/isodate/isostrf.py",
+      "path_type": "hardlink",
+      "sha256": "a70210a87e4c2ef354b51dd6d241c26fcc23e2588a5a95a572f065a1b69dfbe7",
+      "size_in_bytes": 9252
+    },
+    {
+      "_path": "site-packages/isodate/isotime.py",
+      "path_type": "hardlink",
+      "sha256": "902b974438b32a30732875df32d97cd9f2b97fba62495e775960ddd79463342b",
+      "size_in_bytes": 7198
+    },
+    {
+      "_path": "site-packages/isodate/isotzinfo.py",
+      "path_type": "hardlink",
+      "sha256": "d174fe8dcdd6021d1e0a67d76c23643b3acb6b14ad1c2605f63516c8120b5a9e",
+      "size_in_bytes": 4217
+    },
+    {
+      "_path": "site-packages/isodate/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9e74ca6850d8d3edc35816de321848b168cc21a80b7595b5604e4794b688f9f8",
+      "size_in_bytes": 2184
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_date.py",
+      "path_type": "hardlink",
+      "sha256": "2fb76162e60a27e2cc670e6a3a3bed4f4a8285722906a658d0cc745db1c42f6f",
+      "size_in_bytes": 6090
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_datetime.py",
+      "path_type": "hardlink",
+      "sha256": "97042cb915e516b31ea83091e6543c57abeb2c366bc4156048309144239773a4",
+      "size_in_bytes": 7387
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_duration.py",
+      "path_type": "hardlink",
+      "sha256": "7d3b322ce3b1d3e92393e0fac3316eb6939e3eb220caede43b9f255b0c89b2e2",
+      "size_in_bytes": 24096
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_pickle.py",
+      "path_type": "hardlink",
+      "sha256": "92eb91734d4e298439feca991af385e3514873780481e71164cd54f472437244",
+      "size_in_bytes": 1845
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_strf.py",
+      "path_type": "hardlink",
+      "sha256": "36fe1909767350d1052fc0b182bf2a7b7583bf4d5653bfdeda4b5ca211c82f7b",
+      "size_in_bytes": 5241
+    },
+    {
+      "_path": "site-packages/isodate/tests/test_time.py",
+      "path_type": "hardlink",
+      "sha256": "d4a3b138e57889327c50abb4d3974612606e990af7be890c2bc7d62baaa0a5ee",
+      "size_in_bytes": 6715
+    },
+    {
+      "_path": "site-packages/isodate/tzinfo.py",
+      "path_type": "hardlink",
+      "sha256": "7735718f394c0e2b8589a2594fadfcb7d6faec685953c3c098ff7e260c5c0c85",
+      "size_in_bytes": 3692
+    }
+  ],
+  "paths_version": 1
+}

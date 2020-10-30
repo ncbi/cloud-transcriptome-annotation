@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_4",
+  "build_number": 4,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "name": "keepalive",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1602289297023,
+  "version": "0.5"
+}

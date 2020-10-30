@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37he3881c9_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libxml2 >=2.9.10,<2.10.0a0",
+    "libxslt >=1.1.33,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "lxml-4.5.2-py37he3881c9_1.tar.bz2",
+  "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+  "md5": "09c9ef9d84725e419e216835c50ad407",
+  "name": "lxml",
+  "platform": "linux",
+  "sha256": "f7bfe867156deccb14b0d0bf0369c08ded2560653f1b2a538668264c97227023",
+  "size": 1419530,
+  "subdir": "linux-64",
+  "timestamp": 1602413391550,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lxml-4.5.2-py37he3881c9_1.tar.bz2",
+  "version": "4.5.2"
+}

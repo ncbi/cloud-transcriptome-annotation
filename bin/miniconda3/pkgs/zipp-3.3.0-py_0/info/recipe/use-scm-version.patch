@@ -1,0 +1,8 @@
+--- setup.py	2020-01-22 08:13:39.000000000 +0100
++++ setup.py	2020-01-21 19:36:41.000000000 +0100
+@@ -3,4 +3,4 @@
+ import setuptools
+ 
+ if __name__ == "__main__":
+-    setuptools.setup()
++    setuptools.setup(use_scm_version=True)

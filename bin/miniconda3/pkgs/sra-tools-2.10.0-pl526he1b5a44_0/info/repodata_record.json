@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "pl526he1b5a44_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "ncbi-ngs-sdk",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-uri",
+    "perl-xml-libxml"
+  ],
+  "features": "",
+  "fn": "sra-tools-2.10.0-pl526he1b5a44_0.tar.bz2",
+  "license": "Public Domain",
+  "md5": "4fa63a77ca7de673be36c22791106fca",
+  "name": "sra-tools",
+  "platform": "linux",
+  "sha256": "9bd183ca70aa60b9d022e0f26ac583131e6f01b847c86adba8d72196d152e30d",
+  "size": 49600142,
+  "subdir": "linux-64",
+  "timestamp": 1566370184368,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/sra-tools-2.10.0-pl526he1b5a44_0.tar.bz2",
+  "version": "2.10.0"
+}

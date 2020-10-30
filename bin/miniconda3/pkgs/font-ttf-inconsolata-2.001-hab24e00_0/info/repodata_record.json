@@ -1,0 +1,22 @@
+{
+  "build": "hab24e00_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "font-ttf-inconsolata-2.001-hab24e00_0.tar.bz2",
+  "license": "OFL",
+  "license_family": "Other",
+  "md5": "1fcc67d5eed875734d8b3eec00b29ce4",
+  "name": "font-ttf-inconsolata",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "6c09833d1332e0ef9ee731e9bcfadf4e4b89e9ce777de6f7b7015e7fb0e2283b",
+  "size": 99654,
+  "subdir": "noarch",
+  "timestamp": 1566932917319,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-2.001-hab24e00_0.tar.bz2",
+  "version": "2.001"
+}

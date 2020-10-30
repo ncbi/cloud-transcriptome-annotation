@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "1",
+  "build_number": 1,
+  "depends": [
+    "importlib-metadata >=2.0.0,<2.0.1.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602263391121,
+  "version": "2.0.0"
+}

@@ -1,0 +1,1 @@
+../opt/transdecoder/util/score_CDS_likelihood_all_6_frames.pl

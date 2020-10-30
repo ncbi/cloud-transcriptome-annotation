@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h516909a_1010",
+  "build_number": 1010,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "features": "",
+  "fn": "zlib-1.2.11-h516909a_1010.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "md5": "339cc5584e6d26bc73a875ba900028c3",
+  "name": "zlib",
+  "platform": "linux",
+  "sha256": "6c9a12053937ba2abfec94ee2c9e71a7a8cbca0e4093a1aea34afa9282110a94",
+  "size": 108192,
+  "subdir": "linux-64",
+  "timestamp": 1602669935925,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zlib-1.2.11-h516909a_1010.tar.bz2",
+  "version": "1.2.11"
+}

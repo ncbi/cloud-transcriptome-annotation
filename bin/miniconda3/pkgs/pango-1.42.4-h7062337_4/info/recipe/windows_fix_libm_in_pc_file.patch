@@ -1,0 +1,6 @@
+--- a/pango.pc.in
++++ b/pango.pc.in
+@@ -11,3 +11,2 @@
+ Libs: -L${libdir} -lpango-@PANGO_API_VERSION@
+-Libs.private: -lm
+ Cflags: -I${includedir}/pango-1.0

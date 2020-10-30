@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-time-local"
+  ],
+  "features": "",
+  "fn": "perl-http-date-6.02-pl526_3.tar.bz2",
+  "license": "perl_5",
+  "md5": "b1cc187d512357b0a68dc29a100ae1df",
+  "name": "perl-http-date",
+  "platform": "linux",
+  "sha256": "961f5e169eb91bb816e8b6489db9c43cc336e37a2ef05a85f42e7b2df775e107",
+  "size": 10690,
+  "subdir": "linux-64",
+  "timestamp": 1535362201390,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-http-date-6.02-pl526_3.tar.bz2",
+  "version": "6.02"
+}

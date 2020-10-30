@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb5d75c8_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "markupsafe-1.1.1-py37hb5d75c8_2.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "31e6e17a00c0a624765a4ef79344359c",
+  "name": "markupsafe",
+  "platform": "linux",
+  "sha256": "77c859e6128e2f4ebc7bf3782428a205c008ba79d38b0bd6eb030ad843bd08c0",
+  "size": 27466,
+  "subdir": "linux-64",
+  "timestamp": 1602267468730,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/markupsafe-1.1.1-py37hb5d75c8_2.tar.bz2",
+  "version": "1.1.1"
+}

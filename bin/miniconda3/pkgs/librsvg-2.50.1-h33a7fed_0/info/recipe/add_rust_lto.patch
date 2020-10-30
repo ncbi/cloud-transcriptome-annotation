@@ -1,0 +1,6 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -8,2 +8,3 @@
+ [profile.release]
+ debug = true
++lto = true

@@ -1,0 +1,1 @@
+../opt/transdecoder/util/gff3_file_to_proteins.pl

@@ -1,0 +1,1 @@
+../opt/transdecoder/util/gtf_to_alignment_gff3.pl

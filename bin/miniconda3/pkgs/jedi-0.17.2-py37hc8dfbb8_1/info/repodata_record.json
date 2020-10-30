@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "parso >=0.7.0,<0.8.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "features": "",
+  "fn": "jedi-0.17.2-py37hc8dfbb8_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "d935a897d1b9f3633b6679ee6e55e056",
+  "name": "jedi",
+  "platform": "linux",
+  "sha256": "79b77886c1b4ab1257cf27b162511098908159c143561c57a6a9b2f4298e69b1",
+  "size": 968518,
+  "subdir": "linux-64",
+  "timestamp": 1602395354069,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/jedi-0.17.2-py37hc8dfbb8_1.tar.bz2",
+  "version": "0.17.2"
+}

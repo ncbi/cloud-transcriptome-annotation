@@ -1,0 +1,14 @@
+diff --git a/gdk-pixbuf/meson.build b/gdk-pixbuf/meson.build
+index 7c58bef..6c32046 100644
+--- a/gdk-pixbuf/meson.build
++++ b/gdk-pixbuf/meson.build
+@@ -260,7 +261,8 @@ foreach l: loaders
+                         c_args: common_cflags + gdk_pixbuf_cflags + cflags,
+                         name_suffix: name_suffix,
+                         install: true,
+-                        install_dir: gdk_pixbuf_loaderdir)
++                        install_dir: gdk_pixbuf_loaderdir,
++                        install_rpath: gdk_pixbuf_libdir)
+ 
+     # We need the path to build loaders.cache for tests
+     dynamic_loaders += mod.full_path()

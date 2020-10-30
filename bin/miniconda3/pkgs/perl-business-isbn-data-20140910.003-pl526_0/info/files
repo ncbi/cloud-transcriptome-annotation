@@ -1,0 +1,5 @@
+lib/site_perl/5.26.2/Business/ISBN/Data.pm
+lib/site_perl/5.26.2/Business/ISBN/RangeMessage.xml
+lib/site_perl/5.26.2/Business/ISBN/make_data.pl
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Business/ISBN/Data/.packlist
+man/man3/Business::ISBN::Data.3

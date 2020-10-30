@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/Test/RequiresInternet.pm",
+      "path_type": "hardlink",
+      "sha256": "2f980a3a4a8f5002d697acc14022340820007ded572d437105365a6b599cfb37",
+      "size_in_bytes": 2937
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Test/RequiresInternet/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "c150d7032bbb010c7a0d39910685d198f86c1b1070fe841c13f4e9c5a75909dc",
+      "size_in_bytes": 262
+    },
+    {
+      "_path": "man/man3/Test::RequiresInternet.3",
+      "path_type": "hardlink",
+      "sha256": "8ecf2f6aab70f752d83a150bd80286e34cd59f6f3b34beefae284a7b4a79f735",
+      "size_in_bytes": 3854
+    }
+  ],
+  "paths_version": 1
+}

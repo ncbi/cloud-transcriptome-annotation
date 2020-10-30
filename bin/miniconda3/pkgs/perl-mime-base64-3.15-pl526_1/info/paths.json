@@ -1,0 +1,31 @@
+{
+  "paths": [
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/MIME/Base64.pm",
+      "path_type": "hardlink",
+      "sha256": "91498dfbc6bd12dc65c54cd637793cd3c5183598f16e2340656310a30c28d0ab",
+      "size_in_bytes": 5450
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/MIME/QuotedPrint.pm",
+      "path_type": "hardlink",
+      "sha256": "c28ca1088145029ee83e44257306565889a87a4275eee54260fb19bdccc5b5c7",
+      "size_in_bytes": 3290
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/MIME/Base64/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "cd94e640cf1a83088ee63850edb20ef5a9230ee8a071fdeed8c44058d0607b73",
+      "size_in_bytes": 639
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/MIME/Base64/Base64.so",
+      "path_type": "hardlink",
+      "sha256": "3d911a939880d11bdda5debc649ac4551ea7525537c0df34f337fbb6e9c4ba43",
+      "size_in_bytes": 16283
+    }
+  ],
+  "paths_version": 1
+}

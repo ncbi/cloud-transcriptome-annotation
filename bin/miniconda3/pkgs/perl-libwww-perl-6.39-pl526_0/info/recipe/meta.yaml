@@ -1,0 +1,115 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /opt/recipe, last modified Wed Jun 19 21:06:23 2019
+# ------------------------------------------------
+
+package:
+    name: perl-libwww-perl
+    version: '6.39'
+source:
+    sha256: 9a8d7747938aa75d7d524c71574ae7f99ca66a5dac8255a7f7759f373e7774d5
+    url: https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.39.tar.gz
+build:
+    noarch: generic
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - ca-certificates 2019.6.16 hecc5488_0
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - openssl 1.1.1b h14c3975_1
+        - perl 5.26.2 h516909a_1006
+        - perl-base 2.23 pl526_1
+        - perl-business-isbn 3.004 pl526_0
+        - perl-business-isbn-data 20140910.003 pl526_0
+        - perl-carp 1.38 pl526_3
+        - perl-compress-raw-zlib 2.086 pl526h6bb024c_1
+        - perl-constant 1.33 pl526_1
+        - perl-cpan-meta-requirements 2.140 pl526_0
+        - perl-data-dumper 2.173 pl526_0
+        - perl-digest-hmac 1.03 pl526_3
+        - perl-digest-md5 2.55 pl526_0
+        - perl-encode 2.88 pl526_1
+        - perl-encode-locale 1.05 pl526_6
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.36 pl526_1
+        - perl-file-listing 6.04 pl526_1
+        - perl-getopt-long 2.50 pl526_1
+        - perl-html-parser 3.72 pl526h6bb024c_5
+        - perl-html-tagset 3.20 pl526_3
+        - perl-http-cookies 6.04 pl526_0
+        - perl-http-daemon 6.01 pl526_1
+        - perl-http-date 6.02 pl526_3
+        - perl-http-message 6.18 pl526_0
+        - perl-http-negotiate 6.01 pl526_3
+        - perl-io-html 1.001 pl526_2
+        - perl-io-socket-ssl 2.066 pl526_0
+        - perl-lwp-mediatypes 6.04 pl526_0
+        - perl-mime-base64 3.15 pl526_1
+        - perl-module-metadata 1.000036 pl526_0
+        - perl-net-http 6.19 pl526_0
+        - perl-net-ssleay 1.88 pl526h90d6eec_0
+        - perl-ntlm 1.09 pl526_4
+        - perl-parent 0.236 pl526_1
+        - perl-socket 2.027 pl526_1
+        - perl-storable 3.15 pl526h14c3975_0
+        - perl-test-fatal 0.014 pl526_3
+        - perl-test-needs 0.002006 pl526_0
+        - perl-test-requiresinternet 0.05 pl526_0
+        - perl-time-local 1.28 pl526_1
+        - perl-try-tiny 0.30 pl526_1
+        - perl-uri 1.76 pl526_0
+        - perl-version 0.9924 pl526_0
+        - perl-www-robotrules 6.02 pl526_3
+        - perl-xsloader 0.24 pl526_0
+        - zlib 1.2.11 h14c3975_1004
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-base
+        - perl-digest-md5
+        - perl-encode
+        - perl-encode-locale
+        - perl-file-listing
+        - perl-html-parser
+        - perl-http-cookies
+        - perl-http-daemon
+        - perl-http-date
+        - perl-http-negotiate
+        - perl-lwp-mediatypes
+        - perl-mime-base64
+        - perl-net-http >=6.18
+        - perl-ntlm
+        - perl-try-tiny
+        - perl-uri
+        - perl-www-robotrules
+test:
+    imports:
+        - LWP
+        - LWP::Authen::Basic
+        - LWP::Authen::Digest
+        - LWP::Authen::Ntlm
+        - LWP::ConnCache
+        - LWP::Debug
+        - LWP::DebugFile
+        - LWP::MemberMixin
+        - LWP::Protocol
+        - LWP::Protocol::cpan
+        - LWP::Protocol::data
+        - LWP::Protocol::file
+        - LWP::Protocol::ftp
+        - LWP::Protocol::gopher
+        - LWP::Protocol::http
+        - LWP::Protocol::loopback
+        - LWP::Protocol::nntp
+        - LWP::Protocol::nogo
+        - LWP::RobotUA
+        - LWP::Simple
+        - LWP::UserAgent
+about:
+    home: http://metacpan.org/pod/libwww-perl
+    license: perl_5
+    summary: The World-Wide Web library for Perl
+extra:
+    copy_test_source_files: true
+    final: true

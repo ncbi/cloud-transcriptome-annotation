@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "packaging",
+    "python",
+    "setuptools",
+    "six",
+    "webencodings"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "bleach",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1600454492807,
+  "version": "3.2.1"
+}

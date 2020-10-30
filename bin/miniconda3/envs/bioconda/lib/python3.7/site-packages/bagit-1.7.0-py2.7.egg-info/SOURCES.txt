@@ -1,0 +1,15 @@
+Makefile
+Pipfile
+Pipfile.lock
+README.rst
+bagit.py
+setup.cfg
+setup.py
+bagit.egg-info/PKG-INFO
+bagit.egg-info/SOURCES.txt
+bagit.egg-info/dependency_links.txt
+bagit.egg-info/top_level.txt
+locale/bagit-python.pot
+locale/bagit.pot
+locale/en/LC_MESSAGES/bagit-python.mo
+locale/en/LC_MESSAGES/bagit-python.po

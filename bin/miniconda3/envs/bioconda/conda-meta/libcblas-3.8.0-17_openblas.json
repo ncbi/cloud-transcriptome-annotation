@@ -1,0 +1,54 @@
+{
+  "build": "17_openblas",
+  "build_number": 17,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "liblapack 3.8.0 17_openblas",
+    "liblapacke 3.8.0 17_openblas",
+    "blas * openblas"
+  ],
+  "depends": [
+    "libblas 3.8.0 17_openblas"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libcblas-3.8.0-17_openblas",
+  "features": "",
+  "files": [
+    "lib/libcblas.so",
+    "lib/libcblas.so.3"
+  ],
+  "fn": "libcblas-3.8.0-17_openblas.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libcblas-3.8.0-17_openblas",
+    "type": 1
+  },
+  "md5": "28f6376d1c4ca5e0fc287fb0484e37a1",
+  "name": "libcblas",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/libcblas-3.8.0-17_openblas.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcblas.so",
+        "path_type": "softlink",
+        "sha256": "28f548e7cd9dfd1855a7481f91c39a9cf45a7cafe2bc855c41cf411d43a66c17",
+        "size_in_bytes": 30530072
+      },
+      {
+        "_path": "lib/libcblas.so.3",
+        "path_type": "softlink",
+        "sha256": "28f548e7cd9dfd1855a7481f91c39a9cf45a7cafe2bc855c41cf411d43a66c17",
+        "size_in_bytes": 30530072
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "688ca0a9bf8d0b0c85091172fd220fdf4316870ff0800c58c2e621110ef9e9f1",
+  "size": 10910,
+  "subdir": "linux-64",
+  "timestamp": 1593287454638,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcblas-3.8.0-17_openblas.tar.bz2",
+  "version": "3.8.0"
+}

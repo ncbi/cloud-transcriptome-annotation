@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h56121f0_5",
+  "build_number": 5,
+  "depends": [
+    "giflib >=5.2.1,<5.3.0a0",
+    "jpeg >=9c,<10a",
+    "libgcc-ng >=7.3.0",
+    "libpng >=1.6.37,<1.7.0a0",
+    "libtiff >=4.1.0,<5.0a0"
+  ],
+  "license": "Google",
+  "name": "libwebp",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1578279091334,
+  "version": "1.0.2"
+}

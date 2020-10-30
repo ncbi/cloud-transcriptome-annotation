@@ -1,0 +1,21 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "lxml >=3.3.5",
+    "networkx >=1.10",
+    "pydotplus >=2.0.2",
+    "python",
+    "python-dateutil >=2.2",
+    "rdflib >=4.2.1",
+    "six >=1.9.0"
+  ],
+  "license": "MIT",
+  "name": "prov",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1547925044750,
+  "version": "1.5.1"
+}

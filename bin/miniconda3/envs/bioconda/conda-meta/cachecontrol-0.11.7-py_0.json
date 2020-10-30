@@ -1,0 +1,269 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cachecontrol-0.11.7-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/METADATA",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/RECORD",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/WHEEL",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/CacheControl-0.11.7.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/cachecontrol/__init__.py",
+    "lib/python3.7/site-packages/cachecontrol/_cmd.py",
+    "lib/python3.7/site-packages/cachecontrol/adapter.py",
+    "lib/python3.7/site-packages/cachecontrol/cache.py",
+    "lib/python3.7/site-packages/cachecontrol/caches/__init__.py",
+    "lib/python3.7/site-packages/cachecontrol/caches/file_cache.py",
+    "lib/python3.7/site-packages/cachecontrol/caches/redis_cache.py",
+    "lib/python3.7/site-packages/cachecontrol/compat.py",
+    "lib/python3.7/site-packages/cachecontrol/controller.py",
+    "lib/python3.7/site-packages/cachecontrol/filewrapper.py",
+    "lib/python3.7/site-packages/cachecontrol/heuristics.py",
+    "lib/python3.7/site-packages/cachecontrol/serialize.py",
+    "lib/python3.7/site-packages/cachecontrol/wrapper.py",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/_cmd.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/adapter.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/cache.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/file_cache.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/redis_cache.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/controller.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/filewrapper.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/heuristics.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/serialize.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachecontrol/__pycache__/wrapper.cpython-37.pyc",
+    "bin/doesitcache"
+  ],
+  "fn": "cachecontrol-0.11.7-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cachecontrol-0.11.7-py_0",
+    "type": 1
+  },
+  "md5": "1ddc97e4f9bcb6fc10a821dcad5ae622",
+  "name": "cachecontrol",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cachecontrol-0.11.7-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6237161756bc47b65cf3f820d93995d76f98ccbd4658dfc10ee09bd455adcb47",
+        "sha256_in_prefix": "6237161756bc47b65cf3f820d93995d76f98ccbd4658dfc10ee09bd455adcb47",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c3ebe6626c6ccf606987cdea4a2204b2f768cc4228d0d914f33aa9431214dbc1",
+        "sha256_in_prefix": "c3ebe6626c6ccf606987cdea4a2204b2f768cc4228d0d914f33aa9431214dbc1",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b9e1fecec87ced8bf2317bca30e21f8d829565ae36f1674c442058dcaf875acf",
+        "sha256_in_prefix": "b9e1fecec87ced8bf2317bca30e21f8d829565ae36f1674c442058dcaf875acf",
+        "size_in_bytes": 2185
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e52a4c9ea634a1c869ce3cb33e98d61027b294b1d4fd1182e8311948ffb78711",
+        "sha256_in_prefix": "e52a4c9ea634a1c869ce3cb33e98d61027b294b1d4fd1182e8311948ffb78711",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "1e309e91a442bfc91f36a3f959e84c476f485b1200e55ae1a0e78aac2ca408b7",
+        "sha256_in_prefix": "1e309e91a442bfc91f36a3f959e84c476f485b1200e55ae1a0e78aac2ca408b7",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/CacheControl-0.11.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bc6616ce96dede1ea091a915e1fee208adb1dcac8ade8324579a5ee6fdb9f9de",
+        "sha256_in_prefix": "bc6616ce96dede1ea091a915e1fee208adb1dcac8ade8324579a5ee6fdb9f9de",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/cachecontrol/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "50fc85973d1d223c6eb2ee484e283d5031497526392d3c228e195d9f401fcb35",
+        "sha256_in_prefix": "50fc85973d1d223c6eb2ee484e283d5031497526392d3c228e195d9f401fcb35",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/cachecontrol/_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "e19ccdef3760b8a47ee45eef575cd7fb97ed07ae5b2d293d53156e5dfd0b2e3e",
+        "sha256_in_prefix": "e19ccdef3760b8a47ee45eef575cd7fb97ed07ae5b2d293d53156e5dfd0b2e3e",
+        "size_in_bytes": 1267
+      },
+      {
+        "_path": "site-packages/cachecontrol/adapter.py",
+        "path_type": "hardlink",
+        "sha256": "92164b78d7a9c1ff994bf4f2d2da2ad3e9315f65a734e4b474b6f95f86296d7f",
+        "sha256_in_prefix": "92164b78d7a9c1ff994bf4f2d2da2ad3e9315f65a734e4b474b6f95f86296d7f",
+        "size_in_bytes": 4596
+      },
+      {
+        "_path": "site-packages/cachecontrol/cache.py",
+        "path_type": "hardlink",
+        "sha256": "c6d97e57ea6bf4a4adf55bc50d1081f72ac73c4beabdb93ee4cd6f0089d96f99",
+        "sha256_in_prefix": "c6d97e57ea6bf4a4adf55bc50d1081f72ac73c4beabdb93ee4cd6f0089d96f99",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/cachecontrol/caches/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b969d4b7232f1d8fcb50b68bff8fc847517fc4f80ae731df27246706ae039cf1",
+        "sha256_in_prefix": "b969d4b7232f1d8fcb50b68bff8fc847517fc4f80ae731df27246706ae039cf1",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "site-packages/cachecontrol/caches/file_cache.py",
+        "path_type": "hardlink",
+        "sha256": "857e127eb67d59be19e51e11d7d9c12b12aaec255e6626bdc0225c55c2127f4c",
+        "sha256_in_prefix": "857e127eb67d59be19e51e11d7d9c12b12aaec255e6626bdc0225c55c2127f4c",
+        "size_in_bytes": 3508
+      },
+      {
+        "_path": "site-packages/cachecontrol/caches/redis_cache.py",
+        "path_type": "hardlink",
+        "sha256": "5f2c2ac644bd32409a7e54ce63fc23ac4d369de29dcb007d63094e05b3fb6307",
+        "sha256_in_prefix": "5f2c2ac644bd32409a7e54ce63fc23ac4d369de29dcb007d63094e05b3fb6307",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "site-packages/cachecontrol/compat.py",
+        "path_type": "hardlink",
+        "sha256": "a6391c89ca3ae32f3f4dff6057355ab0d1bb9743d03a78621f8808966c9b1311",
+        "sha256_in_prefix": "a6391c89ca3ae32f3f4dff6057355ab0d1bb9743d03a78621f8808966c9b1311",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "site-packages/cachecontrol/controller.py",
+        "path_type": "hardlink",
+        "sha256": "c6bce7b57d98123ceca1ac7b19895e06912e47d7c09209c13d38650e9a12de0d",
+        "sha256_in_prefix": "c6bce7b57d98123ceca1ac7b19895e06912e47d7c09209c13d38650e9a12de0d",
+        "size_in_bytes": 13012
+      },
+      {
+        "_path": "site-packages/cachecontrol/filewrapper.py",
+        "path_type": "hardlink",
+        "sha256": "fcaf1c4ad997a83df79b5e4f7ec43cae5a68e857d78d56ca9a3bcb5f22024602",
+        "sha256_in_prefix": "fcaf1c4ad997a83df79b5e4f7ec43cae5a68e857d78d56ca9a3bcb5f22024602",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "site-packages/cachecontrol/heuristics.py",
+        "path_type": "hardlink",
+        "sha256": "5ad26b56cc968e93fd5a85220d575365944d042cf9655a6d690a589eaa1f0d05",
+        "sha256_in_prefix": "5ad26b56cc968e93fd5a85220d575365944d042cf9655a6d690a589eaa1f0d05",
+        "size_in_bytes": 4141
+      },
+      {
+        "_path": "site-packages/cachecontrol/serialize.py",
+        "path_type": "hardlink",
+        "sha256": "40e6043ae347761be2ea2974d9b58a2be2920815b376d4b80b6672c21d6d1a50",
+        "sha256_in_prefix": "40e6043ae347761be2ea2974d9b58a2be2920815b376d4b80b6672c21d6d1a50",
+        "size_in_bytes": 6524
+      },
+      {
+        "_path": "site-packages/cachecontrol/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "2aacaeff74d6ff9e170ee7616b8f87176d6fc84380278667457172b1388b9970",
+        "sha256_in_prefix": "2aacaeff74d6ff9e170ee7616b8f87176d6fc84380278667457172b1388b9970",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/_cmd.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/adapter.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/cache.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/file_cache.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/caches/__pycache__/redis_cache.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/compat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/controller.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/filewrapper.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/heuristics.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/serialize.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachecontrol/__pycache__/wrapper.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/doesitcache",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "99c7695655d4a8a18603c7a14e8a68f805a6b2841980337107a7d0b9484b09bc",
+  "size": 17257,
+  "subdir": "noarch",
+  "timestamp": 1548192294741,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cachecontrol-0.11.7-py_0.tar.bz2",
+  "version": "0.11.7"
+}

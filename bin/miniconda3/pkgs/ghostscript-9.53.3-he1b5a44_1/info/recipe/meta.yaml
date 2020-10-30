@@ -1,0 +1,55 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Oct 12 16:49:10 2020
+# ------------------------------------------------
+
+package:
+    name: ghostscript
+    version: 9.53.3
+source:
+    patches:
+        - dynlink_runtime.patch
+    sha256: 6eaf422f26a81854a230b80fd18aaef7e8d94d661485bd2e97e695b9dce7bf7f
+    url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/ghostscript-9.53.3.tar.gz
+build:
+    number: '1'
+    string: he1b5a44_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-64 2.35 h18a2f87_9
+        - binutils_linux-64 2.35 hc3fd857_29
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 he2a3fca_29
+        - gxx_impl_linux-64 7.5.0 h64c220c_13
+        - gxx_linux-64 7.5.0 h547f3ba_29
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+    run:
+        - libgcc-ng >=7.5.0
+        - libstdcxx-ng >=7.5.0
+test:
+    commands:
+        - gs --version
+about:
+    home: http://ghostscript.com/
+    license: AGPL-3.0-only
+    license_file: LICENSE
+    summary: An interpreter for the PostScript language and for PDF
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - leouieda
+        - ocefpaf

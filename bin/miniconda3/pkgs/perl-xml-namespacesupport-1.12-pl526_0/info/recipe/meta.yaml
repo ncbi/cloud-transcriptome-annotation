@@ -1,0 +1,33 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Jul 15 05:03:40 2018
+# ------------------------------------------------
+
+package:
+    name: perl-xml-namespacesupport
+    version: '1.12'
+source:
+    sha256: 47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef
+    url: https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-constant 1.33 pl526_1
+        - perl-extutils-makemaker 7.34 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+        - perl-constant
+test:
+    imports:
+        - XML::NamespaceSupport
+about:
+    home: https://github.com/perigrin/xml-namespacesupport
+    license: perl_5
+    summary: a simple generic namespace support class
+extra:
+    copy_test_source_files: true
+    final: true

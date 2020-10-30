@@ -129,7 +129,7 @@ def parse_gcp_json(logs, f):
         te = datetime.strptime(logs['metadata']['endTime'].split('.')[0], "%Y-%m-%dT%H:%M:%S")
         elapsed = te - ts
         blastdb = getActionTime(logs['metadata']['events'], 3)
-        cwl = getActionTime(logs['metadata']['events'], 6)
+        cwl = getActionTime(logs['metadata']['events'], 5)
         return [f, elapsed, blastdb, cwl]
     return []
 
@@ -153,13 +153,34 @@ def aws_log_times(events):
 
 def aws_log_completed(events):
     for ev in events:
-        if ev['message'].startswith('Error'):
+        if ev['message'].startswith('Error') or 'Final process status is permanentFail' in ev['message']:
             return False
     return True
 
-def create_comp_env_dict(name, CPUs, machine_type, AMI, subnet_id, sg_id, batchRoleArn, tags = None, key=None):
-    if os.path.exists(os.path.join(CONFIG, "aws", "compute-env-template.json")):
-        comp_env_templatefile = os.path.join(CONFIG, "aws", "compute-env-template.json")
+def create_comp_env_dict(name, CPUs, machine_type, AMI, subnet_id, sg_id, batchRoleArn, spotFleetRole, USE_SPOT, tags = None, key=None):
+    if USE_SPOT:
+        comp_env_templatefile = os.path.join(CONFIG, "aws", "compute-env-template-SPOT.json")
+        with open(comp_env_templatefile) as fin:
+            comp_env = json.loads(fin.read())
+            comp_env['computeEnvironmentName'] = name
+            comp_env['computeResources']['imageId'] = AMI
+            comp_env['computeResources']['maxvCpus'] = CPUs * 40
+            comp_env['computeResources']['instanceTypes'].append(machine_type)
+            comp_env['computeResources']['subnets'].append(subnet_id)
+            comp_env['computeResources']['securityGroupIds'].append(sg_id)
+            comp_env['computeResources']['spotIamFleetRole'] = spotFleetRole
+            if key:
+                comp_env['computeResources']['ec2KeyPair'] = key
+            if tags:
+                ts = {}
+                for t in tags:
+                    ts[t['Key']] = t['Value']
+                comp_env['computeResources']['tags']  = ts
+            comp_env['serviceRole'] = batchRoleArn
+            with open(os.path.join(CONFIG, "aws", 'compute-env-{}.json'.format(name)), 'w') as fout:
+                fout.write(json.dumps(comp_env, indent=4))
+    else:
+        comp_env_templatefile = os.path.join(CONFIG, "aws", "compute-env-template-EC2.json")
         with open(comp_env_templatefile) as fin:
             comp_env = json.loads(fin.read())
             comp_env['computeEnvironmentName'] = name
@@ -178,3 +199,4 @@ def create_comp_env_dict(name, CPUs, machine_type, AMI, subnet_id, sg_id, batchR
             comp_env['serviceRole'] = batchRoleArn
             with open(os.path.join(CONFIG, "aws", 'compute-env-{}.json'.format(name)), 'w') as fout:
                 fout.write(json.dumps(comp_env, indent=4))
+ 

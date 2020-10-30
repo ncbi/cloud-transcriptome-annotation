@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "hed695b0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libpng-1.6.37-hed695b0_2.tar.bz2",
+  "license": "zlib/libpng",
+  "md5": "5685fb1f2e761545e9f5ea34411efd98",
+  "name": "libpng",
+  "platform": "linux",
+  "sha256": "797f1c7a84827d585dca06176b8747ff697627906ede879423351d7a5c903a2c",
+  "size": 367549,
+  "subdir": "linux-64",
+  "timestamp": 1597321104498,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libpng-1.6.37-hed695b0_2.tar.bz2",
+  "version": "1.6.37"
+}

@@ -1,0 +1,48 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /opt/recipe, last modified Tue May  7 10:55:23 2019
+# ------------------------------------------------
+
+package:
+    name: perl-json-xs
+    version: '2.34'
+source:
+    sha256: a62fdf2777b9ae206aef382dbb62c9a126ce2ceef0229edacee3f6a9c78900ea
+    url: https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/JSON-XS-2.34.tar.gz
+build:
+    number: '3'
+    string: pl526h6bb024c_3
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_3
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_3
+        - gxx_impl_linux-64 7.3.0 hdf63c60_1
+        - gxx_linux-64 7.3.0 h553295d_3
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - perl 5.26.2 h516909a_1006
+        - perl-canary-stability 2013 pl526_0
+        - perl-common-sense 3.74 pl526_2
+        - perl-extutils-makemaker 7.36 pl526_1
+        - perl-types-serialiser 1.0 pl526_2
+    run:
+        - libgcc-ng >=7.3.0
+        - libstdcxx-ng >=7.3.0
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-common-sense
+        - perl-types-serialiser
+test:
+    imports:
+        - JSON::XS
+about:
+    home: http://metacpan.org/pod/JSON::XS
+    license: unknown
+    summary: JSON serialising/deserialising, done correctly and fast
+extra:
+    copy_test_source_files: true
+    final: true

@@ -1,0 +1,60 @@
+# This file created by conda-build 3.12.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Aug  4 23:12:39 2018
+# ------------------------------------------------
+
+package:
+    name: isodate
+    version: 0.6.0
+source:
+    sha256: 2e364a3d5759479cdb2d37cce6b9376ea504db2ff90252a2e5b7cc89cc9ff2d8
+    url: https://pypi.io/packages/source/i/isodate/isodate-0.6.0.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/isodate_1533424428948/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_1
+requirements:
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py27_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - pip 18.0 py27_1
+        - python 2.7.15 h9fef7bc_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.0.0 py27_1
+        - six 1.11.0 py27_1
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - wheel 0.31.1 py27_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python
+        - six
+test:
+    imports:
+        - isodate
+        - isodate.tests
+about:
+    description: 'This module implements ISO 8601 date, time and duration parsing.
+        The
+
+        implementation follows ISO8601:2004 standard, and implements only date/time
+
+        representations mentioned in the standard.
+
+        '
+    dev_url: https://github.com/gweis/isodate
+    home: http://cheeseshop.python.org/pypi/isodate
+    license: BSD 3-Clause
+    summary: An ISO 8601 date/time/duration parser and formatter.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

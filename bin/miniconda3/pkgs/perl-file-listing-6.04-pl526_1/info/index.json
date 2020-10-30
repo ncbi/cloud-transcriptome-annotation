@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-http-date"
+  ],
+  "license": "perl_5",
+  "name": "perl-file-listing",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1530980716060,
+  "version": "6.04"
+}

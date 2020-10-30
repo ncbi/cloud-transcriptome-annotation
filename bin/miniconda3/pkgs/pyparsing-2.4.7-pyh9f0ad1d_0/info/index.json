@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "name": "pyparsing",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1586197623687,
+  "version": "2.4.7"
+}

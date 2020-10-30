@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "features": "",
+  "fn": "perl-data-dumper-2.173-pl526_0.tar.bz2",
+  "license": "unknown",
+  "md5": "8057e13103637c6e8700c652d1b83682",
+  "name": "perl-data-dumper",
+  "platform": "linux",
+  "sha256": "00b274985ca22b5870d7ea2f172d0e1e943c89fa2a55c40a02f821450aaf7193",
+  "size": 35997,
+  "subdir": "linux-64",
+  "timestamp": 1545087293412,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-data-dumper-2.173-pl526_0.tar.bz2",
+  "version": "2.173"
+}

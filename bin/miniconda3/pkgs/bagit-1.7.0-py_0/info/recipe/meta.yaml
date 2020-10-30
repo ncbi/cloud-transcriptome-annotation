@@ -1,0 +1,52 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Jun 29 01:17:09 2018
+# ------------------------------------------------
+
+package:
+    name: bagit
+    version: 1.7.0
+source:
+    sha256: f248a3dad06fd3e5d329217baace6ade79d106579696b13e2c0bbc583101ded4
+    url: https://pypi.io/packages/source/b/bagit/bagit-1.7.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py27_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - pip 9.0.3 py27_0
+        - python 2.7.15 0
+        - readline 7.0 0
+        - setuptools 39.2.0 py27_0
+        - setuptools_scm 2.1.0 py27_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - wheel 0.31.0 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python
+        - setuptools
+test:
+    commands:
+        - bagit.py --version
+    imports:
+        - bagit
+about:
+    dev_url: https://github.com/LibraryOfCongress/bagit-python
+    doc_url: https://libraryofcongress.github.io/bagit-python/
+    home: https://libraryofcongress.github.io/bagit-python/
+    license: Public-Domain
+    summary: Work with BagIt packages from Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kwilcox
+        - ocefpaf

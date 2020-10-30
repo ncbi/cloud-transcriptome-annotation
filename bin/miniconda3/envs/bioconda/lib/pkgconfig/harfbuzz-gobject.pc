@@ -1,0 +1,12 @@
+prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+exec_prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+libdir=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib
+includedir=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library GObject integration
+Version: 2.4.0
+
+Requires: harfbuzz gobject-2.0 glib-2.0
+Libs: -L${libdir} -lharfbuzz-gobject
+Cflags: -I${includedir}/harfbuzz

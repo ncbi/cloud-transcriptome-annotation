@@ -1,0 +1,11 @@
+bin/xmlwf
+include/expat.h
+include/expat_config.h
+include/expat_external.h
+lib/libexpat.a
+lib/libexpat.so
+lib/libexpat.so.1
+lib/libexpat.so.1.6.11
+lib/pkgconfig/expat.pc
+share/doc/expat/AUTHORS
+share/doc/expat/changelog

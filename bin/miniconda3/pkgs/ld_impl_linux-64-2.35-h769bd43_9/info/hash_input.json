@@ -1,0 +1,7 @@
+{
+  "c_compiler": "gcc",
+  "ctng_target_platform": "linux-64",
+  "ctng_cpu_arch": "x86_64",
+  "c_compiler_version": "7",
+  "ctng_vendor": "conda_cos6"
+}

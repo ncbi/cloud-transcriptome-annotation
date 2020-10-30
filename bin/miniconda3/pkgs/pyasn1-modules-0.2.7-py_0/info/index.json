@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "pyasn1 >=0.4.6,<0.5.0",
+    "python"
+  ],
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "name": "pyasn1-modules",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1570688975682,
+  "version": "0.2.7"
+}

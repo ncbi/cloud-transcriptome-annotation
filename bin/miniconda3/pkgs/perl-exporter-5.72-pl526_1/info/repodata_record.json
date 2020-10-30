@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "features": "",
+  "fn": "perl-exporter-5.72-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "md5": "5ecf4d143181f4a4d71349811ea29177",
+  "name": "perl-exporter",
+  "platform": "linux",
+  "sha256": "1170f5360c09eb802732313bbd7f5a1470c3b59987d373c3ae94ab09ef5ce2d1",
+  "size": 13288,
+  "subdir": "linux-64",
+  "timestamp": 1531071130904,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-exporter-5.72-pl526_1.tar.bz2",
+  "version": "5.72"
+}

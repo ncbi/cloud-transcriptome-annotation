@@ -1,0 +1,3021 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python_abi * *_cp37m"
+  ],
+  "depends": [
+    "bagit >=1.6.4",
+    "mypy_extensions",
+    "prov 1.5.1",
+    "psutil",
+    "python >=3.7,<3.8.0a0",
+    "rdflib >=4.2.2,<4.3.0",
+    "requests >=2.6.1",
+    "ruamel.yaml >=0.12.4,<=0.15.77",
+    "scandir",
+    "schema-salad >=4.1,<5",
+    "setuptools",
+    "shellescape >=3.4.1,<3.5",
+    "six >=1.9.0",
+    "typing_extensions"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cwltool-1.0.20190228155703-py37_0",
+  "features": "",
+  "files": [
+    "bin/cwltool",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/METADATA",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/RECORD",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/WHEEL",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/zip-safe",
+    "lib/python3.7/site-packages/cwltool/__init__.py",
+    "lib/python3.7/site-packages/cwltool/__main__.py",
+    "lib/python3.7/site-packages/cwltool/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/argparser.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/builder.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/checker.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/command_line_tool.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/context.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/cwlrdf.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/docker.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/docker_id.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/errors.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/executors.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/expression.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/factory.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/flatten.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/job.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/load_tool.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/loghandler.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/main.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/mutation.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/pack.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/pathmapper.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/process.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/provenance.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/resolver.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/sandboxjs.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/secrets.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/singularity.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/software_requirements.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/stdfsaccess.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/subgraph.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/update.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/validate_js.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/__pycache__/workflow.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/argparser.py",
+    "lib/python3.7/site-packages/cwltool/builder.py",
+    "lib/python3.7/site-packages/cwltool/checker.py",
+    "lib/python3.7/site-packages/cwltool/command_line_tool.py",
+    "lib/python3.7/site-packages/cwltool/context.py",
+    "lib/python3.7/site-packages/cwltool/cwlNodeEngine.js",
+    "lib/python3.7/site-packages/cwltool/cwlNodeEngineJSConsole.js",
+    "lib/python3.7/site-packages/cwltool/cwlNodeEngineWithContext.js",
+    "lib/python3.7/site-packages/cwltool/cwlrdf.py",
+    "lib/python3.7/site-packages/cwltool/docker.py",
+    "lib/python3.7/site-packages/cwltool/docker_id.py",
+    "lib/python3.7/site-packages/cwltool/errors.py",
+    "lib/python3.7/site-packages/cwltool/executors.py",
+    "lib/python3.7/site-packages/cwltool/expression.py",
+    "lib/python3.7/site-packages/cwltool/extensions.yml",
+    "lib/python3.7/site-packages/cwltool/factory.py",
+    "lib/python3.7/site-packages/cwltool/flatten.py",
+    "lib/python3.7/site-packages/cwltool/job.py",
+    "lib/python3.7/site-packages/cwltool/jshint/jshint.js",
+    "lib/python3.7/site-packages/cwltool/jshint/jshint_wrapper.js",
+    "lib/python3.7/site-packages/cwltool/load_tool.py",
+    "lib/python3.7/site-packages/cwltool/loghandler.py",
+    "lib/python3.7/site-packages/cwltool/main.py",
+    "lib/python3.7/site-packages/cwltool/mutation.py",
+    "lib/python3.7/site-packages/cwltool/pack.py",
+    "lib/python3.7/site-packages/cwltool/pathmapper.py",
+    "lib/python3.7/site-packages/cwltool/process.py",
+    "lib/python3.7/site-packages/cwltool/provenance.py",
+    "lib/python3.7/site-packages/cwltool/resolver.py",
+    "lib/python3.7/site-packages/cwltool/sandboxjs.py",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommandLineTool-standalone.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommandLineTool.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommonWorkflowLanguage.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/Process.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/README.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/UserGuide.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/Workflow.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/concepts.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/contrib.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/intro.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/invocation.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/import_include.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/metaschema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/metaschema_base.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/salad.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.0/userguide-intro.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommandLineTool-standalone.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommandLineTool.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommonWorkflowLanguage.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/Process.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/README.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/Workflow.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/concepts.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/contrib.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/intro.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/invocation.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/import_include.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/metaschema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/metaschema_base.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/salad.md",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_proc.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_schema.yml",
+    "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_src.yml",
+    "lib/python3.7/site-packages/cwltool/secrets.py",
+    "lib/python3.7/site-packages/cwltool/singularity.py",
+    "lib/python3.7/site-packages/cwltool/software_requirements.py",
+    "lib/python3.7/site-packages/cwltool/stdfsaccess.py",
+    "lib/python3.7/site-packages/cwltool/subgraph.py",
+    "lib/python3.7/site-packages/cwltool/tests/2.fasta",
+    "lib/python3.7/site-packages/cwltool/tests/2.fastq",
+    "lib/python3.7/site-packages/cwltool/tests/__init__.py",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_anon_types.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_check.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_cwl_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_default_path.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_dependencies.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker_warning.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_empty_input.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_examples.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_ext.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_fetch.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_http_input.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_iwdr.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_js_sandbox.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_override.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_pack.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_parallel.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_pathmapper.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_provenance.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_rdfprint.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_relax_path_checks.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_relocate.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_secrets.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_singularity.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_subgraph.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_target.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_toolargparse.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_udocker.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_validate_js.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/bundle-context.jsonld",
+    "lib/python3.7/site-packages/cwltool/tests/checker_wf/broken-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/checker_wf/broken-wf2.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/checker_wf/cat.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/checker_wf/echo.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/checker_wf/functional-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/echo-job.yaml",
+    "lib/python3.7/site-packages/cwltool/tests/echo-position-expr-job.yml",
+    "lib/python3.7/site-packages/cwltool/tests/echo-position-expr.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/echo.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/echo_broken_outputs.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/listing-job.yml",
+    "lib/python3.7/site-packages/cwltool/tests/listing2-job.yml",
+    "lib/python3.7/site-packages/cwltool/tests/non_portable.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/non_portable2.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/override/echo-job-ov.yml",
+    "lib/python3.7/site-packages/cwltool/tests/override/echo-job-ov2.yml",
+    "lib/python3.7/site-packages/cwltool/tests/override/echo-job.yml",
+    "lib/python3.7/site-packages/cwltool/tests/override/echo-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/override/echo.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/override/env-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override.yaml",
+    "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override_default.yaml",
+    "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override_default_wrongver.yaml",
+    "lib/python3.7/site-packages/cwltool/tests/override/env-tool_v1.1.0-dev1.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/override/ov.yml",
+    "lib/python3.7/site-packages/cwltool/tests/override/ov2.yml",
+    "lib/python3.7/site-packages/cwltool/tests/override/ov3.yml",
+    "lib/python3.7/site-packages/cwltool/tests/portable.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/random_lines.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/random_lines_job.json",
+    "lib/python3.7/site-packages/cwltool/tests/random_lines_mapping.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/secondary-files-job.yml",
+    "lib/python3.7/site-packages/cwltool/tests/secondary-files.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/seqtk_seq.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_job.json",
+    "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_with_docker.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_wrong_name.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/count-lines1-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_count_output.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file1.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file2.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file3.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output3.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output4.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output5.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step1.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step2.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step3.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step4.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step5.json",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/parseInt-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/subgraph/wc-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/test_anon_types.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_bad_outputs_wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/test_check.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_cwl_version.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_default_path.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_dependencies.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_deps_env_modules_resolvers_conf.yml",
+    "lib/python3.7/site-packages/cwltool/tests/test_deps_env_resolvers_conf.yml",
+    "lib/python3.7/site-packages/cwltool/tests/test_deps_env_resolvers_conf_rewrite.yml",
+    "lib/python3.7/site-packages/cwltool/tests/test_deps_mapping.yml",
+    "lib/python3.7/site-packages/cwltool/tests/test_docker.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_docker_info.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_docker_warning.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_empty_input.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_examples.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_ext.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_fetch.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_http_input.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_iwdr.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_js_sandbox.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_override.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_pack.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_parallel.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_pathmapper.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_provenance.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_rdfprint.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_relax_path_checks.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_relocate.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_secrets.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_singularity.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_subgraph.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_target.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_toolargparse.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_udocker.py",
+    "lib/python3.7/site-packages/cwltool/tests/test_validate_js.py",
+    "lib/python3.7/site-packages/cwltool/tests/tmp1/tmp2/tmp3/.gitkeep",
+    "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/baker",
+    "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/charlie",
+    "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/delta",
+    "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/echo",
+    "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/foxtrot",
+    "lib/python3.7/site-packages/cwltool/tests/utf_doc_example.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/util.py",
+    "lib/python3.7/site-packages/cwltool/tests/wf/1st-workflow.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/910.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/__pycache__/updateval.cpython-37.pyc",
+    "lib/python3.7/site-packages/cwltool/tests/wf/arguments.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/badout1.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/badout2.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/badout3.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/cache_test_workflow.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/cat-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/cat.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/count-lines1-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/default-dir5.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/default-wf5.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/default_path.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/directory.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/echo.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/empty.ttl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/empty2.ttl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/expect_packed.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/formattest-job.json",
+    "lib/python3.7/site-packages/cwltool/tests/wf/formattest.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/hello-workflow.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/hello.txt",
+    "lib/python3.7/site-packages/cwltool/tests/wf/hello_single_tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/iwdr-entry.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/iwdr_permutations.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/iwdr_permutations_inplace.yml",
+    "lib/python3.7/site-packages/cwltool/tests/wf/js_output.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/js_output_workflow.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/listing_deep.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/listing_none.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/listing_shallow.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/listing_v1_0.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/malformed_outputs.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/missing-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/missing_cwlVersion.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/mut.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/mut2.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/mut3.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/nested.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/networkaccess-fail.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/networkaccess.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/no-parameters-echo.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/override-no-secrets.yml",
+    "lib/python3.7/site-packages/cwltool/tests/wf/parseInt-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/revsort-job.json",
+    "lib/python3.7/site-packages/cwltool/tests/wf/revsort.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/revtool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/scatter-job2.json",
+    "lib/python3.7/site-packages/cwltool/tests/wf/scatter-wf4.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/scatter-wf4.json",
+    "lib/python3.7/site-packages/cwltool/tests/wf/scatterfail.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/sec-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/sec-wf-out.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/sec-wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/secret_job.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/secret_wf.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/separate_without_prefix.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/sorttool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/tar-param.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/timelimit-fail.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/timelimit.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/touch_tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/trick_defaults.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/updatedir.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/updatedir_inplace.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/updateval.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/updateval.py",
+    "lib/python3.7/site-packages/cwltool/tests/wf/updateval_inplace.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/vf-concat.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/wc-job.json",
+    "lib/python3.7/site-packages/cwltool/tests/wf/wc-tool.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/wffail.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/whale.txt",
+    "lib/python3.7/site-packages/cwltool/tests/wf/workreuse-fail.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/workreuse.cwl",
+    "lib/python3.7/site-packages/cwltool/tests/wf/wrong_cwlVersion.cwl",
+    "lib/python3.7/site-packages/cwltool/update.py",
+    "lib/python3.7/site-packages/cwltool/utils.py",
+    "lib/python3.7/site-packages/cwltool/validate_js.py",
+    "lib/python3.7/site-packages/cwltool/workflow.py"
+  ],
+  "fn": "cwltool-1.0.20190228155703-py37_0.tar.bz2",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cwltool-1.0.20190228155703-py37_0",
+    "type": 1
+  },
+  "md5": "f590f1b5f943b9a48bef97d3f1bba45f",
+  "name": "cwltool",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/cwltool-1.0.20190228155703-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cwltool",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "57c2372456812a45fa69c849cb1975328ff2efc6ecbb86582eb80578bc6a1fe3",
+        "sha256_in_prefix": "5187bd1fbeaf9fe22065c31f8d946f50821d3b094bff61be6f434a3d260d0f30",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b72af3e988201768fd60e4c19cd0656ecc89bcf4a6fcbdf6ada8b446622154be",
+        "sha256_in_prefix": "b72af3e988201768fd60e4c19cd0656ecc89bcf4a6fcbdf6ada8b446622154be",
+        "size_in_bytes": 30507
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a97232a1edc01d946305a72f2e402b273918f08fd42af3bd0006f3fa6b798f9d",
+        "sha256_in_prefix": "a97232a1edc01d946305a72f2e402b273918f08fd42af3bd0006f3fa6b798f9d",
+        "size_in_bytes": 32883
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "sha256_in_prefix": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "eff6402b88f9b7b0ef1f7479d494e26aaac006b320fcd9f74a3bc3da213d9ece",
+        "sha256_in_prefix": "eff6402b88f9b7b0ef1f7479d494e26aaac006b320fcd9f74a3bc3da213d9ece",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3aa536890643d29712dccb4f5c0f64678190ca20a5407333777d621fce806de1",
+        "sha256_in_prefix": "3aa536890643d29712dccb4f5c0f64678190ca20a5407333777d621fce806de1",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool-1.0.20190228155703.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a896b6622d305c0cb804c6e3203fbdd1e969a8fd375ed4cbf3efad39b3bf7976",
+        "sha256_in_prefix": "a896b6622d305c0cb804c6e3203fbdd1e969a8fd375ed4cbf3efad39b3bf7976",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "37e7ee67e546e400cbb905e241d49f313e5dc3a8070dd7dfbf5c69337b3cd40e",
+        "sha256_in_prefix": "37e7ee67e546e400cbb905e241d49f313e5dc3a8070dd7dfbf5c69337b3cd40e",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5006acc34e2c96eb22e0ca0df863624c5e44f816bd7c6505da1cb0bb07e3ff6e",
+        "sha256_in_prefix": "5006acc34e2c96eb22e0ca0df863624c5e44f816bd7c6505da1cb0bb07e3ff6e",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef9d1e3ed780e8e14cc4c99c2d2845a828c3fe7889c79ba650b09565719f5d3",
+        "sha256_in_prefix": "aef9d1e3ed780e8e14cc4c99c2d2845a828c3fe7889c79ba650b09565719f5d3",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/argparser.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c246a3fac5cad11f98b98269c1e43996e12b758e1ef33ca616c032412403376",
+        "sha256_in_prefix": "1c246a3fac5cad11f98b98269c1e43996e12b758e1ef33ca616c032412403376",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/builder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ba2b1598919e18334a42b5e6d5c9bc0be5da34d0dd2ec7d34df38f1ca41c44e",
+        "sha256_in_prefix": "3ba2b1598919e18334a42b5e6d5c9bc0be5da34d0dd2ec7d34df38f1ca41c44e",
+        "size_in_bytes": 10791
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/checker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9bc79a308d2ff3bd924139d46ecff9afabff1e38d9bf1e8137c9c72cdbd3e34",
+        "sha256_in_prefix": "e9bc79a308d2ff3bd924139d46ecff9afabff1e38d9bf1e8137c9c72cdbd3e34",
+        "size_in_bytes": 7625
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/command_line_tool.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c44d54233eab65170b105402b4b5d0388a101defdb7852d86e4cf8aafacfe079",
+        "sha256_in_prefix": "c44d54233eab65170b105402b4b5d0388a101defdb7852d86e4cf8aafacfe079",
+        "size_in_bytes": 21430
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/context.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a91d33ed3115dbd1158ac56dd73140a8058c666ed2071f375b1993c4adb0d600",
+        "sha256_in_prefix": "a91d33ed3115dbd1158ac56dd73140a8058c666ed2071f375b1993c4adb0d600",
+        "size_in_bytes": 4390
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/cwlrdf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "291ced4651b11191deb7451e6a1ffc426ee67aff608bcef3c47bd73162231366",
+        "sha256_in_prefix": "291ced4651b11191deb7451e6a1ffc426ee67aff608bcef3c47bd73162231366",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/docker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c89b176308dd4ffe6755e5db85f1ed3ac4d63e57a723fd397e56adc341e8647",
+        "sha256_in_prefix": "7c89b176308dd4ffe6755e5db85f1ed3ac4d63e57a723fd397e56adc341e8647",
+        "size_in_bytes": 10026
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/docker_id.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78b6fb084cea9eeabf4a2e3b39bd6419ecf3fa5c4b5871f9142b7b829ccba843",
+        "sha256_in_prefix": "78b6fb084cea9eeabf4a2e3b39bd6419ecf3fa5c4b5871f9142b7b829ccba843",
+        "size_in_bytes": 3999
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/errors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f48ad1ddf7ce3459c568a42ef165b60561063d144fc58a0414d854c4921e2a1",
+        "sha256_in_prefix": "7f48ad1ddf7ce3459c568a42ef165b60561063d144fc58a0414d854c4921e2a1",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/executors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "332e600868c2a74a5c469f95b4ee50cf9a6e06fd65cf21d8908a022200699cd6",
+        "sha256_in_prefix": "332e600868c2a74a5c469f95b4ee50cf9a6e06fd65cf21d8908a022200699cd6",
+        "size_in_bytes": 9171
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/expression.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c5d03dfd192e2d34446eb6881f4387f3ca8236caeb436987fa56058071a1739",
+        "sha256_in_prefix": "9c5d03dfd192e2d34446eb6881f4387f3ca8236caeb436987fa56058071a1739",
+        "size_in_bytes": 6330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/factory.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b61f689dbaca255c088141c090f337338733cdf14aff1ed27cdfb81bcdd7c163",
+        "sha256_in_prefix": "b61f689dbaca255c088141c090f337338733cdf14aff1ed27cdfb81bcdd7c163",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/flatten.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "344b161bc5b1e9f9c8745837ec089b31b215b1d626a891a5bdb07c1561fd04bb",
+        "sha256_in_prefix": "344b161bc5b1e9f9c8745837ec089b31b215b1d626a891a5bdb07c1561fd04bb",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/job.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7857e9d83a7bc5f7ffdad747380ac8bce3e9260d3c2e9addb46cc427eddfbecb",
+        "sha256_in_prefix": "7857e9d83a7bc5f7ffdad747380ac8bce3e9260d3c2e9addb46cc427eddfbecb",
+        "size_in_bytes": 21172
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/load_tool.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a10d8f79cf4d12900e8a4dc9fd7ae73e8986b125f5416399134e08f4f242a9b7",
+        "sha256_in_prefix": "a10d8f79cf4d12900e8a4dc9fd7ae73e8986b125f5416399134e08f4f242a9b7",
+        "size_in_bytes": 9194
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/loghandler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ee397f8b4bfc0be79dd2eef44ed170ca2e97dd54cbe72a9796d17618fc63573",
+        "sha256_in_prefix": "2ee397f8b4bfc0be79dd2eef44ed170ca2e97dd54cbe72a9796d17618fc63573",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/main.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b46d895d295e16232918fc1be99f4ea8b3299ba3de8b8d1b6287aaa27cbb652",
+        "sha256_in_prefix": "8b46d895d295e16232918fc1be99f4ea8b3299ba3de8b8d1b6287aaa27cbb652",
+        "size_in_bytes": 22679
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/mutation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aa19393bbe214a5445e133253d0d4072a58ed60ff235a8bb2d200707b332c0e",
+        "sha256_in_prefix": "5aa19393bbe214a5445e133253d0d4072a58ed60ff235a8bb2d200707b332c0e",
+        "size_in_bytes": 2925
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/pack.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d297d7fb90f6402204aa174ab98673c509cd27fbe89b7bfb6b433d0c2b2ab10",
+        "sha256_in_prefix": "2d297d7fb90f6402204aa174ab98673c509cd27fbe89b7bfb6b433d0c2b2ab10",
+        "size_in_bytes": 5004
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/pathmapper.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "01fdc388217a8247d1eced968c20bd29f6f1ba49c6e3f71e4b7cf144ccd82e16",
+        "sha256_in_prefix": "01fdc388217a8247d1eced968c20bd29f6f1ba49c6e3f71e4b7cf144ccd82e16",
+        "size_in_bytes": 11031
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/process.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "677b698bbebe0e41a0651e78b32844d7bd07f4b1da7f87c1be21b163ac6a4bdc",
+        "sha256_in_prefix": "677b698bbebe0e41a0651e78b32844d7bd07f4b1da7f87c1be21b163ac6a4bdc",
+        "size_in_bytes": 24481
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/provenance.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6287e23fcc8393fbcd52c747f4ee61281acbad8ce5262b6e18d0dbcd564b4d62",
+        "sha256_in_prefix": "6287e23fcc8393fbcd52c747f4ee61281acbad8ce5262b6e18d0dbcd564b4d62",
+        "size_in_bytes": 38316
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/resolver.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ed3103827be39bfd29d267ce884cc4ee25510bdc66daae4c7042c6426ce1522",
+        "sha256_in_prefix": "7ed3103827be39bfd29d267ce884cc4ee25510bdc66daae4c7042c6426ce1522",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/sandboxjs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfc769eac72ab48b962d2eff3dad53314a1ac0fd9494a05e8da1d2c82b79d73b",
+        "sha256_in_prefix": "dfc769eac72ab48b962d2eff3dad53314a1ac0fd9494a05e8da1d2c82b79d73b",
+        "size_in_bytes": 8913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/secrets.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5f6422409fc313561b6ee9d4fcacc9b3f78b7296d3421cd3c6b0e0735133fdb",
+        "sha256_in_prefix": "a5f6422409fc313561b6ee9d4fcacc9b3f78b7296d3421cd3c6b0e0735133fdb",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/singularity.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bce68a7cc275549b24fa5d0944b874e185adfa2b5f4736984094aabf75481fc5",
+        "sha256_in_prefix": "bce68a7cc275549b24fa5d0944b874e185adfa2b5f4736984094aabf75481fc5",
+        "size_in_bytes": 7605
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/software_requirements.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a8e74ead4bce8a02cde1a9a90b05e8f05ee5a3174daf2d2a775845c3af43e30",
+        "sha256_in_prefix": "6a8e74ead4bce8a02cde1a9a90b05e8f05ee5a3174daf2d2a775845c3af43e30",
+        "size_in_bytes": 4267
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/stdfsaccess.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b6d7a74bcd8bf56ecd36e318f0ea9866f0eb05062cfb56b45d06154e1155f53",
+        "sha256_in_prefix": "1b6d7a74bcd8bf56ecd36e318f0ea9866f0eb05062cfb56b45d06154e1155f53",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/subgraph.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fcecc60f4ab24b368e411329e85ff17b3750310d7db85f28fced2443067a33a",
+        "sha256_in_prefix": "8fcecc60f4ab24b368e411329e85ff17b3750310d7db85f28fced2443067a33a",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/update.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b8f59e37b192189a74218d62e183dfb2d43cd8f655a00672b2c20175a07433f",
+        "sha256_in_prefix": "4b8f59e37b192189a74218d62e183dfb2d43cd8f655a00672b2c20175a07433f",
+        "size_in_bytes": 4650
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fb000f4cdf781a0fe3b4d9c47f85157b7825c98cea087a90fec67f6a9cd0dcc",
+        "sha256_in_prefix": "4fb000f4cdf781a0fe3b4d9c47f85157b7825c98cea087a90fec67f6a9cd0dcc",
+        "size_in_bytes": 6188
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/validate_js.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6278a9fc9f4945a0c8bcccd471fd296cc04a79a9f379ff64f0d7745c3d363df1",
+        "sha256_in_prefix": "6278a9fc9f4945a0c8bcccd471fd296cc04a79a9f379ff64f0d7745c3d363df1",
+        "size_in_bytes": 5314
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/__pycache__/workflow.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c396c870b9712ec484bfe5b9a7c155648493c003bc40da1799f0d0708c17f21a",
+        "sha256_in_prefix": "c396c870b9712ec484bfe5b9a7c155648493c003bc40da1799f0d0708c17f21a",
+        "size_in_bytes": 24124
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/argparser.py",
+        "path_type": "hardlink",
+        "sha256": "b5cbf91163975709dd2f4f0093631b3603e6f89c95cebe7c677f60067a1d1fe8",
+        "sha256_in_prefix": "b5cbf91163975709dd2f4f0093631b3603e6f89c95cebe7c677f60067a1d1fe8",
+        "size_in_bytes": 23543
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/builder.py",
+        "path_type": "hardlink",
+        "sha256": "3d089f84900fc99f439749a1ecfb7914d817794873a8f83c6186dd756568859b",
+        "sha256_in_prefix": "3d089f84900fc99f439749a1ecfb7914d817794873a8f83c6186dd756568859b",
+        "size_in_bytes": 20369
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/checker.py",
+        "path_type": "hardlink",
+        "sha256": "547a5c8d4c6aa7ec43167348e908d9772a6e24253149bc40647ddfdddf58aa3c",
+        "sha256_in_prefix": "547a5c8d4c6aa7ec43167348e908d9772a6e24253149bc40647ddfdddf58aa3c",
+        "size_in_bytes": 11077
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/command_line_tool.py",
+        "path_type": "hardlink",
+        "sha256": "09606b508b532532064a6eed277457a58fc663a2f7b409750fec00a3c91f0b1d",
+        "sha256_in_prefix": "09606b508b532532064a6eed277457a58fc663a2f7b409750fec00a3c91f0b1d",
+        "size_in_bytes": 38559
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/context.py",
+        "path_type": "hardlink",
+        "sha256": "dc61367763fe270c9d2ed4c717632ee49dec4da34148e6503cee0074cb904fca",
+        "sha256_in_prefix": "dc61367763fe270c9d2ed4c717632ee49dec4da34148e6503cee0074cb904fca",
+        "size_in_bytes": 6817
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/cwlNodeEngine.js",
+        "path_type": "hardlink",
+        "sha256": "3cbea5206cfffed9b8456de733a091ae126255d89c793088a5ec42f4426744b2",
+        "sha256_in_prefix": "3cbea5206cfffed9b8456de733a091ae126255d89c793088a5ec42f4426744b2",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/cwlNodeEngineJSConsole.js",
+        "path_type": "hardlink",
+        "sha256": "a12cee1cb61c35e509a7ef7169e2d91911f6852c2fea7981e8c03a7a8f9e7290",
+        "sha256_in_prefix": "a12cee1cb61c35e509a7ef7169e2d91911f6852c2fea7981e8c03a7a8f9e7290",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/cwlNodeEngineWithContext.js",
+        "path_type": "hardlink",
+        "sha256": "8b1eb9f7ba7f28aaffc390525e05b23b95a21dc91911ac1f1ab121dc26022a32",
+        "sha256_in_prefix": "8b1eb9f7ba7f28aaffc390525e05b23b95a21dc91911ac1f1ab121dc26022a32",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/cwlrdf.py",
+        "path_type": "hardlink",
+        "sha256": "17deddac1cd729780ff646f537e55dbdf16f230a480e569e0e593f6497bbbbab",
+        "sha256_in_prefix": "17deddac1cd729780ff646f537e55dbdf16f230a480e569e0e593f6497bbbbab",
+        "size_in_bytes": 5589
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/docker.py",
+        "path_type": "hardlink",
+        "sha256": "9f12badd203f69d9c6def1e12580e59a53dec622b35734cbd600ac1d856e2fbf",
+        "sha256_in_prefix": "9f12badd203f69d9c6def1e12580e59a53dec622b35734cbd600ac1d856e2fbf",
+        "size_in_bytes": 18296
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/docker_id.py",
+        "path_type": "hardlink",
+        "sha256": "359be0e94c06704a3938531632a5de01edf9624e08622b2486abfe397a0db8fd",
+        "sha256_in_prefix": "359be0e94c06704a3938531632a5de01edf9624e08622b2486abfe397a0db8fd",
+        "size_in_bytes": 4567
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/errors.py",
+        "path_type": "hardlink",
+        "sha256": "33beef0acccf95baeb9ebb56a96e9d00b1ef7cabaa5c774fa1e895d8798fef4f",
+        "sha256_in_prefix": "33beef0acccf95baeb9ebb56a96e9d00b1ef7cabaa5c774fa1e895d8798fef4f",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/executors.py",
+        "path_type": "hardlink",
+        "sha256": "8a9206490246fa77d027d54e47683ed7793f9da0ea7688b2dc55da878c347d3b",
+        "sha256_in_prefix": "8a9206490246fa77d027d54e47683ed7793f9da0ea7688b2dc55da878c347d3b",
+        "size_in_bytes": 15597
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/expression.py",
+        "path_type": "hardlink",
+        "sha256": "6fe13040ba447fc6c43e0be01fe46f6110e228c67a4e302ae987c23f21307242",
+        "sha256_in_prefix": "6fe13040ba447fc6c43e0be01fe46f6110e228c67a4e302ae987c23f21307242",
+        "size_in_bytes": 10959
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/extensions.yml",
+        "path_type": "hardlink",
+        "sha256": "4ff4c6f6f8f99b74044909c2fd9114a158ce2e0ac10aaf8f1fae45d1cb353d03",
+        "sha256_in_prefix": "4ff4c6f6f8f99b74044909c2fd9114a158ce2e0ac10aaf8f1fae45d1cb353d03",
+        "size_in_bytes": 3895
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/factory.py",
+        "path_type": "hardlink",
+        "sha256": "1f84f0b0e5aaad9482551b5c6a790e06af8294b47e667a9b80307729c8597f7a",
+        "sha256_in_prefix": "1f84f0b0e5aaad9482551b5c6a790e06af8294b47e667a9b80307729c8597f7a",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/flatten.py",
+        "path_type": "hardlink",
+        "sha256": "e4e21f8038d8d978db13474db14c50c903b7127be74e8586f599469b82336348",
+        "sha256_in_prefix": "e4e21f8038d8d978db13474db14c50c903b7127be74e8586f599469b82336348",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/job.py",
+        "path_type": "hardlink",
+        "sha256": "d32eec5aa9451113c371a2b81888604b4e8053adfccfe74a8336bef52079dd67",
+        "sha256_in_prefix": "d32eec5aa9451113c371a2b81888604b4e8053adfccfe74a8336bef52079dd67",
+        "size_in_bytes": 37007
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/jshint/jshint.js",
+        "path_type": "hardlink",
+        "sha256": "90a0757a710fed9c4a503cb10bf43af14c1db02f39723cb1f86ffe3a95046e5c",
+        "sha256_in_prefix": "90a0757a710fed9c4a503cb10bf43af14c1db02f39723cb1f86ffe3a95046e5c",
+        "size_in_bytes": 1054979
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/jshint/jshint_wrapper.js",
+        "path_type": "hardlink",
+        "sha256": "c80ef85e487b9f58034aa2425fe891a48c218614ddb2b0ef9a51645c1d9c46a9",
+        "sha256_in_prefix": "c80ef85e487b9f58034aa2425fe891a48c218614ddb2b0ef9a51645c1d9c46a9",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/load_tool.py",
+        "path_type": "hardlink",
+        "sha256": "e939abeb67e565620563944bfe3fc72f274646c5e99a7086a45a41f5ee393014",
+        "sha256_in_prefix": "e939abeb67e565620563944bfe3fc72f274646c5e99a7086a45a41f5ee393014",
+        "size_in_bytes": 16532
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/loghandler.py",
+        "path_type": "hardlink",
+        "sha256": "39c2ec1a30c1daa4460d7cc1c15af30883cf37ce46fba4f52bfa4cefa7e2168c",
+        "sha256_in_prefix": "39c2ec1a30c1daa4460d7cc1c15af30883cf37ce46fba4f52bfa4cefa7e2168c",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/main.py",
+        "path_type": "hardlink",
+        "sha256": "81ea1647b395e3fd6f19805f4ce100765b673f6511402e31fecefdcec51c9e8b",
+        "sha256_in_prefix": "81ea1647b395e3fd6f19805f4ce100765b673f6511402e31fecefdcec51c9e8b",
+        "size_in_bytes": 40181
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/mutation.py",
+        "path_type": "hardlink",
+        "sha256": "646dab7836017f81369f90ee2570516f32366885a8cf6eeec4adce7331c95bc4",
+        "sha256_in_prefix": "646dab7836017f81369f90ee2570516f32366885a8cf6eeec4adce7331c95bc4",
+        "size_in_bytes": 3294
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/pack.py",
+        "path_type": "hardlink",
+        "sha256": "584c51d0f7b46e89cd4467bfb3acea07ddc073a834ac6f1f59f3de75c8b8fc39",
+        "sha256_in_prefix": "584c51d0f7b46e89cd4467bfb3acea07ddc073a834ac6f1f59f3de75c8b8fc39",
+        "size_in_bytes": 7940
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/pathmapper.py",
+        "path_type": "hardlink",
+        "sha256": "fe2ea8d7c46a844381d3206454f5513224ecd91f301fbf0e20fe9e650ac697e4",
+        "sha256_in_prefix": "fe2ea8d7c46a844381d3206454f5513224ecd91f301fbf0e20fe9e650ac697e4",
+        "size_in_bytes": 14022
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/process.py",
+        "path_type": "hardlink",
+        "sha256": "9ffe25e69c92c179b116474d4621b1e25af6d0cf714479140a976b75b37527df",
+        "sha256_in_prefix": "9ffe25e69c92c179b116474d4621b1e25af6d0cf714479140a976b75b37527df",
+        "size_in_bytes": 43410
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/provenance.py",
+        "path_type": "hardlink",
+        "sha256": "4f1b0b4e9df32f6af93ca89ad088c17e2939d2c56dcd81ae8be3e67583d70436",
+        "sha256_in_prefix": "4f1b0b4e9df32f6af93ca89ad088c17e2939d2c56dcd81ae8be3e67583d70436",
+        "size_in_bytes": 71631
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "7c391f9e0fffe9d64cde97bdf43bd2f4d39cea438b151e66c57778f07ec79dc6",
+        "sha256_in_prefix": "7c391f9e0fffe9d64cde97bdf43bd2f4d39cea438b151e66c57778f07ec79dc6",
+        "size_in_bytes": 1965
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/sandboxjs.py",
+        "path_type": "hardlink",
+        "sha256": "8c46aaf4173a530d8f41ce54b1f0a801c5ca244c3ddbf3f1a83f597bf10d2298",
+        "sha256_in_prefix": "8c46aaf4173a530d8f41ce54b1f0a801c5ca244c3ddbf3f1a83f597bf10d2298",
+        "size_in_bytes": 13968
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommandLineTool-standalone.yml",
+        "path_type": "hardlink",
+        "sha256": "1c9a0bd48fea12d714c58460b341cbe72d2df973b71665262ca10dd494916c2c",
+        "sha256_in_prefix": "1c9a0bd48fea12d714c58460b341cbe72d2df973b71665262ca10dd494916c2c",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommandLineTool.yml",
+        "path_type": "hardlink",
+        "sha256": "493ab1a1afcc2c61029d4b47b42a092f14cde3cb7077df8f8315bcfe722d06f5",
+        "sha256_in_prefix": "493ab1a1afcc2c61029d4b47b42a092f14cde3cb7077df8f8315bcfe722d06f5",
+        "size_in_bytes": 35108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/CommonWorkflowLanguage.yml",
+        "path_type": "hardlink",
+        "sha256": "3966b2c535de7c6e45acfa55f372b88cf899a4d03547fe7da5d0b9d45579b744",
+        "sha256_in_prefix": "3966b2c535de7c6e45acfa55f372b88cf899a4d03547fe7da5d0b9d45579b744",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/Process.yml",
+        "path_type": "hardlink",
+        "sha256": "17622cb675e038132f84130ef4ed699ee23b8a7d4f5ad977c3f574c6c366607c",
+        "sha256_in_prefix": "17622cb675e038132f84130ef4ed699ee23b8a7d4f5ad977c3f574c6c366607c",
+        "size_in_bytes": 33209
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/README.md",
+        "path_type": "hardlink",
+        "sha256": "7c031569c09dd4f1a649dee42b0ec0e2accb1a618a6ed01fdd0607af526e85d5",
+        "sha256_in_prefix": "7c031569c09dd4f1a649dee42b0ec0e2accb1a618a6ed01fdd0607af526e85d5",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/UserGuide.yml",
+        "path_type": "hardlink",
+        "sha256": "59503560acd35c89f05f3d3efc6a16d319bd055fd826c0b0534994a8aa08c815",
+        "sha256_in_prefix": "59503560acd35c89f05f3d3efc6a16d319bd055fd826c0b0534994a8aa08c815",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/Workflow.yml",
+        "path_type": "hardlink",
+        "sha256": "3c0e5a278058fd0f3ecf5d310a51c74c7ed1c4a0120bab27ee6269479a45340d",
+        "sha256_in_prefix": "3c0e5a278058fd0f3ecf5d310a51c74c7ed1c4a0120bab27ee6269479a45340d",
+        "size_in_bytes": 21941
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/concepts.md",
+        "path_type": "hardlink",
+        "sha256": "d3617ef445c0f0f4d42533b269eb12c61c9632b6625bc7aead6b740f1e64c6e3",
+        "sha256_in_prefix": "d3617ef445c0f0f4d42533b269eb12c61c9632b6625bc7aead6b740f1e64c6e3",
+        "size_in_bytes": 18072
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/contrib.md",
+        "path_type": "hardlink",
+        "sha256": "998859a5d618807b4e6f2ae3fa0a4f8b4f9fef9cbc2ca1fe01d1515e98a4546f",
+        "sha256_in_prefix": "998859a5d618807b4e6f2ae3fa0a4f8b4f9fef9cbc2ca1fe01d1515e98a4546f",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/intro.md",
+        "path_type": "hardlink",
+        "sha256": "f9afa802eec7fdeca90226b49c0c246399840e865b07a3f33fa7780eff9040a1",
+        "sha256_in_prefix": "f9afa802eec7fdeca90226b49c0c246399840e865b07a3f33fa7780eff9040a1",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/invocation.md",
+        "path_type": "hardlink",
+        "sha256": "66017bd23dc0bb3492367bff29ccc90761bb69fd6f5a79236e344eee2c6b8ccc",
+        "sha256_in_prefix": "66017bd23dc0bb3492367bff29ccc90761bb69fd6f5a79236e344eee2c6b8ccc",
+        "size_in_bytes": 7889
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name.yml",
+        "path_type": "hardlink",
+        "sha256": "aa786aa3bda42509e31463207cb9ad565f7f4ec382ebb4fe6c3d2467bf0d1d1c",
+        "sha256_in_prefix": "aa786aa3bda42509e31463207cb9ad565f7f4ec382ebb4fe6c3d2467bf0d1d1c",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "f72e03919d9e67c88b62c85761d7fe7bd8521d2a3ea101f107f216de3467d289",
+        "sha256_in_prefix": "f72e03919d9e67c88b62c85761d7fe7bd8521d2a3ea101f107f216de3467d289",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "d142a425d8ccb817b520ccae65b6dc6f8963088e1ced04b300f97dfd2a219cb8",
+        "sha256_in_prefix": "d142a425d8ccb817b520ccae65b6dc6f8963088e1ced04b300f97dfd2a219cb8",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/field_name_src.yml",
+        "path_type": "hardlink",
+        "sha256": "e2a7c181e1b183b904f3e8da04bcc8daca6a156438316c4c0cfdc14d027a9300",
+        "sha256_in_prefix": "e2a7c181e1b183b904f3e8da04bcc8daca6a156438316c4c0cfdc14d027a9300",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res.yml",
+        "path_type": "hardlink",
+        "sha256": "a24c47ad03ef01cabca48977dfbf969b56131cf461c9d1373f6b40507934a7f7",
+        "sha256_in_prefix": "a24c47ad03ef01cabca48977dfbf969b56131cf461c9d1373f6b40507934a7f7",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "316a10395bac5f919a91bea749f21c093ea43161f8468df8624b853e4532c890",
+        "sha256_in_prefix": "316a10395bac5f919a91bea749f21c093ea43161f8468df8624b853e4532c890",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "3b7d9b579f8218b746fa34def4315c388650c092c48bf58e3e57288a193da361",
+        "sha256_in_prefix": "3b7d9b579f8218b746fa34def4315c388650c092c48bf58e3e57288a193da361",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/ident_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "efe54f592cfba73eec7df019fd4670bb9b80a913977ecde103b5cc49a2b60462",
+        "sha256_in_prefix": "efe54f592cfba73eec7df019fd4670bb9b80a913977ecde103b5cc49a2b60462",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/import_include.md",
+        "path_type": "hardlink",
+        "sha256": "0127e34c3ffdbc6b9394ff997cd3176133da82a5646214d0aa92fbecc2de75f2",
+        "sha256_in_prefix": "0127e34c3ffdbc6b9394ff997cd3176133da82a5646214d0aa92fbecc2de75f2",
+        "size_in_bytes": 4595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res.yml",
+        "path_type": "hardlink",
+        "sha256": "48d34d9a4f3ee71fa64b9f28d315cbccccf4895710302a50f1a4c706b3d4b04c",
+        "sha256_in_prefix": "48d34d9a4f3ee71fa64b9f28d315cbccccf4895710302a50f1a4c706b3d4b04c",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "f98441685370fcbb753e533b2d58b077bf222e902547a934b75fe9345b2aaec7",
+        "sha256_in_prefix": "f98441685370fcbb753e533b2d58b077bf222e902547a934b75fe9345b2aaec7",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "3ffead7f42706b5fe4b68c6aa6d21a216cc9f14c83bda9058c68a115c45e8150",
+        "sha256_in_prefix": "3ffead7f42706b5fe4b68c6aa6d21a216cc9f14c83bda9058c68a115c45e8150",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/link_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "417237e54a5c6a018fbe90780559baa1abd85aafd5bd7f345d98e1ba016816e8",
+        "sha256_in_prefix": "417237e54a5c6a018fbe90780559baa1abd85aafd5bd7f345d98e1ba016816e8",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res.yml",
+        "path_type": "hardlink",
+        "sha256": "91c3d7504ecfadc4f8077e41dd5b651790b50178687a4871f96419d8c18644c5",
+        "sha256_in_prefix": "91c3d7504ecfadc4f8077e41dd5b651790b50178687a4871f96419d8c18644c5",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "98b341687c46ce5a2434be2d55350f40a10055c0b6521a933e90add42144477d",
+        "sha256_in_prefix": "98b341687c46ce5a2434be2d55350f40a10055c0b6521a933e90add42144477d",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "edcbc10b0ac391d31a6a349a9e7494f1e50dca8c6469c19e1e97aed7766e7de0",
+        "sha256_in_prefix": "edcbc10b0ac391d31a6a349a9e7494f1e50dca8c6469c19e1e97aed7766e7de0",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/map_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "c3f2df16024f616e73cd1d2f573789c7bc51d6302102453b497362cf974fc1ea",
+        "sha256_in_prefix": "c3f2df16024f616e73cd1d2f573789c7bc51d6302102453b497362cf974fc1ea",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/metaschema.yml",
+        "path_type": "hardlink",
+        "sha256": "e5cff9d798a1118ac1536f2facb6a9d8fa1e15bd90353306c3440a488c7dda73",
+        "sha256_in_prefix": "e5cff9d798a1118ac1536f2facb6a9d8fa1e15bd90353306c3440a488c7dda73",
+        "size_in_bytes": 10104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/metaschema_base.yml",
+        "path_type": "hardlink",
+        "sha256": "c96caa637147703e5c2b3db24ab5afe3dbac56da102f61f33b5486b5550ec271",
+        "sha256_in_prefix": "c96caa637147703e5c2b3db24ab5afe3dbac56da102f61f33b5486b5550ec271",
+        "size_in_bytes": 3696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/salad.md",
+        "path_type": "hardlink",
+        "sha256": "7312877f0995e7c22ba85955bba3d4f2846883d995fbbda42cac3c69efc828b3",
+        "sha256_in_prefix": "7312877f0995e7c22ba85955bba3d4f2846883d995fbbda42cac3c69efc828b3",
+        "size_in_bytes": 10837
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res.yml",
+        "path_type": "hardlink",
+        "sha256": "e7c0b5061297dd4b07824dbe019076e1ed9ecb960f4e16ccff1c6bebbcacfcc6",
+        "sha256_in_prefix": "e7c0b5061297dd4b07824dbe019076e1ed9ecb960f4e16ccff1c6bebbcacfcc6",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "a0a9d5f1a435050e2883663ec757dcb08296325c790ae1feff5c60671301696b",
+        "sha256_in_prefix": "a0a9d5f1a435050e2883663ec757dcb08296325c790ae1feff5c60671301696b",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "25c67702f241e3e9da4eb9161fe0fe498b836b7d2f260a60e9662f67a732af78",
+        "sha256_in_prefix": "25c67702f241e3e9da4eb9161fe0fe498b836b7d2f260a60e9662f67a732af78",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/typedsl_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "90ddb3cc919f587af944306b05a32dbbfb49734c1948fdab24dcd8bd11a84b4c",
+        "sha256_in_prefix": "90ddb3cc919f587af944306b05a32dbbfb49734c1948fdab24dcd8bd11a84b4c",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res.yml",
+        "path_type": "hardlink",
+        "sha256": "e9e798fef3e27ce67229307f4cdd2a074722ba7c9fe755ab3e0f059651897fae",
+        "sha256_in_prefix": "e9e798fef3e27ce67229307f4cdd2a074722ba7c9fe755ab3e0f059651897fae",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "d406c07069999444932926f95ffd200d505d64cda418dbf17422397b1c20f979",
+        "sha256_in_prefix": "d406c07069999444932926f95ffd200d505d64cda418dbf17422397b1c20f979",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "95fa718a8ea599844239508558d8f7fa8a2ac55445683fa7aa4b1783d529e0b4",
+        "sha256_in_prefix": "95fa718a8ea599844239508558d8f7fa8a2ac55445683fa7aa4b1783d529e0b4",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/salad/schema_salad/metaschema/vocab_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "5993fbbc8b95801aa87689a8e733a95c94d5ba81479e700667c3ff1c80157e41",
+        "sha256_in_prefix": "5993fbbc8b95801aa87689a8e733a95c94d5ba81479e700667c3ff1c80157e41",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.0/userguide-intro.md",
+        "path_type": "hardlink",
+        "sha256": "a2b6cfd994f8e842ef1f8e9d132c54204914e086e49fd34b23d5a2f6f8823b2c",
+        "sha256_in_prefix": "a2b6cfd994f8e842ef1f8e9d132c54204914e086e49fd34b23d5a2f6f8823b2c",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommandLineTool-standalone.yml",
+        "path_type": "hardlink",
+        "sha256": "1c9a0bd48fea12d714c58460b341cbe72d2df973b71665262ca10dd494916c2c",
+        "sha256_in_prefix": "1c9a0bd48fea12d714c58460b341cbe72d2df973b71665262ca10dd494916c2c",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommandLineTool.yml",
+        "path_type": "hardlink",
+        "sha256": "81686164286bde29b367c4c710a7e871678443b23666bb2340ac6e03567a2ceb",
+        "sha256_in_prefix": "81686164286bde29b367c4c710a7e871678443b23666bb2340ac6e03567a2ceb",
+        "size_in_bytes": 47285
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/CommonWorkflowLanguage.yml",
+        "path_type": "hardlink",
+        "sha256": "2128a75f8eec23465f9b8640a14596bbe04ca3e03e2b1c278fc4837153e35561",
+        "sha256_in_prefix": "2128a75f8eec23465f9b8640a14596bbe04ca3e03e2b1c278fc4837153e35561",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/Process.yml",
+        "path_type": "hardlink",
+        "sha256": "2a385de260cdd1c1b62b31cabe25d245b813f5994f098ff3f85d276024643781",
+        "sha256_in_prefix": "2a385de260cdd1c1b62b31cabe25d245b813f5994f098ff3f85d276024643781",
+        "size_in_bytes": 36569
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/README.md",
+        "path_type": "hardlink",
+        "sha256": "e31c81ce922dc86254f4d7e5e441d815cfcf9787cfbcdef06694c11f0aa5811c",
+        "sha256_in_prefix": "e31c81ce922dc86254f4d7e5e441d815cfcf9787cfbcdef06694c11f0aa5811c",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/Workflow.yml",
+        "path_type": "hardlink",
+        "sha256": "eb293ef1f2b596e274b37dcfe11251119d028e37db92d84ac6e415ff2429340e",
+        "sha256_in_prefix": "eb293ef1f2b596e274b37dcfe11251119d028e37db92d84ac6e415ff2429340e",
+        "size_in_bytes": 25411
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/concepts.md",
+        "path_type": "hardlink",
+        "sha256": "0468049419f3c48c3ee463eca438924602cb7b4b74aacb492785d947fd49fd07",
+        "sha256_in_prefix": "0468049419f3c48c3ee463eca438924602cb7b4b74aacb492785d947fd49fd07",
+        "size_in_bytes": 24564
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/contrib.md",
+        "path_type": "hardlink",
+        "sha256": "71702858077d9e10605b408dd0a90eea280e5f11a53d1150951b0eac2416511c",
+        "sha256_in_prefix": "71702858077d9e10605b408dd0a90eea280e5f11a53d1150951b0eac2416511c",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/intro.md",
+        "path_type": "hardlink",
+        "sha256": "048d60daae6da29a33340539ab4793434e962049b26128a3c5010a53761ba24c",
+        "sha256_in_prefix": "048d60daae6da29a33340539ab4793434e962049b26128a3c5010a53761ba24c",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/invocation.md",
+        "path_type": "hardlink",
+        "sha256": "b65dc9dcfc7687b2ca712e2426aa3d50db7fd86cca363e1d7c5a955b943e613d",
+        "sha256_in_prefix": "b65dc9dcfc7687b2ca712e2426aa3d50db7fd86cca363e1d7c5a955b943e613d",
+        "size_in_bytes": 8140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name.yml",
+        "path_type": "hardlink",
+        "sha256": "aa786aa3bda42509e31463207cb9ad565f7f4ec382ebb4fe6c3d2467bf0d1d1c",
+        "sha256_in_prefix": "aa786aa3bda42509e31463207cb9ad565f7f4ec382ebb4fe6c3d2467bf0d1d1c",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "f72e03919d9e67c88b62c85761d7fe7bd8521d2a3ea101f107f216de3467d289",
+        "sha256_in_prefix": "f72e03919d9e67c88b62c85761d7fe7bd8521d2a3ea101f107f216de3467d289",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "d142a425d8ccb817b520ccae65b6dc6f8963088e1ced04b300f97dfd2a219cb8",
+        "sha256_in_prefix": "d142a425d8ccb817b520ccae65b6dc6f8963088e1ced04b300f97dfd2a219cb8",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/field_name_src.yml",
+        "path_type": "hardlink",
+        "sha256": "e2a7c181e1b183b904f3e8da04bcc8daca6a156438316c4c0cfdc14d027a9300",
+        "sha256_in_prefix": "e2a7c181e1b183b904f3e8da04bcc8daca6a156438316c4c0cfdc14d027a9300",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res.yml",
+        "path_type": "hardlink",
+        "sha256": "a24c47ad03ef01cabca48977dfbf969b56131cf461c9d1373f6b40507934a7f7",
+        "sha256_in_prefix": "a24c47ad03ef01cabca48977dfbf969b56131cf461c9d1373f6b40507934a7f7",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "316a10395bac5f919a91bea749f21c093ea43161f8468df8624b853e4532c890",
+        "sha256_in_prefix": "316a10395bac5f919a91bea749f21c093ea43161f8468df8624b853e4532c890",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "3b7d9b579f8218b746fa34def4315c388650c092c48bf58e3e57288a193da361",
+        "sha256_in_prefix": "3b7d9b579f8218b746fa34def4315c388650c092c48bf58e3e57288a193da361",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/ident_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "efe54f592cfba73eec7df019fd4670bb9b80a913977ecde103b5cc49a2b60462",
+        "sha256_in_prefix": "efe54f592cfba73eec7df019fd4670bb9b80a913977ecde103b5cc49a2b60462",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/import_include.md",
+        "path_type": "hardlink",
+        "sha256": "0127e34c3ffdbc6b9394ff997cd3176133da82a5646214d0aa92fbecc2de75f2",
+        "sha256_in_prefix": "0127e34c3ffdbc6b9394ff997cd3176133da82a5646214d0aa92fbecc2de75f2",
+        "size_in_bytes": 4595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res.yml",
+        "path_type": "hardlink",
+        "sha256": "48d34d9a4f3ee71fa64b9f28d315cbccccf4895710302a50f1a4c706b3d4b04c",
+        "sha256_in_prefix": "48d34d9a4f3ee71fa64b9f28d315cbccccf4895710302a50f1a4c706b3d4b04c",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "f98441685370fcbb753e533b2d58b077bf222e902547a934b75fe9345b2aaec7",
+        "sha256_in_prefix": "f98441685370fcbb753e533b2d58b077bf222e902547a934b75fe9345b2aaec7",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "3ffead7f42706b5fe4b68c6aa6d21a216cc9f14c83bda9058c68a115c45e8150",
+        "sha256_in_prefix": "3ffead7f42706b5fe4b68c6aa6d21a216cc9f14c83bda9058c68a115c45e8150",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/link_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "417237e54a5c6a018fbe90780559baa1abd85aafd5bd7f345d98e1ba016816e8",
+        "sha256_in_prefix": "417237e54a5c6a018fbe90780559baa1abd85aafd5bd7f345d98e1ba016816e8",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res.yml",
+        "path_type": "hardlink",
+        "sha256": "91c3d7504ecfadc4f8077e41dd5b651790b50178687a4871f96419d8c18644c5",
+        "sha256_in_prefix": "91c3d7504ecfadc4f8077e41dd5b651790b50178687a4871f96419d8c18644c5",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "98b341687c46ce5a2434be2d55350f40a10055c0b6521a933e90add42144477d",
+        "sha256_in_prefix": "98b341687c46ce5a2434be2d55350f40a10055c0b6521a933e90add42144477d",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "edcbc10b0ac391d31a6a349a9e7494f1e50dca8c6469c19e1e97aed7766e7de0",
+        "sha256_in_prefix": "edcbc10b0ac391d31a6a349a9e7494f1e50dca8c6469c19e1e97aed7766e7de0",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/map_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "c3f2df16024f616e73cd1d2f573789c7bc51d6302102453b497362cf974fc1ea",
+        "sha256_in_prefix": "c3f2df16024f616e73cd1d2f573789c7bc51d6302102453b497362cf974fc1ea",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/metaschema.yml",
+        "path_type": "hardlink",
+        "sha256": "2ca17c9037d0c127de54d839a7054d7c9344c6cd9e89bc48db219985de350aae",
+        "sha256_in_prefix": "2ca17c9037d0c127de54d839a7054d7c9344c6cd9e89bc48db219985de350aae",
+        "size_in_bytes": 10277
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/metaschema_base.yml",
+        "path_type": "hardlink",
+        "sha256": "451a4f024a3b6ecd592b740e8efdc4a72ae0a4f6685b7fe14427704f1e685411",
+        "sha256_in_prefix": "451a4f024a3b6ecd592b740e8efdc4a72ae0a4f6685b7fe14427704f1e685411",
+        "size_in_bytes": 3799
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/salad.md",
+        "path_type": "hardlink",
+        "sha256": "7312877f0995e7c22ba85955bba3d4f2846883d995fbbda42cac3c69efc828b3",
+        "sha256_in_prefix": "7312877f0995e7c22ba85955bba3d4f2846883d995fbbda42cac3c69efc828b3",
+        "size_in_bytes": 10837
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res.yml",
+        "path_type": "hardlink",
+        "sha256": "e7c0b5061297dd4b07824dbe019076e1ed9ecb960f4e16ccff1c6bebbcacfcc6",
+        "sha256_in_prefix": "e7c0b5061297dd4b07824dbe019076e1ed9ecb960f4e16ccff1c6bebbcacfcc6",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "a0a9d5f1a435050e2883663ec757dcb08296325c790ae1feff5c60671301696b",
+        "sha256_in_prefix": "a0a9d5f1a435050e2883663ec757dcb08296325c790ae1feff5c60671301696b",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "25c67702f241e3e9da4eb9161fe0fe498b836b7d2f260a60e9662f67a732af78",
+        "sha256_in_prefix": "25c67702f241e3e9da4eb9161fe0fe498b836b7d2f260a60e9662f67a732af78",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/typedsl_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "90ddb3cc919f587af944306b05a32dbbfb49734c1948fdab24dcd8bd11a84b4c",
+        "sha256_in_prefix": "90ddb3cc919f587af944306b05a32dbbfb49734c1948fdab24dcd8bd11a84b4c",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res.yml",
+        "path_type": "hardlink",
+        "sha256": "e9e798fef3e27ce67229307f4cdd2a074722ba7c9fe755ab3e0f059651897fae",
+        "sha256_in_prefix": "e9e798fef3e27ce67229307f4cdd2a074722ba7c9fe755ab3e0f059651897fae",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_proc.yml",
+        "path_type": "hardlink",
+        "sha256": "d406c07069999444932926f95ffd200d505d64cda418dbf17422397b1c20f979",
+        "sha256_in_prefix": "d406c07069999444932926f95ffd200d505d64cda418dbf17422397b1c20f979",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_schema.yml",
+        "path_type": "hardlink",
+        "sha256": "95fa718a8ea599844239508558d8f7fa8a2ac55445683fa7aa4b1783d529e0b4",
+        "sha256_in_prefix": "95fa718a8ea599844239508558d8f7fa8a2ac55445683fa7aa4b1783d529e0b4",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/schemas/v1.1.0-dev1/salad/schema_salad/metaschema/vocab_res_src.yml",
+        "path_type": "hardlink",
+        "sha256": "5993fbbc8b95801aa87689a8e733a95c94d5ba81479e700667c3ff1c80157e41",
+        "sha256_in_prefix": "5993fbbc8b95801aa87689a8e733a95c94d5ba81479e700667c3ff1c80157e41",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/secrets.py",
+        "path_type": "hardlink",
+        "sha256": "d0fc9ca112ce4283315fea21b63373cfcae6e4d00b8831b4030712c103942bd1",
+        "sha256_in_prefix": "d0fc9ca112ce4283315fea21b63373cfcae6e4d00b8831b4030712c103942bd1",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/singularity.py",
+        "path_type": "hardlink",
+        "sha256": "7b0dd0e3f364698475351bc7c884a68fe67579e9f80a9977af426d79d523cc17",
+        "sha256_in_prefix": "7b0dd0e3f364698475351bc7c884a68fe67579e9f80a9977af426d79d523cc17",
+        "size_in_bytes": 13590
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/software_requirements.py",
+        "path_type": "hardlink",
+        "sha256": "e1aadf438e3080934b53b2ac53e372be6b1f1c7165e85bda1ea562895087e736",
+        "sha256_in_prefix": "e1aadf438e3080934b53b2ac53e372be6b1f1c7165e85bda1ea562895087e736",
+        "size_in_bytes": 5316
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/stdfsaccess.py",
+        "path_type": "hardlink",
+        "sha256": "33279d9e1eca5accdabe66c4032728806abf46b9502e0ad3a0c4c6b9851197f7",
+        "sha256_in_prefix": "33279d9e1eca5accdabe66c4032728806abf46b9502e0ad3a0c4c6b9851197f7",
+        "size_in_bytes": 2374
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/subgraph.py",
+        "path_type": "hardlink",
+        "sha256": "2b7c2ccae913a70f62de34d186797a33730ef6fb503d61461da0fa5f61e4705a",
+        "sha256_in_prefix": "2b7c2ccae913a70f62de34d186797a33730ef6fb503d61461da0fa5f61e4705a",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/2.fasta",
+        "path_type": "hardlink",
+        "sha256": "9ead0db71e156d04cc0c32f9f30ba6a6775cfb858777a03caf8b896c82c863ed",
+        "sha256_in_prefix": "9ead0db71e156d04cc0c32f9f30ba6a6775cfb858777a03caf8b896c82c863ed",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/2.fastq",
+        "path_type": "hardlink",
+        "sha256": "999537999469c1dc674278ceb0c1373092f5b4d222b4f3ece580c2de835a30f6",
+        "sha256_in_prefix": "999537999469c1dc674278ceb0c1373092f5b4d222b4f3ece580c2de835a30f6",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "393cea749a88a03fdb7cf345085a7b363038cb896bd6d80bfefc9c9ee0e7eca4",
+        "sha256_in_prefix": "393cea749a88a03fdb7cf345085a7b363038cb896bd6d80bfefc9c9ee0e7eca4",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_anon_types.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4835679354da5720bd005527b01bad82b2506c832e944eac2ef513fc6aa0fce",
+        "sha256_in_prefix": "e4835679354da5720bd005527b01bad82b2506c832e944eac2ef513fc6aa0fce",
+        "size_in_bytes": 1986
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_check.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8da327434b3a5eecf56889e63379240cd3502db8dec77b4ae6d203559681debb",
+        "sha256_in_prefix": "8da327434b3a5eecf56889e63379240cd3502db8dec77b4ae6d203559681debb",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_cwl_version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "60a526562cbdc809de3833332f350feb83fc76a9d391a5f071f7aaa35971a2b4",
+        "sha256_in_prefix": "60a526562cbdc809de3833332f350feb83fc76a9d391a5f071f7aaa35971a2b4",
+        "size_in_bytes": 687
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_default_path.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e2ab30d0c2dd5bec78555452a48133d8734b96c3c8b3c712ba7ede555593adb",
+        "sha256_in_prefix": "2e2ab30d0c2dd5bec78555452a48133d8734b96c3c8b3c712ba7ede555593adb",
+        "size_in_bytes": 726
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_dependencies.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "57685b1d970003230d1d561c440c1382d6297839e588c2e8b838d41f991fdf0b",
+        "sha256_in_prefix": "57685b1d970003230d1d561c440c1382d6297839e588c2e8b838d41f991fdf0b",
+        "size_in_bytes": 1743
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7eab05db2bb513638853551464b7f3a6b4657d813b594399964bff4667ed4387",
+        "sha256_in_prefix": "7eab05db2bb513638853551464b7f3a6b4657d813b594399964bff4667ed4387",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "55479cf13a09d3c31687501c9e197360215e9bf2eb490fa8d109e8f64447ddec",
+        "sha256_in_prefix": "55479cf13a09d3c31687501c9e197360215e9bf2eb490fa8d109e8f64447ddec",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_docker_warning.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9036aab17a34232c54621213bc118932f06c3eae9a1378c995f296b8c0960ed5",
+        "sha256_in_prefix": "9036aab17a34232c54621213bc118932f06c3eae9a1378c995f296b8c0960ed5",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_empty_input.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8de8be99357305deb4daf74fabe55a1a910c2a8f51d52e8af8bbb3e954a5e00",
+        "sha256_in_prefix": "b8de8be99357305deb4daf74fabe55a1a910c2a8f51d52e8af8bbb3e954a5e00",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_examples.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d018718c965f64ffb92516fefa2d45be917109cad732aedbf0ff6c7e80723e24",
+        "sha256_in_prefix": "d018718c965f64ffb92516fefa2d45be917109cad732aedbf0ff6c7e80723e24",
+        "size_in_bytes": 21767
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_ext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fa05e4e297474a476fdf01a87f4e6b55617932e3219086782351a03b43a9915",
+        "sha256_in_prefix": "5fa05e4e297474a476fdf01a87f4e6b55617932e3219086782351a03b43a9915",
+        "size_in_bytes": 6371
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_fetch.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d8dca3ca3e69154036208350e462994d772357bf4db7ff43a6f4e0368ad0a5a",
+        "sha256_in_prefix": "6d8dca3ca3e69154036208350e462994d772357bf4db7ff43a6f4e0368ad0a5a",
+        "size_in_bytes": 2954
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_http_input.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9f152f362110d0441f1e607882264ecfaf167082a7c55b2be372a94b4d6ea69",
+        "sha256_in_prefix": "c9f152f362110d0441f1e607882264ecfaf167082a7c55b2be372a94b4d6ea69",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_iwdr.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "15e3daa7b1b6b3762369bdd4f6f37ac5730ad819b47858873be5e7e5eb1c8dc3",
+        "sha256_in_prefix": "15e3daa7b1b6b3762369bdd4f6f37ac5730ad819b47858873be5e7e5eb1c8dc3",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_js_sandbox.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58d1b520ffc8168e8a15eacf71773324f3e6b7770ee5ce37dd0222f7fc1582b5",
+        "sha256_in_prefix": "58d1b520ffc8168e8a15eacf71773324f3e6b7770ee5ce37dd0222f7fc1582b5",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_override.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae084bf88afdc6db605c498caf5c970012e877ca2d099e282b6adce18ccdedc7",
+        "sha256_in_prefix": "ae084bf88afdc6db605c498caf5c970012e877ca2d099e282b6adce18ccdedc7",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_pack.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a23fe5c42bb92f6ccafebdb2234d30ec1961881dd0890e37f262f0e7a1cfea78",
+        "sha256_in_prefix": "a23fe5c42bb92f6ccafebdb2234d30ec1961881dd0890e37f262f0e7a1cfea78",
+        "size_in_bytes": 4719
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_parallel.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "322152550669e781af7b21d5e35d2a9537d828dce6845e99a69384dd122956ee",
+        "sha256_in_prefix": "322152550669e781af7b21d5e35d2a9537d828dce6845e99a69384dd122956ee",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_pathmapper.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "887473e2932b2c7acd347999cb63b4b292b61daa948c4cf587e81499b22b01c7",
+        "sha256_in_prefix": "887473e2932b2c7acd347999cb63b4b292b61daa948c4cf587e81499b22b01c7",
+        "size_in_bytes": 2054
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_provenance.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cce9981f1c3497fc18d84c05ce62bdaf75f8a2e9c4a3106ff97415568940c057",
+        "sha256_in_prefix": "cce9981f1c3497fc18d84c05ce62bdaf75f8a2e9c4a3106ff97415568940c057",
+        "size_in_bytes": 20346
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_rdfprint.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ec97c8b5d6abcd317019a98cf45453510b403491946b9f1ebef40ef9954e780",
+        "sha256_in_prefix": "3ec97c8b5d6abcd317019a98cf45453510b403491946b9f1ebef40ef9954e780",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_relax_path_checks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b78ba698892305dda2c1d6b980e5c644464bfc8dae7418040052a608b82eb185",
+        "sha256_in_prefix": "b78ba698892305dda2c1d6b980e5c644464bfc8dae7418040052a608b82eb185",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_relocate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4842c9f72c467958c21776dfb8026dc98b35dd005044ba95e693936a4d8e1788",
+        "sha256_in_prefix": "4842c9f72c467958c21776dfb8026dc98b35dd005044ba95e693936a4d8e1788",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_secrets.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aad0822afa204812aa48189a71b86f2695d10df1cf9fa7639875ee0f887a2582",
+        "sha256_in_prefix": "aad0822afa204812aa48189a71b86f2695d10df1cf9fa7639875ee0f887a2582",
+        "size_in_bytes": 2716
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_singularity.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d07717ffba1ecdf683bfb2cb9253fa00eb7018f88b37969f96ca8b37a8dce4e",
+        "sha256_in_prefix": "2d07717ffba1ecdf683bfb2cb9253fa00eb7018f88b37969f96ca8b37a8dce4e",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_subgraph.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6e9917256310b7fb127a8104591a247f87e0bd6853b6505d845477b8ee4a471",
+        "sha256_in_prefix": "a6e9917256310b7fb127a8104591a247f87e0bd6853b6505d845477b8ee4a471",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_target.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2df02fdbee99fa689805b84a6506e96f47cf4ab52072c514e2e902570c98d544",
+        "sha256_in_prefix": "2df02fdbee99fa689805b84a6506e96f47cf4ab52072c514e2e902570c98d544",
+        "size_in_bytes": 1209
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_toolargparse.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8305e1ce682c43e963b9cbda038d0ef026fb652412bf2165015e14ea81ac53af",
+        "sha256_in_prefix": "8305e1ce682c43e963b9cbda038d0ef026fb652412bf2165015e14ea81ac53af",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_udocker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf82e5137576c463ef2cc59d91c85e272c1e519e34dbc2f83bf40cd4400257f2",
+        "sha256_in_prefix": "bf82e5137576c463ef2cc59d91c85e272c1e519e34dbc2f83bf40cd4400257f2",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/test_validate_js.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9dc80e3722c7dc1050f5f8c26e95b3340517043f4aca85420afffbeb5bf541f",
+        "sha256_in_prefix": "a9dc80e3722c7dc1050f5f8c26e95b3340517043f4aca85420afffbeb5bf541f",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f98a0eea8b6784f633f43e3d60b6e946f1fd1a56b892c1b6568577fb72ee98c6",
+        "sha256_in_prefix": "f98a0eea8b6784f633f43e3d60b6e946f1fd1a56b892c1b6568577fb72ee98c6",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/bundle-context.jsonld",
+        "path_type": "hardlink",
+        "sha256": "84f33d08b74cf9a04952fed7ce53c0bb64eb02fb3c502d23bdfe89a3d4e6a0e1",
+        "sha256_in_prefix": "84f33d08b74cf9a04952fed7ce53c0bb64eb02fb3c502d23bdfe89a3d4e6a0e1",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/checker_wf/broken-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "16e38770cadcb43ebbb9e2efb66a02427675c8381b887aab25e1a85d9549256b",
+        "sha256_in_prefix": "16e38770cadcb43ebbb9e2efb66a02427675c8381b887aab25e1a85d9549256b",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/checker_wf/broken-wf2.cwl",
+        "path_type": "hardlink",
+        "sha256": "541510c656677b1b6494ffd5ee9f64ac4e4df179fc2c07e59d6bc133757e7a32",
+        "sha256_in_prefix": "541510c656677b1b6494ffd5ee9f64ac4e4df179fc2c07e59d6bc133757e7a32",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/checker_wf/cat.cwl",
+        "path_type": "hardlink",
+        "sha256": "e93396c5a3d1ea89c3d1e309c2c47241375ec63f35411b41233d83c9bdec2816",
+        "sha256_in_prefix": "e93396c5a3d1ea89c3d1e309c2c47241375ec63f35411b41233d83c9bdec2816",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/checker_wf/echo.cwl",
+        "path_type": "hardlink",
+        "sha256": "b6a2ea125f48badf96f0c8d6bab3242afa7bc47f1d8a312ba8e8669a416851c7",
+        "sha256_in_prefix": "b6a2ea125f48badf96f0c8d6bab3242afa7bc47f1d8a312ba8e8669a416851c7",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/checker_wf/functional-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "e181fd95113eb4d4e1fe469fef4bc438de9081cd148feb392878a0544ad4bb05",
+        "sha256_in_prefix": "e181fd95113eb4d4e1fe469fef4bc438de9081cd148feb392878a0544ad4bb05",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/echo-job.yaml",
+        "path_type": "hardlink",
+        "sha256": "fbcfb3e193db6f89bc2f60087e96ed468c0bfb9b486a47ded5d5593b3cb39cc9",
+        "sha256_in_prefix": "fbcfb3e193db6f89bc2f60087e96ed468c0bfb9b486a47ded5d5593b3cb39cc9",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/echo-position-expr-job.yml",
+        "path_type": "hardlink",
+        "sha256": "f13cc79865ffe6f44bd77da5b75641f04e8b73d5ce7c26c8a1bea0e80a646921",
+        "sha256_in_prefix": "f13cc79865ffe6f44bd77da5b75641f04e8b73d5ce7c26c8a1bea0e80a646921",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/echo-position-expr.cwl",
+        "path_type": "hardlink",
+        "sha256": "f02c4b86b2ed0908e721add2a5f1505d4e33e9c063781fb52dee8ef60ac27774",
+        "sha256_in_prefix": "f02c4b86b2ed0908e721add2a5f1505d4e33e9c063781fb52dee8ef60ac27774",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/echo.cwl",
+        "path_type": "hardlink",
+        "sha256": "6ed1510aab61534cfe0d934382fcb668778b77c41cda0e025be69cdd3bb3756f",
+        "sha256_in_prefix": "6ed1510aab61534cfe0d934382fcb668778b77c41cda0e025be69cdd3bb3756f",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/echo_broken_outputs.cwl",
+        "path_type": "hardlink",
+        "sha256": "1cb9d2a96ff2f964907321d7e81f46b55b12b3e16b41edeae880e2f2c48fb9f1",
+        "sha256_in_prefix": "1cb9d2a96ff2f964907321d7e81f46b55b12b3e16b41edeae880e2f2c48fb9f1",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/listing-job.yml",
+        "path_type": "hardlink",
+        "sha256": "f68b0e9c3bdcff12f2bedcb6adc84f46475049f08fb86c2f123de3407261083e",
+        "sha256_in_prefix": "f68b0e9c3bdcff12f2bedcb6adc84f46475049f08fb86c2f123de3407261083e",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/listing2-job.yml",
+        "path_type": "hardlink",
+        "sha256": "b61c8f9f2cd7762f2b275319721d400f4915c03de4eec7cf4dc9beeaeb595c61",
+        "sha256_in_prefix": "b61c8f9f2cd7762f2b275319721d400f4915c03de4eec7cf4dc9beeaeb595c61",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/non_portable.cwl",
+        "path_type": "hardlink",
+        "sha256": "944fb68b9fc6bedeecedf99804248c1fa8362ac6d7a3f5cfbab99655794bb6b5",
+        "sha256_in_prefix": "944fb68b9fc6bedeecedf99804248c1fa8362ac6d7a3f5cfbab99655794bb6b5",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/non_portable2.cwl",
+        "path_type": "hardlink",
+        "sha256": "d97494e6e058a16365b4bc5d036dc1a4acb460a85e15c15aa808ea07eee2747e",
+        "sha256_in_prefix": "d97494e6e058a16365b4bc5d036dc1a4acb460a85e15c15aa808ea07eee2747e",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/echo-job-ov.yml",
+        "path_type": "hardlink",
+        "sha256": "cb5aa47fbb0b802492b876221e08d27c544f39b452cc923bec122a0bbc23e85e",
+        "sha256_in_prefix": "cb5aa47fbb0b802492b876221e08d27c544f39b452cc923bec122a0bbc23e85e",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/echo-job-ov2.yml",
+        "path_type": "hardlink",
+        "sha256": "113b8a186543b914b4f7047fd2067a1122d4b9ca2cad00d1049d39d9f9ce1c62",
+        "sha256_in_prefix": "113b8a186543b914b4f7047fd2067a1122d4b9ca2cad00d1049d39d9f9ce1c62",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/echo-job.yml",
+        "path_type": "hardlink",
+        "sha256": "0365129e4b28a920652fe3034b5949ba399c87486e51586ed21613c17381ab6f",
+        "sha256_in_prefix": "0365129e4b28a920652fe3034b5949ba399c87486e51586ed21613c17381ab6f",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/echo-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "e450fb3898b3105808b0555873a767e0a69ebb35ea62155db04767b816a42098",
+        "sha256_in_prefix": "e450fb3898b3105808b0555873a767e0a69ebb35ea62155db04767b816a42098",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/echo.cwl",
+        "path_type": "hardlink",
+        "sha256": "543cf8171ffe453ff5df6e3efe4a6148b1ef6f2ffa0e3dd678f9f79df287ef17",
+        "sha256_in_prefix": "543cf8171ffe453ff5df6e3efe4a6148b1ef6f2ffa0e3dd678f9f79df287ef17",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/env-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "dbf4625cb0827201a25bd12b81bc2e93342c8bb5ebe4e5864171545d59b46e02",
+        "sha256_in_prefix": "dbf4625cb0827201a25bd12b81bc2e93342c8bb5ebe4e5864171545d59b46e02",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override.yaml",
+        "path_type": "hardlink",
+        "sha256": "cfa1dec109df8ca638b5495f05bcc96e55728e7d38b28efc8aa44dbb72981a69",
+        "sha256_in_prefix": "cfa1dec109df8ca638b5495f05bcc96e55728e7d38b28efc8aa44dbb72981a69",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override_default.yaml",
+        "path_type": "hardlink",
+        "sha256": "b365bfb6e38854fba2ec46eef8a3eae75ec3915c287f9353b60dc401e62fc8b1",
+        "sha256_in_prefix": "b365bfb6e38854fba2ec46eef8a3eae75ec3915c287f9353b60dc401e62fc8b1",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/env-tool_cwl-requirement_override_default_wrongver.yaml",
+        "path_type": "hardlink",
+        "sha256": "8f3af22ae3bad3ca51686b5f75feb16eba59883148a51dbc842a46b11433e701",
+        "sha256_in_prefix": "8f3af22ae3bad3ca51686b5f75feb16eba59883148a51dbc842a46b11433e701",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/env-tool_v1.1.0-dev1.cwl",
+        "path_type": "hardlink",
+        "sha256": "4f52b7d5e2a8323b50f109d6737f5d8d466d8b0c36f23aba87692e03d7658571",
+        "sha256_in_prefix": "4f52b7d5e2a8323b50f109d6737f5d8d466d8b0c36f23aba87692e03d7658571",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/ov.yml",
+        "path_type": "hardlink",
+        "sha256": "7e607ca4decc67d0db4ab0977b5b4c679bcc38834991f046fc1c5cbc142cf95e",
+        "sha256_in_prefix": "7e607ca4decc67d0db4ab0977b5b4c679bcc38834991f046fc1c5cbc142cf95e",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/ov2.yml",
+        "path_type": "hardlink",
+        "sha256": "324697409396b984e9fcae109e6c5df2dd21bd500db23b5027ffb9151a66c778",
+        "sha256_in_prefix": "324697409396b984e9fcae109e6c5df2dd21bd500db23b5027ffb9151a66c778",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/override/ov3.yml",
+        "path_type": "hardlink",
+        "sha256": "9e03530e167952082be91a1a9563af0f533691ab73457ffd57975ff4cf8a2b6b",
+        "sha256_in_prefix": "9e03530e167952082be91a1a9563af0f533691ab73457ffd57975ff4cf8a2b6b",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/portable.cwl",
+        "path_type": "hardlink",
+        "sha256": "ed987c3414370df9c984b2834044fc9d3f4186a8fca412d3b3970e6eefd2491a",
+        "sha256_in_prefix": "ed987c3414370df9c984b2834044fc9d3f4186a8fca412d3b3970e6eefd2491a",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/random_lines.cwl",
+        "path_type": "hardlink",
+        "sha256": "fa6c0e303e1d30f389c5975b12b3f29045fc21e6ef708bcc98b86e490f45252d",
+        "sha256_in_prefix": "fa6c0e303e1d30f389c5975b12b3f29045fc21e6ef708bcc98b86e490f45252d",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/random_lines_job.json",
+        "path_type": "hardlink",
+        "sha256": "f0369b629857943c42e6292af408103fe44ef7d41997ddd5bdfcb7179685a273",
+        "sha256_in_prefix": "f0369b629857943c42e6292af408103fe44ef7d41997ddd5bdfcb7179685a273",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/random_lines_mapping.cwl",
+        "path_type": "hardlink",
+        "sha256": "c13ddd8dce1feeff50dc130597949e3d5c201512f0697e4ae6fffaf2def50174",
+        "sha256_in_prefix": "c13ddd8dce1feeff50dc130597949e3d5c201512f0697e4ae6fffaf2def50174",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/secondary-files-job.yml",
+        "path_type": "hardlink",
+        "sha256": "9fe34755b38883b5e58426d9cd8fac5c07908ce4682289bc48013a8f2c467bb1",
+        "sha256_in_prefix": "9fe34755b38883b5e58426d9cd8fac5c07908ce4682289bc48013a8f2c467bb1",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/secondary-files.cwl",
+        "path_type": "hardlink",
+        "sha256": "eeffd79406f8ad28530484a2683e4653632dc314cbebabef55253c23f74e4579",
+        "sha256_in_prefix": "eeffd79406f8ad28530484a2683e4653632dc314cbebabef55253c23f74e4579",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/seqtk_seq.cwl",
+        "path_type": "hardlink",
+        "sha256": "b3fb9defb7187b72e03e41f198f5f25844270c1cb953429aefacefbf5e348e9c",
+        "sha256_in_prefix": "b3fb9defb7187b72e03e41f198f5f25844270c1cb953429aefacefbf5e348e9c",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_job.json",
+        "path_type": "hardlink",
+        "sha256": "47b64a0e594aab7dd4d2f2d12bbcaf4408caaf6eb053971b760762c46ff86e76",
+        "sha256_in_prefix": "47b64a0e594aab7dd4d2f2d12bbcaf4408caaf6eb053971b760762c46ff86e76",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_with_docker.cwl",
+        "path_type": "hardlink",
+        "sha256": "35993a5de2de5a5b67b55e165ff8f879ce531236d3170d837362d493b30c5252",
+        "sha256_in_prefix": "35993a5de2de5a5b67b55e165ff8f879ce531236d3170d837362d493b30c5252",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/seqtk_seq_wrong_name.cwl",
+        "path_type": "hardlink",
+        "sha256": "f70d6a34c7bc2add2f0a4d18a07ce03ff85095bb8efdfff7302fcfdbcea60cd2",
+        "sha256_in_prefix": "f70d6a34c7bc2add2f0a4d18a07ce03ff85095bb8efdfff7302fcfdbcea60cd2",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/count-lines1-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "dd7065a009196ee184613f09285776f8d2c00b1323f54a61f7e3f15da4943c44",
+        "sha256_in_prefix": "dd7065a009196ee184613f09285776f8d2c00b1323f54a61f7e3f15da4943c44",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_count_output.json",
+        "path_type": "hardlink",
+        "sha256": "c895eb7f01336738b7297940c0caab3ff2b9cea3aaa0c39a90de220f6344e9dd",
+        "sha256_in_prefix": "c895eb7f01336738b7297940c0caab3ff2b9cea3aaa0c39a90de220f6344e9dd",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file1.json",
+        "path_type": "hardlink",
+        "sha256": "f07a463ab394811cf5158b38f85aa6c2a5735d827fe73a3bae4ef36d321e1d23",
+        "sha256_in_prefix": "f07a463ab394811cf5158b38f85aa6c2a5735d827fe73a3bae4ef36d321e1d23",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file2.json",
+        "path_type": "hardlink",
+        "sha256": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "sha256_in_prefix": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_file3.json",
+        "path_type": "hardlink",
+        "sha256": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "sha256_in_prefix": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output3.json",
+        "path_type": "hardlink",
+        "sha256": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "sha256_in_prefix": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output4.json",
+        "path_type": "hardlink",
+        "sha256": "907cdd8e8c6bec993f06c7d0ef20dfe89a29501ea353e8706a8b84bb92cf6600",
+        "sha256_in_prefix": "907cdd8e8c6bec993f06c7d0ef20dfe89a29501ea353e8706a8b84bb92cf6600",
+        "size_in_bytes": 1232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_output5.json",
+        "path_type": "hardlink",
+        "sha256": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "sha256_in_prefix": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step1.json",
+        "path_type": "hardlink",
+        "sha256": "e1dcc3bf0f2572efb4b3c39e35733478666247e6edb79503ac7eae0f1cc45798",
+        "sha256_in_prefix": "e1dcc3bf0f2572efb4b3c39e35733478666247e6edb79503ac7eae0f1cc45798",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step2.json",
+        "path_type": "hardlink",
+        "sha256": "fe00dfdae41cf019b79121b3dc6fb2bcb00a00f58a253c4e158ccebb81066626",
+        "sha256_in_prefix": "fe00dfdae41cf019b79121b3dc6fb2bcb00a00f58a253c4e158ccebb81066626",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step3.json",
+        "path_type": "hardlink",
+        "sha256": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "sha256_in_prefix": "e9228595e9fd1596de73af1de59cbdd8ac5ca640120377a9b0aeef9f18656584",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step4.json",
+        "path_type": "hardlink",
+        "sha256": "81ae325b4a3544b5ea520d09a2acfe75ee8e2fda70ca00c6b084bee1e99d2394",
+        "sha256_in_prefix": "81ae325b4a3544b5ea520d09a2acfe75ee8e2fda70ca00c6b084bee1e99d2394",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/extract_step5.json",
+        "path_type": "hardlink",
+        "sha256": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "sha256_in_prefix": "9edf4e687ca485f2d77b9bea671a051ce4ab201a46471abce51c02865640728e",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/parseInt-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "f9d0f432ea707df271f533ee20025da217741703fd0caee83b85017048bc257f",
+        "sha256_in_prefix": "f9d0f432ea707df271f533ee20025da217741703fd0caee83b85017048bc257f",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/subgraph/wc-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "88c1b0368a8ca72b76d92fdd1414e7b046ee0e2ae991b22471080ebe8496c531",
+        "sha256_in_prefix": "88c1b0368a8ca72b76d92fdd1414e7b046ee0e2ae991b22471080ebe8496c531",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_anon_types.py",
+        "path_type": "hardlink",
+        "sha256": "9ef886366e203c1a0b61efe65c652842c243c940a84ced6bff2964898f32d74c",
+        "sha256_in_prefix": "9ef886366e203c1a0b61efe65c652842c243c940a84ced6bff2964898f32d74c",
+        "size_in_bytes": 3877
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_bad_outputs_wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "27e8d7906292f81d2a666f2698590acc393f5bd0960ceb7d6a817a2e1cd4a3da",
+        "sha256_in_prefix": "27e8d7906292f81d2a666f2698590acc393f5bd0960ceb7d6a817a2e1cd4a3da",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_check.py",
+        "path_type": "hardlink",
+        "sha256": "adbe8aa9c41ee2466f15263938627e4e18517d69ddffddc70bdfa0c2ef4bf60d",
+        "sha256_in_prefix": "adbe8aa9c41ee2466f15263938627e4e18517d69ddffddc70bdfa0c2ef4bf60d",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_cwl_version.py",
+        "path_type": "hardlink",
+        "sha256": "cf1da8471739bcff127de6da0c67344192c4fbe43a3f07c339460c35b0dd1130",
+        "sha256_in_prefix": "cf1da8471739bcff127de6da0c67344192c4fbe43a3f07c339460c35b0dd1130",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_default_path.py",
+        "path_type": "hardlink",
+        "sha256": "b5bd68cfb8a3b694bc28b9144741ac50067b5d21f1af5b64c315d8d8eb7784cf",
+        "sha256_in_prefix": "b5bd68cfb8a3b694bc28b9144741ac50067b5d21f1af5b64c315d8d8eb7784cf",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_dependencies.py",
+        "path_type": "hardlink",
+        "sha256": "56c3811a35e4b7b6cc51cf5b9c5f13c3ff8b6981b10e99081cc8e2425c4abf4d",
+        "sha256_in_prefix": "56c3811a35e4b7b6cc51cf5b9c5f13c3ff8b6981b10e99081cc8e2425c4abf4d",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_deps_env_modules_resolvers_conf.yml",
+        "path_type": "hardlink",
+        "sha256": "d269bf4b8f7db26040e246c96b57d62e60efb936aceddb2ecc3b77de177f5de2",
+        "sha256_in_prefix": "d269bf4b8f7db26040e246c96b57d62e60efb936aceddb2ecc3b77de177f5de2",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_deps_env_resolvers_conf.yml",
+        "path_type": "hardlink",
+        "sha256": "63f1b86bbc198c5c620b8dba474b6e84eb9191ed9f468e3fc6f76a9e184060b9",
+        "sha256_in_prefix": "63f1b86bbc198c5c620b8dba474b6e84eb9191ed9f468e3fc6f76a9e184060b9",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_deps_env_resolvers_conf_rewrite.yml",
+        "path_type": "hardlink",
+        "sha256": "005f4cd1dc13379808ebc8912bed1d7b83f0834aaaf3fe4d503bb4a9552c4540",
+        "sha256_in_prefix": "005f4cd1dc13379808ebc8912bed1d7b83f0834aaaf3fe4d503bb4a9552c4540",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_deps_mapping.yml",
+        "path_type": "hardlink",
+        "sha256": "abd0abf61be9cba3926d3e803f2fe30dfd15e598cdc998d0dc8c9ca03653f7b4",
+        "sha256_in_prefix": "abd0abf61be9cba3926d3e803f2fe30dfd15e598cdc998d0dc8c9ca03653f7b4",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_docker.py",
+        "path_type": "hardlink",
+        "sha256": "5c0e2b85da09d70a17fd90a9728035e9863648e87a6d0263c1f6d2deb22407c5",
+        "sha256_in_prefix": "5c0e2b85da09d70a17fd90a9728035e9863648e87a6d0263c1f6d2deb22407c5",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_docker_info.py",
+        "path_type": "hardlink",
+        "sha256": "cab313124bd1a59e7f30db322f0d57eacb03988263b13f872957bde4e16ec946",
+        "sha256_in_prefix": "cab313124bd1a59e7f30db322f0d57eacb03988263b13f872957bde4e16ec946",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_docker_warning.py",
+        "path_type": "hardlink",
+        "sha256": "2c121e1198032dcc650de49105e0e575b8962877bda4db3fbd10d0b228b9f3c8",
+        "sha256_in_prefix": "2c121e1198032dcc650de49105e0e575b8962877bda4db3fbd10d0b228b9f3c8",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_empty_input.py",
+        "path_type": "hardlink",
+        "sha256": "c7e51a4aa1561ca16cef10806344d2fe3d69a2bcc1e9eb0104a73bc98b8c8928",
+        "sha256_in_prefix": "c7e51a4aa1561ca16cef10806344d2fe3d69a2bcc1e9eb0104a73bc98b8c8928",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_examples.py",
+        "path_type": "hardlink",
+        "sha256": "c66f17c4e2bc099a87f0470c18474188695b4b5a51ccf48e384735bc1707c639",
+        "sha256_in_prefix": "c66f17c4e2bc099a87f0470c18474188695b4b5a51ccf48e384735bc1707c639",
+        "size_in_bytes": 28410
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_ext.py",
+        "path_type": "hardlink",
+        "sha256": "93fa4eb3ef8fdd79832e146153688e8f6181d9be1f7ce88965f5d63317bb1df5",
+        "sha256_in_prefix": "93fa4eb3ef8fdd79832e146153688e8f6181d9be1f7ce88965f5d63317bb1df5",
+        "size_in_bytes": 6461
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_fetch.py",
+        "path_type": "hardlink",
+        "sha256": "b1c47fc0f38a990afe719056012771d49566c03e65cdf4318a5f211d771fb81e",
+        "sha256_in_prefix": "b1c47fc0f38a990afe719056012771d49566c03e65cdf4318a5f211d771fb81e",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_http_input.py",
+        "path_type": "hardlink",
+        "sha256": "04576a21d0b95b97de9575bb649c589cc659ca99e3b165479aecebad77adcd4f",
+        "sha256_in_prefix": "04576a21d0b95b97de9575bb649c589cc659ca99e3b165479aecebad77adcd4f",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_iwdr.py",
+        "path_type": "hardlink",
+        "sha256": "352917606cafc00842b92d341a740baa06fe57c324d0b2d115d9348fe673acf8",
+        "sha256_in_prefix": "352917606cafc00842b92d341a740baa06fe57c324d0b2d115d9348fe673acf8",
+        "size_in_bytes": 6731
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_js_sandbox.py",
+        "path_type": "hardlink",
+        "sha256": "97b279b17c38449de1a714e82eb623ba617e2e1522b88575874b8400c4ef84d3",
+        "sha256_in_prefix": "97b279b17c38449de1a714e82eb623ba617e2e1522b88575874b8400c4ef84d3",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_override.py",
+        "path_type": "hardlink",
+        "sha256": "e0ae53b61657bc72ee63068d816630b1e9fb709068e4d830f0f177f888a196d7",
+        "sha256_in_prefix": "e0ae53b61657bc72ee63068d816630b1e9fb709068e4d830f0f177f888a196d7",
+        "size_in_bytes": 3542
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_pack.py",
+        "path_type": "hardlink",
+        "sha256": "0a6d2037477c4e25ffc0005121032d5537aad16000d31c296738965e27ba67be",
+        "sha256_in_prefix": "0a6d2037477c4e25ffc0005121032d5537aad16000d31c296738965e27ba67be",
+        "size_in_bytes": 6016
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_parallel.py",
+        "path_type": "hardlink",
+        "sha256": "4230812a69cca0164ac231e0679ced55ca3b4656d4485a70cb6c4d3cf2de39b3",
+        "sha256_in_prefix": "4230812a69cca0164ac231e0679ced55ca3b4656d4485a70cb6c4d3cf2de39b3",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_pathmapper.py",
+        "path_type": "hardlink",
+        "sha256": "3785ab298044a22c976d84be1a2d3b55a22edf20870ed1cf00928911260c221b",
+        "sha256_in_prefix": "3785ab298044a22c976d84be1a2d3b55a22edf20870ed1cf00928911260c221b",
+        "size_in_bytes": 2335
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_provenance.py",
+        "path_type": "hardlink",
+        "sha256": "06722d7b31ead0085dd59c8a86a05a8de03ddf18258dadef75c1c1ee52cee236",
+        "sha256_in_prefix": "06722d7b31ead0085dd59c8a86a05a8de03ddf18258dadef75c1c1ee52cee236",
+        "size_in_bytes": 27616
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_rdfprint.py",
+        "path_type": "hardlink",
+        "sha256": "c9033bcb155c6cbbc5219d721985cf79fb9347380eee587dcb8d9d8dc99d6336",
+        "sha256_in_prefix": "c9033bcb155c6cbbc5219d721985cf79fb9347380eee587dcb8d9d8dc99d6336",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_relax_path_checks.py",
+        "path_type": "hardlink",
+        "sha256": "281dee417b4f8c8e2ad32266463d3566eeeada29fbe8f129b50bbb7e3a24769c",
+        "sha256_in_prefix": "281dee417b4f8c8e2ad32266463d3566eeeada29fbe8f129b50bbb7e3a24769c",
+        "size_in_bytes": 975
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_relocate.py",
+        "path_type": "hardlink",
+        "sha256": "db4ca5ddf932ad8b274605d6d540a17ed8d1074480b3a2e88ff106d52665f402",
+        "sha256_in_prefix": "db4ca5ddf932ad8b274605d6d540a17ed8d1074480b3a2e88ff106d52665f402",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_secrets.py",
+        "path_type": "hardlink",
+        "sha256": "333c612142eef930f8082a4958ebceb78af870d5125af69b4d9636284713471a",
+        "sha256_in_prefix": "333c612142eef930f8082a4958ebceb78af870d5125af69b4d9636284713471a",
+        "size_in_bytes": 2260
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_singularity.py",
+        "path_type": "hardlink",
+        "sha256": "1154a6a77bf5107d020b79c0311e51f23089c472051f98d30a95612bb68ef4de",
+        "sha256_in_prefix": "1154a6a77bf5107d020b79c0311e51f23089c472051f98d30a95612bb68ef4de",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_subgraph.py",
+        "path_type": "hardlink",
+        "sha256": "028dc939e566f49eca0038864c7f0cf56df774c68696e1eedda8820f8c024a4d",
+        "sha256_in_prefix": "028dc939e566f49eca0038864c7f0cf56df774c68696e1eedda8820f8c024a4d",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_target.py",
+        "path_type": "hardlink",
+        "sha256": "5c7039a8addce91628a72c647672e9daf1d1f9b9d1c1d88d1eb72a77e50ba6eb",
+        "sha256_in_prefix": "5c7039a8addce91628a72c647672e9daf1d1f9b9d1c1d88d1eb72a77e50ba6eb",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_toolargparse.py",
+        "path_type": "hardlink",
+        "sha256": "fa77bf010de403b8879eb76daf137d0d11961fcb369c59ac8fa092272f9cd443",
+        "sha256_in_prefix": "fa77bf010de403b8879eb76daf137d0d11961fcb369c59ac8fa092272f9cd443",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_udocker.py",
+        "path_type": "hardlink",
+        "sha256": "b4ea4719246a2ec95bfc25d335d9f225be747a4c1be60c54ae1a5b0717651c0a",
+        "sha256_in_prefix": "b4ea4719246a2ec95bfc25d335d9f225be747a4c1be60c54ae1a5b0717651c0a",
+        "size_in_bytes": 2268
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/test_validate_js.py",
+        "path_type": "hardlink",
+        "sha256": "6618a497595d8d2509df03927cca730dbb6505d119981d8574ec029ed337d35c",
+        "sha256_in_prefix": "6618a497595d8d2509df03927cca730dbb6505d119981d8574ec029ed337d35c",
+        "size_in_bytes": 1760
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp1/tmp2/tmp3/.gitkeep",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/baker",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/charlie",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/delta",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/echo",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/tmp4/alpha/foxtrot",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/utf_doc_example.cwl",
+        "path_type": "hardlink",
+        "sha256": "1c2cffcc37b0c98467a5908d969026eb6b8ce0545d180c06eabcad9863bb0e7b",
+        "sha256_in_prefix": "1c2cffcc37b0c98467a5908d969026eb6b8ce0545d180c06eabcad9863bb0e7b",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "e19a26bf708e708e9a7144aff99ac768463d93cf58fa0e15f306707dd0c8982e",
+        "sha256_in_prefix": "e19a26bf708e708e9a7144aff99ac768463d93cf58fa0e15f306707dd0c8982e",
+        "size_in_bytes": 3310
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/1st-workflow.cwl",
+        "path_type": "hardlink",
+        "sha256": "cdd580b6c0f37c60cc39ef4968184235ade6ab7369329b363c5db7f101f6d3a4",
+        "sha256_in_prefix": "cdd580b6c0f37c60cc39ef4968184235ade6ab7369329b363c5db7f101f6d3a4",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/910.cwl",
+        "path_type": "hardlink",
+        "sha256": "91ede05a60ca6a22f60a7c8f01a70cf5e8da30d25b9fad00979fd01e0187bcbd",
+        "sha256_in_prefix": "91ede05a60ca6a22f60a7c8f01a70cf5e8da30d25b9fad00979fd01e0187bcbd",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/__pycache__/updateval.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e157c66d0026aa4e00c750d92070736639d652359d5c95ada013e4138422540",
+        "sha256_in_prefix": "4e157c66d0026aa4e00c750d92070736639d652359d5c95ada013e4138422540",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/arguments.cwl",
+        "path_type": "hardlink",
+        "sha256": "1c2bfce809b07f87e7f72eefe49f5bad30ea406dcadfafc2bd058596e23b2d8f",
+        "sha256_in_prefix": "1c2bfce809b07f87e7f72eefe49f5bad30ea406dcadfafc2bd058596e23b2d8f",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/badout1.cwl",
+        "path_type": "hardlink",
+        "sha256": "1af753d7f881112be6d7ad21685778d2abb5fe44b87c48caa99187950f8f8854",
+        "sha256_in_prefix": "1af753d7f881112be6d7ad21685778d2abb5fe44b87c48caa99187950f8f8854",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/badout2.cwl",
+        "path_type": "hardlink",
+        "sha256": "6555055459b234ac5bdaf632dd55780ef85fac5d1b0e2e2e64b0699faba1d7e4",
+        "sha256_in_prefix": "6555055459b234ac5bdaf632dd55780ef85fac5d1b0e2e2e64b0699faba1d7e4",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/badout3.cwl",
+        "path_type": "hardlink",
+        "sha256": "1a5559a33e012a4364b1f439ac6427c10f333992a76aff1e90927e8b200e0400",
+        "sha256_in_prefix": "1a5559a33e012a4364b1f439ac6427c10f333992a76aff1e90927e8b200e0400",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/cache_test_workflow.cwl",
+        "path_type": "hardlink",
+        "sha256": "f58f40359c6bb2eb9d1b9ee2fd18ab544c4f053f3e088d5fb6bc1041fe29a977",
+        "sha256_in_prefix": "f58f40359c6bb2eb9d1b9ee2fd18ab544c4f053f3e088d5fb6bc1041fe29a977",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/cat-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "50d11722c1df84a0396be7df7d01b2ba27bdb581590188b177faf25b576bc7f6",
+        "sha256_in_prefix": "50d11722c1df84a0396be7df7d01b2ba27bdb581590188b177faf25b576bc7f6",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/cat.cwl",
+        "path_type": "hardlink",
+        "sha256": "a632d380ae513fbf7176509536d794e48970a1731445bda15f8214521b667a28",
+        "sha256_in_prefix": "a632d380ae513fbf7176509536d794e48970a1731445bda15f8214521b667a28",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/count-lines1-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "49aafe98e6d7baec15ae31d3f6c2d99e932598b4f9465a7aced87e4d47cdd15c",
+        "sha256_in_prefix": "49aafe98e6d7baec15ae31d3f6c2d99e932598b4f9465a7aced87e4d47cdd15c",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/default-dir5.cwl",
+        "path_type": "hardlink",
+        "sha256": "588c3733299b03e2503308cbc538a80112115f96e11be1bcce99feaee949d921",
+        "sha256_in_prefix": "588c3733299b03e2503308cbc538a80112115f96e11be1bcce99feaee949d921",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/default-wf5.cwl",
+        "path_type": "hardlink",
+        "sha256": "0326d7f54a6fd800f0b89cfceda0401de540edec008eb61bb6588e518dd5892f",
+        "sha256_in_prefix": "0326d7f54a6fd800f0b89cfceda0401de540edec008eb61bb6588e518dd5892f",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/default_path.cwl",
+        "path_type": "hardlink",
+        "sha256": "df8172ee72810e67d749ee0c455e4e0146bf80aea5a856afc630730d22674044",
+        "sha256_in_prefix": "df8172ee72810e67d749ee0c455e4e0146bf80aea5a856afc630730d22674044",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/directory.cwl",
+        "path_type": "hardlink",
+        "sha256": "1e7ac9676e6c0fc6788795df1736e5490f83319e44079f502bd14d020154b5f6",
+        "sha256_in_prefix": "1e7ac9676e6c0fc6788795df1736e5490f83319e44079f502bd14d020154b5f6",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/echo.cwl",
+        "path_type": "hardlink",
+        "sha256": "7f25d73b50ac61d1b0962c45510abe5928533d10858bea4c0f30c8ae34c0f2ed",
+        "sha256_in_prefix": "7f25d73b50ac61d1b0962c45510abe5928533d10858bea4c0f30c8ae34c0f2ed",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/empty.ttl",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/empty2.ttl",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/expect_packed.cwl",
+        "path_type": "hardlink",
+        "sha256": "d5e85a2e5e86406cd4558722ebfe74db466dae019c6537c71101aa859ab10c50",
+        "sha256_in_prefix": "d5e85a2e5e86406cd4558722ebfe74db466dae019c6537c71101aa859ab10c50",
+        "size_in_bytes": 4400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/formattest-job.json",
+        "path_type": "hardlink",
+        "sha256": "43e601583fa323911def654b5c31f4de136687cb4e1d3407af1dc11bad43a38f",
+        "sha256_in_prefix": "43e601583fa323911def654b5c31f4de136687cb4e1d3407af1dc11bad43a38f",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/formattest.cwl",
+        "path_type": "hardlink",
+        "sha256": "35f9280927fca07421feefe77514e77ab7d982d7abbf2c5ae8eecc9ed2f4de2a",
+        "sha256_in_prefix": "35f9280927fca07421feefe77514e77ab7d982d7abbf2c5ae8eecc9ed2f4de2a",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/hello-workflow.cwl",
+        "path_type": "hardlink",
+        "sha256": "01d934f8701a6367ebb2d2e1ec8834d6da95f348521dba8612633e4be6252965",
+        "sha256_in_prefix": "01d934f8701a6367ebb2d2e1ec8834d6da95f348521dba8612633e4be6252965",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/hello.txt",
+        "path_type": "hardlink",
+        "sha256": "eaffc7e681dac138211269ebd0e3c7c8027a307964e86fe71e13acee1087ca69",
+        "sha256_in_prefix": "eaffc7e681dac138211269ebd0e3c7c8027a307964e86fe71e13acee1087ca69",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/hello_single_tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "25bfc086e95b92a670c70b9557b42f18f435538008b32350992929a8340affee",
+        "sha256_in_prefix": "25bfc086e95b92a670c70b9557b42f18f435538008b32350992929a8340affee",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/iwdr-entry.cwl",
+        "path_type": "hardlink",
+        "sha256": "a138c6e6cf9cc5826e081dacef5c127c66542cbc792ffc8b71d4362747732867",
+        "sha256_in_prefix": "a138c6e6cf9cc5826e081dacef5c127c66542cbc792ffc8b71d4362747732867",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/iwdr_permutations.cwl",
+        "path_type": "hardlink",
+        "sha256": "68213468b0ac804720363b95da941b2f0bfbb9b093040cf4715a73a11160c247",
+        "sha256_in_prefix": "68213468b0ac804720363b95da941b2f0bfbb9b093040cf4715a73a11160c247",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/iwdr_permutations_inplace.yml",
+        "path_type": "hardlink",
+        "sha256": "bd276c225013298c5dd9c7e8d3a868b1c9e145308938f00f1ad80f27ec4f6cc5",
+        "sha256_in_prefix": "bd276c225013298c5dd9c7e8d3a868b1c9e145308938f00f1ad80f27ec4f6cc5",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/js_output.cwl",
+        "path_type": "hardlink",
+        "sha256": "2a916c635df75b012c181a9a6addbeed72c58b14c7421fb9c023e244422c9ed5",
+        "sha256_in_prefix": "2a916c635df75b012c181a9a6addbeed72c58b14c7421fb9c023e244422c9ed5",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/js_output_workflow.cwl",
+        "path_type": "hardlink",
+        "sha256": "8edf490bdab2dbb18655713233c2de6719eef0259f1260df51ebe638670256a7",
+        "sha256_in_prefix": "8edf490bdab2dbb18655713233c2de6719eef0259f1260df51ebe638670256a7",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/listing_deep.cwl",
+        "path_type": "hardlink",
+        "sha256": "d1b49feeb97fc48fcc189ab060fad3fc68a88d719db7c41190a6bf286a209e9c",
+        "sha256_in_prefix": "d1b49feeb97fc48fcc189ab060fad3fc68a88d719db7c41190a6bf286a209e9c",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/listing_none.cwl",
+        "path_type": "hardlink",
+        "sha256": "04bac8b63246ab7e34b1fc35e65d3ee982c4af667bf773a0e123644f13e5f3b0",
+        "sha256_in_prefix": "04bac8b63246ab7e34b1fc35e65d3ee982c4af667bf773a0e123644f13e5f3b0",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/listing_shallow.cwl",
+        "path_type": "hardlink",
+        "sha256": "42b469dea4a572116b2b31131c54af3972fe171ae0c8f604a32ae91ed1e531a2",
+        "sha256_in_prefix": "42b469dea4a572116b2b31131c54af3972fe171ae0c8f604a32ae91ed1e531a2",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/listing_v1_0.cwl",
+        "path_type": "hardlink",
+        "sha256": "3b9fd14dfd34e0a36b37ea9e99cc631b673b01dd73d147025954ef2e247b9531",
+        "sha256_in_prefix": "3b9fd14dfd34e0a36b37ea9e99cc631b673b01dd73d147025954ef2e247b9531",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/malformed_outputs.cwl",
+        "path_type": "hardlink",
+        "sha256": "bfd0adeeb97fa8a597965f17741b6b88f4087c7b535c4e96dd487e86f4033b77",
+        "sha256_in_prefix": "bfd0adeeb97fa8a597965f17741b6b88f4087c7b535c4e96dd487e86f4033b77",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/missing-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "6dde262442c51c4f20e950c2570f4fbc96294233c0b9ad286e23d33a413bb2ad",
+        "sha256_in_prefix": "6dde262442c51c4f20e950c2570f4fbc96294233c0b9ad286e23d33a413bb2ad",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/missing_cwlVersion.cwl",
+        "path_type": "hardlink",
+        "sha256": "5f41b6e2a852487bfa7241eff40c46c6106724b65fd2f6e1a139dbed4303f362",
+        "sha256_in_prefix": "5f41b6e2a852487bfa7241eff40c46c6106724b65fd2f6e1a139dbed4303f362",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/mut.cwl",
+        "path_type": "hardlink",
+        "sha256": "aec31899ea5e248a46efdb2092951df4d6cb3b3fa6ef03cd331ceca3b3de9d79",
+        "sha256_in_prefix": "aec31899ea5e248a46efdb2092951df4d6cb3b3fa6ef03cd331ceca3b3de9d79",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/mut2.cwl",
+        "path_type": "hardlink",
+        "sha256": "6725fa092731916c4bc2372655316076a18c20206b74bff4f41fff582ea3f26e",
+        "sha256_in_prefix": "6725fa092731916c4bc2372655316076a18c20206b74bff4f41fff582ea3f26e",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/mut3.cwl",
+        "path_type": "hardlink",
+        "sha256": "88a8a458912059a95121e4d7628a9ff06ad3e05b3d6f11b5dba653e72fbd4f4a",
+        "sha256_in_prefix": "88a8a458912059a95121e4d7628a9ff06ad3e05b3d6f11b5dba653e72fbd4f4a",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/nested.cwl",
+        "path_type": "hardlink",
+        "sha256": "0727286ce68bebcae06f0cb1da28a58382c9db14f0e4eae7e29f5644483d16cb",
+        "sha256_in_prefix": "0727286ce68bebcae06f0cb1da28a58382c9db14f0e4eae7e29f5644483d16cb",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/networkaccess-fail.cwl",
+        "path_type": "hardlink",
+        "sha256": "24c84691e94d6d15bcb196a47ed3e818935ab33a217a81b8fb3567d92895da7e",
+        "sha256_in_prefix": "24c84691e94d6d15bcb196a47ed3e818935ab33a217a81b8fb3567d92895da7e",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/networkaccess.cwl",
+        "path_type": "hardlink",
+        "sha256": "bbda3fcdae8d980c53b6fec1d49f0bfd8d84bc9862a658873efd0a47045d2f0b",
+        "sha256_in_prefix": "bbda3fcdae8d980c53b6fec1d49f0bfd8d84bc9862a658873efd0a47045d2f0b",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/no-parameters-echo.cwl",
+        "path_type": "hardlink",
+        "sha256": "dc07eefa5f7ab6ab51c0d9316bce86bf30a7ae93f288003de44010cda6666b7f",
+        "sha256_in_prefix": "dc07eefa5f7ab6ab51c0d9316bce86bf30a7ae93f288003de44010cda6666b7f",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/override-no-secrets.yml",
+        "path_type": "hardlink",
+        "sha256": "4e3e7caff19a09782d0417ce9bde6e1c8f42227c84c062fada1119f973aa928f",
+        "sha256_in_prefix": "4e3e7caff19a09782d0417ce9bde6e1c8f42227c84c062fada1119f973aa928f",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/parseInt-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "f9d0f432ea707df271f533ee20025da217741703fd0caee83b85017048bc257f",
+        "sha256_in_prefix": "f9d0f432ea707df271f533ee20025da217741703fd0caee83b85017048bc257f",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/revsort-job.json",
+        "path_type": "hardlink",
+        "sha256": "5aa5809a459eaa3f9278e5f818315f22d5fbf8e6252d4e08b24dca578d4b05d7",
+        "sha256_in_prefix": "5aa5809a459eaa3f9278e5f818315f22d5fbf8e6252d4e08b24dca578d4b05d7",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/revsort.cwl",
+        "path_type": "hardlink",
+        "sha256": "9cf51c2f5fe10cf871b7cbe3180c4d5d63ebf4041c5d3a0b4ba246715db1ef70",
+        "sha256_in_prefix": "9cf51c2f5fe10cf871b7cbe3180c4d5d63ebf4041c5d3a0b4ba246715db1ef70",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/revtool.cwl",
+        "path_type": "hardlink",
+        "sha256": "4328177d10e69f3d72c01b99921d70dce8c7b6ae54a1c099b22ddd28b3d91703",
+        "sha256_in_prefix": "4328177d10e69f3d72c01b99921d70dce8c7b6ae54a1c099b22ddd28b3d91703",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/scatter-job2.json",
+        "path_type": "hardlink",
+        "sha256": "ca8a6946d642522e8abd4ae8c856cd935beaa1e213c67fbcb8accebb0e487206",
+        "sha256_in_prefix": "ca8a6946d642522e8abd4ae8c856cd935beaa1e213c67fbcb8accebb0e487206",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/scatter-wf4.cwl",
+        "path_type": "hardlink",
+        "sha256": "a3b0419a72c87cd89e31411254125bad68f36a9d4bf4ca21c073cf4c21703a18",
+        "sha256_in_prefix": "a3b0419a72c87cd89e31411254125bad68f36a9d4bf4ca21c073cf4c21703a18",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/scatter-wf4.json",
+        "path_type": "hardlink",
+        "sha256": "f07e5d7000f5428f89f78792fa3e3b4516538ca1f65746219ca9dcdb3584822a",
+        "sha256_in_prefix": "f07e5d7000f5428f89f78792fa3e3b4516538ca1f65746219ca9dcdb3584822a",
+        "size_in_bytes": 2999
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/scatterfail.cwl",
+        "path_type": "hardlink",
+        "sha256": "ecc94673ee4c07b42f0df22eff8ec60e12a7a42ae4ae99afaf2224220ab4cdfa",
+        "sha256_in_prefix": "ecc94673ee4c07b42f0df22eff8ec60e12a7a42ae4ae99afaf2224220ab4cdfa",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/sec-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "2a9423af440250d883b34e2c7ad9457e8df02a0cfcbdda2f3ffd59836205c3eb",
+        "sha256_in_prefix": "2a9423af440250d883b34e2c7ad9457e8df02a0cfcbdda2f3ffd59836205c3eb",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/sec-wf-out.cwl",
+        "path_type": "hardlink",
+        "sha256": "c7b46d2b0582d988b494fef48eed9b5e6b1ba8ccca1b33c1aff1a81a8a750bb9",
+        "sha256_in_prefix": "c7b46d2b0582d988b494fef48eed9b5e6b1ba8ccca1b33c1aff1a81a8a750bb9",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/sec-wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "809e7a75093ae6d90af602648dfc6ef785d525ff50f3c760e37835675043dbdf",
+        "sha256_in_prefix": "809e7a75093ae6d90af602648dfc6ef785d525ff50f3c760e37835675043dbdf",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/secret_job.cwl",
+        "path_type": "hardlink",
+        "sha256": "77f8bc6e8bfbec73a74186755b1aa5922aaf4e93c5379c856947153b8ddaa633",
+        "sha256_in_prefix": "77f8bc6e8bfbec73a74186755b1aa5922aaf4e93c5379c856947153b8ddaa633",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/secret_wf.cwl",
+        "path_type": "hardlink",
+        "sha256": "4099576178baf8c7d4fe56c9f354cb172a6f32cf72bd4f25397f954f3d7d6da8",
+        "sha256_in_prefix": "4099576178baf8c7d4fe56c9f354cb172a6f32cf72bd4f25397f954f3d7d6da8",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/separate_without_prefix.cwl",
+        "path_type": "hardlink",
+        "sha256": "3e4e3caf1b8f09e6738c04c6c23e3cec41c19b95ea86ddc4a79f28cab20f4c47",
+        "sha256_in_prefix": "3e4e3caf1b8f09e6738c04c6c23e3cec41c19b95ea86ddc4a79f28cab20f4c47",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/sorttool.cwl",
+        "path_type": "hardlink",
+        "sha256": "221043cbe9336605893a34bd4edce62d4cd7f47fd0665797de649cb9652ca5a8",
+        "sha256_in_prefix": "221043cbe9336605893a34bd4edce62d4cd7f47fd0665797de649cb9652ca5a8",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/tar-param.cwl",
+        "path_type": "hardlink",
+        "sha256": "ba73050af0d17a6a24d82aeb88b54150e38189056007f1dd094a59562f30475d",
+        "sha256_in_prefix": "ba73050af0d17a6a24d82aeb88b54150e38189056007f1dd094a59562f30475d",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/timelimit-fail.cwl",
+        "path_type": "hardlink",
+        "sha256": "0f049ed02af4ca05d3aba4f9273f76d56b6ba741d1dd7a622ee5166b81e9fb2f",
+        "sha256_in_prefix": "0f049ed02af4ca05d3aba4f9273f76d56b6ba741d1dd7a622ee5166b81e9fb2f",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/timelimit.cwl",
+        "path_type": "hardlink",
+        "sha256": "adcbe3463923e977d3eae7051c79fd1a2ac5ea4913dc873e2b727d469cd42f21",
+        "sha256_in_prefix": "adcbe3463923e977d3eae7051c79fd1a2ac5ea4913dc873e2b727d469cd42f21",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/touch_tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "e3c1b5675c6d76fe64f97adad3640a6d86483b5bc77189594ba1bbee70ca4a55",
+        "sha256_in_prefix": "e3c1b5675c6d76fe64f97adad3640a6d86483b5bc77189594ba1bbee70ca4a55",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/trick_defaults.cwl",
+        "path_type": "hardlink",
+        "sha256": "c35cf63f203b51b5489f44550f16b79f30e896c20fdb265fa00ce3fa60b85b1d",
+        "sha256_in_prefix": "c35cf63f203b51b5489f44550f16b79f30e896c20fdb265fa00ce3fa60b85b1d",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/updatedir.cwl",
+        "path_type": "hardlink",
+        "sha256": "1822b2c4e02ae78155f22828f9ae953d8d7773948db6d52740cccdec4fe8374a",
+        "sha256_in_prefix": "1822b2c4e02ae78155f22828f9ae953d8d7773948db6d52740cccdec4fe8374a",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/updatedir_inplace.cwl",
+        "path_type": "hardlink",
+        "sha256": "a8dc4ef1e6ec00c74d781afc57523cdba5b51fa73fdf9d2a989bedaf660d2dd1",
+        "sha256_in_prefix": "a8dc4ef1e6ec00c74d781afc57523cdba5b51fa73fdf9d2a989bedaf660d2dd1",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/updateval.cwl",
+        "path_type": "hardlink",
+        "sha256": "6f43a9686e66118a9fd51b83412747da4fcddd0aab42f8cab00f767159be2a36",
+        "sha256_in_prefix": "6f43a9686e66118a9fd51b83412747da4fcddd0aab42f8cab00f767159be2a36",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/updateval.py",
+        "path_type": "hardlink",
+        "sha256": "15f6d68d486da7293555add3d0de31c9be99cbd2c2eb0d121321953238c72b2b",
+        "sha256_in_prefix": "15f6d68d486da7293555add3d0de31c9be99cbd2c2eb0d121321953238c72b2b",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/updateval_inplace.cwl",
+        "path_type": "hardlink",
+        "sha256": "6284f3f1d839b8931ad27f2a100eaa54a44c75cf7f0c66071c2414631ccfbbdc",
+        "sha256_in_prefix": "6284f3f1d839b8931ad27f2a100eaa54a44c75cf7f0c66071c2414631ccfbbdc",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/vf-concat.cwl",
+        "path_type": "hardlink",
+        "sha256": "20be3b3ebe3b9a849e1f1086b3dd51f2688f2e2a290037497258f1c3aae108b4",
+        "sha256_in_prefix": "20be3b3ebe3b9a849e1f1086b3dd51f2688f2e2a290037497258f1c3aae108b4",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/wc-job.json",
+        "path_type": "hardlink",
+        "sha256": "817d1a4cd94e815a5d90c2840aae3cbab2a31c8830a647fcdebff0b82ae03b12",
+        "sha256_in_prefix": "817d1a4cd94e815a5d90c2840aae3cbab2a31c8830a647fcdebff0b82ae03b12",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/wc-tool.cwl",
+        "path_type": "hardlink",
+        "sha256": "88c1b0368a8ca72b76d92fdd1414e7b046ee0e2ae991b22471080ebe8496c531",
+        "sha256_in_prefix": "88c1b0368a8ca72b76d92fdd1414e7b046ee0e2ae991b22471080ebe8496c531",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/wffail.cwl",
+        "path_type": "hardlink",
+        "sha256": "7d216caa332469d04fe204ffb5afdbad8a80a53d3e9b499d1a11fbbf3f9f11ef",
+        "sha256_in_prefix": "7d216caa332469d04fe204ffb5afdbad8a80a53d3e9b499d1a11fbbf3f9f11ef",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/whale.txt",
+        "path_type": "hardlink",
+        "sha256": "312ee06ca7d69184a63d33f9d9e2334051d2cd9891330bc23657826756139a11",
+        "sha256_in_prefix": "312ee06ca7d69184a63d33f9d9e2334051d2cd9891330bc23657826756139a11",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/workreuse-fail.cwl",
+        "path_type": "hardlink",
+        "sha256": "ad69696d3a80588d910fecb93e11b71dca01dcbe31ed376330cfa54ab36ce738",
+        "sha256_in_prefix": "ad69696d3a80588d910fecb93e11b71dca01dcbe31ed376330cfa54ab36ce738",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/workreuse.cwl",
+        "path_type": "hardlink",
+        "sha256": "68c2af05fec10e3afe76053eb2192bf6b96174b4c1767b7285bbae75f9255407",
+        "sha256_in_prefix": "68c2af05fec10e3afe76053eb2192bf6b96174b4c1767b7285bbae75f9255407",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/tests/wf/wrong_cwlVersion.cwl",
+        "path_type": "hardlink",
+        "sha256": "2dfd86a7ae14bf654fe9620a78bf7ce89c8d7ca0955b5b157d9e5e43becb8225",
+        "sha256_in_prefix": "2dfd86a7ae14bf654fe9620a78bf7ce89c8d7ca0955b5b157d9e5e43becb8225",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/update.py",
+        "path_type": "hardlink",
+        "sha256": "e8e34a20592fdc7fe1219f2a23ea5a4f27a23a749df5290300e47eda11d107f3",
+        "sha256_in_prefix": "e8e34a20592fdc7fe1219f2a23ea5a4f27a23a749df5290300e47eda11d107f3",
+        "size_in_bytes": 6246
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ee6e27b466304695ef10ba0bf107fc1163c9dbc097fa1bee41dc8f3a65bd9980",
+        "sha256_in_prefix": "ee6e27b466304695ef10ba0bf107fc1163c9dbc097fa1bee41dc8f3a65bd9980",
+        "size_in_bytes": 8161
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/validate_js.py",
+        "path_type": "hardlink",
+        "sha256": "d490f6f544ca409537504f5f71336cc440024bb51e91e14061a3c2013c0773c5",
+        "sha256_in_prefix": "d490f6f544ca409537504f5f71336cc440024bb51e91e14061a3c2013c0773c5",
+        "size_in_bytes": 7261
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cwltool/workflow.py",
+        "path_type": "hardlink",
+        "sha256": "dfde59312f748d577b7f16f6fc3a5c3c6bcd8fedc7b382136bd897795749a210",
+        "sha256_in_prefix": "dfde59312f748d577b7f16f6fc3a5c3c6bcd8fedc7b382136bd897795749a210",
+        "size_in_bytes": 43519
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cwltool=1.0.20190228155703",
+  "sha256": "bc269d66322a68bb8e02eabc5997cbab5e2cf6a26a8abda7f0bb83053c7384de",
+  "size": 582999,
+  "subdir": "linux-64",
+  "timestamp": 1551444416277,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cwltool-1.0.20190228155703-py37_0.tar.bz2",
+  "version": "1.0.20190228155703"
+}

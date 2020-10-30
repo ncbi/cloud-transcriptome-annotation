@@ -1,0 +1,31 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Tue Jul 10 05:14:49 2018
+# ------------------------------------------------
+
+package:
+    name: perl-xsloader
+    version: '0.24'
+source:
+    sha256: e819a35a6b8e55cb61b290159861f0dc00fe9d8c4f54578eb24f612d45c8d85f
+    url: https://cpan.metacpan.org/authors/id/S/SA/SAPER/XSLoader-0.24.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-extutils-makemaker 7.34 pl526_0
+    run:
+        - perl >=5.26.2,<5.27.0a0
+test:
+    imports:
+        - XSLoader
+about:
+    home: https://metacpan.org/module/XSLoader
+    license: perl_5
+    summary: Dynamically load C libraries into Perl code
+extra:
+    copy_test_source_files: true
+    final: true

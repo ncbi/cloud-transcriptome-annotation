@@ -1,0 +1,26 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.9",
+    "webencodings"
+  ],
+  "features": "",
+  "fn": "html5lib-1.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b2355343d6315c892543200231d7154a",
+  "name": "html5lib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "9ad06446fe9847e86cb20d220bf11614afcd2cbe9f58096f08d5d4018877bee4",
+  "size": 91322,
+  "subdir": "noarch",
+  "timestamp": 1592930432911,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/html5lib-1.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.1"
+}

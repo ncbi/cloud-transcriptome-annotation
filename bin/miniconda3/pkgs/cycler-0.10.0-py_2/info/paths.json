@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408",
+      "size_in_bytes": 1497
+    },
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "f9dde604add230d59fa4864c1f6a9c4b3dc911b657504ae48bbf0eeca19cd686",
+      "size_in_bytes": 722
+    },
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "6c889069bbc8907d0deb6831d4991877c977b00dd1cbdd9f47afc14f19e5085b",
+      "size_in_bytes": 559
+    },
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/cycler-0.10.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "0fc05554374001e94b6f614e133ee50e973af802f6d7294a3eb321b46eb2cf21",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/cycler.py",
+      "path_type": "hardlink",
+      "sha256": "79ddc6dfdba7bd5101ac16550f09c4d0516ba1136c38b91b27f4f0213e428c25",
+      "size_in_bytes": 15959
+    }
+  ],
+  "paths_version": 1
+}

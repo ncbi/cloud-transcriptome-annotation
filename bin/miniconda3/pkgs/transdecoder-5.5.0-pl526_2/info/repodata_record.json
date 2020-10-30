@@ -1,0 +1,25 @@
+{
+  "build": "pl526_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-db-file",
+    "perl-uri"
+  ],
+  "features": "",
+  "fn": "transdecoder-5.5.0-pl526_2.tar.bz2",
+  "license": "Broad Institute",
+  "md5": "f240045c2d2da40f032a541b5cf511eb",
+  "name": "transdecoder",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "fcc7892d0264a244b10dec80d7cf1a40f9d825be6881d88fa0d3658525886f15",
+  "size": 16034757,
+  "subdir": "noarch",
+  "timestamp": 1572192781391,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/transdecoder-5.5.0-pl526_2.tar.bz2",
+  "version": "5.5.0"
+}

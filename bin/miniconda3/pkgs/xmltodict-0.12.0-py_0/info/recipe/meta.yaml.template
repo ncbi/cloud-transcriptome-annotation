@@ -1,0 +1,40 @@
+{% set name = "xmltodict" %}
+{% set version = "0.12.0" %}
+{% set sha256 = "50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - xmltodict
+
+about:
+  home: https://github.com/martinblech/xmltodict
+  license: MIT
+  license_file: LICENSE
+  summary: 'Makes working with XML feel like you are working with JSON'
+  dev_url: https://github.com/martinblech/xmltodict
+
+extra:
+  recipe-maintainers:
+    - synapticarbors
+    - ocefpaf

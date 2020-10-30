@@ -1,0 +1,8 @@
+{
+  "openssl": "1.1.1",
+  "cxx_compiler": "gxx",
+  "tk": "8.6",
+  "cxx_compiler_version": "7",
+  "c_compiler_version": "7",
+  "c_compiler": "gcc"
+}

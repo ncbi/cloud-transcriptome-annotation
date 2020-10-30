@@ -1,0 +1,73 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Aug 27 20:03:16 2020
+# ------------------------------------------------
+
+package:
+    name: nbclient
+    version: 0.5.0
+source:
+    sha256: 8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d
+    url: https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/nbclient_1598558657104/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py38h32f6830_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+        - libstdcxx-ng 9.3.0 hdf63c60_16
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.8.5 h1103e12_5_cpython
+        - python_abi 3.8 1_cp38
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py38h32f6830_0
+        - sqlite 3.33.0 h4cf870e_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1007
+    run:
+        - async_generator
+        - jupyter_client >=6.1.5
+        - nbformat >=5.0
+        - nest-asyncio
+        - python >=3.6
+        - traitlets >=4.2
+test:
+    imports:
+        - nbclient
+about:
+    description: 'NBClient is a tool for parameterizing and executing Jupyter Notebooks.
+
+        NBClient lets you execute notebooks. Similar in nature to jupyter_client,
+        as the jupyter_client
+
+        is to the jupyter protocol nbclient is to notebooks allowing for execution
+        contexts to be run.
+
+        '
+    dev_url: https://github.com/jupyter/nbclient
+    doc_source_url: https://github.com/jupyter/nbclient/tree/master/docs
+    doc_url: https://nbclient.readthedocs.io
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A client library for executing notebooks. Formally nbconvert's ExecutePreprocessor.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - davidbrochart

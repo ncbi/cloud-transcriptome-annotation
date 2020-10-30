@@ -1,0 +1,78 @@
+# This file created by conda-build 3.19.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Mar 13 23:20:06 2020
+# ------------------------------------------------
+
+package:
+    name: awscli
+    version: 1.18.21
+source:
+    fn: awscli-1.18.21.tar.gz
+    sha256: dc302ba80d3059bb6a68062708fcf7a8759e30537564b6236e2b09cdbab0d65b
+    url: https://pypi.org/packages/source/a/awscli/awscli-1.18.21.tar.gz
+build:
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/awscli_1584141653105/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps -vv
+    string: py37hc8dfbb8_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2019.11.28 hecc5488_0
+        - certifi 2019.11.28 py37hc8dfbb8_1
+        - ld_impl_linux-64 2.33.1 h53a641e_8
+        - libffi 3.2.1 he1b5a44_1006
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1d h516909a_0
+        - pip 20.0.2 py_2
+        - python 3.7.6 h357f687_4_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 hf8c457e_0
+        - setuptools 46.0.0 py37hc8dfbb8_2
+        - sqlite 3.30.1 hcee41ef_0
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - botocore ==1.15.21
+        - colorama >=0.2.5,<0.4.4
+        - docutils >=0.10,<0.16
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - pyyaml >=3.10,<5.4
+        - rsa >=3.1.2,<=3.5.0
+        - s3transfer >=0.3.0,<0.4.0
+test:
+    imports:
+        - awscli
+        - awscli.customizations
+        - awscli.customizations.cloudtrail
+        - awscli.customizations.codedeploy
+        - awscli.customizations.configservice
+        - awscli.customizations.configure
+        - awscli.customizations.datapipeline
+        - awscli.customizations.ec2
+        - awscli.customizations.emr
+        - awscli.customizations.gamelift
+        - awscli.customizations.s3
+        - awscli.customizations.s3.syncstrategy
+about:
+    dev_url: https://github.com/aws/aws-cli
+    doc_url: https://aws.amazon.com/cli/
+    home: https://aws.amazon.com/cli/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE.txt
+    summary: Universal Command Line Environment for AWS.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - hajapy
+        - pmlandwehr
+        - tkelman

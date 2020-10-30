@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-uri"
+  ],
+  "features": "",
+  "fn": "perl-www-robotrules-6.02-pl526_3.tar.bz2",
+  "license": "perl_5",
+  "md5": "8b06331804b3b94eb99b3c1c4b7a4d72",
+  "name": "perl-www-robotrules",
+  "platform": "linux",
+  "sha256": "3031682ff5efead2aeee3c030bb7823ade294aade85614eb9293b4c2948d1c8b",
+  "size": 12301,
+  "subdir": "linux-64",
+  "timestamp": 1535081021436,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-www-robotrules-6.02-pl526_3.tar.bz2",
+  "version": "6.02"
+}

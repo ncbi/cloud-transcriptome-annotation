@@ -1,0 +1,32 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Tue Dec 18 12:11:43 2018
+# ------------------------------------------------
+
+package:
+    name: perl-exporter-tiny
+    version: '1.002001'
+source:
+    sha256: a82c334c02ce4b0f9ea77c67bf77738f76a9b8aa4bae5c7209d1c76453d3c48d
+    url: https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+        - perl-extutils-makemaker 7.34 pl526_3
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+test:
+    imports:
+        - Exporter::Shiny
+        - Exporter::Tiny
+about:
+    home: https://metacpan.org/release/Exporter-Tiny
+    license: perl_5
+    summary: Exporter with the features of Sub::Exporter but only core dependencies
+extra:
+    copy_test_source_files: true
+    final: true

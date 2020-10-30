@@ -1,0 +1,10 @@
+lib/site_perl/5.26.2/IO/Socket/SSL.pm
+lib/site_perl/5.26.2/IO/Socket/SSL.pod
+lib/site_perl/5.26.2/IO/Socket/SSL/Intercept.pm
+lib/site_perl/5.26.2/IO/Socket/SSL/PublicSuffix.pm
+lib/site_perl/5.26.2/IO/Socket/SSL/Utils.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/IO/Socket/SSL/.packlist
+man/man3/IO::Socket::SSL.3
+man/man3/IO::Socket::SSL::Intercept.3
+man/man3/IO::Socket::SSL::PublicSuffix.3
+man/man3/IO::Socket::SSL::Utils.3

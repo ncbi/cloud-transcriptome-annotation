@@ -1,0 +1,31 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sat Mar  9 08:01:36 2019
+# ------------------------------------------------
+
+package:
+    name: perl-try-tiny
+    version: '0.30'
+source:
+    sha256: da5bd0d5c903519bbf10bb9ba0cb7bcac0563882bcfe4503aee3fb143eddef6b
+    url: https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz
+build:
+    number: '1'
+    string: pl526_1
+requirements:
+    host:
+        - libgcc-ng 7.3.0 hdf63c60_0
+        - perl 5.26.2 h14c3975_1002
+        - perl-capture-tiny 0.48 pl526_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+test:
+    imports:
+        - Try::Tiny
+about:
+    home: https://github.com/karenetheridge/Try-Tiny
+    license: mit
+    summary: minimal try/catch with proper preservation of $@
+extra:
+    copy_test_source_files: true
+    final: true

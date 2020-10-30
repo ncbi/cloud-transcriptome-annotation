@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37_2",
+  "build_number": 2,
+  "depends": [
+    "matplotlib-base 3.1.1 py37h250f245_2",
+    "pyqt",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "name": "matplotlib",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1572887951813,
+  "version": "3.1.1"
+}

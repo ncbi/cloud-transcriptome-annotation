@@ -1,0 +1,45 @@
+{% set version = "1.2.0" %}
+
+package:
+  name: kiwisolver
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/k/kiwisolver/kiwisolver-{{ version }}.tar.gz
+  sha256: 247800260cd38160c362d211dcaf4ed0f7816afb5efe56544748b21d6ad6d17f
+
+build:
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+
+requirements:
+  build:
+    - {{ compiler("cxx") }}
+  host:
+    - python
+    - pip
+    - setuptools
+    - cppy
+  run:
+    - python
+
+test:
+  imports:
+    - kiwisolver
+
+about:
+  home: https://github.com/nucleic/kiwi
+  license: BSD-3-Clause
+  license_file: LICENSE
+  license_family: BSD
+  summary: A fast implementation of the Cassowary constraint solver
+
+extra:
+  recipe-maintainers:
+    - blink1073
+    - ericdill
+    - licode
+    - MatthieuDartiailh
+    - sccolbert
+    - tacaswell
+    - ocefpaf

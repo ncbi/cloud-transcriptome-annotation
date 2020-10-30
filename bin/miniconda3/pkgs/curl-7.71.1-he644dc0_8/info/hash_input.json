@@ -1,0 +1,7 @@
+{
+  "krb5": "1.17.1",
+  "zlib": "1.2",
+  "libssh2": "1",
+  "c_compiler": "gcc",
+  "c_compiler_version": "7"
+}

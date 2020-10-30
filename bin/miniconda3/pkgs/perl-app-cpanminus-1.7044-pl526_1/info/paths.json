@@ -1,0 +1,51 @@
+{
+  "paths": [
+    {
+      "_path": "bin/cpanm",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "4f7dd37cfc4b4b22898165e46d3c92db1d49933e2906a36c6da4181ad3f0d336",
+      "size_in_bytes": 302804
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/App/cpanminus.pm",
+      "path_type": "hardlink",
+      "sha256": "67fba4088012647552aa15d832f8773750934592c631982244069eb88f08ddb3",
+      "size_in_bytes": 8215
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/App/cpanminus/fatscript.pm",
+      "path_type": "hardlink",
+      "sha256": "2b92c14764d74483b49be9d340d4b15ce638c97590be90918492dcb2c7034756",
+      "size_in_bytes": 767363
+    },
+    {
+      "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/App/cpanminus/.packlist",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "bc608badd65d0cf4b61be7628ad69f221ecfcc7ebf72d12095dec167548cc33d",
+      "size_in_bytes": 688
+    },
+    {
+      "_path": "man/man1/cpanm.1",
+      "path_type": "hardlink",
+      "sha256": "82b58f75bc7dc7883975eba594f27d4d77dd3f661bb7ebd79a9e5e69407201ec",
+      "size_in_bytes": 24767
+    },
+    {
+      "_path": "man/man3/App::cpanminus.3",
+      "path_type": "hardlink",
+      "sha256": "68e324a7c1530fa12e42297bde96af8defb73097a5d223b792eab001b690c3b6",
+      "size_in_bytes": 12797
+    },
+    {
+      "_path": "man/man3/App::cpanminus::fatscript.3",
+      "path_type": "hardlink",
+      "sha256": "401f61ddc9fd7e7fdf4bc33a8273b63c4852133e1921f44b140ca4ac4833ac19",
+      "size_in_bytes": 24807
+    }
+  ],
+  "paths_version": 1
+}

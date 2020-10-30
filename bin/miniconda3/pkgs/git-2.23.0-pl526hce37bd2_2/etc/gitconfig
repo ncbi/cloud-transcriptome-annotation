@@ -1,0 +1,4 @@
+[http]
+	sslVerify = true
+	sslCAPath = /opt/anaconda1anaconda2anaconda3/ssl/cacert.pem
+	sslCAInfo = /opt/anaconda1anaconda2anaconda3/ssl/cacert.pem

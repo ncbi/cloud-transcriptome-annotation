@@ -1,0 +1,158 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /opt/recipe, last modified Fri Jul 10 20:32:05 2020
+# ------------------------------------------------
+
+package:
+    name: blast
+    version: 2.9.0
+source:
+    -   folder: blast
+        sha256: a390cc2d7a09422759fc178db84de9def822cbe485916bbb2ec0d215dacdc257
+        url: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-src.tar.gz
+    -   folder: RpsbProc
+        sha256: 8b29f7e7d0a0654d10943e362557ed2d8df9a16218a4c8441c4dea4e7dc9154f
+        url: https://ftp.ncbi.nih.gov/pub/mmdb/cdd/rpsbproc/RpsbProc-src.tar.gz
+build:
+    number: '7'
+    string: pl526he19e7b1_7
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - binutils_impl_linux-64 2.34 h53a641e_6
+        - binutils_linux-64 2.34 hc952b39_20
+        - gcc_impl_linux-64 7.5.0 hd420e75_6
+        - gcc_linux-64 7.5.0 h09487f9_20
+        - gxx_impl_linux-64 7.5.0 hdf63c60_6
+        - gxx_linux-64 7.5.0 h09487f9_20
+        - ld_impl_linux-64 2.34 h53a641e_6
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - bzip2 1.0.8 h516909a_2
+        - ca-certificates 2020.6.20 hecda079_0
+        - curl 7.71.1 he644dc0_1
+        - entrez-direct 13.3 pl526h375a9b1_0
+        - expat 2.2.9 he1b5a44_2
+        - krb5 1.17.1 hfafb76e_1
+        - libcurl 7.71.1 hcdd3856_1
+        - libedit 3.1.20191231 h46ee950_1
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libssh2 1.9.0 hab1572f_3
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1g h516909a_0
+        - pcre 8.44 he1b5a44_0
+        - perl 5.26.2 h516909a_1006
+        - perl-app-cpanminus 1.7044 pl526_1
+        - perl-base 2.23 pl526_1
+        - perl-business-isbn 3.004 pl526_0
+        - perl-business-isbn-data 20140910.003 pl526_0
+        - perl-carp 1.38 pl526_3
+        - perl-compress-raw-zlib 2.087 pl526hc9558a2_0
+        - perl-constant 1.33 pl526_1
+        - perl-data-dumper 2.173 pl526_0
+        - perl-digest-hmac 1.03 pl526_3
+        - perl-digest-md5 2.55 pl526_0
+        - perl-encode 2.88 pl526_1
+        - perl-encode-locale 1.05 pl526_6
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.36 pl526_1
+        - perl-file-listing 6.04 pl526_1
+        - perl-file-path 2.16 pl526_0
+        - perl-file-temp 0.2304 pl526_2
+        - perl-html-parser 3.72 pl526h6bb024c_5
+        - perl-html-tagset 3.20 pl526_3
+        - perl-html-tree 5.07 pl526_1
+        - perl-http-cookies 6.04 pl526_0
+        - perl-http-daemon 6.01 pl526_1
+        - perl-http-date 6.02 pl526_3
+        - perl-http-message 6.18 pl526_0
+        - perl-http-negotiate 6.01 pl526_3
+        - perl-io-html 1.001 pl526_2
+        - perl-io-socket-ssl 2.066 pl526_0
+        - perl-libwww-perl 6.39 pl526_0
+        - perl-lwp-mediatypes 6.04 pl526_0
+        - perl-lwp-protocol-https 6.07 pl526_4
+        - perl-mime-base64 3.15 pl526_1
+        - perl-mozilla-ca 20180117 pl526_1
+        - perl-net-http 6.19 pl526_0
+        - perl-net-ssleay 1.88 pl526h90d6eec_0
+        - perl-ntlm 1.09 pl526_4
+        - perl-parent 0.236 pl526_1
+        - perl-socket 2.027 pl526_1
+        - perl-storable 3.15 pl526h14c3975_0
+        - perl-test-requiresinternet 0.05 pl526_0
+        - perl-time-local 1.28 pl526_1
+        - perl-try-tiny 0.30 pl526_1
+        - perl-uri 1.76 pl526_0
+        - perl-www-robotrules 6.02 pl526_3
+        - perl-xml-namespacesupport 1.12 pl526_0
+        - perl-xml-parser 2.44_01 pl526ha1d75be_1002
+        - perl-xml-sax 1.02 pl526_0
+        - perl-xml-sax-base 1.09 pl526_0
+        - perl-xml-sax-expat 0.51 pl526_3
+        - perl-xml-simple 2.25 pl526_1
+        - perl-xsloader 0.24 pl526_0
+        - tk 8.6.10 hed695b0_0
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - bzip2 >=1.0.8,<2.0a0
+        - bzip2 >=1.0.8,<2.0a0
+        - curl >=7.71.1,<8.0a0
+        - entrez-direct
+        - libgcc-ng >=7.5.0
+        - libstdcxx-ng >=7.5.0
+        - pcre >=8.44,<9.0a0
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-archive-tar
+        - perl-json
+        - perl-list-moreutils
+        - zlib >=1.2.11,<1.3.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - blastn -help
+        - blastp -help
+        - makeblastdb -help
+        - blastdb_aliastool -version > /dev/null
+        - blastdbcheck -version > /dev/null
+        - blastdbcmd -version > /dev/null
+        - blastn -version > /dev/null
+        - blastp -version > /dev/null
+        - blastx -version > /dev/null
+        - convert2blastmask -version > /dev/null
+        - dustmasker -version > /dev/null
+        - makeblastdb -version > /dev/null
+        - makembindex -version > /dev/null
+        - psiblast -version > /dev/null
+        - rpsblast -version > /dev/null
+        - rpstblastn -version > /dev/null
+        - rpsbproc -version > /dev/null
+        - segmasker -version > /dev/null
+        - tblastn -version > /dev/null
+        - tblastx -version > /dev/null
+        - windowmasker -version > /dev/null
+        - update_blastdb.pl --version > /dev/null
+        - get_species_taxids.sh -h > /dev/null
+    files:
+        - test.fa
+        - testdatabase.fa
+about:
+    home: http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs
+    license: Public Domain
+    summary: BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+extra:
+    copy_test_source_files: true
+    final: true
+    identifiers:
+        - biotools:blast
+        - doi:10.1016/S0022-2836(05)80360-2
+    recipe-maintainers:
+        - christiam
+        - epruesse

@@ -1,0 +1,3 @@
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Socket.pm relocate_as=../../Socket.pm
+/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Socket/Socket.so relocate_as=Socket.so
+/opt/anaconda1anaconda2anaconda3/man/man3/Socket.3 relocate_as=../../../../../../man/man3/Socket.3

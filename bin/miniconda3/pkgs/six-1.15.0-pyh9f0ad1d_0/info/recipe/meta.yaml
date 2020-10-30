@@ -1,0 +1,74 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu May 21 17:12:00 2020
+# ------------------------------------------------
+
+package:
+    name: six
+    version: 1.15.0
+source:
+    sha256: 30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259
+    url: https://pypi.io/packages/source/s/six/six-1.15.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/six_1590081179328/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . -vv
+    string: pyh9f0ad1d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2020.4.5.1 hecc5488_0
+        - certifi 2020.4.5.1 py36h9f0ad1d_0
+        - ld_impl_linux-64 2.34 h53a641e_1
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.1 hf484d3e_1002
+        - openssl 1.1.1g h516909a_0
+        - pip 20.1.1 pyh9f0ad1d_0
+        - python 3.6.10 h8356626_1011_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 hf8c457e_0
+        - setuptools 46.4.0 py36h9f0ad1d_0
+        - sqlite 3.30.1 hcee41ef_0
+        - sysroot_linux-64 2.12 h3a0023d_1
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.5 h516909a_0
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python
+test:
+    commands:
+        - pip check
+    imports:
+        - six
+    requires:
+        - pip
+about:
+    description: 'Six provides simple utilities for wrapping over differences between
+
+        Python 2 and Python 3. It is intended to support codebases that work on
+
+        both Python 2 and 3 without modification. six consists of only one Python
+
+        file, so it is painless to copy into a project.
+
+        '
+    dev_url: https://github.com/benjaminp/six
+    doc_url: https://six.readthedocs.io/
+    home: https://six.readthedocs.io/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Python 2 and 3 compatibility utilities
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf

@@ -1,0 +1,13 @@
+prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+exec_prefix=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda
+libdir=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib
+includedir=/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 2.4.0
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

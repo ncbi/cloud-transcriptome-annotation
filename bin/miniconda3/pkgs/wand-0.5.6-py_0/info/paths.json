@@ -1,0 +1,185 @@
+{
+  "paths": [
+    {
+      "_path": "README.rst",
+      "path_type": "hardlink",
+      "sha256": "41173b307d55f2a38ef0f136e591d36fca4582ed5c8c4dd64ea0a6c55365ac89",
+      "size_in_bytes": 2115
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "0859a5abb9fa942d3b2d4d8d5a4f7943f997a3cd064da6ac82dea14220fa17b0",
+      "size_in_bytes": 1178
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "1ea4e086473ddea831db07dc5f67de3cb2081ce3754f25375acd10407484797a",
+      "size_in_bytes": 3718
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "b5b1f5acc9d8cf9f98a40911ee5e560132d97d5907335b10e7f1e4d16b5e5f78",
+      "size_in_bytes": 2866
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/Wand-0.5.6.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b854f298ddaec5a99d64bbb67f1673681706c2fed65bdbfad1872c013ce77628",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/wand/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "6c49922936dd8a52573393d382cb9aaafa65881966cb6a1fe5fefb48930a461f",
+      "size_in_bytes": 202
+    },
+    {
+      "_path": "site-packages/wand/api.py",
+      "path_type": "hardlink",
+      "sha256": "84e58a6f8ba9946aebe6ef9eb649872eb1908f0ea7c8d6a9f5b26b42ba708691",
+      "size_in_bytes": 9082
+    },
+    {
+      "_path": "site-packages/wand/assertions.py",
+      "path_type": "hardlink",
+      "sha256": "072a2bb9f1299a45ca90ae3963e0d818d56506a0fd05eb0d7309b52a9da06d55",
+      "size_in_bytes": 3569
+    },
+    {
+      "_path": "site-packages/wand/cdefs/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "61a0985723618a65caac3e7158bac099a32c040af442b9d5b210bb6ffbdf20f1",
+      "size_in_bytes": 126
+    },
+    {
+      "_path": "site-packages/wand/cdefs/core.py",
+      "path_type": "hardlink",
+      "sha256": "8880a7e0eee13fab1b1ffc3da7b651fede4cd3d3e22c741329edd2f9c862ae82",
+      "size_in_bytes": 4723
+    },
+    {
+      "_path": "site-packages/wand/cdefs/drawing_wand.py",
+      "path_type": "hardlink",
+      "sha256": "6ae3b7cea6f2977fb8c1bf5dc8a649d343de3db6f8865ade71cdf4d90a6d3e02",
+      "size_in_bytes": 12401
+    },
+    {
+      "_path": "site-packages/wand/cdefs/magick_image.py",
+      "path_type": "hardlink",
+      "sha256": "e6c8ccdb1fce309ef6f80a28e3fe0ecdb41bcd9e64bf2819ee7532b7fed57248",
+      "size_in_bytes": 50900
+    },
+    {
+      "_path": "site-packages/wand/cdefs/magick_property.py",
+      "path_type": "hardlink",
+      "sha256": "e4ae871029ac3ed60c2179cea150fdd228b1c7db4660da0c674c5fd3a00f6435",
+      "size_in_bytes": 6135
+    },
+    {
+      "_path": "site-packages/wand/cdefs/magick_wand.py",
+      "path_type": "hardlink",
+      "sha256": "69be0d1c7c3c3c477480f7dc86922c1e497b62d5616e8d34c42c186316692c3f",
+      "size_in_bytes": 2408
+    },
+    {
+      "_path": "site-packages/wand/cdefs/pixel_iterator.py",
+      "path_type": "hardlink",
+      "sha256": "08afee330bb4a5dc7c858566a84cf2636f9a25fd3733fbb15bae81b0c13ed7f8",
+      "size_in_bytes": 1820
+    },
+    {
+      "_path": "site-packages/wand/cdefs/pixel_wand.py",
+      "path_type": "hardlink",
+      "sha256": "9a0cddb5dbfce83ebe3dff55e675804b6362c8b14e81547bf087cf14cc580381",
+      "size_in_bytes": 7416
+    },
+    {
+      "_path": "site-packages/wand/cdefs/structures.py",
+      "path_type": "hardlink",
+      "sha256": "6463bc7b3562492d4d0192640bccf0fc7aa0933072eecd52b89a30924e4d11e1",
+      "size_in_bytes": 5181
+    },
+    {
+      "_path": "site-packages/wand/cdefs/wandtypes.py",
+      "path_type": "hardlink",
+      "sha256": "455c5c8c8ef9a3432660cf99d065e2457dcc1d780e37762699797fb2ac756e57",
+      "size_in_bytes": 2401
+    },
+    {
+      "_path": "site-packages/wand/color.py",
+      "path_type": "hardlink",
+      "sha256": "98cb535ae1dd1fafdfe86a2f6b04aab26753d7436b8f1c8c65f27966fd3d42c3",
+      "size_in_bytes": 24131
+    },
+    {
+      "_path": "site-packages/wand/compat.py",
+      "path_type": "hardlink",
+      "sha256": "2f92eedd0ad1c489b64033f0d6a1656e8918ffb102c45ef5b389b19d7af5f51e",
+      "size_in_bytes": 4082
+    },
+    {
+      "_path": "site-packages/wand/display.py",
+      "path_type": "hardlink",
+      "sha256": "dfa4c2aca39427ac659d5b209269de6f88336f411058b7c87906823ceff6d31e",
+      "size_in_bytes": 2386
+    },
+    {
+      "_path": "site-packages/wand/drawing.py",
+      "path_type": "hardlink",
+      "sha256": "6cc96aeb570da6a238a0b49348b5eafdd97d62b9eb505d8f2be9e11923cd85c6",
+      "size_in_bytes": 76654
+    },
+    {
+      "_path": "site-packages/wand/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "cc7ed6e79e027e7a3f9cf9028e55d58562050179d6c7fbe83a3b12454b3aa739",
+      "size_in_bytes": 4107
+    },
+    {
+      "_path": "site-packages/wand/font.py",
+      "path_type": "hardlink",
+      "sha256": "5646f1b2d79df34cbb3f8678dad1d9bbc774a7f341d76dd3a0880e223af62d86",
+      "size_in_bytes": 4021
+    },
+    {
+      "_path": "site-packages/wand/image.py",
+      "path_type": "hardlink",
+      "sha256": "1939fdf3c622d8595ad19196e1b799e0e18031a86d836e4f3b97d1d39c207d23",
+      "size_in_bytes": 351204
+    },
+    {
+      "_path": "site-packages/wand/resource.py",
+      "path_type": "hardlink",
+      "sha256": "3c70c10288e785669ac2ef9aae72e676f9910fe8f2c38106913cb60fc2210e56",
+      "size_in_bytes": 12049
+    },
+    {
+      "_path": "site-packages/wand/sequence.py",
+      "path_type": "hardlink",
+      "sha256": "625ced8a284c2934adef296fc0768969387d2b8c940099b441fd4618a97f0308",
+      "size_in_bytes": 13089
+    },
+    {
+      "_path": "site-packages/wand/version.py",
+      "path_type": "hardlink",
+      "sha256": "196eed7d355c6af9f1e2c1db56bf3ce02cefad0dbf902dbe4c50917d926f0403",
+      "size_in_bytes": 9850
+    }
+  ],
+  "paths_version": 1
+}

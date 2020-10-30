@@ -1,0 +1,71 @@
+# This file created by conda-build 3.20.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Sep  6 05:40:34 2020
+# ------------------------------------------------
+
+package:
+    name: libtool
+    version: 2.4.6
+source:
+    patches:
+        - 0001-link-as-needed.patch
+        - 0002-apple-silicon.patch
+        - 0003-apple-silicon.patch
+    sha256: e3bd4d5d3d025a36c21dd6af7ea818a2afcd4dfc1ea5a17b39d7854bcd0c06e3
+    url: http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz
+build:
+    number: '1005'
+    string: h516909a_1005
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - autoconf 2.69 pl526h14c3975_9
+        - automake 1.16.2 pl526_1
+        - binutils_impl_linux-64 2.34 h2122c62_9
+        - binutils_linux-64 2.34 h47ac705_27
+        - gcc_impl_linux-64 7.5.0 hda68d29_13
+        - gcc_linux-64 7.5.0 hf34d7eb_27
+        - help2man 1.47.16 pl526h516909a_0
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+        - libstdcxx-ng 9.3.0 hdf63c60_16
+        - m4 1.4.18 h14c3975_1001
+        - make 4.3 h516909a_0
+        - perl 5.26.2 h516909a_1006
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libgcc-ng 9.3.0 h24d8f2e_16
+        - libgomp 9.3.0 h24d8f2e_16
+    run:
+        - libgcc-ng >=7.5.0
+test:
+    commands:
+        - libtool --help
+about:
+    description: 'GNU libtool is a generic library support script. Libtool hides the
+
+        complexity of using shared libraries behind a consistent, portable
+
+        interface.
+
+        '
+    dev_url: http://git.savannah.gnu.org/cgit/libtool.git
+    doc_url: http://www.gnu.org/software/libtool/manual/
+    home: http://www.gnu.org/software/libtool/
+    license: GPL-2.0-or-later
+    license_file: COPYING
+    summary: The GNU Portable Library Tool
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf

@@ -1,0 +1,76 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Jul  9 15:44:55 2020
+# ------------------------------------------------
+
+package:
+    name: xz
+    version: 5.2.5
+source:
+    patches:
+        - 0001-Add-vs2008-support-via-cmake.patch
+        - 0002-Add-gettimeofday-for-VS2008.patch
+    sha256: 5117f930900b341493827d63aa910ff5e011e0b994197c3b71c08a20228a42df
+    url: http://downloads.sourceforge.net/project/lzmautils/xz-5.2.5.tar.bz2
+build:
+    number: '1'
+    run_exports:
+        - xz >=5.2.5,<6.0a0
+    string: h516909a_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - autoconf 2.69 pl526h14c3975_9
+        - automake 1.16.2 pl526_0
+        - binutils_impl_linux-64 2.34 h53a641e_5
+        - binutils_linux-64 2.34 hc952b39_20
+        - gcc_impl_linux-64 7.5.0 hd420e75_6
+        - gcc_linux-64 7.5.0 h09487f9_20
+        - ld_impl_linux-64 2.34 h53a641e_5
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - m4 1.4.18 h14c3975_1001
+        - make 4.3 h516909a_0
+        - perl 5.26.2 h516909a_1006
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+    run:
+        - libgcc-ng >=7.5.0
+test:
+    commands:
+        - xz --help
+        - unxz --help
+        - lzma --help
+        - test -f ${PREFIX}/lib/liblzma${SHLIB_EXT}
+        - test ! -f ${PREFIX}/lib/liblzma.a
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    description: 'XZ Utils is free general-purpose data compression software with
+        a high
+
+        compression ratio. XZ Utils were written for POSIX-like systems, but also
+
+        work on some not-so-POSIX systems.
+
+        '
+    dev_url: http://git.tukaani.org/
+    doc_source_url: https://github.com/xz-mirror/xz/blob/master/README
+    doc_url: http://tukaani.org/xz/
+    home: http://tukaani.org/xz/
+    license: LGPL-2.1 and GPL-2.0
+    license_file: COPYING
+    summary: Data compression software with high compression ratio
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - msarahan
+        - nehaljwani
+        - ocefpaf
+        - scopatz

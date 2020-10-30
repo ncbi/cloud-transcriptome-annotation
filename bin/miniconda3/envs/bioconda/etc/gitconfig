@@ -1,0 +1,4 @@
+[http]
+	sslVerify = true
+	sslCAPath = /home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/ssl/cacert.pem
+	sslCAInfo = /home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/ssl/cacert.pem

@@ -1,0 +1,83 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/wheel-0.34.2-py38_0",
+  "features": "",
+  "files": [
+    "bin/wheel",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/entry_points.txt",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/wheel-0.34.2-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/wheel/__init__.py",
+    "lib/python3.8/site-packages/wheel/__main__.py",
+    "lib/python3.8/site-packages/wheel/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/bdist_wheel.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/macosx_libfile.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/metadata.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/pep425tags.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/pkginfo.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/__pycache__/wheelfile.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/_version.py",
+    "lib/python3.8/site-packages/wheel/bdist_wheel.py",
+    "lib/python3.8/site-packages/wheel/cli/__init__.py",
+    "lib/python3.8/site-packages/wheel/cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/cli/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/cli/__pycache__/pack.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/cli/__pycache__/unpack.cpython-38.pyc",
+    "lib/python3.8/site-packages/wheel/cli/convert.py",
+    "lib/python3.8/site-packages/wheel/cli/pack.py",
+    "lib/python3.8/site-packages/wheel/cli/unpack.py",
+    "lib/python3.8/site-packages/wheel/macosx_libfile.py",
+    "lib/python3.8/site-packages/wheel/metadata.py",
+    "lib/python3.8/site-packages/wheel/pep425tags.py",
+    "lib/python3.8/site-packages/wheel/pkginfo.py",
+    "lib/python3.8/site-packages/wheel/util.py",
+    "lib/python3.8/site-packages/wheel/wheelfile.py"
+  ],
+  "fn": "wheel-0.34.2-py38_0.conda",
+  "legacy_bz2_md5": "5d29428f2d9ce9cc5f30d56b871a8fb1",
+  "legacy_bz2_size": 50342,
+  "license": "MIT",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/wheel-0.34.2-py38_0",
+    "type": 1
+  },
+  "md5": "961d4e849c57cdfce99dd72774839765",
+  "name": "wheel",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/wheel-0.34.2-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/wheel",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "a610b64038079c99d807d0accc36e2207fe932b8e1a89dddb752e787d556b2c6",
+        "sha256_in_prefix": "c7b7d1cecdb8005dfb72874d88b7576cac0835d122d06e16bc2ee8bc3cb3f6fb",
+        "size_in_bytes": 239
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "wheel==0.34.2=py38_0",
+  "sha256": "41cc7d360771258c07b0bf642a62f63b04e5e5db9efde38746c40bbb4446eb00",
+  "size": 51874,
+  "subdir": "linux-64",
+  "timestamp": 1580834172764,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.34.2-py38_0.conda",
+  "version": "0.34.2"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "features": "",
+  "fn": "python-dateutil-2.8.1-py_0.tar.bz2",
+  "license": "BSD 3 Clause",
+  "md5": "0d0150ed9c2d25817f5324108d3f7571",
+  "name": "python-dateutil",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5bf47c858f799d475299f0926fd665b0f07c6ace873b866707856418f69d5c71",
+  "size": 224841,
+  "subdir": "noarch",
+  "timestamp": 1572790276913,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.8.1-py_0.tar.bz2",
+  "version": "2.8.1"
+}

@@ -1,0 +1,27 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ipython_genutils",
+    "jsonschema >=2.4,!=2.5.0",
+    "jupyter_core",
+    "python >=3.5",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "nbformat-5.0.8-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "12aaf0d8795a5c375757b49a08e011a2",
+  "name": "nbformat",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "408263f460c90db02a199c5f92df4ac572de21d227dbaae9399053c99971bb31",
+  "size": 102843,
+  "subdir": "noarch",
+  "timestamp": 1602732971985,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbformat-5.0.8-py_0.tar.bz2",
+  "version": "5.0.8"
+}

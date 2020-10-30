@@ -1,0 +1,186 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/tqdm-4.46.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/LICENCE",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/tqdm-4.46.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/tqdm/__init__.py",
+    "lib/python3.8/site-packages/tqdm/__main__.py",
+    "lib/python3.8/site-packages/tqdm/_main.py",
+    "lib/python3.8/site-packages/tqdm/_monitor.py",
+    "lib/python3.8/site-packages/tqdm/_tqdm.py",
+    "lib/python3.8/site-packages/tqdm/_tqdm_gui.py",
+    "lib/python3.8/site-packages/tqdm/_tqdm_notebook.py",
+    "lib/python3.8/site-packages/tqdm/_tqdm_pandas.py",
+    "lib/python3.8/site-packages/tqdm/_utils.py",
+    "lib/python3.8/site-packages/tqdm/_version.py",
+    "lib/python3.8/site-packages/tqdm/auto.py",
+    "lib/python3.8/site-packages/tqdm/autonotebook.py",
+    "lib/python3.8/site-packages/tqdm/cli.py",
+    "lib/python3.8/site-packages/tqdm/completion.sh",
+    "lib/python3.8/site-packages/tqdm/contrib/__init__.py",
+    "lib/python3.8/site-packages/tqdm/contrib/concurrent.py",
+    "lib/python3.8/site-packages/tqdm/contrib/itertools.py",
+    "lib/python3.8/site-packages/tqdm/contrib/telegram.py",
+    "lib/python3.8/site-packages/tqdm/gui.py",
+    "lib/python3.8/site-packages/tqdm/keras.py",
+    "lib/python3.8/site-packages/tqdm/notebook.py",
+    "lib/python3.8/site-packages/tqdm/std.py",
+    "lib/python3.8/site-packages/tqdm/tqdm.1",
+    "lib/python3.8/site-packages/tqdm/utils.py",
+    "lib/python3.8/site-packages/tqdm/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_main.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_monitor.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/auto.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/autonotebook.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/contrib/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/contrib/__pycache__/itertools.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/contrib/__pycache__/telegram.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/gui.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/keras.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/notebook.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/std.cpython-38.pyc",
+    "lib/python3.8/site-packages/tqdm/__pycache__/utils.cpython-38.pyc",
+    "bin/tqdm"
+  ],
+  "fn": "tqdm-4.46.0-py_0.conda",
+  "legacy_bz2_md5": "bef9fdcd3e3549fd0d267f217be0d9c7",
+  "legacy_bz2_size": 61172,
+  "license": "MPLv2.0, MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/tqdm-4.46.0-py_0",
+    "type": 1
+  },
+  "md5": "333bc936883e26a3f659904728468d45",
+  "name": "tqdm",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/pkgs/tqdm-4.46.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_monitor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/auto.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/autonotebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/contrib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/contrib/__pycache__/itertools.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/contrib/__pycache__/telegram.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/gui.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/keras.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/notebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/std.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tqdm/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/tqdm",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tqdm==4.46.0=py_0",
+  "sha256": "c67d8151cc4189c41753951fef0af8e2c71f07e892fdcc58f68892b4f392c493",
+  "size": 61124,
+  "subdir": "noarch",
+  "timestamp": 1588612821398,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tqdm-4.46.0-py_0.conda",
+  "version": "4.46.0"
+}

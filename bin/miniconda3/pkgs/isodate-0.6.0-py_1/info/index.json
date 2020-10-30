@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "python",
+    "six"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "isodate",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1533424473454,
+  "version": "0.6.0"
+}

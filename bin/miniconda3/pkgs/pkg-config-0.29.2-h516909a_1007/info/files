@@ -1,0 +1,6 @@
+bin/pkg-config
+bin/pkg-config.bin
+bin/x86_64-conda-linux-gnu-pkg-config
+share/aclocal/pkg.m4
+share/doc/pkg-config/pkg-config-guide.html
+share/man/man1/pkg-config.1

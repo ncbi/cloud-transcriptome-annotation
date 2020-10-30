@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "qtpy-1.9.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ab75b0ea90d2621e1924b824e2f395ee",
+  "name": "qtpy",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "57291e39868e629feb94f29dddc23c9d30d99c4b3b0592cf019330fa7bc4b4fe",
+  "size": 35049,
+  "subdir": "noarch",
+  "timestamp": 1563882078248,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/qtpy-1.9.0-py_0.tar.bz2",
+  "version": "1.9.0"
+}

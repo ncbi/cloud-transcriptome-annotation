@@ -1,0 +1,29 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "async_generator",
+    "jupyter_client >=6.1.5",
+    "nbformat >=5.0",
+    "nest-asyncio",
+    "python >=3.6",
+    "traitlets >=4.2"
+  ],
+  "features": "",
+  "fn": "nbclient-0.5.0-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "1c95e6cf38f219566e281979a3a1bd27",
+  "name": "nbclient",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "0298c12090b1467d1440dd4ab5da258d4b108ec2a4452b56271166fd875e2faa",
+  "size": 61207,
+  "subdir": "noarch",
+  "timestamp": 1598558767235,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbclient-0.5.0-py_0.tar.bz2",
+  "version": "0.5.0"
+}

@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/google/resumable_media/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b47cafd87241d4ae0c3693353ae330d226ec6e85dcd823989531d3cbcf32fd4b",
+      "size_in_bytes": 1742
+    },
+    {
+      "_path": "site-packages/google/resumable_media/_download.py",
+      "path_type": "hardlink",
+      "sha256": "572058c0a5799dacccfff11a18c7caba269e68dfd9b6fb29cd138795becb78b6",
+      "size_in_bytes": 18882
+    },
+    {
+      "_path": "site-packages/google/resumable_media/_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "459ee0a19faf00368e0fb0bc99476acf9e16def3dc81b62c2155bb82424da4fe",
+      "size_in_bytes": 5517
+    },
+    {
+      "_path": "site-packages/google/resumable_media/_upload.py",
+      "path_type": "hardlink",
+      "sha256": "b9f647c0ad01246c603aeac85a9211c3ed4e2f5dd7b1d5152646ead3f0532a28",
+      "size_in_bytes": 33350
+    },
+    {
+      "_path": "site-packages/google/resumable_media/common.py",
+      "path_type": "hardlink",
+      "sha256": "ad4f635760fad4cf748c09ff143f560dce7e9b7dfc5df4f0e6652d12c7018bd6",
+      "size_in_bytes": 5219
+    },
+    {
+      "_path": "site-packages/google/resumable_media/requests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b7f6d9837721c7cb5d553ead3e404c7452ef102bc02b9d60f703f1441a19a018",
+      "size_in_bytes": 21614
+    },
+    {
+      "_path": "site-packages/google/resumable_media/requests/_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "667e07d9702c9778321a37c01d983362a8915c86121ef137591acde4b3dce0c7",
+      "size_in_bytes": 4440
+    },
+    {
+      "_path": "site-packages/google/resumable_media/requests/download.py",
+      "path_type": "hardlink",
+      "sha256": "727d355e5fcec4b082e9af03826b33c2830c61aea17fcaba666e339a358f26be",
+      "size_in_bytes": 18654
+    },
+    {
+      "_path": "site-packages/google/resumable_media/requests/upload.py",
+      "path_type": "hardlink",
+      "sha256": "5424807ce6796b51b45319e89d81a3c8d93922ce729239d2121f5a21b3de7944",
+      "size_in_bytes": 16293
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0-py2.7-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+      "size_in_bytes": 539
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_in_bytes": 11358
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "99aa40049be24a5537c572acce2684608c3241565433037f892c789eee076b56",
+      "size_in_bytes": 1695
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "cbb6579cd0ea74f4b364f06d13fd694913dec7050b8418f5a4d25267e39e7d49",
+      "size_in_bytes": 2035
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/google_resumable_media-0.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    }
+  ],
+  "paths_version": 1
+}

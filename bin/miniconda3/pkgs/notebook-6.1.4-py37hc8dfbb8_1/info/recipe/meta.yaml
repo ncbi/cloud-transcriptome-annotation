@@ -1,0 +1,100 @@
+# This file created by conda-build 3.20.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Oct 15 00:01:09 2020
+# ------------------------------------------------
+
+package:
+    name: notebook
+    version: 6.1.4
+source:
+    sha256: 687d01f963ea20360c0b904ee7a37c3d8cda553858c8d6e33fd0afd13e89de32
+    url: https://pypi.io/packages/source/n/notebook/notebook-6.1.4.tar.gz
+build:
+    entry_points:
+        - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+        - jupyter-nbextension = notebook.nbextensions:main
+        - jupyter-notebook = notebook.notebookapp:main
+        - jupyter-serverextension = notebook.serverextensions:main
+    number: '1'
+    script:
+        - /home/conda/feedstock_root/build_artifacts/notebook_1602720128568/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+            -m pip install . --no-deps -vv
+        - find /home/conda/feedstock_root/build_artifacts/notebook_1602720128568/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+            -name '*.js.map' -delete
+    string: py37hc8dfbb8_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37he5f6b98_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_2
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.3 py_0
+        - python 3.7.8 h6f2ec95_1_cpython
+        - python_abi 3.7 1_cp37m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py37he5f6b98_2
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1010
+    run:
+        - argon2-cffi
+        - ipykernel
+        - ipython_genutils
+        - jinja2
+        - jupyter_client >=5.3.4
+        - jupyter_core >=4.6.1
+        - nbconvert
+        - nbformat
+        - prometheus_client
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - pyzmq >=17
+        - send2trash
+        - terminado >=0.8.3
+        - tornado >=5.0
+        - traitlets >=4.2.1
+test:
+    commands:
+        - python -m pip check
+        - jupyter notebook -h
+        - jupyter nbextension -h
+        - jupyter serverextension -h
+        - jupyter bundlerextension -h
+    imports:
+        - notebook
+        - notebook.tests.launchnotebook
+    requires:
+        - pip
+        - requests
+        - requests-unixsocket
+about:
+    dev_url: https://github.com/jupyter/notebook
+    doc_source_url: https://github.com/jupyter/notebook/tree/master/docs
+    doc_url: https://jupyter-notebook.readthedocs.io
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A web-based notebook environment for interactive computing
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - blink1073
+        - bollwyvl
+        - gnestor
+        - jakirkham
+        - lresende
+        - minrk
+        - pelson
+        - takluyver

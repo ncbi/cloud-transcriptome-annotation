@@ -1,0 +1,22 @@
+=head2 Fri Jun 21 15:21:37 2019: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.44_01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

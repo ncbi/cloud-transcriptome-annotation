@@ -1,0 +1,12 @@
+lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod
+lib/site_perl/5.26.2/JSON.pm
+lib/site_perl/5.26.2/JSON/backportPP.pm
+lib/site_perl/5.26.2/JSON/backportPP/Boolean.pm
+lib/site_perl/5.26.2/JSON/backportPP/Compat5005.pm
+lib/site_perl/5.26.2/JSON/backportPP/Compat5006.pm
+lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/JSON/.packlist
+man/man3/JSON.3
+man/man3/JSON::backportPP.3
+man/man3/JSON::backportPP::Boolean.3
+man/man3/JSON::backportPP::Compat5005.3
+man/man3/JSON::backportPP::Compat5006.3

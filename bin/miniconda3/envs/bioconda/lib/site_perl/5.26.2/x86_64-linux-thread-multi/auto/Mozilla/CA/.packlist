@@ -1,0 +1,4 @@
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/Mozilla/CA.pm relocate_as=../../../../Mozilla/CA.pm
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/Mozilla/CA/cacert.pem relocate_as=../../../../Mozilla/CA/cacert.pem
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/lib/site_perl/5.26.2/Mozilla/mk-ca-bundle.pl relocate_as=../../../../Mozilla/mk-ca-bundle.pl
+/home/veraalva/cloud-transcriptome-annotation/bin/miniconda3/envs/bioconda/man/man3/Mozilla::CA.3 relocate_as=../../../../../../../man/man3/Mozilla::CA.3

@@ -1,0 +1,8 @@
+isodate
+pyparsing
+
+[html]
+html5lib
+
+[sparql]
+SPARQLWrapper

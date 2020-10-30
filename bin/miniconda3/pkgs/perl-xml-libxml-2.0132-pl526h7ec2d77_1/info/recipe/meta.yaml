@@ -1,0 +1,75 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /opt/recipe, last modified Thu Aug  8 21:04:17 2019
+# ------------------------------------------------
+
+package:
+    name: perl-xml-libxml
+    version: '2.0132'
+source:
+    md5: 43546fd9a3974f19323f9fb04861ece9
+    url: https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0132.tar.gz
+build:
+    number: '1'
+    string: pl526h7ec2d77_1
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_8
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_8
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+    host:
+        - _libgcc_mutex 0.1 main
+        - icu 64.2 he1b5a44_0
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libiconv 1.15 h516909a_1005
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - libxml2 2.9.9 hee79883_2
+        - perl 5.26.2 h516909a_1006
+        - perl-app-cpanminus 1.7044 pl526_1
+        - perl-carp 1.38 pl526_3
+        - perl-constant 1.33 pl526_1
+        - perl-exporter 5.72 pl526_1
+        - perl-extutils-makemaker 7.36 pl526_1
+        - perl-file-path 2.16 pl526_0
+        - perl-file-temp 0.2304 pl526_2
+        - perl-parent 0.236 pl526_1
+        - perl-xml-namespacesupport 1.12 pl526_0
+        - perl-xml-sax 1.02 pl526_0
+        - perl-xml-sax-base 1.09 pl526_0
+        - xz 5.2.4 h14c3975_1001
+        - zlib 1.2.11 h516909a_1005
+    run:
+        - libgcc-ng >=7.3.0
+        - libxml2 >=2.9.9,<2.10.0a0
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-xml-namespacesupport
+        - perl-xml-sax
+test:
+    imports:
+        - XML::LibXML
+        - XML::LibXML::AttributeHash
+        - XML::LibXML::Boolean
+        - XML::LibXML::Common
+        - XML::LibXML::Devel
+        - XML::LibXML::ErrNo
+        - XML::LibXML::Error
+        - XML::LibXML::Literal
+        - XML::LibXML::NodeList
+        - XML::LibXML::Number
+        - XML::LibXML::Reader
+        - XML::LibXML::SAX
+        - XML::LibXML::SAX::Builder
+        - XML::LibXML::SAX::Generator
+        - XML::LibXML::SAX::Parser
+        - XML::LibXML::XPathContext
+about:
+    home: https://bitbucket.org/shlomif/perl-xml-libxml
+    license: Perl
+    summary: Interface to Gnome libxml2 xml parsing and DOM library
+extra:
+    copy_test_source_files: true
+    final: true

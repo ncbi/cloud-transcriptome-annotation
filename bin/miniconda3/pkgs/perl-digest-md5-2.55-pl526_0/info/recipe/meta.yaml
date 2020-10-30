@@ -1,0 +1,30 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/recipe, last modified Sun Nov 11 20:49:19 2018
+# ------------------------------------------------
+
+package:
+    name: perl-digest-md5
+    version: '2.55'
+source:
+    sha256: 03b198a2d14425d951e5e50a885d3818c3162c8fe4c21e18d7798a9a179d0e3c
+    url: http://cpan.metacpan.org/authors/id/G/GA/GAAS/Digest-MD5-2.55.tar.gz
+build:
+    number: '0'
+    string: pl526_0
+requirements:
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - perl 5.26.2 h470a237_0
+    run:
+        - perl >=5.26.2,<5.26.3.0a0
+test:
+    imports:
+        - Digest::MD5
+about:
+    home: http://metacpan.org/pod/Digest-MD5
+    license: perl_5
+    summary: Perl interface to the MD-5 algorithm
+extra:
+    copy_test_source_files: true
+    final: true

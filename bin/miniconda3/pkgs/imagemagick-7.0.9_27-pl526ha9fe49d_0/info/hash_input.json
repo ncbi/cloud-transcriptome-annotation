@@ -1,0 +1,22 @@
+{
+  "cxx_compiler": "gxx",
+  "pango": "1.42",
+  "giflib": "5.2",
+  "xz": "5.2",
+  "cxx_compiler_version": "7",
+  "libpng": "1.6",
+  "librsvg": "2",
+  "c_compiler": "gcc",
+  "graphviz": "2.40",
+  "openjpeg": "2.3",
+  "fontconfig": "2.13",
+  "libwebp": "1.0",
+  "zlib": "1.2",
+  "jpeg": "9",
+  "fftw": "3",
+  "bzip2": "1",
+  "freetype": "2.9.1",
+  "libxml2": "2.9",
+  "libtiff": "4.1.0",
+  "c_compiler_version": "7"
+}

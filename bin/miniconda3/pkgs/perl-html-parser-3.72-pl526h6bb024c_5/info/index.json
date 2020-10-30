@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "pl526h6bb024c_5",
+  "build_number": 5,
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-html-tagset",
+    "perl-xsloader"
+  ],
+  "license": "perl_5",
+  "name": "perl-html-parser",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1555516623155,
+  "version": "3.72"
+}

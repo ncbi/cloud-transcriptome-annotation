@@ -1,0 +1,777 @@
+{
+  "paths": [
+    {
+      "_path": "bin/protoc",
+      "path_type": "hardlink",
+      "sha256": "78d2f40fef5ee99bdb13ca4297c5c2f91d8aff80d4ccbf96f16cb5acd4246e65",
+      "size_in_bytes": 27496
+    },
+    {
+      "_path": "include/google/protobuf/any.h",
+      "path_type": "hardlink",
+      "sha256": "b472e05c745c6e3c05448eec877acffaf4b9ff798bf9e52744a797d4a8d58855",
+      "size_in_bytes": 6181
+    },
+    {
+      "_path": "include/google/protobuf/any.pb.h",
+      "path_type": "hardlink",
+      "sha256": "b30f3a71ecbc05461eb72d36cdce0d774e87a69b7a79c0455fcce5fa9210827c",
+      "size_in_bytes": 15447
+    },
+    {
+      "_path": "include/google/protobuf/any.proto",
+      "path_type": "hardlink",
+      "sha256": "cc62688f5162757ab465f04bc1c1602553b0d7a7aae564e96331a19176533084",
+      "size_in_bytes": 5878
+    },
+    {
+      "_path": "include/google/protobuf/api.pb.h",
+      "path_type": "hardlink",
+      "sha256": "751b61cd44b1a9600cdfb1a96dd8b5e8cafed73689b7eb5c9cdbc0060bfaaa5e",
+      "size_in_bytes": 56085
+    },
+    {
+      "_path": "include/google/protobuf/api.proto",
+      "path_type": "hardlink",
+      "sha256": "dc01037a072410e5f7cd08c52fb6415acd6707b59ace2dfb4df878a6e016f9b8",
+      "size_in_bytes": 7734
+    },
+    {
+      "_path": "include/google/protobuf/arena.h",
+      "path_type": "hardlink",
+      "sha256": "0f6fe5eec2d22397c434644ac78fa038cc0f1a60f47ef5d55fe9c5b6e677a0a3",
+      "size_in_bytes": 31329
+    },
+    {
+      "_path": "include/google/protobuf/arena_impl.h",
+      "path_type": "hardlink",
+      "sha256": "594cf011cdaf8e394d0e7099dc4a7c62ea81cf33bf2df84fe111a6eb2e8b6370",
+      "size_in_bytes": 14296
+    },
+    {
+      "_path": "include/google/protobuf/arenastring.h",
+      "path_type": "hardlink",
+      "sha256": "541797175b7512ff813b4eea8f3eafaf9d725bb83b54fe251d9dad24b79ffd09",
+      "size_in_bytes": 14674
+    },
+    {
+      "_path": "include/google/protobuf/compiler/code_generator.h",
+      "path_type": "hardlink",
+      "sha256": "c0a758c7038c804cb8011ddf5b473e95962f58ab1c1b59986674c3dce13e9c0d",
+      "size_in_bytes": 7853
+    },
+    {
+      "_path": "include/google/protobuf/compiler/command_line_interface.h",
+      "path_type": "hardlink",
+      "sha256": "821cb1422d3acd462c3519d876d5ed5aea8933739614a3492f1b2f8e41132b9c",
+      "size_in_bytes": 20429
+    },
+    {
+      "_path": "include/google/protobuf/compiler/cpp/cpp_generator.h",
+      "path_type": "hardlink",
+      "sha256": "3fad7cf365356a0df2195791d5c83b5f0f58ed0dce549835c60bd3515f8f0396",
+      "size_in_bytes": 4169
+    },
+    {
+      "_path": "include/google/protobuf/compiler/csharp/csharp_generator.h",
+      "path_type": "hardlink",
+      "sha256": "0979fe9f0ce67946e5b866b2f29be526cd1b892c6c37d50f0172596ae278d57b",
+      "size_in_bytes": 2802
+    },
+    {
+      "_path": "include/google/protobuf/compiler/csharp/csharp_names.h",
+      "path_type": "hardlink",
+      "sha256": "123f37bff53389078a23a5afede3d434a622dd89242b10dfcae8271cd984701e",
+      "size_in_bytes": 4090
+    },
+    {
+      "_path": "include/google/protobuf/compiler/importer.h",
+      "path_type": "hardlink",
+      "sha256": "decd8013ea89b3ef92a93784698225f922f429131c769a203f27635ca9e46d0c",
+      "size_in_bytes": 14256
+    },
+    {
+      "_path": "include/google/protobuf/compiler/java/java_generator.h",
+      "path_type": "hardlink",
+      "sha256": "30a05c362601d26330d11c71f04e6db09a65582797fe1c4c0aa08d62edaf1de8",
+      "size_in_bytes": 3064
+    },
+    {
+      "_path": "include/google/protobuf/compiler/java/java_names.h",
+      "path_type": "hardlink",
+      "sha256": "0eae2618e134a26061846df13ec75073d21bc0791712e45f0a26a9677503d95e",
+      "size_in_bytes": 3609
+    },
+    {
+      "_path": "include/google/protobuf/compiler/js/js_generator.h",
+      "path_type": "hardlink",
+      "sha256": "1a8581371463e3837b6a4f214345cf7a20e1cd2bda4d475eb7f8f00cdaa42977",
+      "size_in_bytes": 15930
+    },
+    {
+      "_path": "include/google/protobuf/compiler/js/well_known_types_embed.h",
+      "path_type": "hardlink",
+      "sha256": "86e8c4977f37224c657cd8d0a690751ccead55e469326babbaa27b1f24988584",
+      "size_in_bytes": 1981
+    },
+    {
+      "_path": "include/google/protobuf/compiler/objectivec/objectivec_generator.h",
+      "path_type": "hardlink",
+      "sha256": "dcb3bb33f6ad14932e32976fd2ca128be056879fabd4f583c9d987e7e2db8f20",
+      "size_in_bytes": 3430
+    },
+    {
+      "_path": "include/google/protobuf/compiler/objectivec/objectivec_helpers.h",
+      "path_type": "hardlink",
+      "sha256": "0ec3d71cd96a2bc9ff44bc2507652098db0d8c283508ffcf6b84770dcebe031a",
+      "size_in_bytes": 12294
+    },
+    {
+      "_path": "include/google/protobuf/compiler/parser.h",
+      "path_type": "hardlink",
+      "sha256": "b4f376e26c2829c94fdce2426ab4a13f57b1bc6cb1505ab85ec74afd3216e57b",
+      "size_in_bytes": 27828
+    },
+    {
+      "_path": "include/google/protobuf/compiler/php/php_generator.h",
+      "path_type": "hardlink",
+      "sha256": "e46dc02c0089c172703204382e45dd369c53a73841a74861ba929413f6931df2",
+      "size_in_bytes": 3602
+    },
+    {
+      "_path": "include/google/protobuf/compiler/plugin.h",
+      "path_type": "hardlink",
+      "sha256": "b00297e162ed13338553e47c717d2624a80773d0bf48932d84b337b3bb302c6f",
+      "size_in_bytes": 4349
+    },
+    {
+      "_path": "include/google/protobuf/compiler/plugin.pb.h",
+      "path_type": "hardlink",
+      "sha256": "89ff15f841aee8cff91b2a3cee5765600c03073f41ae2ad277755f12a4277053",
+      "size_in_bytes": 76347
+    },
+    {
+      "_path": "include/google/protobuf/compiler/plugin.proto",
+      "path_type": "hardlink",
+      "sha256": "97041e0d0417039bdac046168d2761ff7bf76627aa8f9f1e1557009e53e09a9a",
+      "size_in_bytes": 8486
+    },
+    {
+      "_path": "include/google/protobuf/compiler/python/python_generator.h",
+      "path_type": "hardlink",
+      "sha256": "d807f2ee7f7d2cde43c78e5c51dbda589f4e7a12f752c62a582d03b9f7643394",
+      "size_in_bytes": 7737
+    },
+    {
+      "_path": "include/google/protobuf/compiler/ruby/ruby_generator.h",
+      "path_type": "hardlink",
+      "sha256": "5d1b7053fc2310cb535382b8a09ef73f79c787edcdff198645c79805fbfb72b2",
+      "size_in_bytes": 2811
+    },
+    {
+      "_path": "include/google/protobuf/descriptor.h",
+      "path_type": "hardlink",
+      "sha256": "51affeb592b471fa5c7dc0c39fe2eede0d30626373d067e2490b843cf8e6d68e",
+      "size_in_bytes": 96497
+    },
+    {
+      "_path": "include/google/protobuf/descriptor.pb.h",
+      "path_type": "hardlink",
+      "sha256": "32d11d2353749a81ada6558fe955f0106add31a267ddf90333916e700b44f203",
+      "size_in_bytes": 544698
+    },
+    {
+      "_path": "include/google/protobuf/descriptor.proto",
+      "path_type": "hardlink",
+      "sha256": "b20e772523a991a19cc0f5736790739b7752c242f736d5ace43949becd4d5ca1",
+      "size_in_bytes": 37986
+    },
+    {
+      "_path": "include/google/protobuf/descriptor_database.h",
+      "path_type": "hardlink",
+      "sha256": "aa7f63c3cd50d8ee1c60d881e7f807fedc88ce16e3ca5e8ebffe412a8f1b08f7",
+      "size_in_bytes": 18765
+    },
+    {
+      "_path": "include/google/protobuf/duration.pb.h",
+      "path_type": "hardlink",
+      "sha256": "77e1dd836123f930a04ef10543732a50669fe5858b933f8c88019554d6182447",
+      "size_in_bytes": 9864
+    },
+    {
+      "_path": "include/google/protobuf/duration.proto",
+      "path_type": "hardlink",
+      "sha256": "17ff2e6d54263f99923a9d43a1e02b20f2cbbd1e2ad23f5bf56793972c407f40",
+      "size_in_bytes": 4888
+    },
+    {
+      "_path": "include/google/protobuf/dynamic_message.h",
+      "path_type": "hardlink",
+      "sha256": "bf6c58f90012600c0420433368fe5709daa0c39c4208f7ddbc1c972b4dd2093d",
+      "size_in_bytes": 9986
+    },
+    {
+      "_path": "include/google/protobuf/empty.pb.h",
+      "path_type": "hardlink",
+      "sha256": "c37c02e83b190dbc44e1f8fbe4dbf3637e1f73329ad102d1bc4c17852fee700f",
+      "size_in_bytes": 7682
+    },
+    {
+      "_path": "include/google/protobuf/empty.proto",
+      "path_type": "hardlink",
+      "sha256": "b18e0cd44e0d054202c1403c48327180f3995d08ead2a6d4d012c0551a7a3563",
+      "size_in_bytes": 2422
+    },
+    {
+      "_path": "include/google/protobuf/extension_set.h",
+      "path_type": "hardlink",
+      "sha256": "e09a49cd0adc0e366b11a61932374cadfb2f3a0a75762c4757fe56e18c0cd9e6",
+      "size_in_bytes": 78461
+    },
+    {
+      "_path": "include/google/protobuf/extension_set_inl.h",
+      "path_type": "hardlink",
+      "sha256": "8caed9435f8534795c1ad4b386beab82bef3c164397e2157687931d4e9bbf217",
+      "size_in_bytes": 12437
+    },
+    {
+      "_path": "include/google/protobuf/field_mask.pb.h",
+      "path_type": "hardlink",
+      "sha256": "e9b11fb723e317257ed6a9ad6a3babd15592aec404378d3ad511cd603a3406d0",
+      "size_in_bytes": 11824
+    },
+    {
+      "_path": "include/google/protobuf/field_mask.proto",
+      "path_type": "hardlink",
+      "sha256": "a6c7f43b9d31f386269a54b179f04b7c86241256014ebc69059883a2b9556e5f",
+      "size_in_bytes": 8192
+    },
+    {
+      "_path": "include/google/protobuf/generated_enum_reflection.h",
+      "path_type": "hardlink",
+      "sha256": "6de6743eaecdb8ecfaaa9c8104bd4b4d6d5f60cebf509a4a01d0d04dc42324e9",
+      "size_in_bytes": 3993
+    },
+    {
+      "_path": "include/google/protobuf/generated_enum_util.h",
+      "path_type": "hardlink",
+      "sha256": "17d3c95b66c1877a5f0b57ea9237b801d688f12d1aa12df0ac31ccd1dc511916",
+      "size_in_bytes": 3266
+    },
+    {
+      "_path": "include/google/protobuf/generated_message_reflection.h",
+      "path_type": "hardlink",
+      "sha256": "a688ec8cc0f6ba09a66eedb1f025eaf1d95024d7f095cf7d90469242eaf64890",
+      "size_in_bytes": 13050
+    },
+    {
+      "_path": "include/google/protobuf/generated_message_table_driven.h",
+      "path_type": "hardlink",
+      "sha256": "9b559f17e0525f67d82743baa811769379136cb7f9d35903d8533e33f40d06bf",
+      "size_in_bytes": 12610
+    },
+    {
+      "_path": "include/google/protobuf/generated_message_util.h",
+      "path_type": "hardlink",
+      "sha256": "db31a22c8ff993ed599001e32a0e09a5882e6bb1c3d6be42b00a8a1c852cb2cf",
+      "size_in_bytes": 9560
+    },
+    {
+      "_path": "include/google/protobuf/has_bits.h",
+      "path_type": "hardlink",
+      "sha256": "650b11511102a2cd5b485991b3eb3c620d72f07371a4255df214aa0437e47ea1",
+      "size_in_bytes": 3528
+    },
+    {
+      "_path": "include/google/protobuf/implicit_weak_message.h",
+      "path_type": "hardlink",
+      "sha256": "0b352d0ee02dd12bb1346def701990f83197234376b7af9e727c7726055e17f3",
+      "size_in_bytes": 7014
+    },
+    {
+      "_path": "include/google/protobuf/inlined_string_field.h",
+      "path_type": "hardlink",
+      "sha256": "fed27d4133136ce56ec1b33c302ae2ff6210bd40167921c95c46173cc120c50c",
+      "size_in_bytes": 9332
+    },
+    {
+      "_path": "include/google/protobuf/io/coded_stream.h",
+      "path_type": "hardlink",
+      "sha256": "3937592470a9f5cd1f64acbd26826c606707e9a80af3036fa255061777f79859",
+      "size_in_bytes": 69376
+    },
+    {
+      "_path": "include/google/protobuf/io/gzip_stream.h",
+      "path_type": "hardlink",
+      "sha256": "fa5d98ec53c42d78fbb166ea469d78242cfe656d29f594fa918ee3c3dd0361f8",
+      "size_in_bytes": 6682
+    },
+    {
+      "_path": "include/google/protobuf/io/io_win32.h",
+      "path_type": "hardlink",
+      "sha256": "2d317861a67b66c54dc2b2f5fe09b9749003fff4efef9dc9c715fe5e2c17aa1a",
+      "size_in_bytes": 5384
+    },
+    {
+      "_path": "include/google/protobuf/io/printer.h",
+      "path_type": "hardlink",
+      "sha256": "cf95abc5c096c9959b5e7e51b9448ac1278d989c2906323e458dec1b534b5eb4",
+      "size_in_bytes": 15934
+    },
+    {
+      "_path": "include/google/protobuf/io/strtod.h",
+      "path_type": "hardlink",
+      "sha256": "ae2d41d0c114d40e6a1f6e30d80af22e46c9c7fe23ec2f5f50688e1be03e06cb",
+      "size_in_bytes": 2431
+    },
+    {
+      "_path": "include/google/protobuf/io/tokenizer.h",
+      "path_type": "hardlink",
+      "sha256": "2e5c4401d0fd2d46c2e271c9642bda2b98687fb5a4da4c3c0d6588386771ae87",
+      "size_in_bytes": 16757
+    },
+    {
+      "_path": "include/google/protobuf/io/zero_copy_stream.h",
+      "path_type": "hardlink",
+      "sha256": "bcb776496bddf6f268f1922492def377e6ff5ca8332006bc5d87d83a46ae1254",
+      "size_in_bytes": 10258
+    },
+    {
+      "_path": "include/google/protobuf/io/zero_copy_stream_impl.h",
+      "path_type": "hardlink",
+      "sha256": "a0ab1a61645b9abf7eb5572bdae51d2279fba0e10da53cc3c3dc68b4ca725db6",
+      "size_in_bytes": 13188
+    },
+    {
+      "_path": "include/google/protobuf/io/zero_copy_stream_impl_lite.h",
+      "path_type": "hardlink",
+      "sha256": "48da219166a634ae3658169641660cf8f2227df67572f7fdaeaede635de28971",
+      "size_in_bytes": 16826
+    },
+    {
+      "_path": "include/google/protobuf/map.h",
+      "path_type": "hardlink",
+      "sha256": "158b74653c1edffd2af5a28f471fb8be34d345e41e26087d6cc1ef444d4f97e0",
+      "size_in_bytes": 44754
+    },
+    {
+      "_path": "include/google/protobuf/map_entry.h",
+      "path_type": "hardlink",
+      "sha256": "4df8c25caa2c7c37ba932eacdda7a64094ec2dc4bb937959e6b6f9684369b3d7",
+      "size_in_bytes": 7276
+    },
+    {
+      "_path": "include/google/protobuf/map_entry_lite.h",
+      "path_type": "hardlink",
+      "sha256": "eab43a521d43d64c9e132198be32e123420bdc21deb998849bdb78ec221a9111",
+      "size_in_bytes": 25878
+    },
+    {
+      "_path": "include/google/protobuf/map_field.h",
+      "path_type": "hardlink",
+      "sha256": "ccc8e7503f402821a7f5b4ce70a3510d4e8108d028302739246e3df0d7b3554d",
+      "size_in_bytes": 31425
+    },
+    {
+      "_path": "include/google/protobuf/map_field_inl.h",
+      "path_type": "hardlink",
+      "sha256": "fa9d4725f697eb55c2676a879e30bca34cbb53ca177df3f6f82cde5276d7c18d",
+      "size_in_bytes": 14512
+    },
+    {
+      "_path": "include/google/protobuf/map_field_lite.h",
+      "path_type": "hardlink",
+      "sha256": "cba771ebb532c9a77e73f0b63f54f6731b44a3bd8ead4052c9db91d2975973d6",
+      "size_in_bytes": 7559
+    },
+    {
+      "_path": "include/google/protobuf/map_type_handler.h",
+      "path_type": "hardlink",
+      "sha256": "cb5fed084edb7a0878ba74ea477612c9610e2828337a03001f78575eb6b6bd66",
+      "size_in_bytes": 39082
+    },
+    {
+      "_path": "include/google/protobuf/message.h",
+      "path_type": "hardlink",
+      "sha256": "8fe778fd47616e5b67b69a919c168768cdaadb2de9f04336a7753adcebcac9e1",
+      "size_in_bytes": 62231
+    },
+    {
+      "_path": "include/google/protobuf/message_lite.h",
+      "path_type": "hardlink",
+      "sha256": "368c4917c515d92bc38e7abe20fdacc39da583e9299cc7ff3bfa9701e36d0a50",
+      "size_in_bytes": 26575
+    },
+    {
+      "_path": "include/google/protobuf/metadata.h",
+      "path_type": "hardlink",
+      "sha256": "62aed07a3a413881f7b543f1f54e4d61d599fe5b1bbf766e83971164309f4bc7",
+      "size_in_bytes": 1857
+    },
+    {
+      "_path": "include/google/protobuf/metadata_lite.h",
+      "path_type": "hardlink",
+      "sha256": "10c54f0fe60223b4cf21af2aa5a7e6a1ae3f22bd6aeb5c291f500bd6fac5f585",
+      "size_in_bytes": 8260
+    },
+    {
+      "_path": "include/google/protobuf/parse_context.h",
+      "path_type": "hardlink",
+      "sha256": "257db0a77e9f602caa04195a70577c4b71cd88bc34efb4e1ea89f4a3098c61f9",
+      "size_in_bytes": 29618
+    },
+    {
+      "_path": "include/google/protobuf/port.h",
+      "path_type": "hardlink",
+      "sha256": "8a8fae6122586b7e2d8533af0ed4cde4cd9805a95b1ece4b6cebdf622a10616f",
+      "size_in_bytes": 2050
+    },
+    {
+      "_path": "include/google/protobuf/port_def.inc",
+      "path_type": "hardlink",
+      "sha256": "0f899bc19f543cf2de75f5b66b755a742b292cf0d0c391e009c0119f4dc0b21f",
+      "size_in_bytes": 18371
+    },
+    {
+      "_path": "include/google/protobuf/port_undef.inc",
+      "path_type": "hardlink",
+      "sha256": "7f238fc448246c4eacb91f844c4e0d4854719795cb4793f01fb6b92cc436bc7b",
+      "size_in_bytes": 3940
+    },
+    {
+      "_path": "include/google/protobuf/reflection.h",
+      "path_type": "hardlink",
+      "sha256": "dd6edffdb052948f5d49ecd7039fab804ed2102d2a6871c3ef314089c4b3d5c5",
+      "size_in_bytes": 22717
+    },
+    {
+      "_path": "include/google/protobuf/reflection_ops.h",
+      "path_type": "hardlink",
+      "sha256": "88c76e392b802d0c28880720aec914a39d786e7f7d7ea5bc07adfb4c8233d24b",
+      "size_in_bytes": 3810
+    },
+    {
+      "_path": "include/google/protobuf/repeated_field.h",
+      "path_type": "hardlink",
+      "sha256": "439e51cbbe2c731a43a49bb248a457eda7bcfd218f1440485f581aee6f4d47ce",
+      "size_in_bytes": 101590
+    },
+    {
+      "_path": "include/google/protobuf/service.h",
+      "path_type": "hardlink",
+      "sha256": "a0121c303c6ce20db8ef35c386e3ebfafac1f3dd4557822f60eb048ae40e695e",
+      "size_in_bytes": 13159
+    },
+    {
+      "_path": "include/google/protobuf/source_context.pb.h",
+      "path_type": "hardlink",
+      "sha256": "facf57d5f13b10cbfa5d51267ac7baebf7d85934b42423b77d575d3d99045c55",
+      "size_in_bytes": 11530
+    },
+    {
+      "_path": "include/google/protobuf/source_context.proto",
+      "path_type": "hardlink",
+      "sha256": "64ac204d47270547bde952a1c7a202d0af0c955292a21f513ef269f6f8a0c78d",
+      "size_in_bytes": 2352
+    },
+    {
+      "_path": "include/google/protobuf/struct.pb.h",
+      "path_type": "hardlink",
+      "sha256": "2a7d12c07eee8e837ec2440b7b04f953c14d936412cc760d26b462148bdfab26",
+      "size_in_bytes": 42303
+    },
+    {
+      "_path": "include/google/protobuf/struct.proto",
+      "path_type": "hardlink",
+      "sha256": "132e774c82b3cb338a1ff591950cbe0aeceaf6dc3d8444586390a6850eb7d10e",
+      "size_in_bytes": 3780
+    },
+    {
+      "_path": "include/google/protobuf/stubs/bytestream.h",
+      "path_type": "hardlink",
+      "sha256": "56b6f293b1a2977b3cbd3fc0c85586005c779aac895de8238fbde948f6026a8b",
+      "size_in_bytes": 11759
+    },
+    {
+      "_path": "include/google/protobuf/stubs/callback.h",
+      "path_type": "hardlink",
+      "sha256": "6dd25407c2677d63394e9ab30efaf67290d13d4f5d54637a068bfe25cd9dcc79",
+      "size_in_bytes": 17078
+    },
+    {
+      "_path": "include/google/protobuf/stubs/casts.h",
+      "path_type": "hardlink",
+      "sha256": "c562c0b8519ff899a4a33de8d1249350ccc6e8df0c61598ec2c07ebcdbd2414e",
+      "size_in_bytes": 5733
+    },
+    {
+      "_path": "include/google/protobuf/stubs/common.h",
+      "path_type": "hardlink",
+      "sha256": "093f19fec1ed10234eb04b772c3b5814748164bab699ee955c406227e5f0037e",
+      "size_in_bytes": 7283
+    },
+    {
+      "_path": "include/google/protobuf/stubs/fastmem.h",
+      "path_type": "hardlink",
+      "sha256": "14f1856c4e1174eed9caffd26abab7a8ce292704869389c0ab52a3079faf301a",
+      "size_in_bytes": 6016
+    },
+    {
+      "_path": "include/google/protobuf/stubs/hash.h",
+      "path_type": "hardlink",
+      "sha256": "c5fa650d25e8c89095f99a2498625536bbf8665ed0a78191790136730bcd6927",
+      "size_in_bytes": 4116
+    },
+    {
+      "_path": "include/google/protobuf/stubs/logging.h",
+      "path_type": "hardlink",
+      "sha256": "0ed8bcc7e873f3035e649a5b6427620faa0a17ec0c40a912946f7adc0c2f83e8",
+      "size_in_bytes": 8915
+    },
+    {
+      "_path": "include/google/protobuf/stubs/macros.h",
+      "path_type": "hardlink",
+      "sha256": "e7ebe5136283c345d6d9932f4c748615d9e9b7263553f21e14432b3470adcc23",
+      "size_in_bytes": 4903
+    },
+    {
+      "_path": "include/google/protobuf/stubs/map_util.h",
+      "path_type": "hardlink",
+      "sha256": "27c58f8e6713a9014775dffde0838e4fa6a39ef7db1a49ddeb83181d02efc208",
+      "size_in_bytes": 31213
+    },
+    {
+      "_path": "include/google/protobuf/stubs/mutex.h",
+      "path_type": "hardlink",
+      "sha256": "7b0f04ba3375e5c89e83e861eebe79eee005e145d122c79ff57c4014ff4312ce",
+      "size_in_bytes": 6157
+    },
+    {
+      "_path": "include/google/protobuf/stubs/once.h",
+      "path_type": "hardlink",
+      "sha256": "845dba208aeb44fd0bf6e1fe4109b35d066190d0566439cfa686775a9e0c9a04",
+      "size_in_bytes": 2184
+    },
+    {
+      "_path": "include/google/protobuf/stubs/platform_macros.h",
+      "path_type": "hardlink",
+      "sha256": "a7ba8800880ce7e2e2e60be66801529745304c76fc55f64395c1f1d86cf85cd8",
+      "size_in_bytes": 5108
+    },
+    {
+      "_path": "include/google/protobuf/stubs/port.h",
+      "path_type": "hardlink",
+      "sha256": "5297dbc762e721cd3623a08f607282e6df867bde8607f28487730e0fe16bef14",
+      "size_in_bytes": 12744
+    },
+    {
+      "_path": "include/google/protobuf/stubs/status.h",
+      "path_type": "hardlink",
+      "sha256": "cf311ea2ab4c4999cf6193d203397c1054e20e16b5022b59d75eb1f13bf5921f",
+      "size_in_bytes": 3939
+    },
+    {
+      "_path": "include/google/protobuf/stubs/stl_util.h",
+      "path_type": "hardlink",
+      "sha256": "5a62e48694c29ff5d68ca35d2bd828f1dedfed1d116f8acc1fa513ff3205b719",
+      "size_in_bytes": 3283
+    },
+    {
+      "_path": "include/google/protobuf/stubs/stringpiece.h",
+      "path_type": "hardlink",
+      "sha256": "659dc9e183a39f8d3f89808455b828525576f3ba0f53ce9856846e9b2ade7e78",
+      "size_in_bytes": 17861
+    },
+    {
+      "_path": "include/google/protobuf/stubs/strutil.h",
+      "path_type": "hardlink",
+      "sha256": "d81e5f0403e4e116864dfd829dffd299d615de52a6ea8cd702ff69917f0db18e",
+      "size_in_bytes": 38777
+    },
+    {
+      "_path": "include/google/protobuf/stubs/template_util.h",
+      "path_type": "hardlink",
+      "sha256": "79659b54c2909ce47eeaa24201771dfb0e6b7cddd30b10cc6beeddf92153bc08",
+      "size_in_bytes": 4834
+    },
+    {
+      "_path": "include/google/protobuf/text_format.h",
+      "path_type": "hardlink",
+      "sha256": "83e8c9974690cc8b87f7c40a093c41ae3a0f715a78329b8f079bd20dbad66bdd",
+      "size_in_bytes": 28991
+    },
+    {
+      "_path": "include/google/protobuf/timestamp.pb.h",
+      "path_type": "hardlink",
+      "sha256": "add6a96044e5b5d9d12b57a2d3d0a4af1c0ffd2c577735764e57b2a14ccc01a2",
+      "size_in_bytes": 9927
+    },
+    {
+      "_path": "include/google/protobuf/timestamp.proto",
+      "path_type": "hardlink",
+      "sha256": "7acbd7ab84c15ebcd4ab3c8ed2b6e9603b9995b54743a7d3bd61117664f2e4fb",
+      "size_in_bytes": 6200
+    },
+    {
+      "_path": "include/google/protobuf/type.pb.h",
+      "path_type": "hardlink",
+      "sha256": "9a0f95358bba9276851bf0eeff6ef7fb17fd5f88634b1ff814be2dd19336bd82",
+      "size_in_bytes": 96778
+    },
+    {
+      "_path": "include/google/protobuf/type.proto",
+      "path_type": "hardlink",
+      "sha256": "a65db52e1f65466dc9a059ab34d0c954733cf9473cea7fe53ac7a8ec8a381407",
+      "size_in_bytes": 6129
+    },
+    {
+      "_path": "include/google/protobuf/unknown_field_set.h",
+      "path_type": "hardlink",
+      "sha256": "d631e448d516993a09d6501693fc839a7f0c0094409b747620686a4757e62572",
+      "size_in_bytes": 14401
+    },
+    {
+      "_path": "include/google/protobuf/util/delimited_message_util.h",
+      "path_type": "hardlink",
+      "sha256": "283c20ab4693cfa8c69a72d1e65279d1488b39fb9b1d310c169a7398e9463ad4",
+      "size_in_bytes": 5399
+    },
+    {
+      "_path": "include/google/protobuf/util/field_comparator.h",
+      "path_type": "hardlink",
+      "sha256": "4adb3914dda040a132767ca72373a65b108d4a3c32998559e55fb49498bd6ad7",
+      "size_in_bytes": 10502
+    },
+    {
+      "_path": "include/google/protobuf/util/field_mask_util.h",
+      "path_type": "hardlink",
+      "sha256": "259842e164a4c63fb2183efd2d002eb2f24340ebac2862f773209b21c5d13605",
+      "size_in_bytes": 11377
+    },
+    {
+      "_path": "include/google/protobuf/util/json_util.h",
+      "path_type": "hardlink",
+      "sha256": "883b2bf5c80eaf7c0295e4113dcdadefe0a18d9fc56d5f3f0f5a42997217ac34",
+      "size_in_bytes": 8429
+    },
+    {
+      "_path": "include/google/protobuf/util/message_differencer.h",
+      "path_type": "hardlink",
+      "sha256": "4ed0aa62872eab22d0ce2fb8b3a3094537b2cbbdf549064a73eefcbe8c189b7a",
+      "size_in_bytes": 45278
+    },
+    {
+      "_path": "include/google/protobuf/util/time_util.h",
+      "path_type": "hardlink",
+      "sha256": "ced2506a92e7a0a8a77b2ef3ea50f9448bdae7c0a8cdbcc978a76a13e05a3fce",
+      "size_in_bytes": 12153
+    },
+    {
+      "_path": "include/google/protobuf/util/type_resolver.h",
+      "path_type": "hardlink",
+      "sha256": "c0c6671c14eff25e8cfa080b097b7b4fd428f8e97c09c21d1462219b9973bb5f",
+      "size_in_bytes": 2853
+    },
+    {
+      "_path": "include/google/protobuf/util/type_resolver_util.h",
+      "path_type": "hardlink",
+      "sha256": "b1baf5f4520b0d5271b6db89950f7b5a5fece6d8d65684dab9383fb6cc654e09",
+      "size_in_bytes": 2407
+    },
+    {
+      "_path": "include/google/protobuf/wire_format.h",
+      "path_type": "hardlink",
+      "sha256": "259afe4afb7882de64a736e3b110355267d93ec9fac31b83f6623254fb0977fa",
+      "size_in_bytes": 17660
+    },
+    {
+      "_path": "include/google/protobuf/wire_format_lite.h",
+      "path_type": "hardlink",
+      "sha256": "f916f7382e7e1f9dde122b2e968ae8697be4ff4beed1739fded6d04f8b971ad3",
+      "size_in_bytes": 83648
+    },
+    {
+      "_path": "include/google/protobuf/wrappers.pb.h",
+      "path_type": "hardlink",
+      "sha256": "bebd9db50d299835a99568896f0342bc56e837bc2cfaa4289cfaee5f32665269",
+      "size_in_bytes": 59110
+    },
+    {
+      "_path": "include/google/protobuf/wrappers.proto",
+      "path_type": "hardlink",
+      "sha256": "514a00eac8caa679a22597a8f5942c2e8c620f87c664956fea483acd59e7bd93",
+      "size_in_bytes": 4035
+    },
+    {
+      "_path": "lib/libprotobuf-lite.so",
+      "path_type": "softlink",
+      "sha256": "d684ff1e719b593c8a3871cd74ecb38e6e13220ebc2a3ab1189b95dd65c3025e",
+      "size_in_bytes": 714432
+    },
+    {
+      "_path": "lib/libprotobuf-lite.so.24",
+      "path_type": "softlink",
+      "sha256": "d684ff1e719b593c8a3871cd74ecb38e6e13220ebc2a3ab1189b95dd65c3025e",
+      "size_in_bytes": 714432
+    },
+    {
+      "_path": "lib/libprotobuf-lite.so.24.0.0",
+      "path_type": "hardlink",
+      "sha256": "d684ff1e719b593c8a3871cd74ecb38e6e13220ebc2a3ab1189b95dd65c3025e",
+      "size_in_bytes": 714432
+    },
+    {
+      "_path": "lib/libprotobuf.so",
+      "path_type": "softlink",
+      "sha256": "43816bf74cea9da1c9903aa611e0a9fc14ddc371f0ad830365f9ccdc4930960d",
+      "size_in_bytes": 3407104
+    },
+    {
+      "_path": "lib/libprotobuf.so.24",
+      "path_type": "softlink",
+      "sha256": "43816bf74cea9da1c9903aa611e0a9fc14ddc371f0ad830365f9ccdc4930960d",
+      "size_in_bytes": 3407104
+    },
+    {
+      "_path": "lib/libprotobuf.so.24.0.0",
+      "path_type": "hardlink",
+      "sha256": "43816bf74cea9da1c9903aa611e0a9fc14ddc371f0ad830365f9ccdc4930960d",
+      "size_in_bytes": 3407104
+    },
+    {
+      "_path": "lib/libprotoc.so",
+      "path_type": "softlink",
+      "sha256": "3e090bc978d4de91c56bc35b343bacc43e2d1d67b6bb7ecf83f62f7dc17aa9e5",
+      "size_in_bytes": 3245928
+    },
+    {
+      "_path": "lib/libprotoc.so.24",
+      "path_type": "softlink",
+      "sha256": "3e090bc978d4de91c56bc35b343bacc43e2d1d67b6bb7ecf83f62f7dc17aa9e5",
+      "size_in_bytes": 3245928
+    },
+    {
+      "_path": "lib/libprotoc.so.24.0.0",
+      "path_type": "hardlink",
+      "sha256": "3e090bc978d4de91c56bc35b343bacc43e2d1d67b6bb7ecf83f62f7dc17aa9e5",
+      "size_in_bytes": 3245928
+    },
+    {
+      "_path": "lib/pkgconfig/protobuf-lite.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libprotobuf_1602192032395/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "c86b0572a7c886c864c78dc9b67916a1871ae944b5aef25e39adce7e99ee9cb6",
+      "size_in_bytes": 514
+    },
+    {
+      "_path": "lib/pkgconfig/protobuf.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libprotobuf_1602192032395/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "ec3148fb672e67367319f886c3085846cb0e2823f3ed778f36c4655c77c57ff1",
+      "size_in_bytes": 534
+    }
+  ],
+  "paths_version": 1
+}

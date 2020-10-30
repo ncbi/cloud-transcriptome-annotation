@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pl526_2",
+  "build_number": 2,
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-db-file",
+    "perl-uri"
+  ],
+  "license": "Broad Institute",
+  "name": "transdecoder",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1572192781391,
+  "version": "5.5.0"
+}

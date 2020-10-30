@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "pl526h375a9b1_0",
+  "build_number": 0,
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-html-parser",
+    "perl-html-tagset",
+    "perl-html-tree",
+    "perl-http-cookies",
+    "perl-http-date",
+    "perl-http-message",
+    "perl-http-negotiate",
+    "perl-io-socket-ssl",
+    "perl-lwp-mediatypes",
+    "perl-lwp-protocol-https",
+    "perl-mozilla-ca",
+    "perl-net-http",
+    "perl-uri",
+    "perl-www-robotrules",
+    "perl-xml-simple"
+  ],
+  "license": "PUBLIC DOMAIN",
+  "name": "entrez-direct",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1580715642588,
+  "version": "13.3"
+}

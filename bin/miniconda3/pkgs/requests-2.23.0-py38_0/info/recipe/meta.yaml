@@ -1,0 +1,76 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/requests-2.23.0-python_3.8-on-linux_64, last modified Thu Mar 12 13:54:13 2020
+# ------------------------------------------------
+
+package:
+    name: requests
+    version: 2.23.0
+source:
+    sha256: b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6
+    url: https://pypi.io/packages/source/r/requests/requests-2.23.0.tar.gz
+build:
+    number: '0'
+    script: /tmp/build/80754af9/requests_1584021550489/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . -vv
+    string: py38_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2019.11.28 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_0
+        - openssl 1.1.1d h7b6447c_4
+        - pip 20.0.2 py38_1
+        - python 3.8.1 h0371630_1
+        - readline 7.0 h7b6447c_5
+        - setuptools 46.0.0 py38_0
+        - sqlite 3.31.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - certifi >=2017.4.17
+        - chardet >=3.0.2,<4
+        - idna >=2.5,<3
+        - python >=3.8,<3.9.0a0
+        - urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1
+test:
+    commands:
+        - pip check
+    imports:
+        - requests
+    requires:
+        - pip
+about:
+    description: 'Requests is the only Non-GMO HTTP library for Python, safe for human
+
+        consumption.
+
+        '
+    dev_url: https://github.com/psf/requests
+    doc_url: http://docs.python-requests.org/
+    home: http://python-requests.org
+    license: Apache-2.0
+    license_file: LICENSE
+    summary: "Requests is an elegant and simple HTTP library for Python, built with\
+        \ \u2665."
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - jakirkham
+        - kalefranz
+        - mcg1969
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson
+        - sigmavirus24

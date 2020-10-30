@@ -1,0 +1,8 @@
+{
+  "c_compiler": "gcc",
+  "libxml2": "2.9",
+  "libiconv": "1.16",
+  "c_compiler_version": "7",
+  "cxx_compiler_version": "7",
+  "cxx_compiler": "gxx"
+}

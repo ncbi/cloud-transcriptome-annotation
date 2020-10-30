@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "pl526_0",
+  "build_number": 0,
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-io-compress",
+    "perl-io-zlib",
+    "perl-pathtools"
+  ],
+  "license": "perl_5",
+  "name": "perl-archive-tar",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1541970788614,
+  "version": "2.32"
+}

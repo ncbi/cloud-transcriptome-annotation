@@ -1,0 +1,41 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /opt/recipe, last modified Mon May  6 09:27:48 2019
+# ------------------------------------------------
+
+package:
+    name: perl-storable
+    version: '3.15'
+source:
+    sha256: fc3dad06cb2e6fc86a2f2abc5b5491d9da328ca3e6b6306559c224521db174da
+    url: https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Storable-3.15.tar.gz
+build:
+    number: '0'
+    string: pl526h14c3975_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_6
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_6
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - perl 5.26.2 h516909a_1006
+        - perl-extutils-makemaker 7.36 pl526_1
+        - perl-xsloader 0.24 pl526_0
+    run:
+        - libgcc-ng >=7.3.0
+        - perl >=5.26.2,<5.26.3.0a0
+        - perl-xsloader
+test:
+    imports:
+        - Storable
+about:
+    home: http://metacpan.org/pod/Storable
+    license: perl_5
+    summary: persistence for Perl data structures
+extra:
+    copy_test_source_files: true
+    final: true

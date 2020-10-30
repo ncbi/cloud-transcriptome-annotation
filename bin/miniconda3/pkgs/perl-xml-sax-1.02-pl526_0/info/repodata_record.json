@@ -1,0 +1,26 @@
+{
+  "build": "pl526_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-file-temp",
+    "perl-xml-namespacesupport",
+    "perl-xml-sax-base"
+  ],
+  "features": "",
+  "fn": "perl-xml-sax-1.02-pl526_0.tar.bz2",
+  "license": "unknown",
+  "md5": "b4fda7e83376806d5eedbef2c3a3b356",
+  "name": "perl-xml-sax",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "0909e4d3989a1595a65c4d000cc121bd2eeb568eb0ec809404566ab5037bdeaf",
+  "size": 36564,
+  "subdir": "noarch",
+  "timestamp": 1560894302117,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-xml-sax-1.02-pl526_0.tar.bz2",
+  "version": "1.02"
+}

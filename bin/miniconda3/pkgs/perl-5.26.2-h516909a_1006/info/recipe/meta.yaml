@@ -1,0 +1,54 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Apr 18 16:06:48 2019
+# ------------------------------------------------
+
+package:
+    name: perl
+    version: 5.26.2
+source:
+    sha256: 572f9cea625d6062f8a63b5cee9d3ee840800a001d2bb201a41b9a177ab7f70d
+    url: http://www.cpan.org/src/5.0/perl-5.26.2.tar.gz
+build:
+    number: '1006'
+    string: h516909a_1006
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_6
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_6
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - make 4.2.1 h14c3975_2004
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+    run:
+        - libgcc-ng >=7.3.0
+test:
+    commands:
+        - perl --help
+about:
+    description: 'Perl 5 is a highly capable, feature-rich programming language with
+        over 29
+
+        years of development. Perl 5 runs on over 100 platforms from portables to
+
+        mainframes and is suitable for both rapid prototyping and large scale
+
+        development projects.
+
+        '
+    dev_url: https://perl5.git.perl.org/perl.git
+    doc_url: https://www.perl.org/docs.html
+    home: http://www.perl.org/
+    license: Perl Artistic
+    license_family: Other
+    summary: The Perl programming language interpreter.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
