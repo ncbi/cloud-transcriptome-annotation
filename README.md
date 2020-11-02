@@ -62,9 +62,11 @@ Times and cost are shown in the next figure. First, in the top of the figure, to
 
 <img src="./doc/10000.png"/>
 
-The next figure shows total running time for all tested configuration and query sizes.
+## Processing 120k with different query sizes
 
-<img src="./doc/all.png"/>
+We processed 120,000 transcripts using 2,000, 6,000 and 10,000 transcripts per query. The next figure shows that reducing the query size will reduce the processing time but it will increase the cost of annotating the whole transcriptome. The figure also shows the cost using normal instances or SPOT(AWS)/Premeptible(GCP) instances. 
+
+<img src="./doc/120k.png"/>
 
 ## Notebooks
 
