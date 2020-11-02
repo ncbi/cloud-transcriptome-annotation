@@ -1,1 +1,0 @@
-../opt/transdecoder/util/remove_eclipsed_ORFs.pl

@@ -1,7 +1,0 @@
-lib/site_perl/5.26.2/XML/SAX/Base.pm
-lib/site_perl/5.26.2/XML/SAX/BuildSAXBase.pl
-lib/site_perl/5.26.2/XML/SAX/Exception.pm
-lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/XML/SAX/Base/.packlist
-man/man3/XML::SAX::Base.3
-man/man3/XML::SAX::BuildSAXBase.3
-man/man3/XML::SAX::Exception.3

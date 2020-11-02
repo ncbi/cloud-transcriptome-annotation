@@ -1,1 +1,0 @@
-../opt/transdecoder/util/gtf_genome_to_cdna_fasta.pl

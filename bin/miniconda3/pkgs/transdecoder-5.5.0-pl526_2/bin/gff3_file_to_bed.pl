@@ -1,1 +1,0 @@
-../opt/transdecoder/util/gff3_file_to_bed.pl

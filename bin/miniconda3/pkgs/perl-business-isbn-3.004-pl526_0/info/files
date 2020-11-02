@@ -1,7 +1,0 @@
-lib/site_perl/5.26.2/Business/ISBN.pm
-lib/site_perl/5.26.2/Business/ISBN10.pm
-lib/site_perl/5.26.2/Business/ISBN13.pm
-lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Business/ISBN/.packlist
-man/man3/Business::ISBN.3
-man/man3/Business::ISBN10.3
-man/man3/Business::ISBN13.3

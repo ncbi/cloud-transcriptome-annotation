@@ -1,6 +1,0 @@
-{
-  "target_platform": "linux-64",
-  "c_compiler": "gcc",
-  "python": "3.7.* *_cpython",
-  "c_compiler_version": "7"
-}

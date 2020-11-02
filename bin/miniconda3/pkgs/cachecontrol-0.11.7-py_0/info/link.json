@@ -1,9 +1,0 @@
-{
-  "noarch": {
-    "entry_points": [
-      "doesitcache = cachecontrol._cmd:main"
-    ],
-    "type": "python"
-  },
-  "package_metadata_version": 1
-}

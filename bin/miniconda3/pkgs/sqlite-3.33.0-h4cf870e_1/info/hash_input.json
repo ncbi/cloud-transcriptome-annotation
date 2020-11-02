@@ -1,7 +1,0 @@
-{
-  "readline": "8.0",
-  "ncurses": "6.2",
-  "c_compiler": "gcc",
-  "zlib": "1.2",
-  "c_compiler_version": "7"
-}

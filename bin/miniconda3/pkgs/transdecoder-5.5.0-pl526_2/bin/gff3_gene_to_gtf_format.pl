@@ -1,1 +1,0 @@
-../opt/transdecoder/util/gff3_gene_to_gtf_format.pl

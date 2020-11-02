@@ -1,4 +1,0 @@
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Exporter.pm relocate_as=../../../Exporter.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Exporter/Heavy.pm relocate_as=../../../Exporter/Heavy.pm
-/opt/anaconda1anaconda2anaconda3/man/man3/Exporter.3 relocate_as=../../../../../../man/man3/Exporter.3
-/opt/anaconda1anaconda2anaconda3/man/man3/Exporter::Heavy.3 relocate_as=../../../../../../man/man3/Exporter::Heavy.3

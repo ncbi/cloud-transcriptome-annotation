@@ -1,1 +1,0 @@
-../opt/transdecoder/util/get_longest_ORF_per_transcript.pl

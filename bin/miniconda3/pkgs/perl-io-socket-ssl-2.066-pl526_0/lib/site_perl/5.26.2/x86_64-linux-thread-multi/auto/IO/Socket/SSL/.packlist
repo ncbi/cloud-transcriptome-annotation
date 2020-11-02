@@ -1,9 +1,0 @@
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Socket/SSL.pm relocate_as=../../../../../IO/Socket/SSL.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Socket/SSL.pod relocate_as=../../../../../IO/Socket/SSL.pod
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Socket/SSL/Intercept.pm relocate_as=../../../../../IO/Socket/SSL/Intercept.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Socket/SSL/PublicSuffix.pm relocate_as=../../../../../IO/Socket/SSL/PublicSuffix.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/IO/Socket/SSL/Utils.pm relocate_as=../../../../../IO/Socket/SSL/Utils.pm
-/opt/anaconda1anaconda2anaconda3/man/man3/IO::Socket::SSL.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL.3
-/opt/anaconda1anaconda2anaconda3/man/man3/IO::Socket::SSL::Intercept.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::Intercept.3
-/opt/anaconda1anaconda2anaconda3/man/man3/IO::Socket::SSL::PublicSuffix.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::PublicSuffix.3
-/opt/anaconda1anaconda2anaconda3/man/man3/IO::Socket::SSL::Utils.3 relocate_as=../../../../../../../../man/man3/IO::Socket::SSL::Utils.3

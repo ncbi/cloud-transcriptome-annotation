@@ -1,1 +1,0 @@
-../opt/transdecoder/util/gtf_to_bed.pl

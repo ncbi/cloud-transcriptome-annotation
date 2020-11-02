@@ -1,9 +1,0 @@
-{
-  "c_compiler": "gcc",
-  "libtiff": "4.1.0",
-  "zlib": "1.2",
-  "c_compiler_version": "7",
-  "jpeg": "9",
-  "libpng": "1.6",
-  "glib": "2.58"
-}

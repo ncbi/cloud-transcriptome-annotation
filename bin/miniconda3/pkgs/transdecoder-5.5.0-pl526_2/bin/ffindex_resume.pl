@@ -1,1 +1,0 @@
-../opt/transdecoder/util/ffindex_resume.pl

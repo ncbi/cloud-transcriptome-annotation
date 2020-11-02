@@ -1,1 +1,0 @@
-../opt/transdecoder/util/gene_list_to_gff.pl

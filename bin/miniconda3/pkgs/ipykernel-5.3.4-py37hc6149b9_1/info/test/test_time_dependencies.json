@@ -1,1 +1,0 @@
-["flaky", "ipython", "nose", "pytest !=5.3.4", "curio", "numpy"]

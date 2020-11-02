@@ -1,9 +1,0 @@
-{
-  "liblapack": "3.8.0 *netlib",
-  "c_compiler_version": "7",
-  "c_compiler": "gcc",
-  "numpy": "1.14",
-  "libcblas": "3.8 *netlib",
-  "python": "3.7.* *_cpython",
-  "libblas": "3.8 *netlib"
-}

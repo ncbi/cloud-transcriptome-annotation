@@ -1,7 +1,0 @@
-bin/cpanm
-lib/site_perl/5.26.2/App/cpanminus.pm
-lib/site_perl/5.26.2/App/cpanminus/fatscript.pm
-lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/App/cpanminus/.packlist
-man/man1/cpanm.1
-man/man3/App::cpanminus.3
-man/man3/App::cpanminus::fatscript.3

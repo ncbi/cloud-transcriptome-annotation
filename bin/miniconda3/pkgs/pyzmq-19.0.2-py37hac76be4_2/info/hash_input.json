@@ -1,8 +1,0 @@
-{
-  "cxx_compiler": "gxx",
-  "cxx_compiler_version": "7",
-  "python": "3.7.* *_cpython",
-  "zeromq": "4.3.2",
-  "c_compiler_version": "7",
-  "c_compiler": "gcc"
-}

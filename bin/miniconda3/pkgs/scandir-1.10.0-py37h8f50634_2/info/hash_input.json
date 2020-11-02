@@ -1,5 +1,0 @@
-{
-  "python": "3.7.* *_cpython",
-  "c_compiler": "gcc",
-  "c_compiler_version": "7"
-}

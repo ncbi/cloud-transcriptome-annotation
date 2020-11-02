@@ -1,8 +1,0 @@
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Net/HTTP.pm relocate_as=../../../../Net/HTTP.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Net/HTTP/Methods.pm relocate_as=../../../../Net/HTTP/Methods.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Net/HTTP/NB.pm relocate_as=../../../../Net/HTTP/NB.pm
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/Net/HTTPS.pm relocate_as=../../../../Net/HTTPS.pm
-/opt/anaconda1anaconda2anaconda3/man/man3/Net::HTTP.3 relocate_as=../../../../../../../man/man3/Net::HTTP.3
-/opt/anaconda1anaconda2anaconda3/man/man3/Net::HTTP::Methods.3 relocate_as=../../../../../../../man/man3/Net::HTTP::Methods.3
-/opt/anaconda1anaconda2anaconda3/man/man3/Net::HTTP::NB.3 relocate_as=../../../../../../../man/man3/Net::HTTP::NB.3
-/opt/anaconda1anaconda2anaconda3/man/man3/Net::HTTPS.3 relocate_as=../../../../../../../man/man3/Net::HTTPS.3

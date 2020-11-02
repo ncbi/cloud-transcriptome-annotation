@@ -1,1 +1,0 @@
-../opt/transdecoder/util/compute_base_probs.pl

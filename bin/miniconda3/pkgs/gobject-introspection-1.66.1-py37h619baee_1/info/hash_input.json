@@ -1,8 +1,0 @@
-{
-  "libffi": "3.2",
-  "c_compiler": "gcc",
-  "glib": "2.58",
-  "c_compiler_version": "7",
-  "python": "3.7.* *_cpython",
-  "cairo": "1.16"
-}

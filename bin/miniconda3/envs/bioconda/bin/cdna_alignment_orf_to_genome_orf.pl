@@ -1,1 +1,0 @@
-../opt/transdecoder/util/cdna_alignment_orf_to_genome_orf.pl

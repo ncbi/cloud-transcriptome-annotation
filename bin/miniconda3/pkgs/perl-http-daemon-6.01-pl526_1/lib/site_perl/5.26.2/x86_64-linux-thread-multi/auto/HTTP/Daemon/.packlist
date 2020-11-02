@@ -1,2 +1,0 @@
-/opt/anaconda1anaconda2anaconda3/lib/site_perl/5.26.2/HTTP/Daemon.pm relocate_as=../../../../HTTP/Daemon.pm
-/opt/anaconda1anaconda2anaconda3/man/man3/HTTP::Daemon.3 relocate_as=../../../../../../../man/man3/HTTP::Daemon.3

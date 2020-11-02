@@ -1,1 +1,0 @@
-../opt/transdecoder/util/get_FL_accs.pl

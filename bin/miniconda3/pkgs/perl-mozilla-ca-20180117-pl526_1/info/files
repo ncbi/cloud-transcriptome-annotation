@@ -1,5 +1,0 @@
-lib/site_perl/5.26.2/Mozilla/CA.pm
-lib/site_perl/5.26.2/Mozilla/CA/cacert.pem
-lib/site_perl/5.26.2/Mozilla/mk-ca-bundle.pl
-lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Mozilla/CA/.packlist
-man/man3/Mozilla::CA.3

@@ -1,9 +1,0 @@
-{
-  "cxx_compiler": "gxx",
-  "zlib": "1.2",
-  "libtiff": "4.1.0",
-  "c_compiler_version": "7",
-  "cxx_compiler_version": "7",
-  "c_compiler": "gcc",
-  "libpng": "1.6"
-}

@@ -1,9 +1,0 @@
-{
-  "libxml2": "2.9",
-  "c_compiler": "gcc",
-  "c_compiler_version": "7",
-  "cairo": "1.16",
-  "pango": "1.42",
-  "gdk_pixbuf": "2.36.12",
-  "glib": "2.58"
-}

@@ -1,1 +1,0 @@
-../opt/transdecoder/util/start_codon_refinement.pl
